@@ -1,5 +1,9 @@
 # Claude Code Plugins Collection
 
+![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?style=for-the-badge&logo=anthropic)
+[![Claude Code Repos Index](https://img.shields.io/badge/Claude_Code-Repos_Index-blue?style=for-the-badge)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
+[![GitHub Master Index](https://img.shields.io/badge/GitHub-Master_Index-green?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)
+
 Collection of Claude Code plugins for developers, system administrators, and content creators. These plugins extend Claude Code with specialized slash commands and agents for various workflows.
 
 ## Available Plugins

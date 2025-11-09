@@ -1,0 +1,3 @@
+This repository contains a number of extraneous AI generated documents. 
+
+Follow the principle that only the minimal number of guidance documents to the user should be provided. To achieve this, remove documents that are overly specific, or if you can determine that they could be integrated within the README, move them there. If you truly feel that there is a need for detailed documents in addition to the README, and move them into a docs folder, if it doesn't exist then create one.

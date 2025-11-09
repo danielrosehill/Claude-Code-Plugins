@@ -1,0 +1,1 @@
+Add CLAUDE.md to the gitignore. If it hasn't already been created, add it to gitignore, then write it.

@@ -1,0 +1,1 @@
+This repository contains a folder of screenshots. The intended use of the screenshots is that they will be integrated into the README or other documentation to demonstrate the UI of the app. It's important therefore that the screenshots have descriptive file names. Please rename the screenshots for this purpose and integrate them into the README in the most appropriate section.

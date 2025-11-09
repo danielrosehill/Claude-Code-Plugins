@@ -1,0 +1,1 @@
+Please take note of the handover document which the user has directed your attention towards. This was written by a previous AI agent working on the code base and contains detailed summary of where they got up to. Read the notes in their entirety and then resume from where the previous agent left off. 

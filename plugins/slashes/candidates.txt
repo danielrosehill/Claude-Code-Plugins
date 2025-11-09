@@ -1,0 +1,14 @@
+https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands
+https://github.com/danielrosehill/Claude-Server-Manager-Template
+https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands 
+https://github.com/danielrosehill/Claude-Tech-Research-Team
+https://github.com/danielrosehill/Claude-Agent-Picker-Pattern
+https://github.com/danielrosehill/Claude-File-Organiser-Super-Slash
+https://github.com/danielrosehill/Claude-Code-Remote-Machine-Admin-Space
+https://github.com/danielrosehill/Claude-Conda-Manager
+https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator
+https://github.com/danielrosehill/Claude-Code-Repo-Managers-ClaudeMD
+https://github.com/danielrosehill/Claude-Code-LAN-Manager
+https://github.com/danielrosehill/Claude-Code-Security-Auditor
+https://github.com/danielrosehill/Claude-OS-Sync-Agent
+https://github.com/danielrosehill/Claude-Code-Writing-Squad

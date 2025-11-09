@@ -1,0 +1,130 @@
+{
+  "name": "danielrosehill-plugins",
+  "owner": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "plugins": [
+    {
+      "name": "ai-tools",
+      "source": "./plugins/ai-tools",
+      "description": "Claude Code plugin for ai-tools slash commands and agents"
+    },
+    {
+      "name": "audio",
+      "source": "./plugins/audio",
+      "description": "Claude Code plugin for audio slash commands and agents"
+    },
+    {
+      "name": "claude-code",
+      "source": "./plugins/claude-code",
+      "description": "Claude Code plugin for claude-code slash commands and agents"
+    },
+    {
+      "name": "conda-management",
+      "source": "./plugins/conda-management",
+      "description": "Claude Code plugin for conda-management slash commands and agents"
+    },
+    {
+      "name": "debugging",
+      "source": "./plugins/debugging",
+      "description": "Claude Code plugin for debugging slash commands and agents"
+    },
+    {
+      "name": "development",
+      "source": "./plugins/development",
+      "description": "Claude Code plugin for development slash commands and agents"
+    },
+    {
+      "name": "docker",
+      "source": "./plugins/docker",
+      "description": "Claude Code plugin for docker slash commands and agents"
+    },
+    {
+      "name": "documentation",
+      "source": "./plugins/documentation",
+      "description": "Claude Code plugin for documentation slash commands and agents"
+    },
+    {
+      "name": "filesystem-organization",
+      "source": "./plugins/filesystem-organization",
+      "description": "Claude Code plugin for filesystem-organization slash commands and agents"
+    },
+    {
+      "name": "git-github",
+      "source": "./plugins/git-github",
+      "description": "Claude Code plugin for git-github slash commands and agents"
+    },
+    {
+      "name": "ideation",
+      "source": "./plugins/ideation",
+      "description": "Claude Code plugin for ideation slash commands and agents"
+    },
+    {
+      "name": "learning",
+      "source": "./plugins/learning",
+      "description": "Claude Code plugin for learning slash commands and agents"
+    },
+    {
+      "name": "linux-desktop",
+      "source": "./plugins/linux-desktop",
+      "description": "Claude Code plugin for linux-desktop slash commands and agents"
+    },
+    {
+      "name": "linux-server",
+      "source": "./plugins/linux-server",
+      "description": "Claude Code plugin for linux-server slash commands and agents"
+    },
+    {
+      "name": "misc",
+      "source": "./plugins/misc",
+      "description": "Claude Code plugin for misc slash commands and agents"
+    },
+    {
+      "name": "photos",
+      "source": "./plugins/photos",
+      "description": "Claude Code plugin for photos slash commands and agents"
+    },
+    {
+      "name": "security",
+      "source": "./plugins/security",
+      "description": "Claude Code plugin for security slash commands and agents"
+    },
+    {
+      "name": "seo",
+      "source": "./plugins/seo",
+      "description": "Claude Code plugin for seo slash commands and agents"
+    },
+    {
+      "name": "server-management",
+      "source": "./plugins/server-management",
+      "description": "Claude Code plugin for server-management slash commands and agents"
+    },
+    {
+      "name": "slashes",
+      "source": "./plugins/slashes",
+      "description": "Claude Code plugin for slashes slash commands and agents"
+    },
+    {
+      "name": "system",
+      "source": "./plugins/system",
+      "description": "Claude Code plugin for system slash commands and agents"
+    },
+    {
+      "name": "tech-research",
+      "source": "./plugins/tech-research",
+      "description": "Claude Code plugin for tech-research slash commands and agents"
+    },
+    {
+      "name": "video",
+      "source": "./plugins/video",
+      "description": "Claude Code plugin for video slash commands and agents"
+    },
+    {
+      "name": "writing-editing",
+      "source": "./plugins/writing-editing",
+      "description": "Claude Code plugin for writing-editing slash commands and agents"
+    }
+  ]
+}
