@@ -1,0 +1,1 @@
+Add CLAUDE_PRIVATE.md to my global git ignore.

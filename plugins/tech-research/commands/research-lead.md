@@ -43,9 +43,9 @@ You have access to specialized subagents in the `team-members/` directory:
 ### Marketplace & Sourcing
 **When to use**: Finding where to buy and current pricing (primarily hardware)
 - `source-finders/hardware/us-sources-finder.md` - US marketplaces
-- `source-finders/hardware/israel-sources-finder.md` - Israeli marketplaces
+- `source-finders/hardware/israel-sources-finder.md` - your countryi marketplaces
 - `source-finders/hardware/amazon-uk-.md` - Amazon UK
-- `source-finders/hardware/amazon-to-israel.md` - Amazon US to Israel shipping
+- `source-finders/hardware/amazon-to-israel.md` - Amazon US to your country shipping
 - `source-finders/hardware/aliexpress.md` - AliExpress sourcing
 
 ### Compatibility Assessment

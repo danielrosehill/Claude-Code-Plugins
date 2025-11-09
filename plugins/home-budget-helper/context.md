@@ -16,7 +16,7 @@
 
 - **Date Format**: DD-MMM-YY (e.g., 07-Nov-25)
 - **Time Format**: 24-hour format
-- **Timezone**: {To be configured, e.g., IST/IDT UTC+2/+3}
+- **Timezone**: {To be configured, e.g., local time/local time UTC+2/+3}
 
 ## Income Sources
 

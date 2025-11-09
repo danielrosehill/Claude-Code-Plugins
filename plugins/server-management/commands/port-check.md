@@ -2,7 +2,7 @@ Analyze port usage and listening services:
 
 1. List all listening ports: `ss -tulpn`
 2. Check for common service ports (80, 443, 22, etc.)
-3. Identify processes using ports: `netstat -tulpn | grep LISTEN`
+3. Identify processes using ports: `netstat -tulpn | grep Llocal timeEN`
 4. Check for unexpected listening services
 5. Verify Docker container port mappings: `docker ps --format "table {{.Names}}\t{{.Ports}}"`
 6. Check firewall rules: `sudo iptables -L -n | grep -E "(ACCEPT|REJECT|DROP)"`

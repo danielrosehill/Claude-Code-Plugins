@@ -21,7 +21,7 @@ You are helping Daniel consolidate redundant or overlapping folders into a more 
    - Current folder structure with file counts
    - Proposed new structure
    - Exactly which folders will be merged and where their contents will go
-6. **Ask for confirmation**: Get Daniel's approval before making any changes
+6. **Ask for confirmation**: Get the user's approval before making any changes
 7. **Execute if approved**:
    - Create new folder structure
    - Move files from old folders to new locations

@@ -10,7 +10,7 @@ You are helping the user scan their local network and create a comprehensive LAN
 1. **Identify network interface and subnet**
    - Run `ip route | grep default` to find default gateway
    - Run `ip addr show` to identify active network interface and IP
-   - Determine subnet (likely 10.0.0.0/24 based on Daniel's setup)
+   - Determine subnet (likely 10.0.0.0/24 based on the user's setup)
 
 2. **Perform ARP scan**
    - Run `arp -a` to see current ARP cache

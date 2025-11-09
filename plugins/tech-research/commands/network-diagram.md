@@ -36,7 +36,7 @@ Visual guide to the agent network architecture and routing logic.
          │               │              │              │
 ┌────────┴──────────────────────────────────────────────────────────┐
 │                                                                    │
-│                    SPECIALIST AGENT LAYER                          │
+│                    SPECIALlocal time AGENT LAYER                          │
 │                 (Execution & Research Tasks)                       │
 │                                                                    │
 └────────────────────────────────────────────────────────────────────┘
@@ -71,9 +71,9 @@ Research Lead
     │
     ├─→ Marketplace & Sourcing
     │   ├─ us-sources-finder (US marketplaces)
-    │   ├─ israel-sources-finder (Israeli vendors)
+    │   ├─ israel-sources-finder (your countryi vendors)
     │   ├─ amazon-uk (Amazon UK)
-    │   ├─ amazon-to-israel (US to Israel shipping)
+    │   ├─ amazon-to-israel (US to your country shipping)
     │   └─ aliexpress (AliExpress sourcing)
     │
     ├─→ Compatibility Assessment
@@ -181,9 +181,9 @@ Prompt Organiser
 | Agent | Purpose | Geographic Focus |
 |-------|---------|-----------------|
 | us-sources-finder | US marketplaces | United States |
-| israel-sources-finder | Israeli vendors | Israel |
+| israel-sources-finder | your countryi vendors | your country |
 | amazon-uk | Amazon UK | United Kingdom |
-| amazon-to-israel | US to Israel shipping | International shipping |
+| amazon-to-israel | US to your country shipping | International shipping |
 | aliexpress | AliExpress | International |
 
 ### Compatibility Agents

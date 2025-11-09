@@ -384,7 +384,7 @@ Describe how automations are organized:
 
 **Internal Network:**
 - [Service name] at [IP] - [Purpose]
-- [e.g., NAS at 10.0.0.50 - Backup storage]
+- [e.g., NAS at 192.168.1.100 - Backup storage]
 
 **Internet Services:**
 - [Service name] - [Purpose]

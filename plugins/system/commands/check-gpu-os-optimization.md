@@ -3,7 +3,7 @@ description: Evaluate if OS is properly optimized to support the GPU
 tags: [gpu, amd, rocm, optimization, drivers, project, gitignored]
 ---
 
-You are helping the user verify their OS is properly optimized for their GPU (AMD in Daniel's case).
+You are helping the user verify their OS is properly optimized for their GPU (AMD in the user's case).
 
 ## Process
 

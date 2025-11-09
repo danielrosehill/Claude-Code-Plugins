@@ -26,7 +26,7 @@ Additionally:
 
 Additionally:
 
-- Finally, add links. In the header, add a shields.io badge to my docs index https://github.com/danielrosehill/My-Docs-Index. I also maintain a website with my docs here: https://docs.bydanielrosehill.com. Link to both.
+- Finally, add links. In the header, add a shields.io badge to my docs index https://github.com/danielrosehill/My-Docs-Index. I also maintain a website with my docs here: https://docs.byexample.com. Link to both.
 
 Before finishing the task:
 

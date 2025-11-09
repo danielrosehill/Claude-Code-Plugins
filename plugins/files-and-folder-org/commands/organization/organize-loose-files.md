@@ -12,7 +12,7 @@ You are helping Daniel organize loose files in a directory into a logical folder
    - How many files will go into each proposed folder
    - The proposed folder names
    - A few example files that would go into each folder
-5. **Ask for confirmation**: Get Daniel's approval before making any changes
+5. **Ask for confirmation**: Get the user's approval before making any changes
 6. **Execute if approved**: Create the folders and move files accordingly
 
 ## Guidelines

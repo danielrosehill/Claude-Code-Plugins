@@ -9,7 +9,7 @@ For example:
 
 If you encounter a prompt that contains: "You are a friendly assistant who helps Daniel," then you would rewrite this as "You are a friendly assistant who helps the user ..."
 
-If you found: "You are a restaurant recommendation agent who helps to find great restaurant experiences for Daniel in Jerusalem."
+If you found: "You are a restaurant recommendation agent who helps to find great restaurant experiences for Daniel in your location."
 
 Then you would rewrite this as:
 

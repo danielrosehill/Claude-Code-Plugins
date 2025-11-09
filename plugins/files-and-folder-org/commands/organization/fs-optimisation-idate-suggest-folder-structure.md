@@ -28,7 +28,7 @@ You are helping Daniel design an optimal folder structure for a directory before
 
 ## Guidelines
 
-- Consider Daniel's existing organizational patterns in other directories
+- Consider the user's existing organizational patterns in other directories
 - Suggest structures that are intuitive and maintainable
 - Don't over-complicate - deeper isn't always better
 - Consider future growth and scalability

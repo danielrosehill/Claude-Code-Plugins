@@ -13,7 +13,22 @@
       "Bash(fi)",
       "Bash(done)",
       "Bash(do if [ -f \"$dir/README.md\" ])",
-      "Bash(then echo \"=== $dir ===\" head -20 \"$dir/README.md\")"
+      "Bash(then echo \"=== $dir ===\" head -20 \"$dir/README.md\")",
+      "Bash(xargs -I {} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && head -10 \"\"\"\"{}\"\"\"\"')",
+      "Bash(chmod:*)",
+      "Bash(python3 analyze-slash-commands.py:*)",
+      "Bash(ollama list:*)",
+      "WebSearch",
+      "Bash(python3 /home/daniel/scripts/analyze-slash-commands-lms.py:*)",
+      "Bash(~/.lmstudio/bin/lms:*)",
+      "Bash(python3:*)",
+      "Bash(~/repos/github/Claude-Code-Plugins/plugins )",
+      "Bash(tmux new:*)",
+      "Bash(tmux kill-session:*)",
+      "Bash(~/tmp/single_file_test )",
+      "Bash(cat:*)",
+      "Bash(rsync:*)",
+      "Bash(~/scripts/batch-replace-personal-refs.sh:*)"
     ],
     "deny": [],
     "ask": []

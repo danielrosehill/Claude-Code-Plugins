@@ -16,7 +16,7 @@ Conduct a friendly, systematic interview to gather the user's information and pr
 
 Ask the user:
 1. What is your name?
-2. What timezone are you in? (e.g., EST, PST, IST/IDT)
+2. What timezone are you in? (e.g., EST, PST, local time/local time)
 3. What is your typical work schedule?
    - Standard working hours (e.g., 9 AM - 5 PM)
    - Preferred work days (e.g., Monday-Friday, or including weekends?)

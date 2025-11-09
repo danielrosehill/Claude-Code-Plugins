@@ -130,7 +130,7 @@ You are helping the user switch between different display configurations/profile
    sudo tee /usr/local/bin/display-switch.sh << 'EOF'
    #!/bin/bash
    export DISPLAY=:0
-   export XAUTHORITY=/home/daniel/.Xauthority
+   export XAUTHORITY=/home/user/.Xauthority
    /usr/bin/autorandr --change
    EOF
 

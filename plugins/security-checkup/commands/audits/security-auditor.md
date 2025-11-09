@@ -56,7 +56,7 @@ This is a home lab server with:
 - SSH access configured
 - Docker services exposed via Cloudflare Tunnel
 - Backup operations with cloud credentials
-- LAN IP: 10.0.0.4 on 10.0.0.0/24 network
+- LAN IP: 192.168.1.20 on 10.0.0.0/24 network
 - Not production but contains potentially sensitive data
 
 ## Security Priorities
@@ -70,7 +70,7 @@ This is a home lab server with:
 ## Balanced Approach
 
 This is a home server, not enterprise infrastructure. Balance security with:
-- Usability for Daniel's workflows
+- Usability for the user's workflows
 - Reasonable automation (not everything needs MFA)
 - Performance on legacy hardware
 - Practical maintenance burden

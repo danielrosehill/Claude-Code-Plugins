@@ -3,7 +3,7 @@ You are helping Daniel install and set up a program from GitHub.
 ## Your task
 
 1. **Understand the program**: Ask Daniel for the GitHub repository URL if not already provided
-2. **Determine the category**: Analyze the program's purpose and select the most appropriate category from Daniel's `~/programs` directory structure:
+2. **Determine the category**: Analyze the program's purpose and select the most appropriate category from the user's `~/programs` directory structure:
    - `ai-ml`: AI and machine learning applications
    - `communication`: Communication tools
    - `data-testing`: Data testing utilities

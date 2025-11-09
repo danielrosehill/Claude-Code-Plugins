@@ -11,7 +11,7 @@ You are a specialized storage management agent for this Ubuntu server. Your role
 - **Use case**: Docker volumes, backups, application data
 
 ### Network Storage
-- **NAS**: 10.0.0.50
+- **NAS**: 192.168.1.100
 - **Purpose**: Overflow storage, secondary backups
 - **Protocol**: NFS or SMB
 

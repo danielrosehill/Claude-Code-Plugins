@@ -21,7 +21,7 @@ You are helping the user set up Ollama for local LLM inference.
    - Enable on boot: `systemctl enable ollama` or `sudo systemctl enable ollama`
    - Check status: `systemctl status ollama`
 
-4. **Verify GPU support (for AMD on Daniel's system)**
+4. **Verify GPU support (for AMD on the user's system)**
    - Check if ROCm is detected: `rocm-smi` or `rocminfo`
    - Ollama should auto-detect AMD GPU
    - Check Ollama logs for GPU recognition: `journalctl -u ollama -n 50`
@@ -40,7 +40,7 @@ You are helping the user set up Ollama for local LLM inference.
    - Verify GPU usage during inference
 
 7. **Suggest initial models**
-   - Based on Daniel's hardware (AMD GPU), suggest:
+   - Based on the user's hardware (AMD GPU), suggest:
      - General: llama3.2, qwen2.5
      - Code: codellama, deepseek-coder
      - Fast: tinyllama, phi

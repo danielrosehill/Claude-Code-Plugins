@@ -14,7 +14,7 @@ You are helping the user set up NFS (Network File System) mounts to remote syste
 
 2. **Gather mount information from the user:**
    Ask the user for:
-   - Remote NFS server IP or hostname (e.g., `10.0.0.100`)
+   - Remote NFS server IP or hostname (e.g., `192.168.1.100`)
    - Remote export path (e.g., `/srv/nfs/share`)
    - Local mount point (e.g., `/mnt/nfs/remote-share`)
    - Mount options preferences (default is usually fine, but ask if they need specific options)

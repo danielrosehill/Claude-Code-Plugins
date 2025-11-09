@@ -14,7 +14,7 @@ You are helping the user set up SMB/CIFS (Windows/Samba) mounts to remote system
 
 2. **Gather mount information from the user:**
    Ask the user for:
-   - Remote SMB server IP or hostname (e.g., `10.0.0.100` or `nas.local`)
+   - Remote SMB server IP or hostname (e.g., `192.168.1.100` or `nas.local`)
    - Share name (e.g., `shared` or `documents`)
    - Username for authentication
    - Domain (if applicable, otherwise use `WORKGROUP`)

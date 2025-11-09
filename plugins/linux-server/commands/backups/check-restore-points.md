@@ -29,7 +29,7 @@ Check available backup and restore points on the server:
    - Check backup sync status logs
 
 6. **NAS Backups**:
-   - Check NAS mount: `mount | grep 10.0.0.50`
+   - Check NAS mount: `mount | grep 192.168.1.100`
    - List NAS backup directories: `ls -lah /path/to/nas/mount/backups/`
    - Recent NAS backups: `find /path/to/nas/mount/backups -type f -mtime -7`
 

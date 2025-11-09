@@ -12,14 +12,13 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 |------------|-------------|---------------------|
 | **AI Tools** | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | `/plugin install ai-tools@danielrosehill-plugins` |
 | **Audio Editing** | Audio editing and processing tools | `/plugin install audio-editing@danielrosehill-plugins` |
-| **Career Planner** | Career planning, job search, and professional development | `/plugin install career-planner@danielrosehill-plugins` |
 | **Claude Code** | Claude Code project setup, agents, context management, slash commands | `/plugin install claude-code@danielrosehill-plugins` |
 | **Conda Management** | Conda environment management, backup, validation, cleanup | `/plugin install conda-management@danielrosehill-plugins` |
 | **Context Toolkit** | Context management and organization tools | `/plugin install context-toolkit@danielrosehill-plugins` |
 | **Debugging** | Debugging tools, log analysis, crash diagnosis, boot troubleshooting | `/plugin install debugging@danielrosehill-plugins` |
 | **Development** | Development tools, IDEs, CI/CD, package management, project setup | `/plugin install development@danielrosehill-plugins` |
 | **Diary Planner** | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill-plugins` |
-| **Docker Assist** | Docker assistance and container management | `/plugin install docker-assist@danielrosehill-plugins` |
+| **Docker Asist** | Docker assistance and container management | `/plugin install docker-asist@danielrosehill-plugins` |
 | **Documentation** | README creation, markdown editing, changelog generation, badges | `/plugin install documentation@danielrosehill-plugins` |
 | **Files & Folder Org** | File and folder organization utilities | `/plugin install files-and-folder-org@danielrosehill-plugins` |
 | **Git & GitHub** | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill-plugins` |
@@ -72,7 +71,7 @@ You can install multiple plugins by repeating the installation command for each 
 
 ### Development & Tools
 - **Development** - Comprehensive development workflow tools
-- **Docker Assist** - Container management
+- **Docker Asist** - Container management
 - **Git & GitHub** - Version control utilities
 - **Debugging** - Troubleshooting and diagnostics
 
@@ -104,7 +103,6 @@ You can install multiple plugins by repeating the installation command for each 
 - **Tech Research** - Research utilities
 
 ### Personal & Lifestyle
-- **Career Planner** - Career planning and job search
 - **Diary Planner** - Personal diary and planning
 - **Home Budget Helper** - Personal budgeting and finance
 
@@ -121,7 +119,7 @@ You can install multiple plugins by repeating the installation command for each 
 ### Full Stack Developer Setup
 ```bash
 /plugin install development@danielrosehill-plugins
-/plugin install docker-assist@danielrosehill-plugins
+/plugin install docker-asist@danielrosehill-plugins
 /plugin install git-github@danielrosehill-plugins
 /plugin install debugging@danielrosehill-plugins
 ```
@@ -156,7 +154,6 @@ You can install multiple plugins by repeating the installation command for each 
 /plugin install files-and-folder-org@danielrosehill-plugins
 /plugin install context-toolkit@danielrosehill-plugins
 /plugin install diary-planner@danielrosehill-plugins
-/plugin install career-planner@danielrosehill-plugins
 /plugin install home-budget-helper@danielrosehill-plugins
 ```
 

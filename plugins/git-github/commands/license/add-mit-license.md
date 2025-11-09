@@ -7,6 +7,6 @@ Do the folllowing:
 
 Use these details:
 
-Name: Daniel Rosehill
-Email: public@danielrosehill.com 
+Name: the user
+Email: user@example.com 
 Current year: 2025

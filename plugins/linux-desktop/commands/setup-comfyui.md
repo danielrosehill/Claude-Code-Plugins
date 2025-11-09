@@ -8,7 +8,7 @@ You are helping the user set up ComfyUI for AI image generation.
 ## Process
 
 1. **Check if ComfyUI is already installed**
-   - Check in `~/programs/ai-ml/ComfyUI` (Daniel's typical location)
+   - Check in `~/programs/ai-ml/ComfyUI` (the user's typical location)
    - Look for existing installation
 
 2. **Install prerequisites**

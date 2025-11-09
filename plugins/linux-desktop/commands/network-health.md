@@ -8,12 +8,12 @@ Check network configuration and connectivity health:
 6. Review network statistics: `ss -s`
 7. Check for network errors: `ip -s link`
 8. Test internet connectivity: `ping -c 3 8.8.8.8 && ping -c 3 google.com`
-9. Check LAN gateway: `ping -c 3 10.0.0.1`
+9. Check LAN gateway: `ping -c 3 192.168.1.1`
 10. Review Cloudflare Tunnel status if running: `docker ps | grep cloudflare`
 
 Provide Daniel with:
-- Network interface status (IP: 10.0.0.4 expected)
-- Gateway connectivity (10.0.0.1)
+- Network interface status (IP: 192.168.1.20 expected)
+- Gateway connectivity (192.168.1.1)
 - DNS resolution status
 - Internet connectivity status
 - Listening services and ports

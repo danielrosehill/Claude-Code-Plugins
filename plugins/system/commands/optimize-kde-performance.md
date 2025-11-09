@@ -67,7 +67,7 @@ You are helping the user tune KDE Plasma settings for better performance and res
    balooctl status
 
    # Or configure to index only specific folders
-   balooctl config add /home/daniel/Documents
+   balooctl config add /home/user/Documents
    balooctl enable
    ```
 
