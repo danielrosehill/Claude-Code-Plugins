@@ -1,0 +1,10 @@
+{
+  "name": "conda-management",
+  "description": "Claude Code plugin for managing Conda environments, packages, and Python virtual environment workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  }
+}

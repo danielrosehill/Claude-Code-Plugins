@@ -1,0 +1,10 @@
+{
+  "name": "server-management",
+  "description": "Claude Code plugin for server infrastructure management, monitoring, deployment, and server administration workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  }
+}

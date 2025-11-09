@@ -1,0 +1,10 @@
+{
+  "name": "tech-research",
+  "description": "Claude Code plugin for technology research, competitive analysis, technical documentation retrieval, and research workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  }
+}

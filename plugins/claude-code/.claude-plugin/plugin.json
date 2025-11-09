@@ -1,0 +1,10 @@
+{
+  "name": "claude-code",
+  "description": "Claude Code plugin for managing Claude Code configuration, slash commands, agents, and plugin development workflow.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "hooks": [
+    {
+      "name": "context-file-detector",
+      "description": "Detect CONTEXT.md files and remind agent to read them",
+      "type": "on_repo_open",
+      "enabled": true,
+      "priority": 10,
+      "script": "bash",
+      "command": "if [ -f 'CONTEXT.md' ] || [ -f 'context.md' ]; then echo 'CONTEXT.md detected in this repository. This file contains detailed human-authored context about the project. Consider reading it for deeper understanding of the project vision and requirements.'; fi; if [ -d 'context-data' ]; then echo 'context-data/ directory detected. This repository uses chunked context files. Review context-data/README.md for the organization structure.'; fi"
+    },
+    {
+      "name": "context-sync-reminder",
+      "description": "Remind to sync CONTEXT.md and CLAUDE.md after significant changes",
+      "type": "on_file_write",
+      "enabled": true,
+      "priority": 5,
+      "filePatterns": ["CONTEXT.md", "context.md", "CLAUDE.md", "context-data/**/*.md"],
+      "script": "bash",
+      "command": "echo 'Context file modified. Remember to keep CONTEXT.md (human context) and CLAUDE.md (agent briefing) synchronized. Use /context-to-claude or /claude-to-context if needed.'"
+    }
+  ]
+}

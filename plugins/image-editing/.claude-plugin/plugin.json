@@ -1,0 +1,10 @@
+{
+  "name": "image-editing",
+  "description": "Claude Code plugin for image processing, photo editing, batch image operations, and visual media management.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(test:*)",
+      "WebFetch(domain:code.claude.com)",
+      "Bash(for dir in ai-tools audio-editing claude-code conda-management context-toolkit debugging development docker-asist documentation files-and-folder-org git-github ideation image-editing learning linux-desktop linux-server security-checkup seo server-management system tech-research video-editing writing-editing)",
+      "Bash(do)",
+      "Bash(if [ ! -f \"$dir/.claude-plugin/plugin.json\" ])",
+      "Bash(then)",
+      "Bash(echo:*)",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(do if [ -f \"$dir/README.md\" ])",
+      "Bash(then echo \"=== $dir ===\" head -20 \"$dir/README.md\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

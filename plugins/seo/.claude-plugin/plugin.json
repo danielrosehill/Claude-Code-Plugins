@@ -1,0 +1,10 @@
+{
+  "name": "seo",
+  "description": "Claude Code plugin for SEO optimization, meta tag management, and search engine optimization workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  }
+}

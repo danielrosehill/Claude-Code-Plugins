@@ -1,1 +1,0 @@
-The basci functionality of this application has been validated. I would like you to review the application for its appearance. Let's try to make the application as visually appealing as possible, and let's make the UI, UX as easy to use as possible. Focus on typography, iconography, layout and overall ease of use. Suggest implementations. 

@@ -1,0 +1,10 @@
+{
+  "name": "linux-server",
+  "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  }
+}

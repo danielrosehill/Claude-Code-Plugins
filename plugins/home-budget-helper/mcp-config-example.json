@@ -1,0 +1,32 @@
+{
+  "_comment": "Example MCP server configuration for budget workspace",
+  "_instructions": "Copy this to your global Claude MCP config or use project-specific MCP setup",
+  "_globalConfigLocation": "~/.config/claude/mcp.json (Linux/Mac) or %APPDATA%/Claude/mcp.json (Windows)",
+
+  "mcpServers": {
+    "bank-data-example": {
+      "command": "node",
+      "args": ["/path/to/bank-mcp-server/index.js"],
+      "env": {
+        "BANK_API_KEY": "use-1password-or-env-variable",
+        "BANK_ACCOUNT_ID": "your-account-id"
+      },
+      "description": "Fetches transaction data directly from bank API"
+    },
+
+    "spreadsheet-export-example": {
+      "command": "node",
+      "args": ["/path/to/sheets-mcp/index.js"],
+      "env": {
+        "GOOGLE_CREDENTIALS_PATH": "/path/to/credentials.json"
+      },
+      "description": "Exports budget data to Google Sheets for collaboration"
+    },
+
+    "charting-example": {
+      "command": "python",
+      "args": ["-m", "mcp_charting"],
+      "description": "Generates charts and visualizations from financial data"
+    }
+  }
+}

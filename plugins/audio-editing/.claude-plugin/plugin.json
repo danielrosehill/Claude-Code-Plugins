@@ -1,0 +1,10 @@
+{
+  "name": "audio-editing",
+  "description": "Claude Code plugin for audio editing, conversion, processing, and microphone management slash commands and agents.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  }
+}

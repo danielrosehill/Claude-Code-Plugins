@@ -1,135 +1,163 @@
-# Claude Code Plugins Collection
+# Claude Code Plugins Marketplace
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?style=for-the-badge&logo=anthropic)
 [![Claude Code Repos Index](https://img.shields.io/badge/Claude_Code-Repos_Index-blue?style=for-the-badge)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
 [![GitHub Master Index](https://img.shields.io/badge/GitHub-Master_Index-green?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)
 
-Collection of Claude Code plugins for developers, system administrators, and content creators. These plugins extend Claude Code with specialized slash commands and agents for various workflows.
+A comprehensive marketplace of Claude Code plugins for developers, system administrators, content creators, and productivity enthusiasts. These plugins extend Claude Code with specialized slash commands and agents for various workflows.
 
 ## Available Plugins
 
-| Plugin Name | Description | Commands | Repository |
-|------------|-------------|----------|------------|
-| **AI Tools** | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | 46 | [CC-Plugin-ai-tools](https://github.com/danielrosehill/CC-Plugin-ai-tools) |
-| **Audio** | Audio editing, conversion, microphone settings, PipeWire optimization | 8 | [CC-Plugin-audio](https://github.com/danielrosehill/CC-Plugin-audio) |
-| **Claude Code** | Claude Code project setup, agents, context management, slash commands | 20 | [CC-Plugin-claude-code](https://github.com/danielrosehill/CC-Plugin-claude-code) |
-| **Conda Management** | Conda environment management, backup, validation, cleanup | 10 | [CC-Plugin-conda-management](https://github.com/danielrosehill/CC-Plugin-conda-management) |
-| **Debugging** | Debugging tools, log analysis, crash diagnosis, boot troubleshooting | 14 | [CC-Plugin-debugging](https://github.com/danielrosehill/CC-Plugin-debugging) |
-| **Development** | Development tools, IDEs, CI/CD, package management, project setup | 91 | [CC-Plugin-development](https://github.com/danielrosehill/CC-Plugin-development) |
-| **Docker** | Docker management, troubleshooting, cleanup, health checks | 9 | [CC-Plugin-docker](https://github.com/danielrosehill/CC-Plugin-docker) |
-| **Documentation** | README creation, markdown editing, changelog generation, badges | 34 | [CC-Plugin-documentation](https://github.com/danielrosehill/CC-Plugin-documentation) |
-| **Filesystem Organization** | File organization, cleanup, hardware profiling, folder structure | 19 | [CC-Plugin-filesystem-organization](https://github.com/danielrosehill/CC-Plugin-filesystem-organization) |
-| **Git & GitHub** | Git configuration, LFS, GitHub CLI, repository management | 14 | [CC-Plugin-git-github](https://github.com/danielrosehill/CC-Plugin-git-github) |
-| **Ideation** | Brainstorming, design ideas, innovation, AI chat experiments | 7 | [CC-Plugin-ideation](https://github.com/danielrosehill/CC-Plugin-ideation) |
-| **Learning** | Code analysis, commit analysis, learning resources, tutorials | 5 | [CC-Plugin-learning](https://github.com/danielrosehill/CC-Plugin-learning) |
-| **Linux Desktop** | KDE settings, display management, system health, hardware profiling | 253 | [CC-Plugin-linux-desktop](https://github.com/danielrosehill/CC-Plugin-linux-desktop) |
-| **Linux Server** | Server management and administration tools | 2 | [CC-Plugin-linux-server](https://github.com/danielrosehill/CC-Plugin-linux-server) |
-| **Misc** | Miscellaneous utilities and general-purpose commands | 334 | [CC-Plugin-misc](https://github.com/danielrosehill/CC-Plugin-misc) |
-| **Photos** | Image processing and photo management | 1 | [CC-Plugin-photos](https://github.com/danielrosehill/CC-Plugin-photos) |
-| **Security** | Security audits, firewall management, vulnerability scanning | 23 | [CC-Plugin-security](https://github.com/danielrosehill/CC-Plugin-security) |
-| **SEO** | SEO optimization, audits, and reviews | 4 | [CC-Plugin-seo](https://github.com/danielrosehill/CC-Plugin-seo) |
-| **Server Management** | Server administration, deployment, monitoring, backups | 52 | [CC-Plugin-server-management](https://github.com/danielrosehill/CC-Plugin-server-management) |
-| **System** | System configuration, monitoring, and maintenance | 66 | [CC-Plugin-system](https://github.com/danielrosehill/CC-Plugin-system) |
-| **Tech Research** | Technology research and documentation tools | 37 | [CC-Plugin-tech-research](https://github.com/danielrosehill/CC-Plugin-tech-research) |
-| **Video** | Video processing and editing | 1 | [CC-Plugin-video](https://github.com/danielrosehill/CC-Plugin-video) |
-| **Writing & Editing** | Proofreading, formatting, style standardization, content enhancement | 43 | [CC-Plugin-writing-editing](https://github.com/danielrosehill/CC-Plugin-writing-editing) |
+| Plugin Name | Description |
+|------------|-------------|
+| **AI Tools** | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text |
+| **Audio Editing** | Audio editing and processing tools |
+| **Career Planner** | Career planning, job search, and professional development |
+| **Claude Code** | Claude Code project setup, agents, context management, slash commands |
+| **Conda Management** | Conda environment management, backup, validation, cleanup |
+| **Context Toolkit** | Context management and organization tools |
+| **Debugging** | Debugging tools, log analysis, crash diagnosis, boot troubleshooting |
+| **Development** | Development tools, IDEs, CI/CD, package management, project setup |
+| **Diary Planner** | Personal diary and planning workflows |
+| **Docker Assist** | Docker assistance and container management |
+| **Documentation** | README creation, markdown editing, changelog generation, badges |
+| **Files & Folder Org** | File and folder organization utilities |
+| **Git & GitHub** | Git configuration, LFS, GitHub CLI, repository management |
+| **Home Assistant Manager** | Home Assistant management and automation |
+| **Home Budget Helper** | Personal budgeting and financial management |
+| **Ideation** | Brainstorming, design ideas, innovation, AI chat experiments |
+| **Image Editing** | Image editing and processing tools |
+| **LAN Manager** | Local network management |
+| **Learning** | Code analysis, commit analysis, learning resources, tutorials |
+| **Linux Desktop** | KDE settings, display management, system health, hardware profiling |
+| **Linux Server** | Server management and administration tools |
+| **Security Checkup** | Security audits and checkups |
+| **SEO** | SEO optimization, audits, and reviews |
+| **Server Management** | Server administration, deployment, monitoring, backups |
+| **System** | System configuration, monitoring, and maintenance |
+| **Tech Research** | Technology research and documentation tools |
+| **Video Editing** | Video editing and processing tools |
+| **Writing & Editing** | Proofreading, formatting, style standardization, content enhancement |
 
 ## Installation
 
-### Install Individual Plugins
+### Add This Marketplace
 
-To install a specific plugin:
+First, add this marketplace to your Claude Code installation:
 
 ```bash
-# Add the marketplace (first time only)
-/plugin marketplace add danielrosehill/CC-Plugin-{name}
-
-# Install the plugin
-/plugin install {name}@danielrosehill
+/plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
 ```
 
-**Example:**
+### Install Individual Plugins
+
+After adding the marketplace, install any plugin:
+
 ```bash
-/plugin marketplace add danielrosehill/CC-Plugin-development
-/plugin install development@danielrosehill
+/plugin install {plugin-name}@danielrosehill-plugins
+```
+
+**Examples:**
+```bash
+/plugin install ai-tools@danielrosehill-plugins
+/plugin install development@danielrosehill-plugins
+/plugin install writing-editing@danielrosehill-plugins
 ```
 
 ### Install Multiple Plugins
 
-You can install multiple plugins by repeating the process for each one you need.
+You can install multiple plugins by repeating the installation command for each one you need.
 
 ## Plugin Categories
 
 ### Development & Tools
-- **Development** (91 commands) - Comprehensive development workflow tools
-- **Docker** (9 commands) - Container management
-- **Git & GitHub** (14 commands) - Version control utilities
-- **Debugging** (14 commands) - Troubleshooting and diagnostics
+- **Development** - Comprehensive development workflow tools
+- **Docker Assist** - Container management
+- **Git & GitHub** - Version control utilities
+- **Debugging** - Troubleshooting and diagnostics
 
 ### AI & Machine Learning
-- **AI Tools** (46 commands) - Complete AI development toolkit
-- **Conda Management** (10 commands) - Python environment management
+- **AI Tools** - Complete AI development toolkit
+- **Conda Management** - Python environment management
 
 ### System Administration
-- **Linux Desktop** (253 commands) - Desktop environment management
-- **Linux Server** (2 commands) - Server administration
-- **System** (66 commands) - System configuration and monitoring
-- **Server Management** (52 commands) - Server deployment and operations
+- **Linux Desktop** - Desktop environment management
+- **Linux Server** - Server administration
+- **System** - System configuration and monitoring
+- **Server Management** - Server deployment and operations
+- **LAN Manager** - Local network management
 
 ### Content & Documentation
-- **Documentation** (34 commands) - Technical writing and README generation
-- **Writing & Editing** (43 commands) - Content editing and proofreading
-- **SEO** (4 commands) - Search engine optimization
+- **Documentation** - Technical writing and README generation
+- **Writing & Editing** - Content editing and proofreading
+- **SEO** - Search engine optimization
 
 ### Media & Creative
-- **Audio** (8 commands) - Audio processing
-- **Video** (1 command) - Video editing
-- **Photos** (1 command) - Image management
+- **Audio Editing** - Audio processing and editing
+- **Video Editing** - Video editing and processing
+- **Image Editing** - Image processing and editing
 
-### Productivity
-- **Filesystem Organization** (19 commands) - File and folder management
-- **Ideation** (7 commands) - Creative brainstorming
-- **Learning** (5 commands) - Educational tools
-- **Tech Research** (37 commands) - Research utilities
+### Productivity & Organization
+- **Files & Folder Org** - File and folder management
+- **Context Toolkit** - Context management and organization
+- **Ideation** - Creative brainstorming
+- **Tech Research** - Research utilities
 
-### Security
-- **Security** (23 commands) - Security audits and vulnerability scanning
+### Personal & Lifestyle
+- **Career Planner** - Career planning and job search
+- **Diary Planner** - Personal diary and planning
+- **Home Budget Helper** - Personal budgeting and finance
+
+### Security & Home Automation
+- **Security Checkup** - Security audits and vulnerability scanning
+- **Home Assistant Manager** - Home Assistant management
 
 ### Specialized
-- **Claude Code** (20 commands) - Claude Code workflow optimization
-- **Misc** (334 commands) - General utilities
+- **Claude Code** - Claude Code workflow optimization
+- **Learning** - Educational tools and code analysis
 
 ## Popular Plugin Combinations
 
 ### Full Stack Developer Setup
 ```bash
-/plugin install development@danielrosehill
-/plugin install docker@danielrosehill
-/plugin install git-github@danielrosehill
-/plugin install debugging@danielrosehill
+/plugin install development@danielrosehill-plugins
+/plugin install docker-assist@danielrosehill-plugins
+/plugin install git-github@danielrosehill-plugins
+/plugin install debugging@danielrosehill-plugins
 ```
 
 ### AI/ML Developer Setup
 ```bash
-/plugin install ai-tools@danielrosehill
-/plugin install conda-management@danielrosehill
-/plugin install development@danielrosehill
+/plugin install ai-tools@danielrosehill-plugins
+/plugin install conda-management@danielrosehill-plugins
+/plugin install development@danielrosehill-plugins
 ```
 
 ### System Administrator Setup
 ```bash
-/plugin install linux-desktop@danielrosehill
-/plugin install system@danielrosehill
-/plugin install server-management@danielrosehill
-/plugin install security@danielrosehill
+/plugin install linux-desktop@danielrosehill-plugins
+/plugin install system@danielrosehill-plugins
+/plugin install server-management@danielrosehill-plugins
+/plugin install security-checkup@danielrosehill-plugins
+/plugin install lan-manager@danielrosehill-plugins
 ```
 
 ### Content Creator Setup
 ```bash
-/plugin install writing-editing@danielrosehill
-/plugin install documentation@danielrosehill
-/plugin install audio@danielrosehill
-/plugin install video@danielrosehill
+/plugin install writing-editing@danielrosehill-plugins
+/plugin install documentation@danielrosehill-plugins
+/plugin install audio-editing@danielrosehill-plugins
+/plugin install video-editing@danielrosehill-plugins
+/plugin install image-editing@danielrosehill-plugins
+```
+
+### Personal Productivity Setup
+```bash
+/plugin install files-and-folder-org@danielrosehill-plugins
+/plugin install context-toolkit@danielrosehill-plugins
+/plugin install diary-planner@danielrosehill-plugins
+/plugin install career-planner@danielrosehill-plugins
+/plugin install home-budget-helper@danielrosehill-plugins
 ```
 
 ## Plugin Structure

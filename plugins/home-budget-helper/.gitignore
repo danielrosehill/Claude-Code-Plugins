@@ -1,0 +1,103 @@
+# Household Budget Workspace - .gitignore
+
+# Sensitive Financial Data - NEVER COMMIT THESE
+transactions/import/*.csv
+transactions/import/*.ofx
+transactions/import/*.qfx
+transactions/import/*.json
+transactions/processed/*.csv
+
+# Actual budget and report files (may contain sensitive account info)
+# Uncomment these if you want to keep budgets/reports private
+# budgets/monthly/*.md
+# budgets/annual/*.md
+# reports/monthly/*.md
+# reports/quarterly/*.md
+# reports/annual/*.md
+# outputs/reports/*.md
+# outputs/analyses/*.md
+
+# Financial goals with actual balances
+# Uncomment if goals contain sensitive account information
+# financial-goals/active/*.md
+# financial-goals/archived/*.md
+
+# Context files with actual financial data
+# The template context.md is tracked, but you may want to gitignore
+# your personalized version
+# context.md
+
+# Personal household context
+context/household/*
+context/financial/*
+!context/household/.gitkeep
+!context/financial/.gitkeep
+
+# Any files with actual account numbers, balances, or credentials
+**/account-details.md
+**/credentials.md
+**/*-private.md
+**/*-sensitive.*
+
+# Outputs directory - may contain sensitive data
+outputs/budgets/*
+outputs/visualizations/*
+!outputs/budgets/.gitkeep
+!outputs/visualizations/.gitkeep
+
+# Backup files that might contain sensitive data
+*.backup
+*.bak
+*~
+
+# Temporary files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python virtual environments (if using any budget analysis scripts)
+venv/
+.venv/
+env/
+.env/
+*.pyc
+__pycache__/
+
+# Node modules (if using any JavaScript tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Claude Code settings (contains personal preferences)
+# Keep the template, ignore your customized version
+.claude/settings.local.json
+
+# MCP server configurations with credentials
+mcp-config-private.json
+
+# Log files
+*.log
+
+# Database files (if you add any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Exported data files
+exports/
+*.xlsx
+*.xls
+
+# Archive folders
+archive/
+old/
+
+# Keep directory structure with .gitkeep files
+!**/.gitkeep

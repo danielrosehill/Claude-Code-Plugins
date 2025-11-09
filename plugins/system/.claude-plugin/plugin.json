@@ -1,0 +1,10 @@
+{
+  "name": "system",
+  "description": "Claude Code plugin for system administration, hardware profiling, backup management, and general system maintenance workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  }
+}

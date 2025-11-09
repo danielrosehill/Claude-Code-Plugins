@@ -125,6 +125,66 @@
       "name": "writing-editing",
       "source": "./plugins/writing-editing",
       "description": "Claude Code plugin for writing-editing slash commands and agents"
+    },
+    {
+      "name": "audio-editing",
+      "source": "./plugins/audio-editing",
+      "description": "Claude Code plugin for audio editing and processing"
+    },
+    {
+      "name": "career-planner",
+      "source": "./plugins/career-planner",
+      "description": "Claude Code plugin for career planning, job search, and professional development"
+    },
+    {
+      "name": "context-toolkit",
+      "source": "./plugins/context-toolkit",
+      "description": "Claude Code plugin for context management and organization"
+    },
+    {
+      "name": "diary-planner",
+      "source": "./plugins/diary-planner",
+      "description": "Claude Code plugin for personal diary and planning workflows"
+    },
+    {
+      "name": "docker-asist",
+      "source": "./plugins/docker-asist",
+      "description": "Claude Code plugin for Docker assistance and container management"
+    },
+    {
+      "name": "files-and-folder-org",
+      "source": "./plugins/files-and-folder-org",
+      "description": "Claude Code plugin for file and folder organization"
+    },
+    {
+      "name": "home-assistant-manager",
+      "source": "./plugins/home-assistant-manager",
+      "description": "Claude Code plugin for Home Assistant management and automation"
+    },
+    {
+      "name": "home-budget-helper",
+      "source": "./plugins/home-budget-helper",
+      "description": "Claude Code plugin for personal budgeting and financial management"
+    },
+    {
+      "name": "image-editing",
+      "source": "./plugins/image-editing",
+      "description": "Claude Code plugin for image editing and processing"
+    },
+    {
+      "name": "lan-manager",
+      "source": "./plugins/lan-manager",
+      "description": "Claude Code plugin for local network management"
+    },
+    {
+      "name": "security-checkup",
+      "source": "./plugins/security-checkup",
+      "description": "Claude Code plugin for security audits and checkups"
+    },
+    {
+      "name": "video-editing",
+      "source": "./plugins/video-editing",
+      "description": "Claude Code plugin for video editing and processing"
     }
   ]
 }
