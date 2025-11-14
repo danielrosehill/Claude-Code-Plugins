@@ -13,8 +13,8 @@
   "plugins": [
     {
       "name": "ai-tools",
-      "source": "./plugins/ai-tools",
-      "description": "Claude Code plugin for ai-tools slash commands and agents",
+      "source": "./plugins/ai-utilities/ai-tools-plugin",
+      "description": "Claude Code plugin for AI tool management, MCP server configuration, and AI workflow automation slash commands and agents.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -22,25 +22,12 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["ai", "tools"]
-    },
-    {
-      "name": "audio",
-      "source": "./plugins/audio",
-      "description": "Claude Code plugin for audio slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["audio"]
+      "tags": ["ai-utilities", "ai-tools"]
     },
     {
       "name": "claude-code",
-      "source": "./plugins/claude-code",
-      "description": "Claude Code plugin for claude-code slash commands and agents",
+      "source": "./plugins/development/claude-code-plugin",
+      "description": "Claude Code plugin for managing Claude Code configuration, slash commands, agents, and plugin development workflow.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -48,12 +35,12 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["claude-code", "meta"]
+      "tags": ["development", "claude-code"]
     },
     {
       "name": "conda-management",
-      "source": "./plugins/conda-management",
-      "description": "Claude Code plugin for conda-management slash commands and agents",
+      "source": "./plugins/development/conda-management-plugin",
+      "description": "Claude Code plugin for managing Conda environments, packages, and Python virtual environment workflows.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -61,298 +48,12 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["conda", "python", "environment"]
-    },
-    {
-      "name": "debugging",
-      "source": "./plugins/debugging",
-      "description": "Claude Code plugin for debugging slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["debugging", "development"]
-    },
-    {
-      "name": "development",
-      "source": "./plugins/development",
-      "description": "Claude Code plugin for development slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["development", "coding"]
-    },
-    {
-      "name": "docker",
-      "source": "./plugins/docker",
-      "description": "Claude Code plugin for docker slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["docker", "containers"]
-    },
-    {
-      "name": "documentation",
-      "source": "./plugins/documentation",
-      "description": "Claude Code plugin for documentation slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["documentation", "writing"]
-    },
-    {
-      "name": "filesystem-organization",
-      "source": "./plugins/filesystem-organization",
-      "description": "Claude Code plugin for filesystem-organization slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["filesystem", "organization"]
-    },
-    {
-      "name": "git-github",
-      "source": "./plugins/git-github",
-      "description": "Claude Code plugin for git-github slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["git", "github", "version-control"]
-    },
-    {
-      "name": "ideation",
-      "source": "./plugins/ideation",
-      "description": "Claude Code plugin for ideation slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["ideation", "creativity"]
-    },
-    {
-      "name": "learning",
-      "source": "./plugins/learning",
-      "description": "Claude Code plugin for learning slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["learning", "education"]
-    },
-    {
-      "name": "linux-desktop",
-      "source": "./plugins/linux-desktop",
-      "description": "Claude Code plugin for linux-desktop slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["linux", "desktop", "kde"]
-    },
-    {
-      "name": "linux-server",
-      "source": "./plugins/linux-server",
-      "description": "Claude Code plugin for linux-server slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["linux", "server", "sysadmin"]
-    },
-    {
-      "name": "misc",
-      "source": "./plugins/misc",
-      "description": "Claude Code plugin for misc slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["miscellaneous"]
-    },
-    {
-      "name": "photos",
-      "source": "./plugins/photos",
-      "description": "Claude Code plugin for photos slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["photos", "images"]
-    },
-    {
-      "name": "security",
-      "source": "./plugins/security",
-      "description": "Claude Code plugin for security slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["security", "audit"]
-    },
-    {
-      "name": "seo",
-      "source": "./plugins/seo",
-      "description": "Claude Code plugin for seo slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["seo", "web"]
-    },
-    {
-      "name": "server-management",
-      "source": "./plugins/server-management",
-      "description": "Claude Code plugin for server-management slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["server", "management", "sysadmin"]
-    },
-    {
-      "name": "slashes",
-      "source": "./plugins/slashes",
-      "description": "Claude Code plugin for slashes slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["slash-commands", "meta"]
-    },
-    {
-      "name": "system",
-      "source": "./plugins/system",
-      "description": "Claude Code plugin for system slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["system", "administration"]
-    },
-    {
-      "name": "tech-research",
-      "source": "./plugins/tech-research",
-      "description": "Claude Code plugin for tech-research slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["research", "technology"]
-    },
-    {
-      "name": "video",
-      "source": "./plugins/video",
-      "description": "Claude Code plugin for video slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["video"]
-    },
-    {
-      "name": "writing-editing",
-      "source": "./plugins/writing-editing",
-      "description": "Claude Code plugin for writing-editing slash commands and agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["writing", "editing"]
-    },
-    {
-      "name": "audio-editing",
-      "source": "./plugins/audio-editing",
-      "description": "Claude Code plugin for audio editing and processing",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["audio", "editing"]
-    },
-    {
-      "name": "career-planner",
-      "source": "./plugins/career-planner",
-      "description": "Claude Code plugin for career planning, job search, and professional development",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["career", "planning"]
+      "tags": ["development", "conda-management"]
     },
     {
       "name": "context-toolkit",
-      "source": "./plugins/context-toolkit",
-      "description": "Claude Code plugin for context management and organization",
+      "source": "./plugins/development/context-toolkit-plugin",
+      "description": "A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -360,12 +61,12 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["context", "organization"]
+      "tags": ["development", "context-toolkit"]
     },
     {
-      "name": "diary-planner",
-      "source": "./plugins/diary-planner",
-      "description": "Claude Code plugin for personal diary and planning workflows",
+      "name": "debugging",
+      "source": "./plugins/development/debugging-plugin",
+      "description": "Claude Code plugin for debugging workflows, error analysis, troubleshooting assistance, and diagnostic tools.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -373,12 +74,12 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["diary", "planning"]
+      "tags": ["development", "debugging"]
     },
     {
       "name": "docker-asist",
-      "source": "./plugins/docker-asist",
-      "description": "Claude Code plugin for Docker assistance and container management",
+      "source": "./plugins/development/docker-asist-plugin",
+      "description": "Claude Code plugin for Docker container management, containerization workflows, and Docker troubleshooting assistance.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -386,12 +87,12 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["docker", "containers"]
+      "tags": ["development", "docker-asist"]
     },
     {
-      "name": "files-and-folder-org",
-      "source": "./plugins/files-and-folder-org",
-      "description": "Claude Code plugin for file and folder organization",
+      "name": "development",
+      "source": "./plugins/development/general-dev-plugin",
+      "description": "Claude Code plugin for software development workflows, code generation, refactoring, and general development assistance.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -399,12 +100,12 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["filesystem", "organization"]
+      "tags": ["development", "general-dev"]
     },
     {
-      "name": "home-assistant-manager",
-      "source": "./plugins/home-assistant-manager",
-      "description": "Claude Code plugin for Home Assistant management and automation",
+      "name": "git-github",
+      "source": "./plugins/development/git-github-plugin",
+      "description": "Claude Code plugin for Git version control, GitHub repository management, and collaborative development workflows.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -412,12 +113,12 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["home-assistant", "automation"]
+      "tags": ["development", "git-github"]
     },
     {
       "name": "home-budget-helper",
-      "source": "./plugins/home-budget-helper",
-      "description": "Claude Code plugin for personal budgeting and financial management",
+      "source": "./plugins/financial/budget-helper-plugin",
+      "description": "A workspace template for household budget management using Claude Code CLI with predefined agents, slash commands, and directory structures for transaction processing, budget creation, expense analysis, goal tracking, and report generation.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -425,12 +126,25 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["budget", "finance"]
+      "tags": ["financial", "budget-helper"]
+    },
+    {
+      "name": "audio-editing",
+      "source": "./plugins/media-editing/audio-editing-plugin",
+      "description": "Claude Code plugin for audio editing, conversion, processing, and microphone management slash commands and agents.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["media-editing", "audio-editing"]
     },
     {
       "name": "image-editing",
-      "source": "./plugins/image-editing",
-      "description": "Claude Code plugin for image editing and processing",
+      "source": "./plugins/media-editing/image-editing-plugin",
+      "description": "Claude Code plugin for image processing, photo editing, batch image operations, and visual media management.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -438,38 +152,12 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["image", "editing"]
-    },
-    {
-      "name": "lan-manager",
-      "source": "./plugins/lan-manager",
-      "description": "Claude Code plugin for local network management",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["network", "lan"]
-    },
-    {
-      "name": "security-checkup",
-      "source": "./plugins/security-checkup",
-      "description": "Claude Code plugin for security audits and checkups",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["security", "audit"]
+      "tags": ["media-editing", "image-editing"]
     },
     {
       "name": "video-editing",
-      "source": "./plugins/video-editing",
-      "description": "Claude Code plugin for video editing and processing",
+      "source": "./plugins/media-editing/video-editing-plugin",
+      "description": "Claude Code plugin for video editing, transcoding, video processing, and multimedia workflow automation.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -477,7 +165,202 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["video", "editing"]
+      "tags": ["media-editing", "video-editing"]
+    },
+    {
+      "name": "diary-planner",
+      "source": "./plugins/misc/diary-planner-plugin",
+      "description": "A workflow planning and time management template with agent definitions and slash commands for managing daily, weekly, and monthly schedules while maintaining connections between immediate tasks and longer-term objectives.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["misc", "diary-planner"]
+    },
+    {
+      "name": "documentation",
+      "source": "./plugins/misc/documentation-plugin",
+      "description": "Claude Code plugin for documentation generation, technical writing, README creation, and documentation management workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["misc", "documentation"]
+    },
+    {
+      "name": "ideation",
+      "source": "./plugins/misc/ideation-plugin",
+      "description": "Claude Code plugin for brainstorming, idea generation, project planning, and creative problem-solving workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["misc", "ideation"]
+    },
+    {
+      "name": "learning",
+      "source": "./plugins/misc/learning-plugin",
+      "description": "Claude Code plugin for learning resources, skill development, educational content creation, and knowledge management.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["misc", "learning"]
+    },
+    {
+      "name": "seo",
+      "source": "./plugins/misc/seo-plugin",
+      "description": "Claude Code plugin for SEO optimization, meta tag management, and search engine optimization workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["misc", "seo"]
+    },
+    {
+      "name": "tech-research",
+      "source": "./plugins/research/tech-research-plugin",
+      "description": "Claude Code plugin for technology research, competitive analysis, technical documentation retrieval, and research workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["research", "tech-research"]
+    },
+    {
+      "name": "home-assistant-manager",
+      "source": "./plugins/smart-home/home-assistant-manager-plugin",
+      "description": "A comprehensive Home Assistant OS management template with 20+ slash commands for health monitoring, backup management, integration support, network diagnostics, maintenance operations, device management, and automation assistance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["smart-home", "home-assistant-manager"]
+    },
+    {
+      "name": "files-and-folder-org",
+      "source": "./plugins/sysadmin/filesystem-org-plugin",
+      "description": "Claude Code plugin for file system organization, folder structure optimization, and file management automation workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["sysadmin", "filesystem-org"]
+    },
+    {
+      "name": "lan-manager",
+      "source": "./plugins/sysadmin/lan-manager-plugin",
+      "description": "A specialized workspace for network system administration on local area networks, providing tools and scripts for LAN scanning, device discovery, device management, and network operations with context-aware topology information.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["sysadmin", "lan-manager"]
+    },
+    {
+      "name": "linux-desktop",
+      "source": "./plugins/sysadmin/linux-desktop-plugin",
+      "description": "Claude Code plugin for Linux desktop environment management, KDE/Plasma configuration, and desktop system administration.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["sysadmin", "linux-desktop"]
+    },
+    {
+      "name": "linux-server",
+      "source": "./plugins/sysadmin/linux-server-plugin",
+      "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["sysadmin", "linux-server"]
+    },
+    {
+      "name": "security-checkup",
+      "source": "./plugins/sysadmin/security-checkup-plugin",
+      "description": "Claude Code plugin for security audits, vulnerability scanning, firewall configuration, and system security hardening workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["sysadmin", "security-checkup"]
+    },
+    {
+      "name": "server-management",
+      "source": "./plugins/sysadmin/server-management-plugin",
+      "description": "Claude Code plugin for server infrastructure management, monitoring, deployment, and server administration workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["sysadmin", "server-management"]
+    },
+    {
+      "name": "system",
+      "source": "./plugins/sysadmin/system-plugin",
+      "description": "Claude Code plugin for system administration, hardware profiling, backup management, and general system maintenance workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["sysadmin", "system"]
+    },
+    {
+      "name": "writing-editing",
+      "source": "./plugins/writing/writing-editing-plugin",
+      "description": "Claude Code plugin for writing assistance, proofreading, style editing, and text transformation workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["writing", "writing-editing"]
     }
   ]
 }
