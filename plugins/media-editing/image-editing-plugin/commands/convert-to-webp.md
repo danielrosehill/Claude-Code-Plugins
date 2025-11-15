@@ -1,1 +1,0 @@
-Convert all the images in this directory to webp.

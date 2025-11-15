@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ai-tools",
-      "source": "./plugins/ai-utilities/ai-tools-plugin",
+      "source": "https://github.com/danielrosehill/ai-tools-plugin",
       "description": "Claude Code plugin for AI tool management, MCP server configuration, and AI workflow automation slash commands and agents.",
       "version": "1.0.0",
       "author": {
@@ -26,7 +26,7 @@
     },
     {
       "name": "claude-code",
-      "source": "./plugins/development/claude-code-plugin",
+      "source": "https://github.com/danielrosehill/claude-code-plugin",
       "description": "Claude Code plugin for managing Claude Code configuration, slash commands, agents, and plugin development workflow.",
       "version": "1.0.0",
       "author": {
@@ -39,7 +39,7 @@
     },
     {
       "name": "conda-management",
-      "source": "./plugins/development/conda-management-plugin",
+      "source": "https://github.com/danielrosehill/conda-management-plugin",
       "description": "Claude Code plugin for managing Conda environments, packages, and Python virtual environment workflows.",
       "version": "1.0.0",
       "author": {
@@ -52,7 +52,7 @@
     },
     {
       "name": "context-toolkit",
-      "source": "./plugins/development/context-toolkit-plugin",
+      "source": "https://github.com/danielrosehill/context-toolkit-plugin",
       "description": "A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.",
       "version": "1.0.0",
       "author": {
@@ -65,7 +65,7 @@
     },
     {
       "name": "debugging",
-      "source": "./plugins/development/debugging-plugin",
+      "source": "https://github.com/danielrosehill/debugging-plugin",
       "description": "Claude Code plugin for debugging workflows, error analysis, troubleshooting assistance, and diagnostic tools.",
       "version": "1.0.0",
       "author": {
@@ -78,7 +78,7 @@
     },
     {
       "name": "docker-asist",
-      "source": "./plugins/development/docker-asist-plugin",
+      "source": "https://github.com/danielrosehill/docker-asist-plugin",
       "description": "Claude Code plugin for Docker container management, containerization workflows, and Docker troubleshooting assistance.",
       "version": "1.0.0",
       "author": {
@@ -91,7 +91,7 @@
     },
     {
       "name": "development",
-      "source": "./plugins/development/general-dev-plugin",
+      "source": "https://github.com/danielrosehill/general-dev-plugin",
       "description": "Claude Code plugin for software development workflows, code generation, refactoring, and general development assistance.",
       "version": "1.0.0",
       "author": {
@@ -104,7 +104,7 @@
     },
     {
       "name": "git-github",
-      "source": "./plugins/development/git-github-plugin",
+      "source": "https://github.com/danielrosehill/git-github-plugin",
       "description": "Claude Code plugin for Git version control, GitHub repository management, and collaborative development workflows.",
       "version": "1.0.0",
       "author": {
@@ -117,7 +117,7 @@
     },
     {
       "name": "home-budget-helper",
-      "source": "./plugins/financial/budget-helper-plugin",
+      "source": "https://github.com/danielrosehill/home-budget-helper-plugin",
       "description": "A workspace template for household budget management using Claude Code CLI with predefined agents, slash commands, and directory structures for transaction processing, budget creation, expense analysis, goal tracking, and report generation.",
       "version": "1.0.0",
       "author": {
@@ -130,7 +130,7 @@
     },
     {
       "name": "audio-editing",
-      "source": "./plugins/media-editing/audio-editing-plugin",
+      "source": "https://github.com/danielrosehill/audio-editing-plugin",
       "description": "Claude Code plugin for audio editing, conversion, processing, and microphone management slash commands and agents.",
       "version": "1.0.0",
       "author": {
@@ -143,7 +143,7 @@
     },
     {
       "name": "image-editing",
-      "source": "./plugins/media-editing/image-editing-plugin",
+      "source": "https://github.com/danielrosehill/image-editing-plugin",
       "description": "Claude Code plugin for image processing, photo editing, batch image operations, and visual media management.",
       "version": "1.0.0",
       "author": {
@@ -156,7 +156,7 @@
     },
     {
       "name": "video-editing",
-      "source": "./plugins/media-editing/video-editing-plugin",
+      "source": "https://github.com/danielrosehill/video-editing-plugin",
       "description": "Claude Code plugin for video editing, transcoding, video processing, and multimedia workflow automation.",
       "version": "1.0.0",
       "author": {
@@ -169,7 +169,7 @@
     },
     {
       "name": "diary-planner",
-      "source": "./plugins/misc/diary-planner-plugin",
+      "source": "https://github.com/danielrosehill/diary-planner-plugin",
       "description": "A workflow planning and time management template with agent definitions and slash commands for managing daily, weekly, and monthly schedules while maintaining connections between immediate tasks and longer-term objectives.",
       "version": "1.0.0",
       "author": {
@@ -182,7 +182,7 @@
     },
     {
       "name": "documentation",
-      "source": "./plugins/misc/documentation-plugin",
+      "source": "https://github.com/danielrosehill/documentation-plugin",
       "description": "Claude Code plugin for documentation generation, technical writing, README creation, and documentation management workflows.",
       "version": "1.0.0",
       "author": {
@@ -195,7 +195,7 @@
     },
     {
       "name": "ideation",
-      "source": "./plugins/misc/ideation-plugin",
+      "source": "https://github.com/danielrosehill/ideation-plugin",
       "description": "Claude Code plugin for brainstorming, idea generation, project planning, and creative problem-solving workflows.",
       "version": "1.0.0",
       "author": {
@@ -208,7 +208,7 @@
     },
     {
       "name": "learning",
-      "source": "./plugins/misc/learning-plugin",
+      "source": "https://github.com/danielrosehill/learning-plugin",
       "description": "Claude Code plugin for learning resources, skill development, educational content creation, and knowledge management.",
       "version": "1.0.0",
       "author": {
@@ -221,7 +221,7 @@
     },
     {
       "name": "seo",
-      "source": "./plugins/misc/seo-plugin",
+      "source": "https://github.com/danielrosehill/seo-plugin",
       "description": "Claude Code plugin for SEO optimization, meta tag management, and search engine optimization workflows.",
       "version": "1.0.0",
       "author": {
@@ -234,7 +234,7 @@
     },
     {
       "name": "tech-research",
-      "source": "./plugins/research/tech-research-plugin",
+      "source": "https://github.com/danielrosehill/tech-research-plugin",
       "description": "Claude Code plugin for technology research, competitive analysis, technical documentation retrieval, and research workflows.",
       "version": "1.0.0",
       "author": {
@@ -247,7 +247,7 @@
     },
     {
       "name": "home-assistant-manager",
-      "source": "./plugins/smart-home/home-assistant-manager-plugin",
+      "source": "https://github.com/danielrosehill/home-assistant-manager-plugin",
       "description": "A comprehensive Home Assistant OS management template with 20+ slash commands for health monitoring, backup management, integration support, network diagnostics, maintenance operations, device management, and automation assistance.",
       "version": "1.0.0",
       "author": {
@@ -260,7 +260,7 @@
     },
     {
       "name": "files-and-folder-org",
-      "source": "./plugins/sysadmin/filesystem-org-plugin",
+      "source": "https://github.com/danielrosehill/filesystem-org-plugin",
       "description": "Claude Code plugin for file system organization, folder structure optimization, and file management automation workflows.",
       "version": "1.0.0",
       "author": {
@@ -273,7 +273,7 @@
     },
     {
       "name": "lan-manager",
-      "source": "./plugins/sysadmin/lan-manager-plugin",
+      "source": "https://github.com/danielrosehill/lan-manager-plugin",
       "description": "A specialized workspace for network system administration on local area networks, providing tools and scripts for LAN scanning, device discovery, device management, and network operations with context-aware topology information.",
       "version": "1.0.0",
       "author": {
@@ -286,7 +286,7 @@
     },
     {
       "name": "linux-desktop",
-      "source": "./plugins/sysadmin/linux-desktop-plugin",
+      "source": "https://github.com/danielrosehill/linux-desktop-plugin",
       "description": "Claude Code plugin for Linux desktop environment management, KDE/Plasma configuration, and desktop system administration.",
       "version": "1.0.0",
       "author": {
@@ -299,7 +299,7 @@
     },
     {
       "name": "linux-server",
-      "source": "./plugins/sysadmin/linux-server-plugin",
+      "source": "https://github.com/danielrosehill/linux-server-plugin",
       "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.",
       "version": "1.0.0",
       "author": {
@@ -312,7 +312,7 @@
     },
     {
       "name": "security-checkup",
-      "source": "./plugins/sysadmin/security-checkup-plugin",
+      "source": "https://github.com/danielrosehill/security-checkup-plugin",
       "description": "Claude Code plugin for security audits, vulnerability scanning, firewall configuration, and system security hardening workflows.",
       "version": "1.0.0",
       "author": {
@@ -325,7 +325,7 @@
     },
     {
       "name": "server-management",
-      "source": "./plugins/sysadmin/server-management-plugin",
+      "source": "https://github.com/danielrosehill/server-management-plugin",
       "description": "Claude Code plugin for server infrastructure management, monitoring, deployment, and server administration workflows.",
       "version": "1.0.0",
       "author": {
@@ -338,7 +338,7 @@
     },
     {
       "name": "system",
-      "source": "./plugins/sysadmin/system-plugin",
+      "source": "https://github.com/danielrosehill/system-admin-plugin",
       "description": "Claude Code plugin for system administration, hardware profiling, backup management, and general system maintenance workflows.",
       "version": "1.0.0",
       "author": {
@@ -351,7 +351,7 @@
     },
     {
       "name": "writing-editing",
-      "source": "./plugins/writing/writing-editing-plugin",
+      "source": "https://github.com/danielrosehill/writing-editing-plugin",
       "description": "Claude Code plugin for writing assistance, proofreading, style editing, and text transformation workflows.",
       "version": "1.0.0",
       "author": {

@@ -1,1 +1,0 @@
-Add a git hook which should seed .gitkeep folders into every folder lacking one before push
