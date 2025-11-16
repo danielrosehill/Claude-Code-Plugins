@@ -10,33 +10,28 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 | Plugin Name | Description | Installation Command |
 |------------|-------------|---------------------|
-| **AI Tools** | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | `/plugin install ai-tools@danielrosehill-plugins` |
-| **Audio Editing** | Audio editing and processing tools | `/plugin install audio-editing@danielrosehill-plugins` |
-| **Claude Code** | Claude Code project setup, agents, context management, slash commands | `/plugin install claude-code@danielrosehill-plugins` |
-| **Conda Management** | Conda environment management, backup, validation, cleanup | `/plugin install conda-management@danielrosehill-plugins` |
-| **Context Toolkit** | Context management and organization tools | `/plugin install context-toolkit@danielrosehill-plugins` |
-| **Debugging** | Debugging tools, log analysis, crash diagnosis, boot troubleshooting | `/plugin install debugging@danielrosehill-plugins` |
-| **Development** | Development tools, IDEs, CI/CD, package management, project setup | `/plugin install development@danielrosehill-plugins` |
-| **Diary Planner** | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill-plugins` |
-| **Docker Asist** | Docker assistance and container management | `/plugin install docker-asist@danielrosehill-plugins` |
-| **Documentation** | README creation, markdown editing, changelog generation, badges | `/plugin install documentation@danielrosehill-plugins` |
-| **Files & Folder Org** | File and folder organization utilities | `/plugin install files-and-folder-org@danielrosehill-plugins` |
-| **Git & GitHub** | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill-plugins` |
-| **Home Assistant Manager** | Home Assistant management and automation | `/plugin install home-assistant-manager@danielrosehill-plugins` |
-| **Home Budget Helper** | Personal budgeting and financial management | `/plugin install home-budget-helper@danielrosehill-plugins` |
-| **Ideation** | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill-plugins` |
-| **Image Editing** | Image editing and processing tools | `/plugin install image-editing@danielrosehill-plugins` |
-| **LAN Manager** | Local network management | `/plugin install lan-manager@danielrosehill-plugins` |
-| **Learning** | Code analysis, commit analysis, learning resources, tutorials | `/plugin install learning@danielrosehill-plugins` |
-| **Linux Desktop** | KDE settings, display management, system health, hardware profiling | `/plugin install linux-desktop@danielrosehill-plugins` |
-| **Linux Server** | Server management and administration tools | `/plugin install linux-server@danielrosehill-plugins` |
-| **Security Checkup** | Security audits and checkups | `/plugin install security-checkup@danielrosehill-plugins` |
-| **SEO** | SEO optimization, audits, and reviews | `/plugin install seo@danielrosehill-plugins` |
-| **Server Management** | Server administration, deployment, monitoring, backups | `/plugin install server-management@danielrosehill-plugins` |
-| **System** | System configuration, monitoring, and maintenance | `/plugin install system@danielrosehill-plugins` |
-| **Tech Research** | Technology research and documentation tools | `/plugin install tech-research@danielrosehill-plugins` |
-| **Video Editing** | Video editing and processing tools | `/plugin install video-editing@danielrosehill-plugins` |
-| **Writing & Editing** | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill-plugins` |
+| **AI Tools** | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | `/plugin install ai-tools@danielrosehill` |
+| **Audio Editing** | Audio editing and processing tools | `/plugin install audio-editing@danielrosehill` |
+| **Context Toolkit** | Context management and organization tools | `/plugin install context-toolkit@danielrosehill` |
+| **Diary Planner** | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill` |
+| **Fix Documentation** | Automated technical documentation generation and code documentation workflows | `/plugin install fix-documentation@danielrosehill` |
+| **Filesystem Organisation** | File system organization, folder structure optimization, and file management automation | `/plugin install filesystem-organisation@danielrosehill` |
+| **Git & GitHub** | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
+| **Home Assistant Manager** | Home Assistant management and automation | `/plugin install home-assistant-manager@danielrosehill` |
+| **Home Budget Helper** | Personal budgeting and financial management | `/plugin install home-budget-helper@danielrosehill` |
+| **Ideation** | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill` |
+| **Image Editing** | Image editing and processing tools | `/plugin install image-editing@danielrosehill` |
+| **LAN Manager** | Local network management | `/plugin install lan-manager@danielrosehill` |
+| **Learning** | Code analysis, commit analysis, learning resources, tutorials | `/plugin install learning@danielrosehill` |
+| **Linux Desktop** | KDE settings, display management, system health, hardware profiling | `/plugin install linux-desktop-mgmt@danielrosehill` |
+| **Linux Server** | Server management and administration tools | `/plugin install linux-server-mgmt@danielrosehill` |
+| **Security Checkup** | Security audits and checkups | `/plugin install security-checkup@danielrosehill` |
+| **SEO** | SEO optimization, audits, and reviews | `/plugin install seo@danielrosehill` |
+| **System** | System configuration, monitoring, and maintenance | `/plugin install system@danielrosehill` |
+| **Tech Docs** | README creation, markdown editing, changelog generation, badges | `/plugin install tech-docs@danielrosehill` |
+| **Tech Research** | Technology research and documentation tools | `/plugin install tech-research@danielrosehill` |
+| **Video Editing** | Video editing and processing tools | `/plugin install video-editing@danielrosehill` |
+| **Writing & Editing** | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill` |
 
 ## Installation
 
@@ -53,14 +48,14 @@ First, add this marketplace to your Claude Code installation:
 After adding the marketplace, install any plugin:
 
 ```bash
-/plugin install {plugin-name}@danielrosehill-plugins
+/plugin install {plugin-name}@danielrosehill
 ```
 
 **Examples:**
 ```bash
-/plugin install ai-tools@danielrosehill-plugins
-/plugin install development@danielrosehill-plugins
-/plugin install writing-editing@danielrosehill-plugins
+/plugin install ai-tools@danielrosehill
+/plugin install git-github@danielrosehill
+/plugin install writing-editing@danielrosehill
 ```
 
 ### Install Multiple Plugins
@@ -70,24 +65,21 @@ You can install multiple plugins by repeating the installation command for each 
 ## Plugin Categories
 
 ### Development & Tools
-- **Development** - Comprehensive development workflow tools
-- **Docker Asist** - Container management
 - **Git & GitHub** - Version control utilities
-- **Debugging** - Troubleshooting and diagnostics
 
 ### AI & Machine Learning
 - **AI Tools** - Complete AI development toolkit
-- **Conda Management** - Python environment management
 
 ### System Administration
 - **Linux Desktop** - Desktop environment management
 - **Linux Server** - Server administration
 - **System** - System configuration and monitoring
-- **Server Management** - Server deployment and operations
 - **LAN Manager** - Local network management
+- **Security Checkup** - Security audits and vulnerability scanning
 
 ### Content & Documentation
-- **Documentation** - Technical writing and README generation
+- **Tech Docs** - Technical writing and README generation
+- **Fix Documentation** - Automated documentation generation
 - **Writing & Editing** - Content editing and proofreading
 - **SEO** - Search engine optimization
 
@@ -97,7 +89,7 @@ You can install multiple plugins by repeating the installation command for each 
 - **Image Editing** - Image processing and editing
 
 ### Productivity & Organization
-- **Files & Folder Org** - File and folder management
+- **Filesystem Organisation** - File and folder management
 - **Context Toolkit** - Context management and organization
 - **Ideation** - Creative brainstorming
 - **Tech Research** - Research utilities
@@ -106,55 +98,51 @@ You can install multiple plugins by repeating the installation command for each 
 - **Diary Planner** - Personal diary and planning
 - **Home Budget Helper** - Personal budgeting and finance
 
-### Security & Home Automation
-- **Security Checkup** - Security audits and vulnerability scanning
+### Home Automation
 - **Home Assistant Manager** - Home Assistant management
 
 ### Specialized
-- **Claude Code** - Claude Code workflow optimization
 - **Learning** - Educational tools and code analysis
 
 ## Popular Plugin Combinations
 
 ### Full Stack Developer Setup
 ```bash
-/plugin install development@danielrosehill-plugins
-/plugin install docker-asist@danielrosehill-plugins
-/plugin install git-github@danielrosehill-plugins
-/plugin install debugging@danielrosehill-plugins
+/plugin install git-github@danielrosehill
+/plugin install tech-docs@danielrosehill
+/plugin install fix-documentation@danielrosehill
 ```
 
 ### AI/ML Developer Setup
 ```bash
-/plugin install ai-tools@danielrosehill-plugins
-/plugin install conda-management@danielrosehill-plugins
-/plugin install development@danielrosehill-plugins
+/plugin install ai-tools@danielrosehill
+/plugin install git-github@danielrosehill
 ```
 
 ### System Administrator Setup
 ```bash
-/plugin install linux-desktop@danielrosehill-plugins
-/plugin install system@danielrosehill-plugins
-/plugin install server-management@danielrosehill-plugins
-/plugin install security-checkup@danielrosehill-plugins
-/plugin install lan-manager@danielrosehill-plugins
+/plugin install linux-desktop-mgmt@danielrosehill
+/plugin install linux-server-mgmt@danielrosehill
+/plugin install system@danielrosehill
+/plugin install security-checkup@danielrosehill
+/plugin install lan-manager@danielrosehill
 ```
 
 ### Content Creator Setup
 ```bash
-/plugin install writing-editing@danielrosehill-plugins
-/plugin install documentation@danielrosehill-plugins
-/plugin install audio-editing@danielrosehill-plugins
-/plugin install video-editing@danielrosehill-plugins
-/plugin install image-editing@danielrosehill-plugins
+/plugin install writing-editing@danielrosehill
+/plugin install tech-docs@danielrosehill
+/plugin install audio-editing@danielrosehill
+/plugin install video-editing@danielrosehill
+/plugin install image-editing@danielrosehill
 ```
 
 ### Personal Productivity Setup
 ```bash
-/plugin install files-and-folder-org@danielrosehill-plugins
-/plugin install context-toolkit@danielrosehill-plugins
-/plugin install diary-planner@danielrosehill-plugins
-/plugin install home-budget-helper@danielrosehill-plugins
+/plugin install filesystem-organisation@danielrosehill
+/plugin install context-toolkit@danielrosehill
+/plugin install diary-planner@danielrosehill
+/plugin install home-budget-helper@danielrosehill
 ```
 
 ## Plugin Structure

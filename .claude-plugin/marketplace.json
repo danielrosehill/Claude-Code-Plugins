@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "danielrosehill-plugins",
+  "name": "danielrosehill",
   "owner": {
     "name": "Daniel Rosehill",
     "email": "public@danielrosehill.com",
@@ -36,19 +36,6 @@
       },
       "license": "MIT",
       "tags": ["development", "context-toolkit"]
-    },
-    {
-      "name": "debugging",
-      "source": "https://github.com/danielrosehill/debugging-plugin",
-      "description": "Claude Code plugin for debugging workflows, error analysis, troubleshooting assistance, and diagnostic tools.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["development", "debugging"]
     },
     {
       "name": "git-github",
@@ -142,7 +129,7 @@
       "tags": ["misc", "documentation"]
     },
     {
-      "name": "claude-document-this",
+      "name": "fix-documentation",
       "source": "https://github.com/danielrosehill/Claude-Document-This",
       "description": "Claude Code plugin for automated technical documentation generation and code documentation workflows.",
       "version": "1.0.0",
@@ -283,19 +270,6 @@
       },
       "license": "MIT",
       "tags": ["sysadmin", "security-checkup"]
-    },
-    {
-      "name": "server-management",
-      "source": "https://github.com/danielrosehill/server-management-plugin",
-      "description": "Claude Code plugin for server infrastructure management, monitoring, deployment, and server administration workflows.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["sysadmin", "server-management"]
     },
     {
       "name": "system",
