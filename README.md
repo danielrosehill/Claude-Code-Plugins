@@ -10,7 +10,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-### AI Tools
+## AI Tools
 
 AI development, documentation, and context management tools.
 
@@ -20,7 +20,9 @@ AI development, documentation, and context management tools.
 | **Context Toolkit** | Context management and organization tools | `/plugin install context-toolkit@danielrosehill` |
 | **Fix Documentation** | Automated technical documentation generation and code documentation workflows | `/plugin install fix-documentation@danielrosehill` |
 
-### Development Utilities
+---
+
+## Development Utilities
 
 Version control and development tools.
 
@@ -28,7 +30,9 @@ Version control and development tools.
 |------------|-------------|---------------------|
 | **Git & GitHub** | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
 
-### Documentation
+---
+
+## Documentation
 
 Plugins for creating and editing documentation.
 
@@ -37,7 +41,9 @@ Plugins for creating and editing documentation.
 | **Tech Docs** | README creation, markdown editing, changelog generation, badges | `/plugin install tech-docs@danielrosehill` |
 | **Writing & Editing** | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill` |
 
-### Media Management Plugins
+---
+
+## Media Management Plugins
 
 Audio, video, and images: plugins for performing media operations using Claude Code.
 
@@ -47,7 +53,9 @@ Audio, video, and images: plugins for performing media operations using Claude C
 | **Image Editing** | Image editing and processing tools | `/plugin install image-editing@danielrosehill` |
 | **Video Editing** | Video editing and processing tools | `/plugin install video-editing@danielrosehill` |
 
-### Miscellaneous
+---
+
+## Miscellaneous
 
 All other plugins.
 
@@ -58,7 +66,9 @@ All other plugins.
 | **Ideation** | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill` |
 | **SEO** | SEO optimization, audits, and reviews | `/plugin install seo@danielrosehill` |
 
-### OS Management / System Administration
+---
+
+## OS Management / System Administration
 
 Plugins for managing specific filesystems, whether the local environment (Linux desktop) or a Linux server. Also includes specific OS types: Home Assistant OS, OPNsense (work in progress).
 
@@ -71,7 +81,9 @@ Plugins for managing specific filesystems, whether the local environment (Linux 
 | **Linux Server** | Server management and administration tools | `/plugin install linux-server-mgmt@danielrosehill` |
 | **Security Checkup** | Security audits and checkups | `/plugin install security-checkup@danielrosehill` |
 
-### Research
+---
+
+## Research
 
 Plugins for deep research and specific types of research.
 
@@ -108,48 +120,6 @@ After adding the marketplace, install any plugin:
 ### Install Multiple Plugins
 
 You can install multiple plugins by repeating the installation command for each one you need.
-
-## Plugin Categories
-
-### Development & Tools
-- **Git & GitHub** - Version control utilities
-
-### AI & Machine Learning
-- **AI Tools** - Complete AI development toolkit
-
-### System Administration
-- **Linux Desktop** - Desktop environment management
-- **Linux Server** - Server administration
-- **System** - System configuration and monitoring
-- **LAN Manager** - Local network management
-- **Security Checkup** - Security audits and vulnerability scanning
-
-### Content & Documentation
-- **Tech Docs** - Technical writing and README generation
-- **Fix Documentation** - Automated documentation generation
-- **Writing & Editing** - Content editing and proofreading
-- **SEO** - Search engine optimization
-
-### Media & Creative
-- **Audio Editing** - Audio processing and editing
-- **Video Editing** - Video editing and processing
-- **Image Editing** - Image processing and editing
-
-### Productivity & Organization
-- **Filesystem Organisation** - File and folder management
-- **Context Toolkit** - Context management and organization
-- **Ideation** - Creative brainstorming
-- **Tech Research** - Research utilities
-
-### Personal & Lifestyle
-- **Diary Planner** - Personal diary and planning
-- **Home Budget Helper** - Personal budgeting and finance
-
-### Home Automation
-- **Home Assistant Manager** - Home Assistant management
-
-### Specialized
-- **Learning** - Educational tools and code analysis
 
 ## Popular Plugin Combinations
 
