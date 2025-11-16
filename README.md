@@ -32,7 +32,6 @@ Plugins for managing specific filesystems, whether the local environment (Linux 
 | **Linux Desktop** | KDE settings, display management, system health, hardware profiling | `/plugin install linux-desktop-mgmt@danielrosehill` |
 | **Linux Server** | Server management and administration tools | `/plugin install linux-server-mgmt@danielrosehill` |
 | **Security Checkup** | Security audits and checkups | `/plugin install security-checkup@danielrosehill` |
-| **System** | System configuration, monitoring, and maintenance | `/plugin install system@danielrosehill` |
 
 ### Documentation
 
@@ -40,7 +39,6 @@ Plugins for creating and editing documentation.
 
 | Plugin Name | Description | Installation Command |
 |------------|-------------|---------------------|
-| **Fix Documentation** | Automated technical documentation generation and code documentation workflows | `/plugin install fix-documentation@danielrosehill` |
 | **Tech Docs** | README creation, markdown editing, changelog generation, badges | `/plugin install tech-docs@danielrosehill` |
 | **Writing & Editing** | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill` |
 
@@ -62,6 +60,7 @@ All other plugins.
 | **AI Tools** | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | `/plugin install ai-tools@danielrosehill` |
 | **Context Toolkit** | Context management and organization tools | `/plugin install context-toolkit@danielrosehill` |
 | **Diary Planner** | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill` |
+| **Fix Documentation** | Automated technical documentation generation and code documentation workflows | `/plugin install fix-documentation@danielrosehill` |
 | **Git & GitHub** | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
 | **Home Budget Helper** | Personal budgeting and financial management | `/plugin install home-budget-helper@danielrosehill` |
 | **Ideation** | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill` |

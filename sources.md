@@ -26,7 +26,6 @@ This document lists all plugin repositories included as git submodules in this m
 | linux-desktop-plugin | [https://github.com/danielrosehill/linux-desktop-plugin](https://github.com/danielrosehill/linux-desktop-plugin) | `plugins/linux-desktop-plugin` |
 | linux-server-plugin | [https://github.com/danielrosehill/linux-server-plugin](https://github.com/danielrosehill/linux-server-plugin) | `plugins/linux-server-plugin` |
 | security-checkup-plugin | [https://github.com/danielrosehill/security-checkup-plugin](https://github.com/danielrosehill/security-checkup-plugin) | `plugins/security-checkup-plugin` |
-| system-admin-plugin | [https://github.com/danielrosehill/system-admin-plugin](https://github.com/danielrosehill/system-admin-plugin) | `plugins/system-admin-plugin` |
 | writing-editing-plugin | [https://github.com/danielrosehill/writing-editing-plugin](https://github.com/danielrosehill/writing-editing-plugin) | `plugins/writing-editing-plugin` |
 
 ## About Git Submodules

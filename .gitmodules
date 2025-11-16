@@ -58,9 +58,6 @@
 [submodule "plugins/security-checkup-plugin"]
 	path = plugins/security-checkup-plugin
 	url = https://github.com/danielrosehill/security-checkup-plugin
-[submodule "plugins/system-admin-plugin"]
-	path = plugins/system-admin-plugin
-	url = https://github.com/danielrosehill/system-admin-plugin
 [submodule "plugins/writing-editing-plugin"]
 	path = plugins/writing-editing-plugin
 	url = https://github.com/danielrosehill/writing-editing-plugin
