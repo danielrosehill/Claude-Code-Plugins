@@ -25,6 +25,32 @@
       "tags": ["ai-utilities", "ai-tools"]
     },
     {
+      "name": "claude-code",
+      "source": "https://github.com/danielrosehill/claude-code-plugin",
+      "description": "Claude Code plugin for managing Claude Code configuration, slash commands, agents, and plugin development workflow.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "claude-code"]
+    },
+    {
+      "name": "conda-management",
+      "source": "https://github.com/danielrosehill/conda-management-plugin",
+      "description": "Claude Code plugin for managing Conda environments, packages, and Python virtual environment workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "conda-management"]
+    },
+    {
       "name": "context-toolkit",
       "source": "https://github.com/danielrosehill/context-toolkit-plugin",
       "description": "A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.",
@@ -49,6 +75,32 @@
       },
       "license": "MIT",
       "tags": ["development", "debugging"]
+    },
+    {
+      "name": "docker-asist",
+      "source": "https://github.com/danielrosehill/docker-asist-plugin",
+      "description": "Claude Code plugin for Docker container management, containerization workflows, and Docker troubleshooting assistance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "docker-asist"]
+    },
+    {
+      "name": "development",
+      "source": "https://github.com/danielrosehill/general-dev-plugin",
+      "description": "Claude Code plugin for software development workflows, code generation, refactoring, and general development assistance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "general-dev"]
     },
     {
       "name": "git-github",
@@ -129,22 +181,9 @@
       "tags": ["misc", "diary-planner"]
     },
     {
-      "name": "tech-docs",
+      "name": "documentation",
       "source": "https://github.com/danielrosehill/documentation-plugin",
       "description": "Claude Code plugin for documentation generation, technical writing, README creation, and documentation management workflows.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["misc", "documentation"]
-    },
-    {
-      "name": "claude-document-this",
-      "source": "https://github.com/danielrosehill/Claude-Document-This",
-      "description": "Claude Code plugin for automated technical documentation generation and code documentation workflows.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -220,7 +259,7 @@
       "tags": ["smart-home", "home-assistant-manager"]
     },
     {
-      "name": "filesystem-organisation",
+      "name": "files-and-folder-org",
       "source": "https://github.com/danielrosehill/filesystem-org-plugin",
       "description": "Claude Code plugin for file system organization, folder structure optimization, and file management automation workflows.",
       "version": "1.0.0",
@@ -246,7 +285,7 @@
       "tags": ["sysadmin", "lan-manager"]
     },
     {
-      "name": "linux-desktop-mgmt",
+      "name": "linux-desktop",
       "source": "https://github.com/danielrosehill/linux-desktop-plugin",
       "description": "Claude Code plugin for Linux desktop environment management, KDE/Plasma configuration, and desktop system administration.",
       "version": "1.0.0",
@@ -259,7 +298,7 @@
       "tags": ["sysadmin", "linux-desktop"]
     },
     {
-      "name": "linux-server-mgmt",
+      "name": "linux-server",
       "source": "https://github.com/danielrosehill/linux-server-plugin",
       "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.",
       "version": "1.0.0",
