@@ -140,7 +140,6 @@ You can install multiple plugins by repeating the installation command for each 
 ```bash
 /plugin install linux-desktop-mgmt@danielrosehill
 /plugin install linux-server-mgmt@danielrosehill
-/plugin install system@danielrosehill
 /plugin install security-checkup@danielrosehill
 /plugin install lan-manager@danielrosehill
 ```
