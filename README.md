@@ -10,6 +10,33 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
+### AI Tools
+
+AI development, documentation, and context management tools.
+
+| Plugin Name | Description | Installation Command |
+|------------|-------------|---------------------|
+| **AI Tools** | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | `/plugin install ai-tools@danielrosehill` |
+| **Context Toolkit** | Context management and organization tools | `/plugin install context-toolkit@danielrosehill` |
+| **Fix Documentation** | Automated technical documentation generation and code documentation workflows | `/plugin install fix-documentation@danielrosehill` |
+
+### Development Utilities
+
+Version control and development tools.
+
+| Plugin Name | Description | Installation Command |
+|------------|-------------|---------------------|
+| **Git & GitHub** | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
+
+### Documentation
+
+Plugins for creating and editing documentation.
+
+| Plugin Name | Description | Installation Command |
+|------------|-------------|---------------------|
+| **Tech Docs** | README creation, markdown editing, changelog generation, badges | `/plugin install tech-docs@danielrosehill` |
+| **Writing & Editing** | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill` |
+
 ### Media Management Plugins
 
 Audio, video, and images: plugins for performing media operations using Claude Code.
@@ -19,6 +46,17 @@ Audio, video, and images: plugins for performing media operations using Claude C
 | **Audio Editing** | Audio editing and processing tools | `/plugin install audio-editing@danielrosehill` |
 | **Image Editing** | Image editing and processing tools | `/plugin install image-editing@danielrosehill` |
 | **Video Editing** | Video editing and processing tools | `/plugin install video-editing@danielrosehill` |
+
+### Miscellaneous
+
+All other plugins.
+
+| Plugin Name | Description | Installation Command |
+|------------|-------------|---------------------|
+| **Diary Planner** | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill` |
+| **Home Budget Helper** | Personal budgeting and financial management | `/plugin install home-budget-helper@danielrosehill` |
+| **Ideation** | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill` |
+| **SEO** | SEO optimization, audits, and reviews | `/plugin install seo@danielrosehill` |
 
 ### OS Management / System Administration
 
@@ -33,15 +71,6 @@ Plugins for managing specific filesystems, whether the local environment (Linux 
 | **Linux Server** | Server management and administration tools | `/plugin install linux-server-mgmt@danielrosehill` |
 | **Security Checkup** | Security audits and checkups | `/plugin install security-checkup@danielrosehill` |
 
-### Documentation
-
-Plugins for creating and editing documentation.
-
-| Plugin Name | Description | Installation Command |
-|------------|-------------|---------------------|
-| **Tech Docs** | README creation, markdown editing, changelog generation, badges | `/plugin install tech-docs@danielrosehill` |
-| **Writing & Editing** | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill` |
-
 ### Research
 
 Plugins for deep research and specific types of research.
@@ -50,21 +79,6 @@ Plugins for deep research and specific types of research.
 |------------|-------------|---------------------|
 | **Learning** | Code analysis, commit analysis, learning resources, tutorials | `/plugin install learning@danielrosehill` |
 | **Tech Research** | Technology research and documentation tools | `/plugin install tech-research@danielrosehill` |
-
-### Miscellaneous
-
-All other plugins.
-
-| Plugin Name | Description | Installation Command |
-|------------|-------------|---------------------|
-| **AI Tools** | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | `/plugin install ai-tools@danielrosehill` |
-| **Context Toolkit** | Context management and organization tools | `/plugin install context-toolkit@danielrosehill` |
-| **Diary Planner** | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill` |
-| **Fix Documentation** | Automated technical documentation generation and code documentation workflows | `/plugin install fix-documentation@danielrosehill` |
-| **Git & GitHub** | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
-| **Home Budget Helper** | Personal budgeting and financial management | `/plugin install home-budget-helper@danielrosehill` |
-| **Ideation** | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill` |
-| **SEO** | SEO optimization, audits, and reviews | `/plugin install seo@danielrosehill` |
 
 ## Installation
 
