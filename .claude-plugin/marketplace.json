@@ -272,19 +272,6 @@
       "tags": ["sysadmin", "security-checkup"]
     },
     {
-      "name": "system",
-      "source": "./plugins/system-admin-plugin",
-      "description": "Claude Code plugin for system administration, hardware profiling, backup management, and general system maintenance workflows.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": ["sysadmin", "system"]
-    },
-    {
       "name": "writing-editing",
       "source": "./plugins/writing-editing-plugin",
       "description": "Claude Code plugin for writing assistance, proofreading, style editing, and text transformation workflows.",
