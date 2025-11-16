@@ -16,9 +16,9 @@ AI development, documentation, and context management tools.
 
 | Plugin Name | Repository | Description | Installation Command |
 |------------|------------|-------------|---------------------|
-| **AI Tools** | [![Repo](https://img.shields.io/badge/repo-ai--tools--plugin-blue?logo=github)](https://github.com/danielrosehill/ai-tools-plugin) | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | `/plugin install ai-tools@danielrosehill` |
-| **Context Toolkit** | [![Repo](https://img.shields.io/badge/repo-context--toolkit--plugin-blue?logo=github)](https://github.com/danielrosehill/context-toolkit-plugin) | Context management and organization tools | `/plugin install context-toolkit@danielrosehill` |
-| **Fix Documentation** | [![Repo](https://img.shields.io/badge/repo-Claude--Document--This-blue?logo=github)](https://github.com/danielrosehill/Claude-Document-This) | Automated technical documentation generation and code documentation workflows | `/plugin install fix-documentation@danielrosehill` |
+| **AI Tools** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ai-tools-plugin) | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | `/plugin install ai-tools@danielrosehill` |
+| **Context Toolkit** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/context-toolkit-plugin) | Context management and organization tools | `/plugin install context-toolkit@danielrosehill` |
+| **Fix Documentation** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Document-This) | Automated technical documentation generation and code documentation workflows | `/plugin install fix-documentation@danielrosehill` |
 
 ---
 
@@ -28,7 +28,7 @@ Version control and development tools.
 
 | Plugin Name | Repository | Description | Installation Command |
 |------------|------------|-------------|---------------------|
-| **Git & GitHub** | [![Repo](https://img.shields.io/badge/repo-git--github--plugin-blue?logo=github)](https://github.com/danielrosehill/git-github-plugin) | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
+| **Git & GitHub** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/git-github-plugin) | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
 
 ---
 
@@ -38,8 +38,8 @@ Plugins for creating and editing documentation.
 
 | Plugin Name | Repository | Description | Installation Command |
 |------------|------------|-------------|---------------------|
-| **Tech Docs** | [![Repo](https://img.shields.io/badge/repo-documentation--plugin-blue?logo=github)](https://github.com/danielrosehill/documentation-plugin) | README creation, markdown editing, changelog generation, badges | `/plugin install tech-docs@danielrosehill` |
-| **Writing & Editing** | [![Repo](https://img.shields.io/badge/repo-writing--editing--plugin-blue?logo=github)](https://github.com/danielrosehill/writing-editing-plugin) | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill` |
+| **Tech Docs** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/documentation-plugin) | README creation, markdown editing, changelog generation, badges | `/plugin install tech-docs@danielrosehill` |
+| **Writing & Editing** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/writing-editing-plugin) | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill` |
 
 ---
 
@@ -49,9 +49,9 @@ Audio, video, and images: plugins for performing media operations using Claude C
 
 | Plugin Name | Repository | Description | Installation Command |
 |------------|------------|-------------|---------------------|
-| **Audio Editing** | [![Repo](https://img.shields.io/badge/repo-audio--editing--plugin-blue?logo=github)](https://github.com/danielrosehill/audio-editing-plugin) | Audio editing and processing tools | `/plugin install audio-editing@danielrosehill` |
-| **Image Editing** | [![Repo](https://img.shields.io/badge/repo-image--editing--plugin-blue?logo=github)](https://github.com/danielrosehill/image-editing-plugin) | Image editing and processing tools | `/plugin install image-editing@danielrosehill` |
-| **Video Editing** | [![Repo](https://img.shields.io/badge/repo-video--editing--plugin-blue?logo=github)](https://github.com/danielrosehill/video-editing-plugin) | Video editing and processing tools | `/plugin install video-editing@danielrosehill` |
+| **Audio Editing** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/audio-editing-plugin) | Audio editing and processing tools | `/plugin install audio-editing@danielrosehill` |
+| **Image Editing** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/image-editing-plugin) | Image editing and processing tools | `/plugin install image-editing@danielrosehill` |
+| **Video Editing** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/video-editing-plugin) | Video editing and processing tools | `/plugin install video-editing@danielrosehill` |
 
 ---
 
@@ -61,10 +61,10 @@ All other plugins.
 
 | Plugin Name | Repository | Description | Installation Command |
 |------------|------------|-------------|---------------------|
-| **Diary Planner** | [![Repo](https://img.shields.io/badge/repo-diary--planner--plugin-blue?logo=github)](https://github.com/danielrosehill/diary-planner-plugin) | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill` |
-| **Home Budget Helper** | [![Repo](https://img.shields.io/badge/repo-home--budget--helper--plugin-blue?logo=github)](https://github.com/danielrosehill/home-budget-helper-plugin) | Personal budgeting and financial management | `/plugin install home-budget-helper@danielrosehill` |
-| **Ideation** | [![Repo](https://img.shields.io/badge/repo-ideation--plugin-blue?logo=github)](https://github.com/danielrosehill/ideation-plugin) | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill` |
-| **SEO** | [![Repo](https://img.shields.io/badge/repo-seo--plugin-blue?logo=github)](https://github.com/danielrosehill/seo-plugin) | SEO optimization, audits, and reviews | `/plugin install seo@danielrosehill` |
+| **Diary Planner** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/diary-planner-plugin) | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill` |
+| **Home Budget Helper** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/home-budget-helper-plugin) | Personal budgeting and financial management | `/plugin install home-budget-helper@danielrosehill` |
+| **Ideation** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ideation-plugin) | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill` |
+| **SEO** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/seo-plugin) | SEO optimization, audits, and reviews | `/plugin install seo@danielrosehill` |
 
 ---
 
@@ -74,12 +74,12 @@ Plugins for managing specific filesystems, whether the local environment (Linux 
 
 | Plugin Name | Repository | Description | Installation Command |
 |------------|------------|-------------|---------------------|
-| **Filesystem Organisation** | [![Repo](https://img.shields.io/badge/repo-filesystem--org--plugin-blue?logo=github)](https://github.com/danielrosehill/filesystem-org-plugin) | File system organization, folder structure optimization, and file management automation | `/plugin install filesystem-organisation@danielrosehill` |
-| **Home Assistant Manager** | [![Repo](https://img.shields.io/badge/repo-home--assistant--manager--plugin-blue?logo=github)](https://github.com/danielrosehill/home-assistant-manager-plugin) | Home Assistant management and automation | `/plugin install home-assistant-manager@danielrosehill` |
-| **LAN Manager** | [![Repo](https://img.shields.io/badge/repo-lan--manager--plugin-blue?logo=github)](https://github.com/danielrosehill/lan-manager-plugin) | Local network management | `/plugin install lan-manager@danielrosehill` |
-| **Linux Desktop** | [![Repo](https://img.shields.io/badge/repo-linux--desktop--plugin-blue?logo=github)](https://github.com/danielrosehill/linux-desktop-plugin) | KDE settings, display management, system health, hardware profiling | `/plugin install linux-desktop-mgmt@danielrosehill` |
-| **Linux Server** | [![Repo](https://img.shields.io/badge/repo-linux--server--plugin-blue?logo=github)](https://github.com/danielrosehill/linux-server-plugin) | Server management and administration tools | `/plugin install linux-server-mgmt@danielrosehill` |
-| **Security Checkup** | [![Repo](https://img.shields.io/badge/repo-security--checkup--plugin-blue?logo=github)](https://github.com/danielrosehill/security-checkup-plugin) | Security audits and checkups | `/plugin install security-checkup@danielrosehill` |
+| **Filesystem Organisation** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/filesystem-org-plugin) | File system organization, folder structure optimization, and file management automation | `/plugin install filesystem-organisation@danielrosehill` |
+| **Home Assistant Manager** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/home-assistant-manager-plugin) | Home Assistant management and automation | `/plugin install home-assistant-manager@danielrosehill` |
+| **LAN Manager** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/lan-manager-plugin) | Local network management | `/plugin install lan-manager@danielrosehill` |
+| **Linux Desktop** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-desktop-plugin) | KDE settings, display management, system health, hardware profiling | `/plugin install linux-desktop-mgmt@danielrosehill` |
+| **Linux Server** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-server-plugin) | Server management and administration tools | `/plugin install linux-server-mgmt@danielrosehill` |
+| **Security Checkup** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/security-checkup-plugin) | Security audits and checkups | `/plugin install security-checkup@danielrosehill` |
 
 ---
 
@@ -89,8 +89,8 @@ Plugins for deep research and specific types of research.
 
 | Plugin Name | Repository | Description | Installation Command |
 |------------|------------|-------------|---------------------|
-| **Learning** | [![Repo](https://img.shields.io/badge/repo-learning--plugin-blue?logo=github)](https://github.com/danielrosehill/learning-plugin) | Code analysis, commit analysis, learning resources, tutorials | `/plugin install learning@danielrosehill` |
-| **Tech Research** | [![Repo](https://img.shields.io/badge/repo-tech--research--plugin-blue?logo=github)](https://github.com/danielrosehill/tech-research-plugin) | Technology research and documentation tools | `/plugin install tech-research@danielrosehill` |
+| **Learning** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/learning-plugin) | Code analysis, commit analysis, learning resources, tutorials | `/plugin install learning@danielrosehill` |
+| **Tech Research** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/tech-research-plugin) | Technology research and documentation tools | `/plugin install tech-research@danielrosehill` |
 
 ## Installation
 
