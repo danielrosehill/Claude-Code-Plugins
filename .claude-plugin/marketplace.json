@@ -286,7 +286,10 @@
     },
     {
       "name": "make-agent-friendly",
-      "source": "./plugins/make-agent-friendly-plugin",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Make-Agent-Friendly"
+      },
       "description": "Prepares human-developed codebases for agentic development with structured refactoring, CLAUDE.md creation, and agent-friendly infrastructure.",
       "version": "1.0.0",
       "author": {
