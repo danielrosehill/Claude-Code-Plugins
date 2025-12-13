@@ -61,3 +61,6 @@
 [submodule "plugins/writing-editing-plugin"]
 	path = plugins/writing-editing-plugin
 	url = https://github.com/danielrosehill/writing-editing-plugin
+[submodule "plugins/make-agent-friendly-plugin"]
+	path = plugins/make-agent-friendly-plugin
+	url = https://github.com/danielrosehill/Make-Agent-Friendly.git

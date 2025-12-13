@@ -283,6 +283,19 @@
       },
       "license": "MIT",
       "tags": ["writing", "writing-editing"]
+    },
+    {
+      "name": "make-agent-friendly",
+      "source": "./plugins/make-agent-friendly-plugin",
+      "description": "Prepares human-developed codebases for agentic development with structured refactoring, CLAUDE.md creation, and agent-friendly infrastructure.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "agentic-development"]
     }
   ]
 }
