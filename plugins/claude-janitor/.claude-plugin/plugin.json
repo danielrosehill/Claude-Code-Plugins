@@ -1,0 +1,66 @@
+{
+  "name": "claude-janitor",
+  "description": "Repository cleanup toolkit with automated operations for removing clutter, organizing structure, and polishing documentation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrosehill/Claude-Janitor"
+  },
+  "keywords": [
+    "cleanup",
+    "repository-management",
+    "documentation",
+    "organization",
+    "automation",
+    "janitor"
+  ],
+  "commands": [
+    {
+      "name": "janitor-full-cleanup",
+      "description": "Run complete repository cleanup (all operations sequentially)",
+      "path": ".claude/commands/janitor-full-cleanup.md"
+    },
+    {
+      "name": "clean-docs",
+      "description": "Clean documentation by removing emojis and hyperbolic language",
+      "path": ".claude/commands/clean-docs.md"
+    },
+    {
+      "name": "remove-legacy-code",
+      "description": "Identify and remove old legacy code",
+      "path": ".claude/commands/remove-legacy-code.md"
+    },
+    {
+      "name": "remove-script-clutter",
+      "description": "Remove single-purpose diagnostic and testing scripts",
+      "path": ".claude/commands/remove-script-clutter.md"
+    },
+    {
+      "name": "remove-doc-sprawl",
+      "description": "Remove unnecessary AI-generated documentation sprawl",
+      "path": ".claude/commands/remove-doc-sprawl.md"
+    },
+    {
+      "name": "organize-structure",
+      "description": "Reorganize repository structure for better organization",
+      "path": ".claude/commands/organize-structure.md"
+    },
+    {
+      "name": "separate-code-docs",
+      "description": "Separate code from documentation at top-folder level",
+      "path": ".claude/commands/separate-code-docs.md"
+    }
+  ],
+  "agents": [
+    {
+      "name": "repo-janitor",
+      "description": "Repository cleanup orchestrator agent",
+      "path": ".claude/agents/repo-janitor.md"
+    }
+  ]
+}
