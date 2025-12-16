@@ -7,7 +7,6 @@ This document lists all plugin repositories included as git submodules in this m
 | Plugin Name | Repository URL | Local Path |
 |------------|----------------|------------|
 | ai-tools-plugin | [https://github.com/danielrosehill/ai-tools-plugin](https://github.com/danielrosehill/ai-tools-plugin) | `plugins/ai-tools-plugin` |
-| claude-janitor | [https://github.com/danielrosehill/Claude-Janitor](https://github.com/danielrosehill/Claude-Janitor) | `plugins/claude-janitor` |
 | context-toolkit-plugin | [https://github.com/danielrosehill/context-toolkit-plugin](https://github.com/danielrosehill/context-toolkit-plugin) | `plugins/context-toolkit-plugin` |
 | git-github-plugin | [https://github.com/danielrosehill/git-github-plugin](https://github.com/danielrosehill/git-github-plugin) | `plugins/git-github-plugin` |
 | home-budget-helper-plugin | [https://github.com/danielrosehill/home-budget-helper-plugin](https://github.com/danielrosehill/home-budget-helper-plugin) | `plugins/home-budget-helper-plugin` |
