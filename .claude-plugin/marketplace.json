@@ -60,6 +60,22 @@
       "tags": ["development", "git-github"]
     },
     {
+      "name": "claude-janitor",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Janitor"
+      },
+      "description": "Repository cleanup toolkit with automated operations for removing clutter, organizing structure, and polishing documentation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "repository-cleanup"]
+    },
+    {
       "name": "home-budget-helper",
       "source": {
         "source": "github",
