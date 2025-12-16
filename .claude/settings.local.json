@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:code.claude.com)",
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "Bash(echo:*)",
+      "Bash(gh repo delete:*)",
+      "Bash(tree:*)",
+      "Bash(/home/daniel/repos/github/Claude-Code-Plugins/reformat-plugins.sh)",
+      "Bash(if [ -f \"/home/daniel/repos/github/Claude-Code-Plugins/plugins/$plugin/.claude-plugin/plugin.json\" ])",
+      "Bash(then echo \"  ✓ plugin.json exists\")",
+      "Bash(else echo \"  ✗ plugin.json missing\")",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(for plugin in home-budget-helper career-planner diary-planner home-assistant-manager lan-manager)",
+      "Bash(do)",
+      "Bash([ -d \"/home/daniel/repos/github/Claude-Code-Plugins/plugins/$plugin/commands\" ])",
+      "Bash([ -d \"/home/daniel/repos/github/Claude-Code-Plugins/plugins/$plugin/agents\" ])",
+      "Bash([ -d \"/home/daniel/repos/github/Claude-Code-Plugins/plugins/$plugin/.claude-plugin\" ])",
+      "Bash([ -f \"/home/daniel/repos/github/Claude-Code-Plugins/plugins/$plugin/.claude-plugin/plugin.json\" ])",
+      "Bash(jq:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(rm:*)",
+      "Bash(git filter-repo:*)",
+      "Bash(git remote add:*)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)",
+      "Bash(node:*)",
+      "Bash(sed:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
