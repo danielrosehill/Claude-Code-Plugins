@@ -27,5 +27,5 @@ This document lists all plugin repositories included as git submodules in this m
 | linux-server-plugin | [https://github.com/danielrosehill/linux-server-plugin](https://github.com/danielrosehill/linux-server-plugin) | `plugins/linux-server-plugin` |
 | security-checkup-plugin | [https://github.com/danielrosehill/security-checkup-plugin](https://github.com/danielrosehill/security-checkup-plugin) | `plugins/security-checkup-plugin` |
 | writing-editing-plugin | [https://github.com/danielrosehill/writing-editing-plugin](https://github.com/danielrosehill/writing-editing-plugin) | `plugins/writing-editing-plugin` |
+| user-manual-plugin | [https://github.com/danielrosehill/user-manual-plugin](https://github.com/danielrosehill/user-manual-plugin) | `plugins/user-manual-plugin` |
 
- 
