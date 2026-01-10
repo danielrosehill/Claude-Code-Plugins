@@ -378,6 +378,22 @@
       },
       "license": "MIT",
       "tags": ["development", "agentic-development"]
+    },
+    {
+      "name": "qa-team",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-QA-Team"
+      },
+      "description": "A multi-agent QA system for comprehensive code review and quality validation with specialized agents for general QA, cleanup, documentation, API review, performance optimization, and deployment review.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "qa", "code-review"]
     }
   ]
 }
