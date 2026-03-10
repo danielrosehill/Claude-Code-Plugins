@@ -28,4 +28,5 @@ This document lists all plugin repositories included as git submodules in this m
 | security-checkup-plugin | [https://github.com/danielrosehill/security-checkup-plugin](https://github.com/danielrosehill/security-checkup-plugin) | `plugins/security-checkup-plugin` |
 | writing-editing-plugin | [https://github.com/danielrosehill/writing-editing-plugin](https://github.com/danielrosehill/writing-editing-plugin) | `plugins/writing-editing-plugin` |
 | user-manual-plugin | [https://github.com/danielrosehill/user-manual-plugin](https://github.com/danielrosehill/user-manual-plugin) | `plugins/user-manual-plugin` |
+| repo-retrofitter-plugin | [https://github.com/danielrosehill/Claude-Repo-Retrofitter](https://github.com/danielrosehill/Claude-Repo-Retrofitter) | `plugins/repo-retrofitter-plugin` |
 

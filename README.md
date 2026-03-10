@@ -30,6 +30,7 @@ Version control and development tools.
 |------------|------------|-------------|---------------------|
 | **Claude Janitor** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Janitor) | Repository cleanup toolkit: remove clutter, organize structure, polish documentation | `/plugin install claude-janitor@danielrosehill` |
 | **Git & GitHub** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/git-github-plugin) | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
+| **Repo Retrofitter** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) | Bulk-retrofit repos with AI agent scaffolding (CLAUDE.md, commands, agents, MCP recommendations) | `/plugin install repo-retrofitter@danielrosehill` |
 
 ---
 
