@@ -348,6 +348,22 @@
       "tags": ["sysadmin", "security-checkup"]
     },
     {
+      "name": "repo-retrofitter",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Repo-Retrofitter"
+      },
+      "description": "Bulk-retrofit repositories with AI agent scaffolding (CLAUDE.md, slash commands, subagents, MCP recommendations). Supports scan, interactive, and fully autonomous modes.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "retrofitting", "scaffolding"]
+    },
+    {
       "name": "writing-editing",
       "source": {
         "source": "github",
