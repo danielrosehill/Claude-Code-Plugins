@@ -394,6 +394,22 @@
       },
       "license": "MIT",
       "tags": ["development", "qa", "code-review"]
+    },
+    {
+      "name": "handover",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Handover"
+      },
+      "description": "AI agent session handover - create and resume from structured handover documents with a dedicated writer subagent. Includes full handoff sequence with Konsole spawn.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "agent-handover", "session-continuity"]
     }
   ]
 }
