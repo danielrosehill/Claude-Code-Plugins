@@ -428,6 +428,22 @@
       "tags": ["development", "retrofitting", "scaffolding"]
     },
     {
+      "name": "israeli-tech-shopping",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Israeli-Tech-Shopping-MCP"
+      },
+      "description": "Comparison shop Israeli tech retailers using BrowserMCP — search KSP, Ivory, Bug, TMS and more with real browser sessions",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["shopping", "israel", "price-comparison"]
+    },
+    {
       "name": "handover",
       "source": {
         "source": "github",
