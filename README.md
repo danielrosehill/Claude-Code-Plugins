@@ -41,7 +41,6 @@ Plugins for creating and editing documentation.
 | Plugin Name | Repository | Description | Installation Command |
 |------------|------------|-------------|---------------------|
 | **Tech Docs** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/documentation-plugin) | README creation, markdown editing, changelog generation, badges | `/plugin install tech-docs@danielrosehill` |
-| **User Manual** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/user-manual-plugin) | Personal user manuals and private documentation with PDF generation | `/plugin install user-manual@danielrosehill` |
 | **Writing & Editing** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/writing-editing-plugin) | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill` |
 
 ---

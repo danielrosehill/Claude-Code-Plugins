@@ -1,6 +1,3 @@
-[submodule "plugins/user-manual-plugin"]
-	path = plugins/user-manual-plugin
-	url = https://github.com/danielrosehill/user-manual-plugin.git
 [submodule "plugins/repo-retrofitter-plugin"]
 	path = plugins/repo-retrofitter-plugin
 	url = https://github.com/danielrosehill/Claude-Repo-Retrofitter.git
