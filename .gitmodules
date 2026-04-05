@@ -4,3 +4,6 @@
 [submodule "plugins/repo-retrofitter-plugin"]
 	path = plugins/repo-retrofitter-plugin
 	url = https://github.com/danielrosehill/Claude-Repo-Retrofitter.git
+[submodule "plugins/Claude-Handover"]
+	path = plugins/Claude-Handover
+	url = https://github.com/danielrosehill/Claude-Handover.git
