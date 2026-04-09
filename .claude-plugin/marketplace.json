@@ -458,6 +458,22 @@
       },
       "license": "MIT",
       "tags": ["development", "agent-handover", "session-continuity"]
+    },
+    {
+      "name": "new-repo-from-template",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/New-Repo-From-Template-Plugin"
+      },
+      "description": "Create a new GitHub repo from any template in danielrosehill/Repo-Starters-And-Templates-Index, fetching the template list live on every run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "scaffolding", "templates", "github"]
     }
   ]
 }
