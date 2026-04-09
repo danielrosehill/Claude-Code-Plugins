@@ -21,6 +21,9 @@ AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text
 ```
 /plugin install ai-tools@danielrosehill
 ```
+
+---
+
 #### Context Toolkit
 
 Context management and organization tools
@@ -42,6 +45,9 @@ Git configuration, LFS, GitHub CLI, repository management
 ```
 /plugin install git-github@danielrosehill
 ```
+
+---
+
 #### New Repo From Template
 
 Create a new GitHub repo from any template in Repo-Starters-And-Templates-Index
@@ -63,6 +69,9 @@ Repository cleanup: remove clutter, organize structure, polish docs
 ```
 /plugin install claude-janitor@danielrosehill
 ```
+
+---
+
 #### Claude Templatizer
 
 Turn existing Claude Code workspace repos into a reusable GitHub template
@@ -72,6 +81,9 @@ Turn existing Claude Code workspace repos into a reusable GitHub template
 ```
 /plugin install claude-templatizer@danielrosehill
 ```
+
+---
+
 #### Make Agent Friendly
 
 Prepare human-developed codebases for agentic development with structured refactoring
@@ -81,6 +93,9 @@ Prepare human-developed codebases for agentic development with structured refact
 ```
 /plugin install make-agent-friendly@danielrosehill
 ```
+
+---
+
 #### Repo Retrofitter
 
 Bulk-retrofit repos with AI agent scaffolding (CLAUDE.md, commands, agents, MCP recs)
@@ -102,6 +117,9 @@ AI agent session handover — create and resume from structured handover documen
 ```
 /plugin install handover@danielrosehill
 ```
+
+---
+
 #### QA Team
 
 Multi-agent QA system for code review, cleanup, docs, API, performance, deployment
@@ -123,6 +141,9 @@ Automated technical documentation generation and code documentation workflows
 ```
 /plugin install fix-documentation@danielrosehill
 ```
+
+---
+
 #### Tech Docs
 
 README creation, markdown editing, changelog generation, badges
@@ -132,6 +153,9 @@ README creation, markdown editing, changelog generation, badges
 ```
 /plugin install tech-docs@danielrosehill
 ```
+
+---
+
 #### Writing & Editing
 
 Proofreading, formatting, style standardization, content enhancement
@@ -153,6 +177,9 @@ Audio editing and processing tools
 ```
 /plugin install audio-editing@danielrosehill
 ```
+
+---
+
 #### Image Editing
 
 Image editing and processing tools
@@ -162,6 +189,9 @@ Image editing and processing tools
 ```
 /plugin install image-editing@danielrosehill
 ```
+
+---
+
 #### Video Editing
 
 Video editing and processing tools
@@ -183,6 +213,9 @@ File system organization, folder structure optimization, file management automat
 ```
 /plugin install filesystem-organisation@danielrosehill
 ```
+
+---
+
 #### Linux Desktop
 
 KDE settings, display management, system health, hardware profiling
@@ -192,6 +225,9 @@ KDE settings, display management, system health, hardware profiling
 ```
 /plugin install linux-desktop-mgmt@danielrosehill
 ```
+
+---
+
 #### Linux Server
 
 Server management and administration tools
@@ -201,6 +237,9 @@ Server management and administration tools
 ```
 /plugin install linux-server-mgmt@danielrosehill
 ```
+
+---
+
 #### Security Checkup
 
 Security audits and checkups
@@ -222,6 +261,9 @@ Home Assistant management and automation
 ```
 /plugin install home-assistant-manager@danielrosehill
 ```
+
+---
+
 #### LAN Manager
 
 Local network management
@@ -243,6 +285,9 @@ Code analysis, commit analysis, learning resources, tutorials
 ```
 /plugin install learning@danielrosehill
 ```
+
+---
+
 #### Tech Research
 
 Technology research and documentation tools
@@ -264,6 +309,9 @@ Personal diary and planning workflows
 ```
 /plugin install diary-planner@danielrosehill
 ```
+
+---
+
 #### Home Budget Helper
 
 Personal budgeting and financial management
@@ -273,6 +321,9 @@ Personal budgeting and financial management
 ```
 /plugin install home-budget-helper@danielrosehill
 ```
+
+---
+
 #### Ideation
 
 Brainstorming, design ideas, innovation, AI chat experiments
@@ -294,6 +345,9 @@ Comparison shop Israeli tech retailers (KSP, Ivory, Bug, TMS) via BrowserMCP
 ```
 /plugin install israeli-tech-shopping@danielrosehill
 ```
+
+---
+
 #### SEO
 
 SEO optimization, audits, and reviews
