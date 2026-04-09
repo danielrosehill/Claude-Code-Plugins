@@ -34,6 +34,54 @@ Context management and organization tools
 /plugin install context-toolkit@danielrosehill
 ```
 
+---
+
+#### MCP Command Generator
+
+Natural language MCP server installation assistant — generate valid `claude mcp add` commands from plain English, with a curated catalog of 30+ servers
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/mcp-command-generator-plugin)
+
+```
+/plugin install mcp-command-generator@danielrosehill
+```
+
+---
+
+#### CLAUDE.md Chunker
+
+Prune bloated CLAUDE.md files to their essentials and offload supplementary context into an agent-context/ folder
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/claudemd-chunker-plugin)
+
+```
+/plugin install claudemd-chunker@danielrosehill
+```
+
+---
+
+#### Model Identifier
+
+Injects a model self-identification instruction block into CLAUDE.md so Claude announces its model name and API identifier at the start of every conversation — a quick sanity check to confirm which model version you are actually running
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/model-identifier-plugin)
+
+```
+/plugin install model-identifier@danielrosehill
+```
+
+---
+
+#### New Turn Hook
+
+Evaluates whether the current conversation context is still useful or whether the user should start a fresh conversation to avoid context bloat and degraded performance
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/new-turn-hook-plugin)
+
+```
+/plugin install new-turn-hook@danielrosehill
+```
+
 ### Git & GitHub
 
 #### Git & GitHub
@@ -59,6 +107,18 @@ Create a new GitHub repo from any template in Repo-Starters-And-Templates-Index
 ```
 
 ### Repo Scaffolding & Retrofitting
+
+#### Spec Starter
+
+Spec-driven development workflow — transform free-form project descriptions into structured specifications, context files, and decision records
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/spec-starter-plugin)
+
+```
+/plugin install spec-starter@danielrosehill
+```
+
+---
 
 #### Claude Janitor
 
@@ -106,6 +166,18 @@ Bulk-retrofit repos with AI agent scaffolding (CLAUDE.md, commands, agents, MCP 
 /plugin install repo-retrofitter@danielrosehill
 ```
 
+---
+
+#### Workspace Setup
+
+Interactive assistant for discovering and cloning Claude Code workspace templates — describe your objectives, get recommendations, and clone matching workspaces in one command
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/workspace-setup-plugin)
+
+```
+/plugin install workspace-setup@danielrosehill
+```
+
 ### QA & Agent Sessions
 
 #### Handover
@@ -131,6 +203,18 @@ Multi-agent QA system for code review, cleanup, docs, API, performance, deployme
 ```
 
 ### Documentation & Writing
+
+#### AI Attribution
+
+Add a transparent human-AI attribution section to a project README, documenting which parts were human-authored and which were AI-assisted or AI-generated
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ai-attribution-plugin)
+
+```
+/plugin install ai-attribution@danielrosehill
+```
+
+---
 
 #### Fix Documentation
 
@@ -204,6 +288,18 @@ Video editing and processing tools
 
 ### Linux Sysadmin
 
+#### Bug Catcher
+
+Rapid Linux system bug capture — pull fresh logs for GPU freezes, audio issues, crashes, USB faults, and more the moment they occur
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/bug-catcher-plugin)
+
+```
+/plugin install bug-catcher@danielrosehill
+```
+
+---
+
 #### Filesystem Organisation
 
 File system organization, folder structure optimization, file management automation
@@ -249,6 +345,80 @@ Security audits and checkups
 ```
 /plugin install security-checkup@danielrosehill
 ```
+
+---
+
+#### Docker Manager
+
+Manage Docker containers, Compose stacks, volumes, networks, and multi-environment deployments
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/docker-manager-plugin)
+
+```
+/plugin install docker-manager@danielrosehill
+```
+
+---
+
+#### Conda Manager
+
+Manage, audit, and optimise Conda environments — list, validate, compare, backup, and clean up environments with AI assistance
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/conda-manager-plugin)
+
+```
+/plugin install conda-manager@danielrosehill
+```
+
+---
+
+#### Bash Alias Manager
+
+Add, edit, delete, prune, list, document, and back up `~/.bash_aliases` using a guided, convention-aware workflow
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/bash-alias-manager-plugin)
+
+```
+/plugin install bash-alias-manager@danielrosehill
+```
+
+---
+
+#### Proxmox Manager
+
+Manage Ubuntu VMs hosted on Proxmox — host inspection, VM lifecycle, Docker deployments, XFS storage, Cloudflare Tunnels, backups, and system health with a setup wizard
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/proxmox-manager-plugin)
+
+```
+/plugin install proxmox-manager@danielrosehill
+```
+
+---
+
+#### Synology Manager
+
+Manage a Synology NAS via SSH — guided first-run setup, persistent NAS context, and commands for shared folders, volumes, mounts, and storage monitoring
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/synology-manager-plugin)
+
+```
+/plugin install synology-manager@danielrosehill
+```
+
+### Privacy & Security
+
+#### Redaction
+
+Human-guided document redaction, identity obfuscation, alias management, and metadata scrubbing — for whistleblowing, source protection, anonymous publishing, and research anonymization
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/redaction-plugin)
+
+```
+/plugin install redaction@danielrosehill
+```
+
+---
 
 ### Network & Smart Home
 

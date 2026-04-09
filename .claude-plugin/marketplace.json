@@ -25,7 +25,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["ai-utilities", "ai-tools"]
+      "tags": [
+        "ai-utilities",
+        "ai-tools"
+      ]
     },
     {
       "name": "context-toolkit",
@@ -41,7 +44,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["development", "context-toolkit"]
+      "tags": [
+        "development",
+        "context-toolkit"
+      ]
     },
     {
       "name": "git-github",
@@ -57,7 +63,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["development", "git-github"]
+      "tags": [
+        "development",
+        "git-github"
+      ]
     },
     {
       "name": "claude-janitor",
@@ -73,7 +82,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["development", "repository-cleanup"]
+      "tags": [
+        "development",
+        "repository-cleanup"
+      ]
     },
     {
       "name": "home-budget-helper",
@@ -89,7 +101,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["financial", "budget-helper"]
+      "tags": [
+        "financial",
+        "budget-helper"
+      ]
     },
     {
       "name": "audio-editing",
@@ -105,7 +120,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["media-editing", "audio-editing"]
+      "tags": [
+        "media-editing",
+        "audio-editing"
+      ]
     },
     {
       "name": "image-editing",
@@ -121,7 +139,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["media-editing", "image-editing"]
+      "tags": [
+        "media-editing",
+        "image-editing"
+      ]
     },
     {
       "name": "video-editing",
@@ -137,7 +158,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["media-editing", "video-editing"]
+      "tags": [
+        "media-editing",
+        "video-editing"
+      ]
     },
     {
       "name": "diary-planner",
@@ -153,7 +177,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["misc", "diary-planner"]
+      "tags": [
+        "misc",
+        "diary-planner"
+      ]
     },
     {
       "name": "tech-docs",
@@ -169,7 +196,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["misc", "documentation"]
+      "tags": [
+        "misc",
+        "documentation"
+      ]
     },
     {
       "name": "fix-documentation",
@@ -185,7 +215,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["misc", "documentation"]
+      "tags": [
+        "misc",
+        "documentation"
+      ]
     },
     {
       "name": "ideation",
@@ -201,7 +234,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["misc", "ideation"]
+      "tags": [
+        "misc",
+        "ideation"
+      ]
     },
     {
       "name": "learning",
@@ -217,7 +253,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["misc", "learning"]
+      "tags": [
+        "misc",
+        "learning"
+      ]
     },
     {
       "name": "seo",
@@ -233,7 +272,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["misc", "seo"]
+      "tags": [
+        "misc",
+        "seo"
+      ]
     },
     {
       "name": "tech-research",
@@ -249,7 +291,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["research", "tech-research"]
+      "tags": [
+        "research",
+        "tech-research"
+      ]
     },
     {
       "name": "home-assistant-manager",
@@ -265,7 +310,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["smart-home", "home-assistant-manager"]
+      "tags": [
+        "smart-home",
+        "home-assistant-manager"
+      ]
     },
     {
       "name": "filesystem-organisation",
@@ -281,7 +329,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["sysadmin", "filesystem-org"]
+      "tags": [
+        "sysadmin",
+        "filesystem-org"
+      ]
     },
     {
       "name": "lan-manager",
@@ -297,7 +348,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["sysadmin", "lan-manager"]
+      "tags": [
+        "sysadmin",
+        "lan-manager"
+      ]
     },
     {
       "name": "linux-desktop-mgmt",
@@ -313,7 +367,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["sysadmin", "linux-desktop"]
+      "tags": [
+        "sysadmin",
+        "linux-desktop"
+      ]
     },
     {
       "name": "linux-server-mgmt",
@@ -329,7 +386,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["sysadmin", "linux-server"]
+      "tags": [
+        "sysadmin",
+        "linux-server"
+      ]
     },
     {
       "name": "security-checkup",
@@ -345,7 +405,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["sysadmin", "security-checkup"]
+      "tags": [
+        "sysadmin",
+        "security-checkup"
+      ]
     },
     {
       "name": "repo-retrofitter",
@@ -361,7 +424,11 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["development", "retrofitting", "scaffolding"]
+      "tags": [
+        "development",
+        "retrofitting",
+        "scaffolding"
+      ]
     },
     {
       "name": "writing-editing",
@@ -377,7 +444,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["writing", "writing-editing"]
+      "tags": [
+        "writing",
+        "writing-editing"
+      ]
     },
     {
       "name": "make-agent-friendly",
@@ -393,7 +463,10 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["development", "agentic-development"]
+      "tags": [
+        "development",
+        "agentic-development"
+      ]
     },
     {
       "name": "qa-team",
@@ -409,7 +482,11 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["development", "qa", "code-review"]
+      "tags": [
+        "development",
+        "qa",
+        "code-review"
+      ]
     },
     {
       "name": "israeli-tech-shopping",
@@ -425,7 +502,11 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["shopping", "israel", "price-comparison"]
+      "tags": [
+        "shopping",
+        "israel",
+        "price-comparison"
+      ]
     },
     {
       "name": "claude-templatizer",
@@ -441,7 +522,11 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["development", "template", "scaffolding"]
+      "tags": [
+        "development",
+        "template",
+        "scaffolding"
+      ]
     },
     {
       "name": "handover",
@@ -457,7 +542,11 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["development", "agent-handover", "session-continuity"]
+      "tags": [
+        "development",
+        "agent-handover",
+        "session-continuity"
+      ]
     },
     {
       "name": "new-repo-from-template",
@@ -473,7 +562,317 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["development", "scaffolding", "templates", "github"]
+      "tags": [
+        "development",
+        "scaffolding",
+        "templates",
+        "github"
+      ]
+    },
+    {
+      "name": "bug-catcher",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/bug-catcher-plugin"
+      },
+      "description": "Slash commands for rapid Linux system bug capture and diagnosis — check fresh logs the moment an issue occurs.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "sysadmin",
+        "linux",
+        "debugging",
+        "logs",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "docker-manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/docker-manager-plugin"
+      },
+      "description": "Slash commands and subagents for managing Docker containers, Compose stacks, volumes, networks, and multi-environment deployments.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "sysadmin",
+        "docker",
+        "containers",
+        "devops"
+      ]
+    },
+    {
+      "name": "conda-manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/conda-manager-plugin"
+      },
+      "description": "Claude Code plugin for managing, auditing, and optimising Conda environments — list, validate, compare, backup, and clean up environments with AI assistance.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "sysadmin",
+        "python",
+        "conda",
+        "environments",
+        "package-management"
+      ]
+    },
+    {
+      "name": "mcp-command-generator",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/mcp-command-generator-plugin"
+      },
+      "description": "Natural language MCP server installation assistant for Claude Code. Generates and optionally executes valid 'claude mcp add' commands from plain English descriptions, backed by a curated server catalog and syntax reference.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "claude-code",
+        "integrations",
+        "developer-tools"
+      ]
+    },
+    {
+      "name": "spec-starter",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/spec-starter-plugin"
+      },
+      "description": "Spec-driven development workflow for Claude Code: transforms free-form project descriptions into structured specifications, context files, and decision records.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "development",
+        "spec",
+        "planning",
+        "scaffolding",
+        "workflow"
+      ]
+    },
+    {
+      "name": "claudemd-chunker",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/claudemd-chunker-plugin"
+      },
+      "description": "Slash command that prunes bloated CLAUDE.md files to their essentials and offloads supplementary context into an agent-context/ folder.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "claude-md",
+        "context",
+        "organisation",
+        "cleanup",
+        "developer-tools"
+      ]
+    },
+    {
+      "name": "redaction",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/redaction-plugin"
+      },
+      "description": "Human-guided document redaction, identity obfuscation, alias management, and metadata scrubbing for whistleblowing, source protection, anonymous publishing, and research anonymization workflows.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "privacy",
+        "security",
+        "redaction",
+        "anonymization",
+        "metadata"
+      ]
+    },
+    {
+      "name": "bash-alias-manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/bash-alias-manager-plugin"
+      },
+      "description": "Claude Code plugin for managing bash aliases — add, edit, delete, prune, ideate, and back up ~/.bash_aliases using a guided workflow.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "sysadmin",
+        "bash",
+        "aliases",
+        "dotfiles",
+        "shell"
+      ]
+    },
+    {
+      "name": "proxmox-manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/proxmox-manager-plugin"
+      },
+      "description": "Claude Code plugin for managing Ubuntu VMs hosted on Proxmox. Covers Proxmox host inspection, VM lifecycle, Docker deployments, XFS storage, Cloudflare Tunnels, backups, and system health — with a setup wizard to tailor the environment to any server.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "sysadmin",
+        "proxmox",
+        "homelab",
+        "docker",
+        "virtualization",
+        "linux-server"
+      ]
+    },
+    {
+      "name": "synology-manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/synology-manager-plugin"
+      },
+      "description": "Claude Code plugin for managing a Synology NAS via SSH — guided first-run setup, persistent NAS context, and commands for shared folders, volumes, mounts, and storage monitoring.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "sysadmin",
+        "synology",
+        "nas",
+        "storage",
+        "ssh",
+        "homelab"
+      ]
+    },
+    {
+      "name": "workspace-setup",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/workspace-setup-plugin"
+      },
+      "description": "Interactive assistant for discovering and cloning Claude Code workspace templates. Asks about your objectives, recommends relevant workspaces from a curated catalog, and clones them to a directory of your choice.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "workspace",
+        "setup",
+        "templates",
+        "scaffolding",
+        "claude-code"
+      ]
+    },
+    {
+      "name": "ai-attribution",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/ai-attribution-plugin"
+      },
+      "description": "Adds a transparent human-AI attribution section to a project README, documenting which parts of the work were human-authored and which were AI-assisted or AI-generated.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "documentation",
+        "attribution",
+        "ai-transparency",
+        "readme"
+      ]
+    },
+    {
+      "name": "model-identifier",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/model-identifier-plugin"
+      },
+      "description": "Injects a model self-identification instruction block into CLAUDE.md so Claude announces its model name and API identifier at the start of every conversation.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "claude-md",
+        "model",
+        "sanity-check",
+        "developer-tools"
+      ]
+    },
+    {
+      "name": "new-turn-hook",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/new-turn-hook-plugin"
+      },
+      "description": "Evaluates whether the current conversation context is still useful or whether the user should start a fresh conversation to avoid context bloat and degraded performance.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "context-management",
+        "conversation",
+        "productivity",
+        "hooks"
+      ]
     }
   ]
 }
