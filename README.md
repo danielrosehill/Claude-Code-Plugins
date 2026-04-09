@@ -10,95 +10,67 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-## AI Tools
+### AI & Context
 
-AI development, documentation, and context management tools.
+- **[AI Tools](https://github.com/danielrosehill/ai-tools-plugin)** — AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text · `/plugin install ai-tools@danielrosehill`
+- **[Context Toolkit](https://github.com/danielrosehill/context-toolkit-plugin)** — Context management and organization tools · `/plugin install context-toolkit@danielrosehill`
 
-| Plugin Name | Repository | Description | Installation Command |
-|------------|------------|-------------|---------------------|
-| **AI Tools** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ai-tools-plugin) | AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text | `/plugin install ai-tools@danielrosehill` |
-| **Context Toolkit** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/context-toolkit-plugin) | Context management and organization tools | `/plugin install context-toolkit@danielrosehill` |
-| **Fix Documentation** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Document-This) | Automated technical documentation generation and code documentation workflows | `/plugin install fix-documentation@danielrosehill` |
+### Git & GitHub
 
----
+- **[Git & GitHub](https://github.com/danielrosehill/git-github-plugin)** — Git configuration, LFS, GitHub CLI, repository management · `/plugin install git-github@danielrosehill`
+- **[New Repo From Template](https://github.com/danielrosehill/New-Repo-From-Template-Plugin)** — Create a new GitHub repo from any template in Repo-Starters-And-Templates-Index · `/plugin install new-repo-from-template@danielrosehill`
 
-## Development Utilities
+### Repo Scaffolding & Retrofitting
 
-Version control and development tools.
+- **[Claude Janitor](https://github.com/danielrosehill/Claude-Janitor)** — Repository cleanup: remove clutter, organize structure, polish docs · `/plugin install claude-janitor@danielrosehill`
+- **[Claude Templatizer](https://github.com/danielrosehill/Claude-Templatizer)** — Turn existing Claude Code workspace repos into a reusable GitHub template · `/plugin install claude-templatizer@danielrosehill`
+- **[Make Agent Friendly](https://github.com/danielrosehill/Make-Agent-Friendly)** — Prepare human-developed codebases for agentic development with structured refactoring · `/plugin install make-agent-friendly@danielrosehill`
+- **[Repo Retrofitter](https://github.com/danielrosehill/Claude-Repo-Retrofitter)** — Bulk-retrofit repos with AI agent scaffolding (CLAUDE.md, commands, agents, MCP recs) · `/plugin install repo-retrofitter@danielrosehill`
 
-| Plugin Name | Repository | Description | Installation Command |
-|------------|------------|-------------|---------------------|
-| **Claude Janitor** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Janitor) | Repository cleanup toolkit: remove clutter, organize structure, polish documentation | `/plugin install claude-janitor@danielrosehill` |
-| **Claude Templatizer** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Templatizer) | Turn existing Claude Code workspace repos into a reusable GitHub template by extracting commonalities | `/plugin install claude-templatizer@danielrosehill` |
-| **Git & GitHub** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/git-github-plugin) | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
-| **Handover** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Handover) | AI agent session handover — create and resume from structured handover documents | `/plugin install handover@danielrosehill` |
-| **Make Agent Friendly** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Make-Agent-Friendly) | Prepare human-developed codebases for agentic development with structured refactoring and CLAUDE.md creation | `/plugin install make-agent-friendly@danielrosehill` |
-| **New Repo From Template** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/New-Repo-From-Template-Plugin) | Create a new GitHub repo from any template in danielrosehill/Repo-Starters-And-Templates-Index | `/plugin install new-repo-from-template@danielrosehill` |
-| **QA Team** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-QA-Team) | Multi-agent QA system for code review, cleanup, docs, API review, performance, and deployment review | `/plugin install qa-team@danielrosehill` |
-| **Repo Retrofitter** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) | Bulk-retrofit repos with AI agent scaffolding (CLAUDE.md, commands, agents, MCP recommendations) | `/plugin install repo-retrofitter@danielrosehill` |
+### QA & Agent Sessions
 
----
+- **[Handover](https://github.com/danielrosehill/Claude-Handover)** — AI agent session handover — create and resume from structured handover documents · `/plugin install handover@danielrosehill`
+- **[QA Team](https://github.com/danielrosehill/Claude-QA-Team)** — Multi-agent QA system for code review, cleanup, docs, API, performance, deployment · `/plugin install qa-team@danielrosehill`
 
-## Documentation
+### Documentation & Writing
 
-Plugins for creating and editing documentation.
+- **[Fix Documentation](https://github.com/danielrosehill/Claude-Document-This)** — Automated technical documentation generation and code documentation workflows · `/plugin install fix-documentation@danielrosehill`
+- **[Tech Docs](https://github.com/danielrosehill/documentation-plugin)** — README creation, markdown editing, changelog generation, badges · `/plugin install tech-docs@danielrosehill`
+- **[Writing & Editing](https://github.com/danielrosehill/writing-editing-plugin)** — Proofreading, formatting, style standardization, content enhancement · `/plugin install writing-editing@danielrosehill`
 
-| Plugin Name | Repository | Description | Installation Command |
-|------------|------------|-------------|---------------------|
-| **Tech Docs** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/documentation-plugin) | README creation, markdown editing, changelog generation, badges | `/plugin install tech-docs@danielrosehill` |
-| **Writing & Editing** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/writing-editing-plugin) | Proofreading, formatting, style standardization, content enhancement | `/plugin install writing-editing@danielrosehill` |
+### Media Editing
 
----
+- **[Audio Editing](https://github.com/danielrosehill/audio-editing-plugin)** — Audio editing and processing tools · `/plugin install audio-editing@danielrosehill`
+- **[Image Editing](https://github.com/danielrosehill/image-editing-plugin)** — Image editing and processing tools · `/plugin install image-editing@danielrosehill`
+- **[Video Editing](https://github.com/danielrosehill/video-editing-plugin)** — Video editing and processing tools · `/plugin install video-editing@danielrosehill`
 
-## Media Management Plugins
+### Linux Sysadmin
 
-Audio, video, and images: plugins for performing media operations using Claude Code.
+- **[Filesystem Organisation](https://github.com/danielrosehill/filesystem-org-plugin)** — File system organization, folder structure optimization, file management automation · `/plugin install filesystem-organisation@danielrosehill`
+- **[Linux Desktop](https://github.com/danielrosehill/linux-desktop-plugin)** — KDE settings, display management, system health, hardware profiling · `/plugin install linux-desktop-mgmt@danielrosehill`
+- **[Linux Server](https://github.com/danielrosehill/linux-server-plugin)** — Server management and administration tools · `/plugin install linux-server-mgmt@danielrosehill`
+- **[Security Checkup](https://github.com/danielrosehill/security-checkup-plugin)** — Security audits and checkups · `/plugin install security-checkup@danielrosehill`
 
-| Plugin Name | Repository | Description | Installation Command |
-|------------|------------|-------------|---------------------|
-| **Audio Editing** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/audio-editing-plugin) | Audio editing and processing tools | `/plugin install audio-editing@danielrosehill` |
-| **Image Editing** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/image-editing-plugin) | Image editing and processing tools | `/plugin install image-editing@danielrosehill` |
-| **Video Editing** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/video-editing-plugin) | Video editing and processing tools | `/plugin install video-editing@danielrosehill` |
+### Network & Smart Home
 
----
+- **[Home Assistant Manager](https://github.com/danielrosehill/home-assistant-manager-plugin)** — Home Assistant management and automation · `/plugin install home-assistant-manager@danielrosehill`
+- **[LAN Manager](https://github.com/danielrosehill/lan-manager-plugin)** — Local network management · `/plugin install lan-manager@danielrosehill`
 
-## Miscellaneous
+### Research & Learning
 
-All other plugins.
+- **[Learning](https://github.com/danielrosehill/learning-plugin)** — Code analysis, commit analysis, learning resources, tutorials · `/plugin install learning@danielrosehill`
+- **[Tech Research](https://github.com/danielrosehill/tech-research-plugin)** — Technology research and documentation tools · `/plugin install tech-research@danielrosehill`
 
-| Plugin Name | Repository | Description | Installation Command |
-|------------|------------|-------------|---------------------|
-| **Diary Planner** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/diary-planner-plugin) | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill` |
-| **Home Budget Helper** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/home-budget-helper-plugin) | Personal budgeting and financial management | `/plugin install home-budget-helper@danielrosehill` |
-| **Ideation** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ideation-plugin) | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill` |
-| **Israeli Tech Shopping** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israeli-Tech-Shopping-MCP) | Comparison shop Israeli tech retailers (KSP, Ivory, Bug, TMS) via BrowserMCP | `/plugin install israeli-tech-shopping@danielrosehill` |
-| **SEO** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/seo-plugin) | SEO optimization, audits, and reviews | `/plugin install seo@danielrosehill` |
+### Personal Productivity
 
----
+- **[Diary Planner](https://github.com/danielrosehill/diary-planner-plugin)** — Personal diary and planning workflows · `/plugin install diary-planner@danielrosehill`
+- **[Home Budget Helper](https://github.com/danielrosehill/home-budget-helper-plugin)** — Personal budgeting and financial management · `/plugin install home-budget-helper@danielrosehill`
+- **[Ideation](https://github.com/danielrosehill/ideation-plugin)** — Brainstorming, design ideas, innovation, AI chat experiments · `/plugin install ideation@danielrosehill`
 
-## OS Management / System Administration
+### Marketing & Shopping
 
-Plugins for managing specific filesystems, whether the local environment (Linux desktop) or a Linux server. Also includes specific OS types: Home Assistant OS, OPNsense (work in progress).
-
-| Plugin Name | Repository | Description | Installation Command |
-|------------|------------|-------------|---------------------|
-| **Filesystem Organisation** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/filesystem-org-plugin) | File system organization, folder structure optimization, and file management automation | `/plugin install filesystem-organisation@danielrosehill` |
-| **Home Assistant Manager** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/home-assistant-manager-plugin) | Home Assistant management and automation | `/plugin install home-assistant-manager@danielrosehill` |
-| **LAN Manager** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/lan-manager-plugin) | Local network management | `/plugin install lan-manager@danielrosehill` |
-| **Linux Desktop** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-desktop-plugin) | KDE settings, display management, system health, hardware profiling | `/plugin install linux-desktop-mgmt@danielrosehill` |
-| **Linux Server** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-server-plugin) | Server management and administration tools | `/plugin install linux-server-mgmt@danielrosehill` |
-| **Security Checkup** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/security-checkup-plugin) | Security audits and checkups | `/plugin install security-checkup@danielrosehill` |
-
----
-
-## Research
-
-Plugins for deep research and specific types of research.
-
-| Plugin Name | Repository | Description | Installation Command |
-|------------|------------|-------------|---------------------|
-| **Learning** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/learning-plugin) | Code analysis, commit analysis, learning resources, tutorials | `/plugin install learning@danielrosehill` |
-| **Tech Research** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/tech-research-plugin) | Technology research and documentation tools | `/plugin install tech-research@danielrosehill` |
+- **[Israeli Tech Shopping](https://github.com/danielrosehill/Israeli-Tech-Shopping-MCP)** — Comparison shop Israeli tech retailers (KSP, Ivory, Bug, TMS) via BrowserMCP · `/plugin install israeli-tech-shopping@danielrosehill`
+- **[SEO](https://github.com/danielrosehill/seo-plugin)** — SEO optimization, audits, and reviews · `/plugin install seo@danielrosehill`
 
 ## Installation
 
