@@ -529,13 +529,13 @@
       ]
     },
     {
-      "name": "handover",
+      "name": "session-transfer",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Handover"
+        "repo": "danielrosehill/Claude-Session-Transfer"
       },
-      "description": "AI agent session handover - create and resume from structured handover documents with a dedicated writer subagent. Includes full handoff sequence with Konsole spawn.",
-      "version": "1.0.0",
+      "description": "Transfer a Claude Code session to a fresh instance — full context transfer via a structured HANDOVER.md (with a dedicated writer subagent), or quick-jump skills for spawning a sibling Konsole/Claude window at the current directory.",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -544,6 +544,7 @@
       "license": "MIT",
       "tags": [
         "development",
+        "session-transfer",
         "agent-handover",
         "session-continuity"
       ]

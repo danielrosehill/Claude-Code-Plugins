@@ -29,7 +29,11 @@
       "Bash(git fetch:*)",
       "Bash(git pull:*)",
       "Bash(node:*)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(git submodule:*)",
+      "Bash(git rm:*)",
+      "Bash(rm -rf .git/modules/plugins)",
+      "Bash(rm -f .gitmodules)"
     ],
     "deny": [],
     "ask": []
