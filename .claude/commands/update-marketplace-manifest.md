@@ -14,7 +14,9 @@ The marketplace manifest needs to remain an accurate reflection of the marketpla
 
 Make the necessary edits to update the manifest. 
 
-You may also wish to run a quick cross-reference: compare the manifest contents with the actual plugins available at plugins. You should not find any errors after your update. But validate. 
+You may also wish to run a quick cross-reference: compare the manifest contents with the plugin repos cloned at `~/repos/github/my-repos/claude-code/cc-plugins/plugins/`. Note that this marketplace repo does **not** use submodules — plugin source is not vendored here. The manifest is the source of truth. Validate after your update.
+
+After updating the manifest, also run `/sync-readme` to regenerate the README plugin inventory.
 
 # Add Changelog Entry 
 
