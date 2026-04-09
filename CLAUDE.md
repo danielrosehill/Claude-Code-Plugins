@@ -29,3 +29,20 @@ Refer to the Anthropic's doc as your source of truth for ensuring conformity to 
 https://code.claude.com/docs/en/plugins
 
 https://code.claude.com/docs/en/plugin-marketplaces
+
+## Procedure: Adding A New Plugin Or Skill
+
+Every new plugin **or skill** is its own repository. The marketplace only references these repos — it never hosts the plugin source directly. Follow this order of operations:
+
+1. **Create the plugin/skill in its own repo** (typically under `~/repos/github/my-repos/claude-code/` or similar). Build and test it there. Skills live inside a plugin repo as `skills/<skill-name>/` with a `SKILL.md`; a skill-only plugin is still a plugin repo.
+2. **Depersonalise** — scrub Daniel-specific references, replace with "the user," ensure it's adaptable for others.
+3. **Push to GitHub** as a standalone public repo under `danielrosehill/`.
+4. **Add as a submodule** under `plugins/<plugin-name>/` in this marketplace:
+   `git submodule add <repo-url> plugins/<plugin-name>`
+5. **Register in `.claude-plugin/marketplace.json`** — append a new entry with `name`, `source` (github + repo), `description`, `version`, `author`, `license`, and `tags`. Validate the JSON and check for duplicate `name` values.
+6. **Update `README.md`** — add it under the appropriate category section.
+7. **Regenerate `planning/sources.md`** via `scripts/generate-submodule-list.sh`.
+8. **Add a changelog entry** to `planning/changelog.md`.
+9. **Commit and push** the marketplace repo.
+
+Use the `/new-plugin` local skill to walk through this procedure.

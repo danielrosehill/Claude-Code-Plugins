@@ -6,7 +6,7 @@
 
 A comprehensive marketplace of Claude Code plugins for developers, system administrators, content creators, and productivity enthusiasts. These plugins extend Claude Code with specialized slash commands and agents for various workflows.
 
-📋 **[View Plugin Source Repositories](sources.md)** - Complete list of all plugin repositories with links
+📋 **[View Plugin Source Repositories](planning/sources.md)** - Complete list of all plugin repositories with links
 
 ## Available Plugins
 
