@@ -30,19 +30,28 @@ https://code.claude.com/docs/en/plugins
 
 https://code.claude.com/docs/en/plugin-marketplaces
 
+## Repo Structure: No Submodules
+
+This marketplace repo **does not use git submodules**. It is a manifest-only marketplace: `.claude-plugin/marketplace.json` points at each plugin's standalone GitHub repo via its `source` block, which is all Claude Code needs to discover and install plugins.
+
+Raw plugin source lives in a sibling working directory (not tracked here):
+
+```
+~/repos/github/my-repos/claude-code/cc-plugins/plugins/<plugin-name>/
+```
+
+That's where you clone/edit/audit plugin repos locally. This marketplace repo itself should contain no `plugins/` directory.
+
 ## Procedure: Adding A New Plugin Or Skill
 
 Every new plugin **or skill** is its own repository. The marketplace only references these repos — it never hosts the plugin source directly. Follow this order of operations:
 
-1. **Create the plugin/skill in its own repo** (typically under `~/repos/github/my-repos/claude-code/` or similar). Build and test it there. Skills live inside a plugin repo as `skills/<skill-name>/` with a `SKILL.md`; a skill-only plugin is still a plugin repo.
+1. **Create the plugin/skill in its own repo**, cloned under `~/repos/github/my-repos/claude-code/cc-plugins/plugins/<plugin-name>/`. Build and test it there. Skills live inside a plugin repo as `skills/<skill-name>/` with a `SKILL.md`; a skill-only plugin is still a plugin repo.
 2. **Depersonalise** — scrub Daniel-specific references, replace with "the user," ensure it's adaptable for others.
 3. **Push to GitHub** as a standalone public repo under `danielrosehill/`.
-4. **Add as a submodule** under `plugins/<plugin-name>/` in this marketplace:
-   `git submodule add <repo-url> plugins/<plugin-name>`
-5. **Register in `.claude-plugin/marketplace.json`** — append a new entry with `name`, `source` (github + repo), `description`, `version`, `author`, `license`, and `tags`. Validate the JSON and check for duplicate `name` values.
-6. **Update `README.md`** — add it under the appropriate category section.
-7. **Regenerate `planning/sources.md`** via `scripts/generate-submodule-list.sh`.
-8. **Add a changelog entry** to `planning/changelog.md`.
-9. **Commit and push** the marketplace repo.
+4. **Register in `.claude-plugin/marketplace.json`** — append a new entry with `name`, `source` (github + repo), `description`, `version`, `author`, `license`, and `tags`. Validate the JSON and check for duplicate `name` values.
+5. **Update `README.md`** — add it under the appropriate category section.
+6. **Add a changelog entry** to `planning/changelog.md`.
+7. **Commit and push** the marketplace repo.
 
 Use the `/new-plugin` local skill to walk through this procedure.
