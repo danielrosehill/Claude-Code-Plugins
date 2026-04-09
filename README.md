@@ -180,14 +180,14 @@ Interactive assistant for discovering and cloning Claude Code workspace template
 
 ### QA & Agent Sessions
 
-#### Handover
+#### Session Transfer
 
-AI agent session handover — create and resume from structured handover documents
+Transfer a Claude Code session to a fresh instance — full context transfer via a structured HANDOVER.md, or quick-jump skills for spawning a sibling Konsole/Claude window at the current directory.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Handover)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Session-Transfer)
 
 ```
-/plugin install handover@danielrosehill
+/plugin install session-transfer@danielrosehill
 ```
 
 ---
