@@ -444,6 +444,22 @@
       "tags": ["shopping", "israel", "price-comparison"]
     },
     {
+      "name": "claude-templatizer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Templatizer"
+      },
+      "description": "Turn a set of existing Claude Code workspace repos into a reusable GitHub template repo by extracting their commonalities.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": ["development", "template", "scaffolding"]
+    },
+    {
       "name": "handover",
       "source": {
         "source": "github",
