@@ -29,7 +29,12 @@ Version control and development tools.
 | Plugin Name | Repository | Description | Installation Command |
 |------------|------------|-------------|---------------------|
 | **Claude Janitor** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Janitor) | Repository cleanup toolkit: remove clutter, organize structure, polish documentation | `/plugin install claude-janitor@danielrosehill` |
+| **Claude Templatizer** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Templatizer) | Turn existing Claude Code workspace repos into a reusable GitHub template by extracting commonalities | `/plugin install claude-templatizer@danielrosehill` |
 | **Git & GitHub** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/git-github-plugin) | Git configuration, LFS, GitHub CLI, repository management | `/plugin install git-github@danielrosehill` |
+| **Handover** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Handover) | AI agent session handover — create and resume from structured handover documents | `/plugin install handover@danielrosehill` |
+| **Make Agent Friendly** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Make-Agent-Friendly) | Prepare human-developed codebases for agentic development with structured refactoring and CLAUDE.md creation | `/plugin install make-agent-friendly@danielrosehill` |
+| **New Repo From Template** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/New-Repo-From-Template-Plugin) | Create a new GitHub repo from any template in danielrosehill/Repo-Starters-And-Templates-Index | `/plugin install new-repo-from-template@danielrosehill` |
+| **QA Team** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-QA-Team) | Multi-agent QA system for code review, cleanup, docs, API review, performance, and deployment review | `/plugin install qa-team@danielrosehill` |
 | **Repo Retrofitter** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) | Bulk-retrofit repos with AI agent scaffolding (CLAUDE.md, commands, agents, MCP recommendations) | `/plugin install repo-retrofitter@danielrosehill` |
 
 ---
@@ -66,6 +71,7 @@ All other plugins.
 | **Diary Planner** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/diary-planner-plugin) | Personal diary and planning workflows | `/plugin install diary-planner@danielrosehill` |
 | **Home Budget Helper** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/home-budget-helper-plugin) | Personal budgeting and financial management | `/plugin install home-budget-helper@danielrosehill` |
 | **Ideation** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ideation-plugin) | Brainstorming, design ideas, innovation, AI chat experiments | `/plugin install ideation@danielrosehill` |
+| **Israeli Tech Shopping** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israeli-Tech-Shopping-MCP) | Comparison shop Israeli tech retailers (KSP, Ivory, Bug, TMS) via BrowserMCP | `/plugin install israeli-tech-shopping@danielrosehill` |
 | **SEO** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/seo-plugin) | SEO optimization, audits, and reviews | `/plugin install seo@danielrosehill` |
 
 ---
