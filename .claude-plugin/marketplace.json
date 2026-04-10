@@ -897,6 +897,28 @@
       ]
     },
     {
+      "name": "stack-search",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Stack-Search-Plugin"
+      },
+      "description": "Spawn a new stack search workspace from the Claude-Stack-Research-Workspace template — clone, name, create GitHub repo, run Tavily landscape scan, and kick off the structured 27-question intake interview.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "research",
+        "stack-search",
+        "software-evaluation",
+        "vendor-selection",
+        "template"
+      ]
+    },
+    {
       "name": "ecosystem-mapper",
       "source": {
         "source": "github",
