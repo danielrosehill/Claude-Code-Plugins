@@ -12,3 +12,5 @@
 - 2026-04-09: Added proxmox-manager plugin (danielrosehill/proxmox-manager-plugin) — Claude Code plugin for managing Ubuntu VMs hosted on Proxmox, covering host inspection, VM lifecycle, Docker deployments, XFS storage, Cloudflare Tunnels, backups, and system health with a setup wizard.
 - 2026-04-09: Added synology-manager plugin (danielrosehill/synology-manager-plugin) — Claude Code plugin for managing a Synology NAS via SSH, with guided first-run setup, persistent NAS context, and commands for shared folders, volumes, mounts, and storage monitoring.
 - 2026-04-09: Added ai-attribution plugin (danielrosehill/ai-attribution-plugin) — adds a transparent human-AI attribution section to a project README, documenting which parts were human-authored and which were AI-assisted or AI-generated.
+
+- **2026-04-10** — Added `brainstorm-solutions` plugin: spin up research workspaces when hitting blockers

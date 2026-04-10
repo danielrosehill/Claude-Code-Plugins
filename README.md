@@ -468,6 +468,18 @@ Technology research and documentation tools
 /plugin install tech-research@danielrosehill
 ```
 
+#### Brainstorm Solutions
+
+When you hit a wall, spin up a research workspace to brainstorm solutions — captures the blocker, seeds context, and kicks off deep research.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/brainstorm-solutions-plugin)
+
+```
+/plugin install brainstorm-solutions@danielrosehill
+```
+
+---
+
 ### Personal Productivity
 
 #### Diary Planner

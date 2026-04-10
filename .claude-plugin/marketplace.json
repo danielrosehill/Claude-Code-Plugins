@@ -876,6 +876,27 @@
       ]
     },
     {
+      "name": "brainstorm-solutions",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/brainstorm-solutions-plugin"
+      },
+      "description": "When you hit a wall, spin up a research workspace to brainstorm solutions — captures the blocker, seeds context, and kicks off deep research.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "research",
+        "brainstorming",
+        "problem-solving",
+        "blockers"
+      ]
+    },
+    {
       "name": "ecosystem-mapper",
       "source": {
         "source": "github",
