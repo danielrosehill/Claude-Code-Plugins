@@ -874,6 +874,28 @@
         "productivity",
         "hooks"
       ]
+    },
+    {
+      "name": "ecosystem-mapper",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Ecosystem-Mapper"
+      },
+      "description": "Discover, categorize, and publish technology ecosystem maps as GitHub repositories with structured READMEs, dynamic badges, and alphabetical organization.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "ecosystem",
+        "mapping",
+        "resource-list",
+        "github",
+        "research"
+      ]
     }
   ]
 }
