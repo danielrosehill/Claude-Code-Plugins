@@ -939,6 +939,29 @@
         "github",
         "research"
       ]
+    },
+    {
+      "name": "hp5200-printer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-HP5200-Skill-plugin"
+      },
+      "description": "HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printing, scanning, auto-discovery. A simple demo of local AI agent hardware integration.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "hardware",
+        "printer",
+        "scanner",
+        "hp",
+        "cups",
+        "ipp"
+      ]
     }
   ]
 }
