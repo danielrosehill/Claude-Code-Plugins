@@ -556,7 +556,7 @@
         "repo": "danielrosehill/New-Repo-From-Template-Plugin"
       },
       "description": "Create a new GitHub repo from any template in danielrosehill/Repo-Starters-And-Templates-Index, fetching the template list live on every run.",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
