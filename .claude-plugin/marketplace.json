@@ -962,6 +962,27 @@
         "cups",
         "ipp"
       ]
+    },
+    {
+      "name": "what-thing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Code-What-Thing"
+      },
+      "description": "Decision support for choosing the right Claude Code primitive — skill, subagent, slash command, plugin, MCP server, hook, or output style — based on what you're trying to build. Grounded in the official Anthropic docs, personalised by stored user context.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "claude-code",
+        "meta",
+        "decision-support",
+        "primitives"
+      ]
     }
   ]
 }
