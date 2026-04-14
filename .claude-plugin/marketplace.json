@@ -555,8 +555,8 @@
         "source": "github",
         "repo": "danielrosehill/New-Repo-From-Template-Plugin"
       },
-      "description": "Create a new GitHub repo from any template in danielrosehill/Repo-Starters-And-Templates-Index, fetching the template list live on every run.",
-      "version": "2.1.0",
+      "description": "Create a new GitHub repo from 80+ template scaffolds. Single skill matches natural-language intent against the manifest and uses gh repo create --template. Manifest-only — no bundled scaffold copies.",
+      "version": "3.0.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
