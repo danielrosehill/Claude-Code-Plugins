@@ -262,18 +262,6 @@ Proofreading, formatting, style standardization, content enhancement
 /plugin install writing-editing@danielrosehill
 ```
 
----
-
-#### Typst Document Generator
-
-Five opinionated Typst document templates — personal, public, DSR business, DSR client-confidential, personal-confidential — with IBM Plex Sans typography and optional AI-assistance disclosure. Primarily for Daniel's own use; fork and adapt to your own brand
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/typst-document-generator-plugin)
-
-```
-/plugin install typst-document-generator@danielrosehill
-```
-
 ### Media Editing
 
 #### Audio Editing
