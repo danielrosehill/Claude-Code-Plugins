@@ -1027,6 +1027,28 @@
         "gh-cli",
         "tooling"
       ]
+    },
+    {
+      "name": "typst-document-generator",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/typst-document-generator-plugin"
+      },
+      "description": "Personal Typst document templates packaged as skills — five opinionated formats (personal, public, DSR business, DSR client-confidential, personal-confidential) with IBM Plex Sans typography, shared header/footer conventions, and optional AI-assistance disclosure. Primarily for Daniel's own use; fork and adapt to your own brand.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "typst",
+        "document-generation",
+        "templates",
+        "typography",
+        "personal"
+      ]
     }
   ]
 }

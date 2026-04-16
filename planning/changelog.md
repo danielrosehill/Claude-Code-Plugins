@@ -18,3 +18,5 @@
 - **2026-04-16** — Added `open-router-model-research` plugin: 8 skills for researching, filtering, comparing, and evaluating AI models on OpenRouter — includes capability filters (tool use, vision, audio), interactive recommendations, head-to-head comparison, and deep evaluation that goes beyond the OR catalog (model card, paper, license).
 
 - **2026-04-16** — Added `github-research` plugin: 5 skills for exploring existing GitHub repositories before building — general repo search, AI-tool-focused search with strict recency filtering, deep candidate evaluation, finding alternatives to a known project, and documenting findings into a date-stamped `planning/github-research/` folder.
+
+- **2026-04-16** — Added `typst-document-generator` plugin: 5 Typst document templates as skills — `personal-doc`, `public-doc`, `dsr-business-doc`, `dsr-client-confidential`, `personal-confidential`. Shared IBM Plex Sans styling module with teal-700 headings, amber confidentiality markers, chapter-level TOC, and optional AI-assistance disclosure (inline or footer). Primarily for personal use; publicly published for installation convenience.
