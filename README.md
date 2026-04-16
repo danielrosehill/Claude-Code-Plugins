@@ -36,6 +36,18 @@ Context management and organization tools
 
 ---
 
+#### Claude User Memory
+
+Persistent cross-session memory about the user, backed by Mem0. Two isolated contexts (personal and work) with three skills for recall, save, and end-of-session commit
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-User-Memory-plugin)
+
+```
+/plugin install claude-user-memory@danielrosehill
+```
+
+---
+
 #### MCP Command Generator
 
 Natural language MCP server installation assistant — generate valid `claude mcp add` commands from plain English, with a curated catalog of 30+ servers

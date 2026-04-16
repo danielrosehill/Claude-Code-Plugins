@@ -20,3 +20,5 @@
 - **2026-04-16** — Added `github-research` plugin: 5 skills for exploring existing GitHub repositories before building — general repo search, AI-tool-focused search with strict recency filtering, deep candidate evaluation, finding alternatives to a known project, and documenting findings into a date-stamped `planning/github-research/` folder.
 
 - **2026-04-16** — Briefly added then removed `typst-document-generator` — moved to the new private marketplace at `danielrosehill/Claude-Code-Plugins-Private` because the plugin encodes Daniel-specific document conventions and DSR Holdings branding that isn't useful public surface area.
+
+- **2026-04-16** — Added `claude-user-memory` plugin: persistent cross-session memory about the user, backed by Mem0. Ships two isolated MCP instances (personal and work) with three skills — `recall-user-memory`, `remember-user-fact`, `commit-learnings` — plus a shared deduction rule for routing facts to the right context.

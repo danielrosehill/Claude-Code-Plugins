@@ -494,7 +494,7 @@
         "source": "github",
         "repo": "danielrosehill/Israeli-Tech-Shopping-MCP"
       },
-      "description": "Comparison shop Israeli tech retailers using BrowserMCP — search KSP, Ivory, Bug, TMS and more with real browser sessions",
+      "description": "Comparison shop Israeli tech retailers using BrowserMCP \u2014 search KSP, Ivory, Bug, TMS and more with real browser sessions",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -534,7 +534,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Session-Transfer"
       },
-      "description": "Transfer a Claude Code session to a fresh instance — full context transfer via a structured HANDOVER.md (with a dedicated writer subagent), or quick-jump skills for spawning a sibling Konsole/Claude window at the current directory.",
+      "description": "Transfer a Claude Code session to a fresh instance \u2014 full context transfer via a structured HANDOVER.md (with a dedicated writer subagent), or quick-jump skills for spawning a sibling Konsole/Claude window at the current directory.",
       "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -555,7 +555,7 @@
         "source": "github",
         "repo": "danielrosehill/New-Repo-From-Template-Plugin"
       },
-      "description": "Create a new GitHub repo from 80+ template scaffolds. Single skill matches natural-language intent against the manifest and uses gh repo create --template. Manifest-only — no bundled scaffold copies.",
+      "description": "Create a new GitHub repo from 80+ template scaffolds. Single skill matches natural-language intent against the manifest and uses gh repo create --template. Manifest-only \u2014 no bundled scaffold copies.",
       "version": "3.0.6",
       "author": {
         "name": "Daniel Rosehill",
@@ -576,7 +576,7 @@
         "source": "github",
         "repo": "danielrosehill/bug-catcher-plugin"
       },
-      "description": "Slash commands for rapid Linux system bug capture and diagnosis — check fresh logs the moment an issue occurs.",
+      "description": "Slash commands for rapid Linux system bug capture and diagnosis \u2014 check fresh logs the moment an issue occurs.",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -619,7 +619,7 @@
         "source": "github",
         "repo": "danielrosehill/conda-manager-plugin"
       },
-      "description": "Claude Code plugin for managing, auditing, and optimising Conda environments — list, validate, compare, backup, and clean up environments with AI assistance.",
+      "description": "Claude Code plugin for managing, auditing, and optimising Conda environments \u2014 list, validate, compare, backup, and clean up environments with AI assistance.",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -728,7 +728,7 @@
         "source": "github",
         "repo": "danielrosehill/bash-alias-manager-plugin"
       },
-      "description": "Claude Code plugin for managing bash aliases — add, edit, delete, prune, ideate, and back up ~/.bash_aliases using a guided workflow.",
+      "description": "Claude Code plugin for managing bash aliases \u2014 add, edit, delete, prune, ideate, and back up ~/.bash_aliases using a guided workflow.",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -750,7 +750,7 @@
         "source": "github",
         "repo": "danielrosehill/proxmox-manager-plugin"
       },
-      "description": "Claude Code plugin for managing Ubuntu VMs hosted on Proxmox. Covers Proxmox host inspection, VM lifecycle, Docker deployments, XFS storage, Cloudflare Tunnels, backups, and system health — with a setup wizard to tailor the environment to any server.",
+      "description": "Claude Code plugin for managing Ubuntu VMs hosted on Proxmox. Covers Proxmox host inspection, VM lifecycle, Docker deployments, XFS storage, Cloudflare Tunnels, backups, and system health \u2014 with a setup wizard to tailor the environment to any server.",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -773,7 +773,7 @@
         "source": "github",
         "repo": "danielrosehill/synology-manager-plugin"
       },
-      "description": "Claude Code plugin for managing a Synology NAS via SSH — guided first-run setup, persistent NAS context, and commands for shared folders, volumes, mounts, and storage monitoring.",
+      "description": "Claude Code plugin for managing a Synology NAS via SSH \u2014 guided first-run setup, persistent NAS context, and commands for shared folders, volumes, mounts, and storage monitoring.",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -881,7 +881,7 @@
         "source": "github",
         "repo": "danielrosehill/brainstorm-solutions-plugin"
       },
-      "description": "When you hit a wall, spin up a research workspace to brainstorm solutions — captures the blocker, seeds context, and kicks off deep research.",
+      "description": "When you hit a wall, spin up a research workspace to brainstorm solutions \u2014 captures the blocker, seeds context, and kicks off deep research.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -902,7 +902,7 @@
         "source": "github",
         "repo": "danielrosehill/Stack-Search-Plugin"
       },
-      "description": "Spawn a new stack search workspace from the Claude-Stack-Research-Workspace template — clone, name, create GitHub repo, run Tavily landscape scan, and kick off the structured 27-question intake interview.",
+      "description": "Spawn a new stack search workspace from the Claude-Stack-Research-Workspace template \u2014 clone, name, create GitHub repo, run Tavily landscape scan, and kick off the structured 27-question intake interview.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -946,7 +946,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-HP5200-Skill-plugin"
       },
-      "description": "HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printing, scanning, auto-discovery. A simple demo of local AI agent hardware integration.",
+      "description": "HP DeskJet 5200 printer and scanner operations \u2014 ink levels, color/B&W printing, scanning, auto-discovery. A simple demo of local AI agent hardware integration.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -969,7 +969,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Code-What-Thing"
       },
-      "description": "Decision support for choosing the right Claude Code primitive — skill, subagent, slash command, plugin, MCP server, hook, or output style — based on what you're trying to build. Grounded in the official Anthropic docs, personalised by stored user context.",
+      "description": "Decision support for choosing the right Claude Code primitive \u2014 skill, subagent, slash command, plugin, MCP server, hook, or output style \u2014 based on what you're trying to build. Grounded in the official Anthropic docs, personalised by stored user context.",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -990,7 +990,7 @@
         "source": "github",
         "repo": "danielrosehill/Open-Router-Model-Research-Plugin"
       },
-      "description": "Research, filter, compare, and evaluate AI models on OpenRouter — discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.",
+      "description": "Research, filter, compare, and evaluate AI models on OpenRouter \u2014 discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -1012,7 +1012,7 @@
         "source": "github",
         "repo": "danielrosehill/github-research-plugin"
       },
-      "description": "Research existing GitHub repositories before building — search, rank, and evaluate candidate tools via gh CLI with careful attention to stars, recency, and maintenance quality. Five skills for finding, comparing, and documenting tooling options so you can decide whether to use, fork, or build.",
+      "description": "Research existing GitHub repositories before building \u2014 search, rank, and evaluate candidate tools via gh CLI with careful attention to stars, recency, and maintenance quality. Five skills for finding, comparing, and documenting tooling options so you can decide whether to use, fork, or build.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -1026,6 +1026,28 @@
         "discovery",
         "gh-cli",
         "tooling"
+      ]
+    },
+    {
+      "name": "claude-user-memory",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-User-Memory-plugin"
+      },
+      "description": "Persistent cross-session memory about the user, backed by Mem0. Two isolated contexts (personal and work) with three skills for recall, save, and end-of-session commit.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "memory",
+        "mem0",
+        "context",
+        "personalization",
+        "mcp"
       ]
     }
   ]
