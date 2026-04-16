@@ -14,3 +14,5 @@
 - 2026-04-09: Added ai-attribution plugin (danielrosehill/ai-attribution-plugin) — adds a transparent human-AI attribution section to a project README, documenting which parts were human-authored and which were AI-assisted or AI-generated.
 
 - **2026-04-10** — Added `brainstorm-solutions` plugin: spin up research workspaces when hitting blockers
+
+- **2026-04-16** — Added `open-router-model-research` plugin: 8 skills for researching, filtering, comparing, and evaluating AI models on OpenRouter — includes capability filters (tool use, vision, audio), interactive recommendations, head-to-head comparison, and deep evaluation that goes beyond the OR catalog (model card, paper, license).

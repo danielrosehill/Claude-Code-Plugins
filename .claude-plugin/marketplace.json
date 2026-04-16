@@ -983,6 +983,28 @@
         "decision-support",
         "primitives"
       ]
+    },
+    {
+      "name": "open-router-model-research",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Open-Router-Model-Research-Plugin"
+      },
+      "description": "Research, filter, compare, and evaluate AI models on OpenRouter — discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "openrouter",
+        "ai-models",
+        "model-research",
+        "model-comparison",
+        "llm"
+      ]
     }
   ]
 }

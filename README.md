@@ -82,6 +82,18 @@ Evaluates whether the current conversation context is still useful or whether th
 /plugin install new-turn-hook@danielrosehill
 ```
 
+---
+
+#### Open-Router Model Research
+
+Research, filter, compare, and evaluate AI models on OpenRouter — discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Open-Router-Model-Research-Plugin)
+
+```
+/plugin install open-router-model-research@danielrosehill
+```
+
 ### Git & GitHub
 
 #### Git & GitHub
