@@ -1,3 +1,5 @@
+- 2026-04-16: Bumped context-toolkit to 1.0.1 — hooks.json rewritten to valid Claude Code schema (was failing with "expected record, received array").
+- 2026-04-16: Cleaned up defunct submodule-era files — removed update-submodules-and-push.sh, scripts/generate-submodule-list.sh, .gitmodules, planning/sources.md, and empty plugins/ gitlinks. Marketplace is manifest-only per CLAUDE.md.
 - 2026-04-09: Added new-turn-hook plugin (danielrosehill/new-turn-hook-plugin) — evaluates whether the current conversation context is still useful or whether the user should start a fresh conversation to avoid context bloat and degraded performance.
 - 2026-04-09: Added model-identifier plugin (danielrosehill/model-identifier-plugin) — injects a model self-identification instruction block into CLAUDE.md so Claude announces its model name and API identifier at the start of every conversation.
 - 2026-04-09: Added workspace-setup plugin (danielrosehill/workspace-setup-plugin) — interactive assistant for discovering and cloning Claude Code workspace templates, with curated catalog and objective-based recommendations.

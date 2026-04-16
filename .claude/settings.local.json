@@ -33,7 +33,10 @@
       "Bash(git submodule:*)",
       "Bash(git rm:*)",
       "Bash(rm -rf .git/modules/plugins)",
-      "Bash(rm -f .gitmodules)"
+      "Bash(rm -f .gitmodules)",
+      "Bash(jq '.enabledPlugins |= with_entries\\(select\\(.key | \\(endswith\\(\"@danielrosehill-plugins\"\\) or . == \"handover@danielrosehill\"\\) | not\\)\\)' ~/.claude/settings.json)",
+      "Bash(mv ~/.claude/settings.json.new ~/.claude/settings.json)",
+      "Read(//home/daniel/.claude/**)"
     ],
     "deny": [],
     "ask": []
