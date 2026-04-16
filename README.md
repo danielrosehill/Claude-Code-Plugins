@@ -130,6 +130,18 @@ Create a new GitHub repo from any template in Repo-Starters-And-Templates-Index
 /plugin install new-repo-from-template@danielrosehill
 ```
 
+---
+
+#### Claude Code Feedback
+
+Self-healing helper for filing well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live GitHub issue-form templates on every run so submissions always match Anthropic's current required fields.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Code-Feedback-Plugin)
+
+```
+/plugin install claude-code-feedback@danielrosehill
+```
+
 ### Repo Scaffolding & Retrofitting
 
 #### Spec Starter

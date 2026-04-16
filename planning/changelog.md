@@ -22,3 +22,5 @@
 - **2026-04-16** — Briefly added then removed `typst-document-generator` — moved to the new private marketplace at `danielrosehill/Claude-Code-Plugins-Private` because the plugin encodes Daniel-specific document conventions and DSR Holdings branding that isn't useful public surface area.
 
 - **2026-04-16** — Added `claude-user-memory` plugin: persistent cross-session memory about the user, backed by Mem0. Ships two isolated MCP instances (personal and work) with three skills — `recall-user-memory`, `remember-user-fact`, `commit-learnings` — plus a shared deduction rule for routing facts to the right context.
+
+- **2026-04-16** — Added `claude-code-feedback` plugin: self-healing helper for filing bugs, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Five skills (`bug`, `feature-request`, `model-behavior`, `docs`, `refresh-templates`); fetches live issue-form YAML from upstream on every run, caches fallback copies, and detects newly-added issue-template types. First real plugin in the space — one abandoned 0-star prior attempt, no official Anthropic equivalent.
