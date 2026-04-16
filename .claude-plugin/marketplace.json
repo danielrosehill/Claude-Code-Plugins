@@ -1035,7 +1035,7 @@
         "repo": "danielrosehill/Claude-User-Memory-plugin"
       },
       "description": "Persistent cross-session memory about the user, backed by Mem0. Two isolated contexts (personal and work) with three skills for recall, save, and end-of-session commit.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
