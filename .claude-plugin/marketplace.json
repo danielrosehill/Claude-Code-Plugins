@@ -1005,6 +1005,28 @@
         "model-comparison",
         "llm"
       ]
+    },
+    {
+      "name": "github-research",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/github-research-plugin"
+      },
+      "description": "Research existing GitHub repositories before building — search, rank, and evaluate candidate tools via gh CLI with careful attention to stars, recency, and maintenance quality. Five skills for finding, comparing, and documenting tooling options so you can decide whether to use, fork, or build.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "github",
+        "research",
+        "discovery",
+        "gh-cli",
+        "tooling"
+      ]
     }
   ]
 }

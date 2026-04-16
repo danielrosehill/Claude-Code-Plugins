@@ -16,3 +16,5 @@
 - **2026-04-10** — Added `brainstorm-solutions` plugin: spin up research workspaces when hitting blockers
 
 - **2026-04-16** — Added `open-router-model-research` plugin: 8 skills for researching, filtering, comparing, and evaluating AI models on OpenRouter — includes capability filters (tool use, vision, audio), interactive recommendations, head-to-head comparison, and deep evaluation that goes beyond the OR catalog (model card, paper, license).
+
+- **2026-04-16** — Added `github-research` plugin: 5 skills for exploring existing GitHub repositories before building — general repo search, AI-tool-focused search with strict recency filtering, deep candidate evaluation, finding alternatives to a known project, and documenting findings into a date-stamped `planning/github-research/` folder.

@@ -492,6 +492,18 @@ When you hit a wall, spin up a research workspace to brainstorm solutions — ca
 
 ---
 
+#### GitHub Research
+
+Research existing GitHub repositories before building something yourself — search, rank, and evaluate candidate tools via `gh` CLI with careful attention to stars, recency, and maintenance quality. Five skills for finding, comparing, and documenting tooling options.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/github-research-plugin)
+
+```
+/plugin install github-research@danielrosehill
+```
+
+---
+
 ### Personal Productivity
 
 #### Diary Planner
