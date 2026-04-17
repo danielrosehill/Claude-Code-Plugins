@@ -1,3 +1,4 @@
+- 2026-04-17: Added linux-crash-forensics plugin (danielrosehill/Linux-Crash-Forensics-Plugin) — installer for kdump/sysstat/persistent-journald plus investigate-last-crash, setup-netconsole, and review-pstore skills for Linux crash post-mortems.
 - 2026-04-16: Bumped context-toolkit to 1.0.1 — hooks.json rewritten to valid Claude Code schema (was failing with "expected record, received array").
 - 2026-04-16: Cleaned up defunct submodule-era files — removed update-submodules-and-push.sh, scripts/generate-submodule-list.sh, .gitmodules, planning/sources.md, and empty plugins/ gitlinks. Marketplace is manifest-only per CLAUDE.md.
 - 2026-04-09: Added new-turn-hook plugin (danielrosehill/new-turn-hook-plugin) — evaluates whether the current conversation context is still useful or whether the user should start a fresh conversation to avoid context bloat and degraded performance.

@@ -442,6 +442,18 @@ Manage a Synology NAS via SSH — guided first-run setup, persistent NAS context
 /plugin install synology-manager@danielrosehill
 ```
 
+---
+
+#### Linux Crash Forensics
+
+Installs crash diagnostic tooling (kdump, persistent journald, sysstat) and provides skills for investigating Linux crashes, kernel panics, and unexpected reboots — structured post-mortem workflow plus netconsole and pstore helpers
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Linux-Crash-Forensics-Plugin)
+
+```
+/plugin install linux-crash-forensics@danielrosehill
+```
+
 ### Privacy & Security
 
 #### Redaction
