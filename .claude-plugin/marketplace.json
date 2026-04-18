@@ -1098,13 +1098,13 @@
       ]
     },
     {
-      "name": "development-tasks",
+      "name": "dev-debugger",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/development-tasks-plugin"
+        "repo": "danielrosehill/dev-debugger-plugin"
       },
-      "description": "Task definitions for common development workflows \u2014 bug capture, remediation, and other agent-driven dev tasks.",
-      "version": "1.0.0",
+      "description": "Bug-ticket workflow for development repos \u2014 capture bugs into planning/bugs/, dispatch specialist remediation agents (reproducer, diagnoser, patcher, fix-documenter), and ship releases.",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1112,8 +1112,9 @@
       },
       "license": "MIT",
       "tags": [
-        "development",
-        "tasks",
+        "debugging",
+        "bugs",
+        "remediation",
         "agents",
         "workflows"
       ]
