@@ -504,6 +504,18 @@ Local network management
 /plugin install lan-manager@danielrosehill
 ```
 
+---
+
+#### MQTT Observability
+
+Monitor and publish MQTT broker payloads — all topics, a specific topic/space, or send a message. Credentials are collected once on first setup.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/mqtt-observability-plugin)
+
+```
+/plugin install mqtt-observability@danielrosehill
+```
+
 ### Research & Learning
 
 #### Learning

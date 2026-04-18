@@ -1118,6 +1118,28 @@
         "agents",
         "workflows"
       ]
+    },
+    {
+      "name": "mqtt-observability",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/mqtt-observability-plugin"
+      },
+      "description": "Observe and interact with an MQTT broker \u2014 monitor all payloads, watch a specific topic, and publish messages. Stores broker credentials once and reuses them.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "mqtt",
+        "observability",
+        "iot",
+        "home-assistant",
+        "monitoring"
+      ]
     }
   ]
 }
