@@ -555,8 +555,8 @@
         "source": "github",
         "repo": "danielrosehill/New-Repo-From-Template-Plugin"
       },
-      "description": "Create new GitHub repos from Daniel's extensive, regularly-updated template library. Match-by-intent skill picks a scaffold from the live manifest and runs gh repo create --template; companion recommend-template skill proposes best-fit scaffolds for a described use case. Manifest-only \u2014 no bundled scaffold copies.",
-      "version": "3.2.0",
+      "description": "Create new GitHub repos from a built-in curated template library AND the user's own templates (GitHub public/private or local directories). Match-by-intent and recommendation skills search both pools; configure-template-sources skill discovers and caches user templates.",
+      "version": "3.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
