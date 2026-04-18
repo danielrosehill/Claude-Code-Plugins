@@ -144,6 +144,18 @@ Self-healing helper for filing well-formed bug reports, feature requests, model-
 
 ### Repo Scaffolding & Retrofitting
 
+#### Development Tasks
+
+Task definitions for common development workflows — bug capture, remediation, and other agent-driven dev tasks
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/development-tasks-plugin)
+
+```
+/plugin install development-tasks@danielrosehill
+```
+
+---
+
 #### Spec Starter
 
 Spec-driven development workflow — transform free-form project descriptions into structured specifications, context files, and decision records

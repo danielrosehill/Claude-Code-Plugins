@@ -1,3 +1,4 @@
+- 2026-04-18: Added development-tasks plugin (danielrosehill/development-tasks-plugin) — task definitions for common dev workflows: /capture-bug command writes standardized reports (with sequential per-repo IDs and multi-bug splitting) to a central ~/bug-reports/ repo, plus bug-remediator agent for handoff remediation.
 - 2026-04-17: Added linux-crash-forensics plugin (danielrosehill/Linux-Crash-Forensics-Plugin) — installer for kdump/sysstat/persistent-journald plus investigate-last-crash, setup-netconsole, and review-pstore skills for Linux crash post-mortems.
 - 2026-04-16: Bumped context-toolkit to 1.0.1 — hooks.json rewritten to valid Claude Code schema (was failing with "expected record, received array").
 - 2026-04-16: Cleaned up defunct submodule-era files — removed update-submodules-and-push.sh, scripts/generate-submodule-list.sh, .gitmodules, planning/sources.md, and empty plugins/ gitlinks. Marketplace is manifest-only per CLAUDE.md.

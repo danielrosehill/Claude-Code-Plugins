@@ -1096,6 +1096,27 @@
         "kdump",
         "debugging"
       ]
+    },
+    {
+      "name": "development-tasks",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/development-tasks-plugin"
+      },
+      "description": "Task definitions for common development workflows \u2014 bug capture, remediation, and other agent-driven dev tasks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "development",
+        "tasks",
+        "agents",
+        "workflows"
+      ]
     }
   ]
 }
