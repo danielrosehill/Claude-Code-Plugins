@@ -312,6 +312,18 @@ Audio editing and processing tools
 
 ---
 
+#### Claude Transcription
+
+End-to-end audio transcription pipeline: preprocess (denoise, VAD, format normalization, speaker sampling), transcribe (Gemini, AssemblyAI, local Whisper), post-process (clean fillers, structure, blog/summary/notes), combine versions, and export.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Transcription-plugin)
+
+```
+/plugin install claude-transcription@danielrosehill
+```
+
+---
+
 #### Image Editing
 
 Image editing and processing tools

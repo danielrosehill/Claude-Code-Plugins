@@ -447,6 +447,29 @@
         "feedback",
         "self-healing"
       ]
+    },
+    {
+      "name": "claude-transcription",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Transcription-plugin"
+      },
+      "description": "End-to-end audio transcription pipeline: preprocess (denoise, VAD, format normalization, speaker sampling), transcribe (Gemini, AssemblyAI, local Whisper), post-process (clean fillers, structure, blog/summary/notes), combine versions, and export.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "transcription",
+        "audio",
+        "whisper",
+        "gemini",
+        "assemblyai",
+        "media"
+      ]
     }
   ]
 }
