@@ -255,6 +255,15 @@
       "tags": ["attribution", "transparency", "ai"]
     },
     {
+      "name": "claude-transcription",
+      "source": { "source": "github", "repo": "danielrosehill/Claude-Transcription-Plugin" },
+      "description": "Claude Code plugin: audio transcription workflow — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
+      "version": "1.0.0",
+      "author": { "name": "Daniel Rosehill", "email": "public@danielrosehill.com", "url": "https://danielrosehill.com" },
+      "license": "MIT",
+      "tags": ["transcription", "audio", "whisper", "gemini"]
+    },
+    {
       "name": "hp5200-printer",
       "source": { "source": "github", "repo": "danielrosehill/Claude-HP5200-Skill-plugin" },
       "description": "Claude Code plugin: HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printing, scanning, auto-discovery.",
