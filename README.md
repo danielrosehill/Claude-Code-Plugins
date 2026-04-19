@@ -252,6 +252,18 @@ Multi-agent QA system for code review, cleanup, docs, API, performance, deployme
 
 ### Documentation & Writing
 
+#### Repo To Docs
+
+Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Repo-To-Docs-plugin)
+
+```
+/plugin install repo-to-docs@danielrosehill
+```
+
+---
+
 #### AI Attribution
 
 Add a transparent human-AI attribution section to a project README, documenting which parts were human-authored and which were AI-assisted or AI-generated
