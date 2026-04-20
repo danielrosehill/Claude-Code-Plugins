@@ -696,14 +696,14 @@ Brainstorming, design ideas, innovation, AI chat experiments
 /plugin install ideation@danielrosehill
 ```
 
-#### Israel Skills
+#### Israel Shopping
 
-Israel-specific Claude Code agent skills — Hebrew, Israeli services, and local utilities
+Israeli shopping workflows — tech retailers, Zap, Hebrew term resolution, ILS conversion, RRP checks, grocery/pharmacy search
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-Skills-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin)
 
 ```
-/plugin install israel-skills@danielrosehill
+/plugin install israel-shopping@danielrosehill
 ```
 
 ### Marketing & Shopping

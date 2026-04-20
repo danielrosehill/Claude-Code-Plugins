@@ -615,13 +615,13 @@
       ]
     },
     {
-      "name": "israel-skills",
+      "name": "israel-shopping",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Israel-Skills-Plugin"
+        "repo": "danielrosehill/Claude-Israel-Shopping-Plugin"
       },
-      "description": "Israel-specific Claude Code agent skills and commands \u2014 Hebrew term resolution, Israeli retail (Zap, KSP, Ivory, etc.), ILS currency, and regional utilities.",
-      "version": "1.0.0",
+      "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
