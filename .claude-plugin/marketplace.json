@@ -656,6 +656,28 @@
         "practice-projects",
         "education"
       ]
+    },
+    {
+      "name": "teach-this-repo",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/teach-this-repo-plugin"
+      },
+      "description": "Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "education",
+        "teaching",
+        "repo-analysis",
+        "learning",
+        "curriculum"
+      ]
     }
   ]
 }

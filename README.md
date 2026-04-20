@@ -600,6 +600,18 @@ Generates specifications for practice/dummy development projects tailored to the
 
 ---
 
+#### Teach This Repo
+
+Uses a code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with real code excerpts, and supports an interactive Q&A mode.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/teach-this-repo-plugin)
+
+```
+/plugin install teach-this-repo@danielrosehill
+```
+
+---
+
 ### Personal Productivity
 
 #### Diary Planner
