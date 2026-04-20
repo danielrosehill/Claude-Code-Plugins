@@ -142,6 +142,18 @@ Self-healing helper for filing well-formed bug reports, feature requests, model-
 /plugin install claude-code-feedback@danielrosehill
 ```
 
+---
+
+#### Github Explorer
+
+Semantic GitHub repo discovery for reusable open-source components — keyword search, ranked shortlists, quick overviews, deep evaluations, and stack-aware project recommendations. Claude parses `gh api search/repositories` results.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Github-Explorer-Plugin)
+
+```
+/plugin install github-explorer@danielrosehill
+```
+
 ### Repo Scaffolding & Retrofitting
 
 #### Development Tasks
