@@ -588,6 +588,18 @@ Research existing GitHub repositories before building something yourself — sea
 
 ---
 
+#### Test Project Ideator
+
+Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/test-project-ideator-plugin)
+
+```
+/plugin install test-project-ideator@danielrosehill
+```
+
+---
+
 ### Personal Productivity
 
 #### Diary Planner
