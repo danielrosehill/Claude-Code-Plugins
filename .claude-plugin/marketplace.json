@@ -438,7 +438,7 @@
         "repo": "danielrosehill/Claude-Dev-Tools-Plugin"
       },
       "description": "Claude Code plugin: dev tools workflow — scaffold repos, retrofit for agents, QA code review, templatize, session continuity, with 7 variants.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
