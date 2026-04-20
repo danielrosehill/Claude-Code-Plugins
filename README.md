@@ -346,6 +346,18 @@ Design and build responsive HTML email templates using Foundation for Emails, Ma
 /plugin install html-email-designer@danielrosehill
 ```
 
+---
+
+#### Resume Typesetter
+
+Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Resume-Typesetter)
+
+```
+/plugin install resume-typesetter@danielrosehill
+```
+
 ### Media Editing
 
 #### Audio Editing
