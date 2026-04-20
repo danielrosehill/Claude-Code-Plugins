@@ -654,7 +654,7 @@ Uses a code repository in reverse for developer education: assesses the learner'
 
 Operational commands and a skill for working with the Green Invoice MCP server — invoices, clients, expenses, and monthly summaries.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/greeninvoice-ops-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Green-Invoice-Ops-Plugin)
 
 ```
 /plugin install greeninvoice-ops@danielrosehill
