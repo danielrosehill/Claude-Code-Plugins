@@ -77,7 +77,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Shopping-Plugin"
       },
-      "description": "Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability, with Israel and generic region variants.",
+      "description": "Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -620,7 +620,7 @@
         "source": "github",
         "repo": "danielrosehill/Israel-Skills-Plugin"
       },
-      "description": "Israel-specific Claude Code agent skills — Hebrew, Israeli services, and local utilities.",
+      "description": "Israel-specific Claude Code agent skills and commands — Hebrew term resolution, Israeli retail (Zap, KSP, Ivory, etc.), ILS currency, and regional utilities.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -632,7 +632,8 @@
         "israel",
         "hebrew",
         "localization",
-        "skills"
+        "skills",
+        "shopping"
       ]
     }
   ]
