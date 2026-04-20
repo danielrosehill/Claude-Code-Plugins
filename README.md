@@ -226,6 +226,18 @@ Interactive assistant for discovering and cloning Claude Code workspace template
 /plugin install workspace-setup@danielrosehill
 ```
 
+---
+
+#### Task Queuer
+
+Repo-based task queueing system with categorisation and prioritisation — scaffolds a `planning/` folder, logs tasks, buckets them by category, and hands prioritised work off to the repo's orchestration agent.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Task-Queuer-Plugin)
+
+```
+/plugin install task-queuer@danielrosehill
+```
+
 ### QA & Agent Sessions
 
 #### Session Transfer
