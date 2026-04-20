@@ -334,6 +334,18 @@ Proofreading, formatting, style standardization, content enhancement
 /plugin install writing-editing@danielrosehill
 ```
 
+---
+
+#### HTML Email Designer
+
+Design and build responsive HTML email templates using Foundation for Emails, Maizzle, or MJML. Framework-agnostic authoring with email-client compatibility baked in.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/html-email-designer-plugin)
+
+```
+/plugin install html-email-designer@danielrosehill
+```
+
 ### Media Editing
 
 #### Audio Editing
