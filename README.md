@@ -514,6 +514,18 @@ Installs crash diagnostic tooling (kdump, persistent journald, sysstat) and prov
 /plugin install linux-crash-forensics@danielrosehill
 ```
 
+---
+
+#### Backup Planner
+
+Plan, document, and implement a backup and data-protection strategy for the current project — architecture discovery, data inventory, infra memory, option evaluation, strategy doc, script generation, and restore drills
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Backup-Planner)
+
+```
+/plugin install backup-planner@danielrosehill
+```
+
 ### Privacy & Security
 
 #### Redaction

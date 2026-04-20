@@ -707,7 +707,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Github-Explorer-Plugin"
       },
-      "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos — Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
+      "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -721,6 +721,29 @@
         "search",
         "open-source",
         "component-search"
+      ]
+    },
+    {
+      "name": "backup-planner",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Backup-Planner"
+      },
+      "description": "Plan, document, and implement a backup and data-protection strategy for the current project \u2014 from architecture discovery through script generation and restore drills.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "backup",
+        "data-protection",
+        "disaster-recovery",
+        "restic",
+        "borg",
+        "rclone"
       ]
     }
   ]
