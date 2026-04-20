@@ -789,6 +789,27 @@
         "janitor",
         "huggingface"
       ]
+    },
+    {
+      "name": "adb-ops",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/adb-ops-plugin"
+      },
+      "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "adb",
+        "android",
+        "automation",
+        "device-management"
+      ]
     }
   ]
 }

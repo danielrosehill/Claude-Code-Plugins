@@ -542,6 +542,16 @@ Human-guided document redaction, identity obfuscation, alias management, and met
 
 ### Network & Smart Home
 
+#### ADB Ops
+
+ADB (Android Debug Bridge) operations — onboard a phone, map folders to local paths, import media on demand, capture screenshots, and manage bloatware with an auditable log
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/adb-ops-plugin)
+
+```
+/plugin install adb-ops@danielrosehill
+```
+
 #### Home Assistant Manager
 
 Home Assistant management and automation
