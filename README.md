@@ -624,6 +624,16 @@ Brainstorming, design ideas, innovation, AI chat experiments
 /plugin install ideation@danielrosehill
 ```
 
+#### Israel Skills
+
+Israel-specific Claude Code agent skills — Hebrew, Israeli services, and local utilities
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-Skills-Plugin)
+
+```
+/plugin install israel-skills@danielrosehill
+```
+
 ### Marketing & Shopping
 
 #### Israeli Tech Shopping
