@@ -877,6 +877,28 @@
         "meta",
         "token-efficiency"
       ]
+    },
+    {
+      "name": "media-assistant-ops",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/media-assistant-ops-plugin"
+      },
+      "description": "Interface with a Music Assistant server via its local API \u2014 onboard a deployment, control players, snapshot speaker rosters, and save/update per-player DSP presets.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "music-assistant",
+        "home-audio",
+        "smart-home",
+        "dsp",
+        "automation"
+      ]
     }
   ]
 }
