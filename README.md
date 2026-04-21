@@ -626,7 +626,7 @@ Monitor and publish MQTT broker payloads — all topics, a specific topic/space,
 
 #### Media Assistant Ops
 
-Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, and save/update per-player DSP presets.
+Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/media-assistant-ops-plugin)
 
