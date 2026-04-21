@@ -106,6 +106,18 @@ Research, filter, compare, and evaluate AI models on OpenRouter — discover mod
 /plugin install open-router-model-research@danielrosehill
 ```
 
+---
+
+#### User-Claude-MD
+
+Manage the user-level `~/.claude/CLAUDE.md` and its chunked `~/.claude/context/` directory — audit, chunk, list, and edit global Claude Code user context for token efficiency
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/User-Claude-MD-Plugin)
+
+```
+/plugin install user-claude-md@danielrosehill
+```
+
 ### Git & GitHub
 
 #### Git & GitHub
