@@ -708,7 +708,7 @@
         "repo": "danielrosehill/Claude-Github-Explorer-Plugin"
       },
       "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
