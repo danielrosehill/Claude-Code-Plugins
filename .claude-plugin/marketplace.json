@@ -153,6 +153,27 @@
       ]
     },
     {
+      "name": "image-production",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Image-Production-Plugin"
+      },
+      "description": "Claude Code plugin: image production — editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "image",
+        "media",
+        "exif",
+        "organisation"
+      ]
+    },
+    {
       "name": "video-production",
       "source": {
         "source": "github",
