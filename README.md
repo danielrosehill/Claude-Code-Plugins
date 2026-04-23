@@ -802,6 +802,20 @@ SEO optimization, audits, and reviews
 /plugin install seo@danielrosehill
 ```
 
+---
+
+### Data & Datasets
+
+#### Claude Data Wrangler
+
+Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets (visualisation out of scope). 27 skills — ISO standardisation (3166/4217/639/8601/LEI/ISIN), PII detection and synthetic overlay, data dictionaries with Typst PDF export, SQL / graph / vector / Hugging Face / GeoJSON / API loaders, date and Unicode hygiene, and an upstream → divergent-downstream incremental sync. Every destructive edit is gated by a backup-first policy.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Wrangler-plugin)
+
+```
+/plugin install Claude-Data-Wrangler@danielrosehill
+```
+
 ## Installation
 
 ### Add This Marketplace
