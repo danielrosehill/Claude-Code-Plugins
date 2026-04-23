@@ -538,8 +538,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-User-Memory-Plugin"
       },
-      "description": "Claude Code plugin: user memory and personalization workflow \u2014 recall, save, and inject persistent facts across sessions.",
-      "version": "1.0.0",
+      "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
