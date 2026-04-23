@@ -941,6 +941,28 @@
         "multi-agent",
         "deliberation"
       ]
+    },
+    {
+      "name": "Local-Web-Capture",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Local-Web-Capture"
+      },
+      "description": "Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (webclaw -> stealth -> real Chrome via bb-browser). Includes capture+translate for arbitrary language pairs (default Hebrew -> English).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "scraping",
+        "web-capture",
+        "georestricted",
+        "translation",
+        "headless"
+      ]
     }
   ]
 }
