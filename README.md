@@ -764,6 +764,20 @@ Israeli shopping workflows — tech retailers, Zap, Hebrew term resolution, ILS 
 /plugin install israel-shopping@danielrosehill
 ```
 
+### Regional
+
+#### Israel Agent Skills
+
+Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups. (Shopping skills live in the separate `israeli-tech-shopping` plugin.)
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-Agent-Skills-Plugin)
+
+```
+/plugin install israel-agent-skills@danielrosehill
+```
+
+---
+
 ### Marketing & Shopping
 
 #### Israeli Tech Shopping
