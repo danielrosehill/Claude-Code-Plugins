@@ -816,6 +816,16 @@ Data cleaning, enrichment, restructuring, and packaging skills for tabular and J
 /plugin install Claude-Data-Wrangler@danielrosehill
 ```
 
+#### Data Visualisation And Publishing
+
+Create static and interactive data visualisations for reports, repos, and data storytelling — prioritising a curated inventory of open-source tools (Matplotlib, Bokeh, Chart.js, ECharts, D3, visx, Vizzu, VChart, Plotly Dash, Lightweight Charts, fl_chart, Constellation, DataWarrior, Iris, react-globe.gl, and more).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Data-Visualisation-And-Publishing-plugin)
+
+```
+/plugin install data-visualisation-and-publishing@danielrosehill
+```
+
 ## Installation
 
 ### Add This Marketplace
