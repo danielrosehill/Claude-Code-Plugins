@@ -826,6 +826,16 @@ Create static and interactive data visualisations for reports, repos, and data s
 /plugin install data-visualisation-and-publishing@danielrosehill
 ```
 
+#### Claude Data Analyst
+
+First-pass data analysis toolkit for a dataset in a folder — six skills covering correlation analysis, PII flagging, anomaly detection, hypothesis testing, data dictionary generation, and trend analysis. Leans on lightweight CLI tooling (duckdb, csvkit, miller, uv-run pandas/scipy/statsmodels) so reports are reproducible without a persistent venv.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Analyst-plugin)
+
+```
+/plugin install claude-data-analyst@danielrosehill
+```
+
 ## Installation
 
 ### Add This Marketplace
