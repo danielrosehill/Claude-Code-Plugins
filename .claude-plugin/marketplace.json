@@ -17,7 +17,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Filesystem-Organiser-Plugin"
       },
-      "description": "Claude Code plugin: filesystem organisation workflow \u2014 scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants.",
+      "description": "Claude Code plugin: filesystem organisation workflow — scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -37,7 +37,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Desktop-Manager-Plugin"
       },
-      "description": "Claude Code plugin: Linux desktop management workflow \u2014 check system, install packages, apply config, troubleshoot hardware, review logs, update system.",
+      "description": "Claude Code plugin: Linux desktop management workflow — check system, install packages, apply config, troubleshoot hardware, review logs, update system.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -57,7 +57,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Budgeting-Plugin"
       },
-      "description": "Claude Code plugin: personal budgeting workflow \u2014 log transactions, categorize, forecast, track goals, monthly reports.",
+      "description": "Claude Code plugin: personal budgeting workflow — log transactions, categorize, forecast, track goals, monthly reports.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -77,7 +77,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Shopping-Plugin"
       },
-      "description": "Claude Code plugin: consumer shopping workflow \u2014 find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.",
+      "description": "Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -97,7 +97,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-AI-Engineering-Plugin"
       },
-      "description": "Claude Code plugin: prompt engineering workflow \u2014 craft, eval, catalog, version, search prompts, with library/factory variants.",
+      "description": "Claude Code plugin: prompt engineering workflow — craft, eval, catalog, version, search prompts, with library/factory variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -117,7 +117,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Media-Library-Plugin"
       },
-      "description": "Claude Code plugin: media library workflow \u2014 catalog, tag, search, sort, dedupe assets.",
+      "description": "Claude Code plugin: media library workflow — catalog, tag, search, sort, dedupe assets.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -137,7 +137,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Audio-Production-Plugin"
       },
-      "description": "Claude Code plugin: audio production workflow \u2014 normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
+      "description": "Claude Code plugin: audio production workflow — normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -179,7 +179,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Video-Production-Plugin"
       },
-      "description": "Claude Code plugin: video production workflow \u2014 transcode, organise, dedupe, ComfyUI generation, cover art, with editing/generative/cover-art variants.",
+      "description": "Claude Code plugin: video production workflow — transcode, organise, dedupe, ComfyUI generation, cover art, with editing/generative/cover-art variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -199,7 +199,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-PR-Media-Work-Plugin"
       },
-      "description": "Claude Code plugin: PR and media monitoring workflow \u2014 scan coverage, summarize press, draft responses, comms strategy, with monitoring/response/strategy variants.",
+      "description": "Claude Code plugin: PR and media monitoring workflow — scan coverage, summarize press, draft responses, comms strategy, with monitoring/response/strategy variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -220,7 +220,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Smart-Home-Plugin"
       },
-      "description": "Claude Code plugin: smart home workflow \u2014 Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.",
+      "description": "Claude Code plugin: smart home workflow — Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -240,7 +240,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Debugging-Plugin"
       },
-      "description": "Claude Code plugin: debugging workflow \u2014 capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants.",
+      "description": "Claude Code plugin: debugging workflow — capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -259,7 +259,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Content-Writing-Plugin"
       },
-      "description": "Claude Code plugin: content writing workflow \u2014 draft, proofread, version, publish, style guides, with writing/blog/opinion/document variants.",
+      "description": "Claude Code plugin: content writing workflow — draft, proofread, version, publish, style guides, with writing/blog/opinion/document variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -279,7 +279,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Career-Plugin"
       },
-      "description": "Claude Code plugin: career planning workflow \u2014 log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
+      "description": "Claude Code plugin: career planning workflow — log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -298,7 +298,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Purchasing-Plugin"
       },
-      "description": "Claude Code plugin: purchasing workflow \u2014 intake, compare products, evaluate options, recommend, with general/tech-procurement/recommendations variants.",
+      "description": "Claude Code plugin: purchasing workflow — intake, compare products, evaluate options, recommend, with general/tech-procurement/recommendations variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -318,7 +318,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Research-Space-Plugin"
       },
-      "description": "Claude Code plugin: research workflow \u2014 source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants.",
+      "description": "Claude Code plugin: research workflow — source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -338,7 +338,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Legal-Investigative-Plugin"
       },
-      "description": "Claude Code plugin: legal and investigative workflow \u2014 log evidence, analyze documents, redact, generate briefs, with legal-research/evidence/osint/document-analysis variants.",
+      "description": "Claude Code plugin: legal and investigative workflow — log evidence, analyze documents, redact, generate briefs, with legal-research/evidence/osint/document-analysis variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -358,7 +358,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Knowledge-Documentation-Plugin"
       },
-      "description": "Claude Code plugin: knowledge documentation workflow \u2014 index, cross-link, build taxonomy, version docs, with wiki/resource-library/process-docs/experiment-report variants.",
+      "description": "Claude Code plugin: knowledge documentation workflow — index, cross-link, build taxonomy, version docs, with wiki/resource-library/process-docs/experiment-report variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -378,7 +378,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Personal-Planning-Plugin"
       },
-      "description": "Claude Code plugin: personal life planning workflow \u2014 log entries, review progress, set goals, with diary/health/family/house-search/preparedness/therapy/personal-dev/inbox variants.",
+      "description": "Claude Code plugin: personal life planning workflow — log entries, review progress, set goals, with diary/health/family/house-search/preparedness/therapy/personal-dev/inbox variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -398,7 +398,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Ideation-Planning-Plugin"
       },
-      "description": "Claude Code plugin: ideation and planning workflow \u2014 capture, evaluate, rank, simulate, with ideation/single-eval/multi-ranking/feature/decision/simulation/capture variants.",
+      "description": "Claude Code plugin: ideation and planning workflow — capture, evaluate, rank, simulate, with ideation/single-eval/multi-ranking/feature/decision/simulation/capture variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -418,7 +418,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Technical-Docs-Plugin"
       },
-      "description": "Claude Code plugin: technical documentation workflow \u2014 READMEs, reference docs, changelogs, environment docs, with api-reference/code-docs/environment-docs/dev-notebook variants.",
+      "description": "Claude Code plugin: technical documentation workflow — READMEs, reference docs, changelogs, environment docs, with api-reference/code-docs/environment-docs/dev-notebook variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -438,7 +438,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Sysadmin-Homelab-Plugin"
       },
-      "description": "Claude Code plugin: sysadmin and homelab workflow \u2014 diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.",
+      "description": "Claude Code plugin: sysadmin and homelab workflow — diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -458,7 +458,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Dev-Tools-Plugin"
       },
-      "description": "Claude Code plugin: dev tools workflow \u2014 scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.",
+      "description": "Claude Code plugin: dev tools workflow — scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.",
       "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -479,7 +479,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Workspace-Foundational-Plugin"
       },
-      "description": "Claude Code plugin: foundational workspace workflow \u2014 setup, context management, report parsing, inventory, template discovery, with 6 variants.",
+      "description": "Claude Code plugin: foundational workspace workflow — setup, context management, report parsing, inventory, template discovery, with 6 variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -499,7 +499,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Meta-Tools-Plugin"
       },
-      "description": "Claude Code plugin: meta-tooling workflow \u2014 context management, MCP integration, feedback filing, primitive selection for Claude Code itself.",
+      "description": "Claude Code plugin: meta-tooling workflow — context management, MCP integration, feedback filing, primitive selection for Claude Code itself.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -519,7 +519,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Security-Checkup-Plugin"
       },
-      "description": "Claude Code plugin: security and compliance workflow \u2014 vulnerability scanning, system hardening, config audits.",
+      "description": "Claude Code plugin: security and compliance workflow — vulnerability scanning, system hardening, config audits.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -538,7 +538,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-User-Memory-Plugin"
       },
-      "description": "Claude Code plugin: user memory and personalization workflow \u2014 recall, save, and inject persistent facts across sessions.",
+      "description": "Claude Code plugin: user memory and personalization workflow — recall, save, and inject persistent facts across sessions.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -557,7 +557,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-AI-Attribution-Plugin"
       },
-      "description": "Claude Code plugin: AI transparency workflow \u2014 document human vs AI contributions, add attribution, audit provenance.",
+      "description": "Claude Code plugin: AI transparency workflow — document human vs AI contributions, add attribution, audit provenance.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -577,7 +577,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Transcription-Plugin"
       },
-      "description": "Claude Code plugin: audio transcription workflow \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
+      "description": "Claude Code plugin: audio transcription workflow — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -598,7 +598,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-HP5200-Skill-plugin"
       },
-      "description": "Claude Code plugin: HP DeskJet 5200 printer and scanner operations \u2014 ink levels, color/B&W printing, scanning, auto-discovery.",
+      "description": "Claude Code plugin: HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printing, scanning, auto-discovery.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -641,7 +641,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Israel-Shopping-Plugin"
       },
-      "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.",
+      "description": "Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.",
       "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -728,7 +728,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Github-Explorer-Plugin"
       },
-      "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
+      "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos — Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
       "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -750,7 +750,7 @@
         "source": "github",
         "repo": "danielrosehill/Backup-Planner"
       },
-      "description": "Plan, document, and implement a backup and data-protection strategy for the current project \u2014 from architecture discovery through script generation and restore drills.",
+      "description": "Plan, document, and implement a backup and data-protection strategy for the current project — from architecture discovery through script generation and restore drills.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -773,7 +773,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin"
       },
-      "description": "Operational commands and a skill for working with the Green Invoice MCP server \u2014 invoices, clients, expenses, and monthly summaries.",
+      "description": "Operational commands and a skill for working with the Green Invoice MCP server — invoices, clients, expenses, and monthly summaries.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -817,7 +817,7 @@
         "source": "github",
         "repo": "danielrosehill/adb-ops-plugin"
       },
-      "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.",
+      "description": "ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -883,7 +883,7 @@
         "source": "github",
         "repo": "danielrosehill/User-Claude-MD-Plugin"
       },
-      "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory \u2014 audit, chunk, list, and edit global Claude Code user context for token efficiency.",
+      "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory — audit, chunk, list, and edit global Claude Code user context for token efficiency.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -905,7 +905,7 @@
         "source": "github",
         "repo": "danielrosehill/media-assistant-ops-plugin"
       },
-      "description": "Interface with a Music Assistant server via its local API \u2014 onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
+      "description": "Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
       "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -919,6 +919,27 @@
         "smart-home",
         "dsp",
         "automation"
+      ]
+    },
+    {
+      "name": "LLM-Council-Creator",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/LLM-Council-Creator"
+      },
+      "description": "Scaffold new LLM Council projects from existing templates (Template, Grounded, Decide) or build bespoke council repos for specific purposes.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "llm-council",
+        "scaffolding",
+        "multi-agent",
+        "deliberation"
       ]
     }
   ]
