@@ -836,6 +836,16 @@ First-pass data analysis toolkit for a dataset in a folder — six skills coveri
 /plugin install claude-data-analyst@danielrosehill
 ```
 
+#### Text Corpus Analysis
+
+Skills for large-corpus text and topic analysis — 14 skills covering topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness for runs over thousands of documents.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Text-Corpus-Analysis)
+
+```
+/plugin install text-corpus-analysis@danielrosehill
+```
+
 ## Installation
 
 ### Add This Marketplace

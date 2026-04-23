@@ -1055,6 +1055,31 @@
         "anomaly-detection",
         "data-dictionary"
       ]
+    },
+    {
+      "name": "text-corpus-analysis",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Text-Corpus-Analysis"
+      },
+      "description": "Skills for analyzing large text corpora — topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap→premium pattern, embeddings+clustering preferred over pairwise LLM comparison.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "nlp",
+        "text-analysis",
+        "topic-modeling",
+        "ner",
+        "taxonomy",
+        "categorization",
+        "corpus",
+        "llm"
+      ]
     }
   ]
 }
