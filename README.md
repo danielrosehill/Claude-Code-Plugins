@@ -764,6 +764,18 @@ Israeli shopping workflows — tech retailers, Zap, Hebrew term resolution, ILS 
 /plugin install israel-shopping@danielrosehill
 ```
 
+#### Daniel-Rosehill
+
+Personal-use skills and slash commands for Daniel Rosehill — released publicly for convenience. Not intended as a general-purpose plugin.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Daniel-Rosehill-Claude-Plugin)
+
+```
+/plugin install Daniel-Rosehill@danielrosehill
+```
+
+---
+
 ### Regional
 
 #### Israel Agent Skills

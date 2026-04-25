@@ -1102,6 +1102,25 @@
         "indexing",
         "github"
       ]
+    },
+    {
+      "name": "Daniel-Rosehill",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Daniel-Rosehill-Claude-Plugin"
+      },
+      "description": "Personal-use skills and slash commands for Daniel Rosehill \u2014 released publicly for convenience.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "personal",
+        "danielrosehill"
+      ]
     }
   ]
 }

@@ -56,3 +56,7 @@
 - **2026-04-20** — Added `adb-ops` plugin: ADB operations for Android devices. 8 skills — `onboard` (device profile + folder mappings), `device-status`, `take-screenshot`, `import-media` (uses saved mappings, incremental), `remove-bloatware` (safe defaults, `disable-user` preferred), `bloatware-log` (audit history), `pull-folder`, `push-folder`. All user state persists at `~/.claude/adb-ops/` (profile.yaml, mappings.yaml, bloatware-log.jsonl) outside the plugin.
 
 - **2026-04-23** — Added `israel-agent-skills` plugin: a home for Israel/Hebrew-specific agent skills (Hebrew translation, Hebrew typography, emergency readiness utilities, Miklat lookup, etc.). Scaffolded empty — skills to be promoted from `Agent-Skills/candidates/israel-hebrew.md` over time. Israel shopping is explicitly out of scope (handled by the separate `israeli-tech-shopping` plugin).
+
+## 2026-04-25
+
+- Added **Daniel-Rosehill** plugin (personal-use skills/slashes; first skill: view-github-repos). Repo: danielrosehill/Daniel-Rosehill-Claude-Plugin
