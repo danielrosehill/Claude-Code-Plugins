@@ -423,14 +423,14 @@ Video editing and processing tools
 
 ---
 
-#### AI Video Production Lifecycle
+#### AI Video Producer
 
 Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/AI-Video-Production-Lifecycle)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/AI-Video-Producer)
 
 ```
-/plugin install ai-video-production-lifecycle@danielrosehill
+/plugin install ai-video-producer@danielrosehill
 ```
 
 ### Linux Sysadmin
