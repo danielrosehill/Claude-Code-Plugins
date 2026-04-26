@@ -1121,6 +1121,30 @@
         "personal",
         "danielrosehill"
       ]
+    },
+    {
+      "name": "ai-video-production-lifecycle",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/AI-Video-Production-Lifecycle"
+      },
+      "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "video",
+        "generative-ai",
+        "lifecycle",
+        "pipeline",
+        "fal",
+        "replicate",
+        "elevenlabs"
+      ]
     }
   ]
 }
