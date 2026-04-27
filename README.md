@@ -899,6 +899,16 @@ First-pass data analysis toolkit for a dataset in a folder — six skills coveri
 /plugin install claude-data-analyst@danielrosehill
 ```
 
+#### Claude Data Annotation
+
+End-to-end data annotation toolkit. Three orchestrator skills (`shape-dataset`, `annotate-with-claude`, `scaffold-annotation-env`, `hf-setup`) backed by six subagents (`data-profiler`, `pii-scanner`, `column-curator`, `schema-designer`, `format-normalizer`, `review-annotations`). Covers ingest → profile → PII/column/format prep → schema design → annotation (Claude in-session for small jobs, Gemini batch inference for larger ones) → review → publish to Hugging Face.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Annotation-Plugin)
+
+```
+/plugin install data-annotation@danielrosehill
+```
+
 #### Text Corpus Analysis
 
 Skills for large-corpus text and topic analysis — 14 skills covering topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness for runs over thousands of documents.
