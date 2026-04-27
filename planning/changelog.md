@@ -68,3 +68,4 @@
 ## 2026-04-27
 
 - Added **digital-printing** plugin: 19 skills + orchestrator agent for preparing PDFs for digital printing. Covers page-level transforms (resize, grayscale, remove pages, strip footers, optimize-for-binding, cover page), overlays (watermark, footer burn-in), preflight/quality fixes (verify-bleed-safe, add-bleed, embed-fonts, flatten-transparency, downsample-images, normalize-color-profile), metadata (strip/write), and a full job-packaging pipeline (create-job-folder, create-print-order, zip-job-folder, upload-to-printing-folder, share-job-folder via email/Drive). Orchestrator profiles a PDF and chains the right fixes. Repo: danielrosehill/Digital-Printing-Plugin
+2026-04-27 — Add programmatic-doc-generation plugin (Typst templates + automation pipeline integration: Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen)

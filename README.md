@@ -291,6 +291,18 @@ Multi-agent QA system for code review, cleanup, docs, API, performance, deployme
 
 ### Documentation & Writing
 
+#### Programmatic Doc Generation
+
+Build programmatic document generation pipelines — Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen)
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/programmatic-doc-generation-plugin)
+
+```
+/plugin install programmatic-doc-generation@danielrosehill
+```
+
+---
+
 #### Repo To Docs
 
 Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing
