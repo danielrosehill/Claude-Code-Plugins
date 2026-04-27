@@ -103,7 +103,7 @@ Evaluates whether the current conversation context is still useful or whether th
 
 Research, filter, compare, and evaluate AI models on OpenRouter — discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Open-Router-Model-Research-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Open-Router-Model-Research-Plugin)
 
 ```
 /plugin install open-router-model-research@danielrosehill
@@ -295,7 +295,7 @@ Multi-agent QA system for code review, cleanup, docs, API, performance, deployme
 
 Build programmatic document generation pipelines — Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen)
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/programmatic-doc-generation-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Programmatic-Doc-Generation-Plugin)
 
 ```
 /plugin install programmatic-doc-generation@danielrosehill
@@ -367,7 +367,7 @@ Proofreading, formatting, style standardization, content enhancement
 
 Design and build responsive HTML email templates using Foundation for Emails, Maizzle, or MJML. Framework-agnostic authoring with email-client compatibility baked in.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/html-email-designer-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin)
 
 ```
 /plugin install html-email-designer@danielrosehill
@@ -379,7 +379,7 @@ Design and build responsive HTML email templates using Foundation for Emails, Ma
 
 Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Resume-Typesetter)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Resume-Typesetter-Plugin)
 
 ```
 /plugin install resume-typesetter@danielrosehill
@@ -391,7 +391,7 @@ Manage a resume as JSON Resume schema data and render it with custom Typst templ
 
 Prepare PDFs for digital printing — page resize, grayscale, font embedding, transparency flattening, image downsampling, color profile normalization, watermarks and footer burn-ins, cover pages, bleed-safety verification, and a job-folder/print-order workflow with email/Drive sharing. Includes an orchestrator agent that profiles a PDF and chains the right fixes.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Digital-Printing-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Digital-Printing-Plugin)
 
 ```
 /plugin install digital-printing@danielrosehill
@@ -451,7 +451,7 @@ Video editing and processing tools
 
 Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export. Ships fal.ai/Replicate/MiniMax MCP servers and fal-js + WaveSpeed Python SDK runners.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/AI-Video-Producer)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin)
 
 ```
 /plugin install ai-video-producer@danielrosehill
@@ -595,7 +595,7 @@ Installs crash diagnostic tooling (kdump, persistent journald, sysstat) and prov
 
 Plan, document, and implement a backup and data-protection strategy for the current project — architecture discovery, data inventory, infra memory, option evaluation, strategy doc, script generation, and restore drills
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Backup-Planner)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Backup-Planner-Plugin)
 
 ```
 /plugin install backup-planner@danielrosehill
@@ -607,7 +607,7 @@ Plan, document, and implement a backup and data-protection strategy for the curr
 
 Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) — scaffold, debug, package, install, and migrate Plasma 5 → 6
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Skill)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin)
 
 ```
 /plugin install kde-plasmoid-dev@danielrosehill
@@ -633,7 +633,7 @@ Human-guided document redaction, identity obfuscation, alias management, and met
 
 ADB (Android Debug Bridge) operations — onboard a phone, map folders to local paths, import media on demand, capture screenshots, and manage bloatware with an auditable log
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/adb-ops-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin)
 
 ```
 /plugin install adb-ops@danielrosehill
@@ -679,7 +679,7 @@ Monitor and publish MQTT broker payloads — all topics, a specific topic/space,
 
 Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/media-assistant-ops-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Media-Assistant-Ops-Plugin)
 
 ```
 /plugin install media-assistant-ops@danielrosehill
@@ -737,7 +737,7 @@ Research existing GitHub repositories before building something yourself — sea
 
 Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/test-project-ideator-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Test-Project-Ideator-Plugin)
 
 ```
 /plugin install test-project-ideator@danielrosehill
@@ -749,7 +749,7 @@ Generates specifications for practice/dummy development projects tailored to the
 
 Uses a code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with real code excerpts, and supports an interactive Q&A mode.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/teach-this-repo-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Teach-This-Repo-Plugin)
 
 ```
 /plugin install teach-this-repo@danielrosehill
@@ -833,7 +833,7 @@ Personal-use skills and slash commands for Daniel Rosehill — released publicly
 
 Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups. (Shopping skills live in the separate `israeli-tech-shopping` plugin.)
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-Agent-Skills-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin)
 
 ```
 /plugin install israel-agent-skills@danielrosehill
@@ -883,7 +883,7 @@ Data cleaning, enrichment, restructuring, and packaging skills for tabular and J
 
 Create static and interactive data visualisations for reports, repos, and data storytelling — prioritising a curated inventory of open-source tools (Matplotlib, Bokeh, Chart.js, ECharts, D3, visx, Vizzu, VChart, Plotly Dash, Lightweight Charts, fl_chart, Constellation, DataWarrior, Iris, react-globe.gl, and more).
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Data-Visualisation-And-Publishing-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin)
 
 ```
 /plugin install data-visualisation-and-publishing@danielrosehill
@@ -913,7 +913,7 @@ End-to-end data annotation toolkit. Three orchestrator skills (`shape-dataset`, 
 
 Skills for large-corpus text and topic analysis — 14 skills covering topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness for runs over thousands of documents.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Text-Corpus-Analysis)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Text-Corpus-Analysis-Plugin)
 
 ```
 /plugin install text-corpus-analysis@danielrosehill
