@@ -495,6 +495,18 @@ KDE settings, display management, system health, hardware profiling
 
 ---
 
+#### Linux Packaging
+
+Linux packaging and release workflows — Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Linux-Packaging-Plugin)
+
+```
+/plugin install linux-packaging@danielrosehill
+```
+
+---
+
 #### Linux Server
 
 Server management and administration tools
