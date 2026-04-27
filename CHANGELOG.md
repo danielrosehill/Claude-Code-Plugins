@@ -4,6 +4,19 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ---
 
+## Unreleased
+
+### Added — 2026-04-28
+
+- **`opnsense-mgmt`** — manage an OPNsense router/firewall via SSH and OPNsense API. Onboard skill writes per-host config to `$CLAUDE_USER_DATA/opnsense-mgmt/config.json`; `opnsense-maintenance` skill reads from it. Generic, multi-environment-friendly.
+- **`synology-mgmt`** — manage a Synology NAS via SSH and (optional) DSM HTTP API. Onboard skill writes per-host config to `$CLAUDE_USER_DATA/synology-mgmt/config.json`; `synology-operations` skill reads from it. Generic, multi-NAS-friendly.
+
+### Changed — 2026-04-28
+
+- Replaced the stale `synology-manager` README entry (pointing at a non-registered repo) with the new `synology-mgmt` plugin.
+
+---
+
 ## [2.0.0] — 2026-04-19
 
 ### The Great Reshape

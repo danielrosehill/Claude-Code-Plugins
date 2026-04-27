@@ -579,14 +579,26 @@ Manage Ubuntu VMs hosted on Proxmox — host inspection, VM lifecycle, Docker de
 
 ---
 
-#### Synology Manager
+#### Synology Mgmt
 
-Manage a Synology NAS via SSH — guided first-run setup, persistent NAS context, and commands for shared folders, volumes, mounts, and storage monitoring
+Manage a Synology NAS via SSH — guided first-run onboarding, share/volume inspection, storage health, and file operations. Per-host config is stored outside the plugin so the same install works across multiple NAS environments.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/synology-manager-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Synology-Mgmt-Plugin)
 
 ```
-/plugin install synology-manager@danielrosehill
+/plugin install synology-mgmt@danielrosehill
+```
+
+---
+
+#### OPNsense Mgmt
+
+Manage an OPNsense router/firewall via SSH and the OPNsense API — guided first-run onboarding, firewall rule inspection, network debugging, and host/log diagnostics. Per-host config is stored outside the plugin so the same install works across multiple environments.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Opnsense-Mgmt-Plugin)
+
+```
+/plugin install opnsense-mgmt@danielrosehill
 ```
 
 ---

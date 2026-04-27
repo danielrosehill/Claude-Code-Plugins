@@ -1305,6 +1305,52 @@
         "npm",
         "release"
       ]
+    },
+    {
+      "name": "opnsense-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Opnsense-Mgmt-Plugin"
+      },
+      "description": "Manage an OPNsense router/firewall via SSH and the OPNsense API — guided first-run onboarding, firewall rule inspection, network debugging, and host/log diagnostics. Per-host config is stored outside the plugin so the same install works across multiple environments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "opnsense",
+        "firewall",
+        "network",
+        "router",
+        "homelab",
+        "sysadmin"
+      ]
+    },
+    {
+      "name": "synology-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Synology-Mgmt-Plugin"
+      },
+      "description": "Manage a Synology NAS via SSH — guided first-run onboarding, share/volume inspection, storage health, and file operations. Per-host config is stored outside the plugin so the same install works across multiple NAS environments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "synology",
+        "nas",
+        "dsm",
+        "storage",
+        "homelab",
+        "sysadmin"
+      ]
     }
   ]
 }
