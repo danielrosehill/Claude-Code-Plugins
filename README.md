@@ -577,6 +577,18 @@ Plan, document, and implement a backup and data-protection strategy for the curr
 /plugin install backup-planner@danielrosehill
 ```
 
+---
+
+#### KDE Plasmoid Dev
+
+Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) — scaffold, debug, package, install, and migrate Plasma 5 → 6
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Skill)
+
+```
+/plugin install kde-plasmoid-dev@danielrosehill
+```
+
 ### Privacy & Security
 
 #### Redaction
