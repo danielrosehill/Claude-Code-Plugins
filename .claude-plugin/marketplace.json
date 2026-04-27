@@ -459,7 +459,7 @@
         "repo": "danielrosehill/Claude-Dev-Tools-Plugin"
       },
       "description": "Claude Code plugin: dev tools workflow — scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.",
-      "version": "2.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -500,7 +500,7 @@
         "repo": "danielrosehill/Claude-Meta-Tools-Plugin"
       },
       "description": "Claude-Rudder — collection of utilities to smoothen the Claude Code UI/UX. Session handover, context-gate workflow, terminal helpers, plugin/MCP/workspace primitives, and the canonical user-data storage convention.",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
