@@ -567,14 +567,14 @@ Add, edit, delete, prune, list, document, and back up `~/.bash_aliases` using a 
 
 ---
 
-#### Proxmox Manager
+#### Proxmox Mgmt
 
-Manage Ubuntu VMs hosted on Proxmox — host inspection, VM lifecycle, Docker deployments, XFS storage, Cloudflare Tunnels, backups, and system health with a setup wizard
+Manage a Proxmox VE host via SSH and the Proxmox API — guided first-run onboarding, VM/CT lifecycle, storage and ZFS inspection, log review, and update workflows. Per-host config is stored outside the plugin so the same install works across multiple Proxmox environments.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/proxmox-manager-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Proxmox-Mgmt-Plugin)
 
 ```
-/plugin install proxmox-manager@danielrosehill
+/plugin install proxmox-mgmt@danielrosehill
 ```
 
 ---
@@ -663,14 +663,14 @@ ADB (Android Debug Bridge) operations — onboard a phone, map folders to local 
 /plugin install adb-ops@danielrosehill
 ```
 
-#### Home Assistant Manager
+#### Home Assistant Mgmt
 
-Home Assistant management and automation
+Manage a Home Assistant instance via SSH and the HA REST API — guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/home-assistant-manager-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Home-Assistant-Mgmt-Plugin)
 
 ```
-/plugin install home-assistant-manager@danielrosehill
+/plugin install home-assistant-mgmt@danielrosehill
 ```
 
 ---

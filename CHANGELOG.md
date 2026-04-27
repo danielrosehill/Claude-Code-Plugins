@@ -10,10 +10,14 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 - **`opnsense-mgmt`** — manage an OPNsense router/firewall via SSH and OPNsense API. Onboard skill writes per-host config to `$CLAUDE_USER_DATA/opnsense-mgmt/config.json`; `opnsense-maintenance` skill reads from it. Generic, multi-environment-friendly.
 - **`synology-mgmt`** — manage a Synology NAS via SSH and (optional) DSM HTTP API. Onboard skill writes per-host config to `$CLAUDE_USER_DATA/synology-mgmt/config.json`; `synology-operations` skill reads from it. Generic, multi-NAS-friendly.
+- **`proxmox-mgmt`** — manage a Proxmox VE host via SSH and Proxmox API. Onboard skill writes per-host config to `$CLAUDE_USER_DATA/proxmox-mgmt/config.json`; `proxmox-maintenance` skill reads from it. Generic, multi-host-friendly.
+- **`home-assistant-mgmt`** — manage a Home Assistant instance via REST API + (optional) SSH. Onboard skill captures install type, API URL, long-lived token reference, and default TTS target into `$CLAUDE_USER_DATA/home-assistant-mgmt/config.json`; `home-assistant-ops` skill reads from it. Generic across HAOS / Container / Core / Supervised installs.
 
 ### Changed — 2026-04-28
 
 - Replaced the stale `synology-manager` README entry (pointing at a non-registered repo) with the new `synology-mgmt` plugin.
+- Replaced the older `proxmox-manager` README entry with the new generic `proxmox-mgmt` plugin (same pattern as opnsense-mgmt / synology-mgmt).
+- Replaced the older `home-assistant-manager` README entry with the new generic `home-assistant-mgmt` plugin.
 
 ---
 

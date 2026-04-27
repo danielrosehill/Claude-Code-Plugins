@@ -1351,6 +1351,51 @@
         "homelab",
         "sysadmin"
       ]
+    },
+    {
+      "name": "proxmox-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Proxmox-Mgmt-Plugin"
+      },
+      "description": "Manage a Proxmox VE host via SSH and the Proxmox API — guided first-run onboarding, VM/CT lifecycle, storage and ZFS inspection, log review, and update workflows. Per-host config is stored outside the plugin so the same install works across multiple Proxmox environments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "proxmox",
+        "virtualization",
+        "homelab",
+        "sysadmin",
+        "vm",
+        "lxc"
+      ]
+    },
+    {
+      "name": "home-assistant-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Home-Assistant-Mgmt-Plugin"
+      },
+      "description": "Manage a Home Assistant instance via SSH and the HA REST API — guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "home-assistant",
+        "homelab",
+        "smart-home",
+        "automation",
+        "iot"
+      ]
     }
   ]
 }
