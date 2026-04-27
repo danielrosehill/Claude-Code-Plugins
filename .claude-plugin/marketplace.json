@@ -494,13 +494,13 @@
       ]
     },
     {
-      "name": "meta-tools",
+      "name": "claude-rudder",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Meta-Tools-Plugin"
       },
-      "description": "Claude Code plugin: meta-tooling workflow — context management, MCP integration, feedback filing, primitive selection for Claude Code itself.",
-      "version": "1.0.0",
+      "description": "Claude-Rudder — collection of utilities to smoothen the Claude Code UI/UX. Session handover, context-gate workflow, terminal helpers, plugin/MCP/workspace primitives, and the canonical user-data storage convention.",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -508,9 +508,11 @@
       },
       "license": "MIT",
       "tags": [
-        "meta",
         "claude-code",
-        "mcp"
+        "session-handover",
+        "context-management",
+        "mcp",
+        "ux"
       ]
     },
     {
