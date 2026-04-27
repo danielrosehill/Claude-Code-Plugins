@@ -616,13 +616,13 @@
       ]
     },
     {
-      "name": "repo-to-docs",
+      "name": "repo-to-content",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Repo-To-Docs-plugin"
+        "repo": "danielrosehill/Repo-To-Content"
       },
-      "description": "Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing.",
-      "version": "1.0.0",
+      "description": "Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -634,7 +634,8 @@
         "pdf",
         "typst",
         "publishing",
-        "repo-to-doc"
+        "content",
+        "repo-to-content"
       ]
     },
     {
