@@ -719,6 +719,16 @@ When you hit a wall, spin up a research workspace to brainstorm solutions — ca
 /plugin install brainstorm-solutions@danielrosehill
 ```
 
+#### Social Feedback
+
+Check what people are actually saying about a topic, product, or provider by searching curated social-discourse sources (Reddit, Hacker News, Stack Exchange, Trustpilot, YouTube, Lobsters).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Social-Feedback-Plugin)
+
+```
+/plugin install social-feedback@danielrosehill
+```
+
 ---
 
 #### GitHub Research
