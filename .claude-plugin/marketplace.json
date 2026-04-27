@@ -500,7 +500,7 @@
         "repo": "danielrosehill/Claude-Meta-Tools-Plugin"
       },
       "description": "Claude-Rudder — collection of utilities to smoothen the Claude Code UI/UX. Session handover, context-gate workflow, terminal helpers, plugin/MCP/workspace primitives, and the canonical user-data storage convention.",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
