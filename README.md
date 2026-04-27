@@ -373,6 +373,18 @@ Manage a resume as JSON Resume schema data and render it with custom Typst templ
 /plugin install resume-typesetter@danielrosehill
 ```
 
+---
+
+#### Digital Printing
+
+Prepare PDFs for digital printing — page resize, grayscale, font embedding, transparency flattening, image downsampling, color profile normalization, watermarks and footer burn-ins, cover pages, bleed-safety verification, and a job-folder/print-order workflow with email/Drive sharing. Includes an orchestrator agent that profiles a PDF and chains the right fixes.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Digital-Printing-Plugin)
+
+```
+/plugin install digital-printing@danielrosehill
+```
+
 ### Media Editing
 
 #### Audio Editing
