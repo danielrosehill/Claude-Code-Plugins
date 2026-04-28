@@ -789,6 +789,16 @@ Uses a code repository in reverse for developer education: assesses the learner'
 /plugin install teach-this-repo@danielrosehill
 ```
 
+#### Geopol Sim
+
+Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bundles, and grades simulations from multiple decoupled upstream templates (lean LLM-council and snowglobe-style actor-simulation variants).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Geopol-Sim-Plugin)
+
+```
+/plugin install geopol-sim@danielrosehill
+```
+
 ---
 
 ### Personal Productivity
