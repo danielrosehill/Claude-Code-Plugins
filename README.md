@@ -863,6 +863,18 @@ Personal diary and planning workflows
 
 ---
 
+#### Therapy Tracking
+
+Organise therapy reflections — pre/post-session notes, goal tracking, and turning voice-memo transcripts into structured problem summaries. Not therapy: organises notes only. Workspace data lives outside the plugin (under `$CLAUDE_USER_DATA/therapy-tracking/`) so the same install survives plugin updates.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Therapy-Tracking-Plugin)
+
+```
+/plugin install therapy-tracking@danielrosehill
+```
+
+---
+
 #### Home Budget Helper
 
 Personal budgeting and financial management
