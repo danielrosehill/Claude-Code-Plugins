@@ -801,6 +801,18 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 
 ---
 
+#### Jewish Texts Reference
+
+Look up Jewish texts and references via the Sefaria MCP server — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Two skills (`find-text`, `find-reference`) and the official Sefaria SSE MCP endpoint bundled in.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Jewish-Texts-Reference-Plugin)
+
+```
+/plugin install jewish-texts-reference@danielrosehill
+```
+
+---
+
 ### Personal Productivity
 
 #### Greeninvoice Ops
