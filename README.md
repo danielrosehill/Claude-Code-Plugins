@@ -435,6 +435,18 @@ Image editing and processing tools
 
 ---
 
+#### Image Annotation
+
+Capture screenshots and apply annotations (arrows, text callouts, boxes, highlights, blur/redaction) on Linux via ImageMagick, Pillow, spectacle, grim+slurp, and flameshot.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Image-Annotation-Plugin)
+
+```
+/plugin install image-annotation@danielrosehill
+```
+
+---
+
 #### Video Editing
 
 Video editing and processing tools
