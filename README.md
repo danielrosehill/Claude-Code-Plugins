@@ -883,6 +883,18 @@ Personal-use skills and slash commands for Daniel Rosehill — released publicly
 
 ---
 
+#### Schedule-Manager
+
+Personal schedule, task, and meeting management. Routes mixed brain-dumps into Google Calendar (events) and Todoist (tasks); manages agenda/minutes Google Docs linked to events; produces wrapup logs and morning briefs. 22 skills covering Calendar/Todoist CRUD, firehose routing, task↔event migration, priority/date hygiene, and agenda/minutes lifecycle.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Schedule-Manager-Plugin)
+
+```
+/plugin install schedule-manager@danielrosehill
+```
+
+---
+
 ### Regional
 
 #### Israel Agent Skills
