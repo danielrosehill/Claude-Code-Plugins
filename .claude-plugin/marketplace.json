@@ -1627,6 +1627,29 @@
         "insurance",
         "household"
       ]
+    },
+    {
+      "name": "business-idea-eval",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Business-Idea-Eval-Plugin"
+      },
+      "description": "Evaluate, refine, and develop business ideas through structured lenses \u2014 VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact \u2014 plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "business",
+        "ideation",
+        "evaluation",
+        "vc",
+        "council",
+        "synthesis"
+      ]
     }
   ]
 }
