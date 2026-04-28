@@ -999,6 +999,18 @@ Skills for large-corpus text and topic analysis — 14 skills covering topic mod
 /plugin install text-corpus-analysis@danielrosehill
 ```
 
+### Data Discovery
+
+#### Browser Data Capture
+
+Streamline programmatic data ingestion against sites and apps that don't ship a documented API. Three independent capture paths (HAR via DevTools, mitmproxy for any client, optional live tab via claude-in-chrome) feed a normalized endpoint inventory; downstream skills generate a draft OpenAPI 3.1 spec, build versioned per-domain map documents, provision a private GitHub repo for version-controlled storage, and draft good-faith vulnerability disclosure emails if a finding turns up incidentally. Secret redaction is enforced by default. White-hat use only.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin)
+
+```
+/plugin install browser-data-capture@danielrosehill
+```
+
 ## Installation
 
 ### Add This Marketplace
