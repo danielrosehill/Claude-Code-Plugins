@@ -615,14 +615,14 @@ Manage an OPNsense router/firewall via SSH and the OPNsense API — guided first
 
 ---
 
-#### Linux Crash Forensics
+#### Linux Debugging
 
-Installs crash diagnostic tooling (kdump, persistent journald, sysstat) and provides skills for investigating Linux crashes, kernel panics, and unexpected reboots — structured post-mortem workflow plus netconsole and pstore helpers
+Linux desktop debugging toolkit — targeted journal/boot/log inspection skills plus proactive logging instrumentation (persistent journald, kdump, sysstat, OOM protection) so AI agents can analyze hard crashes, freezes, and runtime issues. Targets Ubuntu + Wayland; forkable for other distros.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Linux-Crash-Forensics-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Linux-Debugging-Plugin)
 
 ```
-/plugin install linux-crash-forensics@danielrosehill
+/plugin install linux-debugging@danielrosehill
 ```
 
 ---
