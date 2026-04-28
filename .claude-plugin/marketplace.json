@@ -1691,6 +1691,26 @@
         "wip",
         "miscellaneous"
       ]
+    },
+    {
+      "name": "claude-vault",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Vault"
+      },
+      "description": "Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.",
+      "version": "0.0.1",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "meta",
+        "vault",
+        "context-engineering"
+      ]
     }
   ]
 }
