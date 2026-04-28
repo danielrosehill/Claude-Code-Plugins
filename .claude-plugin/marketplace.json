@@ -1264,6 +1264,28 @@
       ]
     },
     {
+      "name": "claude-code-feedback",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Code-Feedback"
+      },
+      "description": "File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "claude-code",
+        "feedback",
+        "bug-report",
+        "feature-request",
+        "github-issues"
+      ]
+    },
+    {
       "name": "social-feedback",
       "source": {
         "source": "github",
