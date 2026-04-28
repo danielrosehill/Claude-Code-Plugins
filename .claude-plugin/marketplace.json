@@ -1603,6 +1603,30 @@
         "oom",
         "sysadmin"
       ]
+    },
+    {
+      "name": "declutter-genie",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Declutter-Genie-Plugin"
+      },
+      "description": "Inventory analysis and decluttering assistant — import a household inventory in any format, then identify discards, duplicates, resale targets, donation targets (geo-aware), insurance-worthy items, and generate throw-out / giveaway lists as CSV or PDF.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "inventory",
+        "decluttering",
+        "possessions",
+        "donation",
+        "resale",
+        "insurance",
+        "household"
+      ]
     }
   ]
 }

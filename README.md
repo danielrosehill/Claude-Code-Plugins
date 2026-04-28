@@ -933,6 +933,18 @@ Personal schedule, task, and meeting management. Routes mixed brain-dumps into G
 
 ---
 
+#### Declutter Genie
+
+Inventory analysis and decluttering assistant — import a household inventory in any format, then identify discards, duplicates, resale targets, donation targets (geo-aware), insurance-worthy items, and generate throw-out / giveaway lists as CSV or PDF.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Declutter-Genie-Plugin)
+
+```
+/plugin install declutter-genie@danielrosehill
+```
+
+---
+
 ### Regional
 
 #### Israel Agent Skills
