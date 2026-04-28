@@ -1671,6 +1671,26 @@
         "council",
         "synthesis"
       ]
+    },
+    {
+      "name": "loose-tasks",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Loose-Tasks-Plugin"
+      },
+      "description": "Loose skills that will be migrated into other plugins later. Recommended not to enable/use this!",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "staging",
+        "wip",
+        "miscellaneous"
+      ]
     }
   ]
 }

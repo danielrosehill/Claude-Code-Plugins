@@ -1073,6 +1073,18 @@ Streamline programmatic data ingestion against sites and apps that don't ship a 
 /plugin install browser-data-capture@danielrosehill
 ```
 
+### Staging
+
+#### Loose Tasks
+
+Loose skills that will be migrated into other plugins later. **Recommended not to enable/use this!** Skills here are staged provisionally and may move, rename, or disappear without notice. Currently includes `publish-to-kaggle` (publish or version a Kaggle dataset from a local directory via the Kaggle CLI).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Loose-Tasks-Plugin)
+
+```
+/plugin install loose-tasks@danielrosehill
+```
+
 ## Installation
 
 ### Add This Marketplace
