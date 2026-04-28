@@ -813,6 +813,18 @@ Look up Jewish texts and references via the Sefaria MCP server — Tanakh, Talmu
 
 ---
 
+#### Jewish Utilities
+
+Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR"A + MG"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Wraps zmanim-mcp-server and hebcal MCP. Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Jewish-Utilities-Plugin)
+
+```
+/plugin install jewish-utilities@danielrosehill
+```
+
+---
+
 ### Personal Productivity
 
 #### Greeninvoice Ops
