@@ -1518,7 +1518,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Browser-Data-Capture-Plugin"
       },
-      "description": "Streamline programmatic data ingestion against sites and apps that don't ship a documented API — capture network traffic (HAR, mitmproxy, or live tab via claude-in-chrome), map endpoints, infer schemas, and produce a draft OpenAPI spec you can build a stable client against. Ships skills for per-domain map documents, version-controlled storage in a private GitHub repo, and good-faith vulnerability disclosure if a finding turns up incidentally. White-hat use only.",
+      "description": "Streamline programmatic data ingestion against sites and apps that don't ship a documented API \u2014 capture network traffic (HAR, mitmproxy, or live tab via claude-in-chrome), map endpoints, infer schemas, and produce a draft OpenAPI spec you can build a stable client against. Ships skills for per-domain map documents, version-controlled storage in a private GitHub repo, and good-faith vulnerability disclosure if a finding turns up incidentally. White-hat use only.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -1533,6 +1533,28 @@
         "openapi",
         "har",
         "mitmproxy"
+      ]
+    },
+    {
+      "name": "decision-evaluation-framework",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin"
+      },
+      "description": "Apply 20+ classical decision-making frameworks (cost-benefit, pre-mortem, MCDA, decision tree, reversibility, regret minimization, OODA, Eisenhower, SWOT, second-order, opportunity cost, 10/10/10, inversion, base rates, Kepner-Tregoe, six hats, Cynefin, red-team, stakeholder map, time-horizon) to any major decision \u2014 parallel multi-lens analysis, synthesis, and Typst PDF export.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "decision-making",
+        "frameworks",
+        "analysis",
+        "typst",
+        "pdf"
       ]
     }
   ]

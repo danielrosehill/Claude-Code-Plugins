@@ -873,6 +873,20 @@ Brainstorming, design ideas, innovation, AI chat experiments
 /plugin install ideation@danielrosehill
 ```
 
+---
+
+#### Decision Evaluation Framework
+
+Apply 20+ classical decision-making frameworks (cost-benefit, pre-mortem, MCDA, decision tree, reversibility, regret minimization, OODA, Eisenhower, SWOT, second-order, opportunity cost, 10/10/10, inversion, base rates, Kepner-Tregoe, six hats, Cynefin, red-team, stakeholder map, time-horizon) to any major decision — parallel multi-lens analysis, synthesis, and Typst PDF export.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework-Plugin)
+
+```
+/plugin install decision-evaluation-framework@danielrosehill
+```
+
+---
+
 #### Israel Shopping
 
 Israeli shopping workflows — tech retailers, Zap, Hebrew term resolution, ILS conversion, RRP checks, grocery/pharmacy search
