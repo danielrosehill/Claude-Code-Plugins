@@ -848,7 +848,7 @@ Claude Code plugin: purchasing workflow — intake, compare products, evaluate o
 
 #### Buttondown Mgmt
 
-Manage Buttondown newsletters from Claude Code — drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.
+Manage one or more Buttondown newsletters from Claude Code — multi-newsletter config, reusable email templates, drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Buttondown-Mgmt-Plugin)
 
