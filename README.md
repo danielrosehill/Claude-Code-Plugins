@@ -844,6 +844,18 @@ Claude Code plugin: purchasing workflow — intake, compare products, evaluate o
 /plugin install purchasing@danielrosehill
 ```
 
+### Publishing & CMS
+
+#### Buttondown Mgmt
+
+Manage Buttondown newsletters from Claude Code — drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Buttondown-Mgmt-Plugin)
+
+```
+/plugin install buttondown-mgmt@danielrosehill
+```
+
 ### Data & Datasets
 
 #### Claude Data Wrangler
