@@ -148,9 +148,11 @@ Repo-based task queueing system with categorisation and prioritisation. Scaffold
 
 ### QA & Agent Sessions
 
-#### Session Transfer
+![Claude Hopper banner](banners/claude-hopper.png)
 
-Claude-Hopper — skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.
+#### Claude Hopper
+
+Skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Hopper)
 
