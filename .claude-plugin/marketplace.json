@@ -1796,6 +1796,27 @@
         "linux",
         "easyeffects"
       ]
+    },
+    {
+      "name": "claude-md-tester",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-MD-Tester"
+      },
+      "description": "Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only restore that does not depend on the Claude harness, so a hostile test config can never trap you.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "claude-md",
+        "testing",
+        "config",
+        "symlink"
+      ]
     }
   ]
 }
