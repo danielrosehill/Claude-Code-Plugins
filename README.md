@@ -16,7 +16,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ### AI & Context
 
-#### AI Tools
+#### AI Engineering
 
 Claude Code plugin: prompt engineering workflow — craft, eval, catalog, version, search prompts, with library/factory variants.
 
@@ -100,7 +100,7 @@ Semantic GitHub repo discovery for reusable components. Search, rank, overview, 
 
 ### Repo Scaffolding & Retrofitting
 
-#### Development Tasks
+#### Dev Tools
 
 Claude Code plugin: dev tools workflow — scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.
 
@@ -112,7 +112,7 @@ Claude Code plugin: dev tools workflow — scaffold repos, QA code review, templ
 
 ---
 
-#### Repo Retrofitter
+#### Repo Mgmt
 
 Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, spin off breakaway or parallel-private repos; scan for dead remotes, missing clones, visibility risks, stale archive candidates, and PII leaks (gitleaks + Presidio with personal-inventory matching); bulk git ops across folders of clones. Includes a preferences layer that remembers where different repo types live on disk.
 
@@ -124,7 +124,7 @@ Repository management toolkit: organise and dedupe local repos, retrofit codebas
 
 ---
 
-#### Workspace Setup
+#### Workspace Foundational
 
 Claude Code plugin: foundational workspace workflow — setup, context management, report parsing, inventory, template discovery, with 6 variants.
 
@@ -186,7 +186,7 @@ Build programmatic document generation pipelines — Typst templates for local b
 
 ---
 
-#### Repo To Docs
+#### Repo To Content
 
 Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.
 
@@ -210,7 +210,7 @@ Claude Code plugin: AI transparency workflow — document human vs AI contributi
 
 ---
 
-#### Tech Docs
+#### Technical Docs
 
 Claude Code plugin: technical documentation workflow — READMEs, reference docs, changelogs, environment docs, with api-reference/code-docs/environment-docs/dev-notebook variants.
 
@@ -222,7 +222,7 @@ Claude Code plugin: technical documentation workflow — READMEs, reference docs
 
 ---
 
-#### Writing & Editing
+#### Content Writing
 
 Claude Code plugin: content writing workflow — draft, proofread, version, publish, style guides, with writing/blog/opinion/document variants.
 
@@ -270,7 +270,7 @@ Skills and an orchestrator agent for preparing PDFs for digital printing — res
 
 ### Media Editing
 
-#### Audio Editing
+#### Audio Production
 
 Claude Code plugin: audio production workflow — normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.
 
@@ -294,7 +294,7 @@ Claude Code plugin: audio transcription workflow — denoise, VAD, transcribe (G
 
 ---
 
-#### Image Editing
+#### Image Production
 
 Claude Code plugin: image production — editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.
 
@@ -318,7 +318,7 @@ Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, 
 
 ---
 
-#### Video Editing
+#### Video Production
 
 Claude Code plugin: video production workflow — transcode, organise, dedupe, ComfyUI generation, cover art, with editing/generative/cover-art variants.
 
@@ -354,7 +354,7 @@ Claude Code plugin: media library workflow — catalog, tag, search, sort, dedup
 
 ### Linux Sysadmin
 
-#### Bug Catcher
+#### Debugging
 
 Claude Code plugin: debugging workflow — capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants.
 
@@ -366,7 +366,7 @@ Claude Code plugin: debugging workflow — capture logs, isolate issue, diagnose
 
 ---
 
-#### Filesystem Organisation
+#### Filesystem Organiser
 
 Claude Code plugin: filesystem organisation workflow — scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants.
 
@@ -378,7 +378,7 @@ Claude Code plugin: filesystem organisation workflow — scan, dedupe, cleanup, 
 
 ---
 
-#### Linux Desktop
+#### Desktop Manager
 
 Claude Code plugin: Linux desktop management workflow — check system, install packages, apply config, troubleshoot hardware, review logs, update system.
 
@@ -402,7 +402,7 @@ Linux packaging and release workflows — Debian/.deb builds, npm publishing, Gi
 
 ---
 
-#### Linux Server
+#### Sysadmin Homelab
 
 Claude Code plugin: sysadmin and homelab workflow — diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.
 
@@ -558,7 +558,7 @@ Interface with a Music Assistant server via its local API — onboard a deployme
 
 ### Research & Learning
 
-#### Tech Research
+#### Research Space
 
 Claude Code plugin: research workflow — source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants.
 
@@ -678,7 +678,7 @@ Operational commands and a skill for working with the Green Invoice MCP server �
 
 ---
 
-#### Diary Planner
+#### Personal Planning
 
 Claude Code plugin: personal life planning workflow — log entries, review progress, set goals, with diary/health/family/house-search/preparedness/personal-dev/inbox variants.
 
@@ -702,7 +702,7 @@ Claude Code plugin for organising therapy reflections — pre/post-session notes
 
 ---
 
-#### Home Budget Helper
+#### Budgeting
 
 Claude Code plugin: personal budgeting workflow — log transactions, categorize, forecast, track goals, monthly reports.
 
@@ -714,7 +714,7 @@ Claude Code plugin: personal budgeting workflow — log transactions, categorize
 
 ---
 
-#### Ideation
+#### Ideation Planning
 
 Claude Code plugin: ideation and planning workflow — capture, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants.
 
@@ -810,7 +810,7 @@ Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew transl
 
 ### Marketing & Shopping
 
-#### Israeli Tech Shopping
+#### Shopping
 
 Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.
 
