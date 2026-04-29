@@ -517,7 +517,7 @@
       "name": "claude-rudder",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Meta-Tools-Plugin"
+        "repo": "danielrosehill/Claude-Rudder"
       },
       "description": "Claude-Rudder \u2014 collection of utilities to smoothen the Claude Code UI/UX. Session handover, context-gate workflow, terminal helpers, plugin/MCP/workspace primitives, and the canonical user-data storage convention.",
       "version": "2.4.0",
