@@ -98,6 +98,18 @@ Semantic GitHub repo discovery for reusable components. Search, rank, overview, 
 /plugin install github-explorer@danielrosehill
 ```
 
+---
+
+#### Gist Writer
+
+Write content to GitHub gists (public or private) via the gh CLI.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin)
+
+```
+/plugin install gist-writer@danielrosehill
+```
+
 ### Repo Scaffolding & Retrofitting
 
 #### Dev Tools
