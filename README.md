@@ -1,4 +1,4 @@
-# Claude Code Plugins Marketplace
+![Daniel's Claude plugin library](banner.png)
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?style=for-the-badge&logo=anthropic)
 [![Claude Code Projects Index](https://img.shields.io/badge/Claude_Code-Projects_Index-orange?style=for-the-badge)](https://claude.danielrosehill.com/)
