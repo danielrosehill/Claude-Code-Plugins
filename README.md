@@ -520,6 +520,18 @@ Claude Code plugin: HP DeskJet 5200 printer and scanner operations — ink level
 /plugin install hp5200-printer@danielrosehill
 ```
 
+---
+
+#### Pipewire Skills
+
+Claude Code skills for taming Pipewire/Wireplumber audio on Linux — manage default devices, persistent device-priority rules, per-app routing, mic level checks, and EasyEffects bindings.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Pipewire-Skills-plugin)
+
+```
+/plugin install claude-pipewire-skills@danielrosehill
+```
+
 ### Privacy & Security
 
 #### Claude Vault
