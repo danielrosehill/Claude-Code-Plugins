@@ -13,37 +13,26 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
+
 ### AI & Context
 
 #### AI Tools
 
-AI development, local AI, Ollama, MCP servers, Hugging Face, speech-to-text
+Claude Code plugin: prompt engineering workflow — craft, eval, catalog, version, search prompts, with library/factory variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ai-tools-plugin)
-
-```
-/plugin install ai-tools@danielrosehill
-```
-
----
-
-#### Context Toolkit
-
-Context management and organization tools
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/context-toolkit-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-AI-Engineering-Plugin)
 
 ```
-/plugin install context-toolkit@danielrosehill
+/plugin install ai-engineering@danielrosehill
 ```
 
 ---
 
 #### Claude User Memory
 
-Persistent cross-session memory about the user, backed by Mem0. Two isolated contexts (personal and work) with three skills for recall, save, and end-of-session commit
+Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-User-Memory-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-User-Memory-Plugin)
 
 ```
 /plugin install claude-user-memory@danielrosehill
@@ -51,57 +40,9 @@ Persistent cross-session memory about the user, backed by Mem0. Two isolated con
 
 ---
 
-#### MCP Command Generator
-
-Natural language MCP server installation assistant — generate valid `claude mcp add` commands from plain English, with a curated catalog of 30+ servers
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/mcp-command-generator-plugin)
-
-```
-/plugin install mcp-command-generator@danielrosehill
-```
-
----
-
-#### CLAUDE.md Chunker
-
-Prune bloated CLAUDE.md files to their essentials and offload supplementary context into an agent-context/ folder
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/claudemd-chunker-plugin)
-
-```
-/plugin install claudemd-chunker@danielrosehill
-```
-
----
-
-#### Model Identifier
-
-Injects a model self-identification instruction block into CLAUDE.md so Claude announces its model name and API identifier at the start of every conversation — a quick sanity check to confirm which model version you are actually running
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/model-identifier-plugin)
-
-```
-/plugin install model-identifier@danielrosehill
-```
-
----
-
-#### New Turn Hook
-
-Evaluates whether the current conversation context is still useful or whether the user should start a fresh conversation to avoid context bloat and degraded performance
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/new-turn-hook-plugin)
-
-```
-/plugin install new-turn-hook@danielrosehill
-```
-
----
-
 #### Open-Router Model Research
 
-Research, filter, compare, and evaluate AI models on OpenRouter — discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog
+Research, filter, compare, and evaluate AI models on OpenRouter — discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Open-Router-Model-Research-Plugin)
 
@@ -113,7 +54,7 @@ Research, filter, compare, and evaluate AI models on OpenRouter — discover mod
 
 #### User-Claude-MD
 
-Manage the user-level `~/.claude/CLAUDE.md` and its chunked `~/.claude/context/` directory — audit, chunk, list, and edit global Claude Code user context for token efficiency
+Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory — audit, chunk, list, and edit global Claude Code user context for token efficiency.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/User-Claude-MD-Plugin)
 
@@ -121,37 +62,25 @@ Manage the user-level `~/.claude/CLAUDE.md` and its chunked `~/.claude/context/`
 /plugin install user-claude-md@danielrosehill
 ```
 
+---
+
+#### LLM Council Creator
+
+Scaffold new LLM Council projects from existing templates (Template, Grounded, Decide) or build bespoke council repos for specific purposes.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-LLM-Council-Creator-Plugin)
+
+```
+/plugin install LLM-Council-Creator@danielrosehill
+```
+
 ### Git & GitHub
-
-#### Git & GitHub
-
-Git configuration, LFS, GitHub CLI, repository management
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/git-github-plugin)
-
-```
-/plugin install git-github@danielrosehill
-```
-
----
-
-#### New Repo From Template
-
-Create a new GitHub repo from any template in Repo-Starters-And-Templates-Index
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/New-Repo-From-Template-Plugin)
-
-```
-/plugin install new-repo-from-template@danielrosehill
-```
-
----
 
 #### Claude Code Feedback
 
-Self-healing helper for filing well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live GitHub issue-form templates on every run so submissions always match Anthropic's current required fields.
+File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Code-Feedback-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Code-Feedback)
 
 ```
 /plugin install claude-code-feedback@danielrosehill
@@ -161,7 +90,7 @@ Self-healing helper for filing well-formed bug reports, feature requests, model-
 
 #### Github Explorer
 
-Semantic GitHub repo discovery for reusable open-source components — keyword search, ranked shortlists, quick overviews, deep evaluations, and stack-aware project recommendations. Claude parses `gh api search/repositories` results.
+Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos — Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Github-Explorer-Plugin)
 
@@ -173,91 +102,43 @@ Semantic GitHub repo discovery for reusable open-source components — keyword s
 
 #### Development Tasks
 
-Task definitions for common development workflows — bug capture, remediation, and other agent-driven dev tasks
+Claude Code plugin: dev tools workflow — scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/development-tasks-plugin)
-
-```
-/plugin install development-tasks@danielrosehill
-```
-
----
-
-#### Spec Starter
-
-Spec-driven development workflow — transform free-form project descriptions into structured specifications, context files, and decision records
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/spec-starter-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin)
 
 ```
-/plugin install spec-starter@danielrosehill
-```
-
----
-
-#### Claude Janitor
-
-Repository cleanup: remove clutter, organize structure, polish docs
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Janitor)
-
-```
-/plugin install claude-janitor@danielrosehill
-```
-
----
-
-#### Claude Templatizer
-
-Turn existing Claude Code workspace repos into a reusable GitHub template
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Templatizer)
-
-```
-/plugin install claude-templatizer@danielrosehill
-```
-
----
-
-#### Make Agent Friendly
-
-Prepare human-developed codebases for agentic development with structured refactoring
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Make-Agent-Friendly)
-
-```
-/plugin install make-agent-friendly@danielrosehill
+/plugin install dev-tools@danielrosehill
 ```
 
 ---
 
 #### Repo Retrofitter
 
-Bulk-retrofit repos with AI agent scaffolding (CLAUDE.md, commands, agents, MCP recs)
+Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, spin off breakaway or parallel-private repos; scan for dead remotes, missing clones, visibility risks, stale archive candidates, and PII leaks (gitleaks + Presidio with personal-inventory matching); bulk git ops across folders of clones. Includes a preferences layer that remembers where different repo types live on disk.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Repo-Mgmt-Plugin)
 
 ```
-/plugin install repo-retrofitter@danielrosehill
+/plugin install repo-mgmt@danielrosehill
 ```
 
 ---
 
 #### Workspace Setup
 
-Interactive assistant for discovering and cloning Claude Code workspace templates — describe your objectives, get recommendations, and clone matching workspaces in one command
+Claude Code plugin: foundational workspace workflow — setup, context management, report parsing, inventory, template discovery, with 6 variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/workspace-setup-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Workspace-Foundational-Plugin)
 
 ```
-/plugin install workspace-setup@danielrosehill
+/plugin install workspace-foundational@danielrosehill
 ```
 
 ---
 
 #### Task Queuer
 
-Repo-based task queueing system with categorisation and prioritisation — scaffolds a `planning/` folder, logs tasks, buckets them by category, and hands prioritised work off to the repo's orchestration agent.
+Repo-based task queueing system with categorisation and prioritisation. Scaffolds a planning/ folder, logs tasks (single, batch list, or voice-transcribed), buckets them by category, and hands prioritised work off to the repo's orchestration agent.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Task-Queuer-Plugin)
 
@@ -269,31 +150,31 @@ Repo-based task queueing system with categorisation and prioritisation — scaff
 
 #### Session Transfer
 
-Transfer a Claude Code session to a fresh instance — full context transfer via a structured HANDOVER.md, or quick-jump skills for spawning a sibling Konsole/Claude window at the current directory.
+Claude-Hopper — skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Session-Transfer)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Hopper)
 
 ```
-/plugin install session-transfer@danielrosehill
+/plugin install claude-hopper@danielrosehill
 ```
 
 ---
 
-#### QA Team
+#### Claude Rudder
 
-Multi-agent QA system for code review, cleanup, docs, API, performance, deployment
+Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-QA-Team)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Rudder)
 
 ```
-/plugin install qa-team@danielrosehill
+/plugin install claude-rudder@danielrosehill
 ```
 
 ### Documentation & Writing
 
 #### Programmatic Doc Generation
 
-Build programmatic document generation pipelines — Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen)
+Build programmatic document generation pipelines — Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen).
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Programmatic-Doc-Generation-Plugin)
 
@@ -305,21 +186,21 @@ Build programmatic document generation pipelines — Typst templates for local b
 
 #### Repo To Docs
 
-Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing
+Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Repo-To-Docs-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Repo-To-Content-Plugin)
 
 ```
-/plugin install repo-to-docs@danielrosehill
+/plugin install repo-to-content@danielrosehill
 ```
 
 ---
 
 #### AI Attribution
 
-Add a transparent human-AI attribution section to a project README, documenting which parts were human-authored and which were AI-assisted or AI-generated
+Claude Code plugin: AI transparency workflow — document human vs AI contributions, add attribution, audit provenance.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ai-attribution-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-AI-Attribution-Plugin)
 
 ```
 /plugin install ai-attribution@danielrosehill
@@ -327,38 +208,26 @@ Add a transparent human-AI attribution section to a project README, documenting 
 
 ---
 
-#### Fix Documentation
-
-Automated technical documentation generation and code documentation workflows
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Document-This)
-
-```
-/plugin install fix-documentation@danielrosehill
-```
-
----
-
 #### Tech Docs
 
-README creation, markdown editing, changelog generation, badges
+Claude Code plugin: technical documentation workflow — READMEs, reference docs, changelogs, environment docs, with api-reference/code-docs/environment-docs/dev-notebook variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/documentation-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Technical-Docs-Plugin)
 
 ```
-/plugin install tech-docs@danielrosehill
+/plugin install technical-docs@danielrosehill
 ```
 
 ---
 
 #### Writing & Editing
 
-Proofreading, formatting, style standardization, content enhancement
+Claude Code plugin: content writing workflow — draft, proofread, version, publish, style guides, with writing/blog/opinion/document variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/writing-editing-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Content-Writing-Plugin)
 
 ```
-/plugin install writing-editing@danielrosehill
+/plugin install content-writing@danielrosehill
 ```
 
 ---
@@ -389,7 +258,7 @@ Manage a resume as JSON Resume schema data and render it with custom Typst templ
 
 #### Digital Printing
 
-Prepare PDFs for digital printing — page resize, grayscale, font embedding, transparency flattening, image downsampling, color profile normalization, watermarks and footer burn-ins, cover pages, bleed-safety verification, and a job-folder/print-order workflow with email/Drive sharing. Includes an orchestrator agent that profiles a PDF and chains the right fixes.
+Skills and an orchestrator agent for preparing PDFs for digital printing — resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Digital-Printing-Plugin)
 
@@ -401,21 +270,21 @@ Prepare PDFs for digital printing — page resize, grayscale, font embedding, tr
 
 #### Audio Editing
 
-Audio editing and processing tools
+Claude Code plugin: audio production workflow — normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/audio-editing-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Audio-Production-Plugin)
 
 ```
-/plugin install audio-editing@danielrosehill
+/plugin install audio-production@danielrosehill
 ```
 
 ---
 
 #### Claude Transcription
 
-End-to-end audio transcription pipeline: preprocess (denoise, VAD, format normalization, speaker sampling), transcribe (Gemini, AssemblyAI, local Whisper), post-process (clean fillers, structure, blog/summary/notes), combine versions, and export.
+Claude Code plugin: audio transcription workflow — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Transcription-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Transcription-Plugin)
 
 ```
 /plugin install claude-transcription@danielrosehill
@@ -425,19 +294,19 @@ End-to-end audio transcription pipeline: preprocess (denoise, VAD, format normal
 
 #### Image Editing
 
-Image editing and processing tools
+Claude Code plugin: image production — editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/image-editing-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Image-Production-Plugin)
 
 ```
-/plugin install image-editing@danielrosehill
+/plugin install image-production@danielrosehill
 ```
 
 ---
 
 #### Image Annotation
 
-Capture screenshots and apply annotations (arrows, text callouts, boxes, highlights, blur/redaction) on Linux via ImageMagick, Pillow, spectacle, grim+slurp, and flameshot.
+Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, blur/redaction) on Linux via Pillow + ImageMagick, with batch WebP conversion and PDF bundling. Originals are never modified.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Image-Annotation-Plugin)
 
@@ -449,12 +318,12 @@ Capture screenshots and apply annotations (arrows, text callouts, boxes, highlig
 
 #### Video Editing
 
-Video editing and processing tools
+Claude Code plugin: video production workflow — transcode, organise, dedupe, ComfyUI generation, cover art, with editing/generative/cover-art variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/video-editing-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Video-Production-Plugin)
 
 ```
-/plugin install video-editing@danielrosehill
+/plugin install video-production@danielrosehill
 ```
 
 ---
@@ -469,40 +338,52 @@ Drive an AI-generated video project end-to-end: creative brief, model selection,
 /plugin install ai-video-producer@danielrosehill
 ```
 
+---
+
+#### Media Library
+
+Claude Code plugin: media library workflow — catalog, tag, search, sort, dedupe assets.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Media-Library-Plugin)
+
+```
+/plugin install media-library@danielrosehill
+```
+
 ### Linux Sysadmin
 
 #### Bug Catcher
 
-Rapid Linux system bug capture — pull fresh logs for GPU freezes, audio issues, crashes, USB faults, and more the moment they occur
+Claude Code plugin: debugging workflow — capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/bug-catcher-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Debugging-Plugin)
 
 ```
-/plugin install bug-catcher@danielrosehill
+/plugin install debugging@danielrosehill
 ```
 
 ---
 
 #### Filesystem Organisation
 
-File system organization, folder structure optimization, file management automation
+Claude Code plugin: filesystem organisation workflow — scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/filesystem-org-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin)
 
 ```
-/plugin install filesystem-organisation@danielrosehill
+/plugin install filesystem-organiser@danielrosehill
 ```
 
 ---
 
 #### Linux Desktop
 
-KDE settings, display management, system health, hardware profiling
+Claude Code plugin: Linux desktop management workflow — check system, install packages, apply config, troubleshoot hardware, review logs, update system.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-desktop-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Desktop-Manager-Plugin)
 
 ```
-/plugin install linux-desktop-mgmt@danielrosehill
+/plugin install desktop-manager@danielrosehill
 ```
 
 ---
@@ -521,60 +402,24 @@ Linux packaging and release workflows — Debian/.deb builds, npm publishing, Gi
 
 #### Linux Server
 
-Server management and administration tools
+Claude Code plugin: sysadmin and homelab workflow — diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-server-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin)
 
 ```
-/plugin install linux-server-mgmt@danielrosehill
+/plugin install sysadmin-homelab@danielrosehill
 ```
 
 ---
 
 #### Security Checkup
 
-Security audits and checkups
+Claude Code plugin: security and compliance workflow — vulnerability scanning, system hardening, config audits.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/security-checkup-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin)
 
 ```
 /plugin install security-checkup@danielrosehill
-```
-
----
-
-#### Docker Manager
-
-Manage Docker containers, Compose stacks, volumes, networks, and multi-environment deployments
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/docker-manager-plugin)
-
-```
-/plugin install docker-manager@danielrosehill
-```
-
----
-
-#### Conda Manager
-
-Manage, audit, and optimise Conda environments — list, validate, compare, backup, and clean up environments with AI assistance
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/conda-manager-plugin)
-
-```
-/plugin install conda-manager@danielrosehill
-```
-
----
-
-#### Bash Alias Manager
-
-Add, edit, delete, prune, list, document, and back up `~/.bash_aliases` using a guided, convention-aware workflow
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/bash-alias-manager-plugin)
-
-```
-/plugin install bash-alias-manager@danielrosehill
 ```
 
 ---
@@ -629,7 +474,7 @@ Linux desktop debugging toolkit — targeted journal/boot/log inspection skills 
 
 #### Backup Planner
 
-Plan, document, and implement a backup and data-protection strategy for the current project — architecture discovery, data inventory, infra memory, option evaluation, strategy doc, script generation, and restore drills
+Plan, document, and implement a backup and data-protection strategy for the current project — from architecture discovery through script generation and restore drills.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Backup-Planner-Plugin)
 
@@ -641,7 +486,7 @@ Plan, document, and implement a backup and data-protection strategy for the curr
 
 #### KDE Plasmoid Dev
 
-Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) — scaffold, debug, package, install, and migrate Plasma 5 → 6
+Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) — scaffold, debug, package, install, and migrate Plasma 5 → 6.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin)
 
@@ -649,31 +494,43 @@ Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widget
 /plugin install kde-plasmoid-dev@danielrosehill
 ```
 
+---
+
+#### HP5200 Printer
+
+Claude Code plugin: HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printing, scanning, auto-discovery.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin)
+
+```
+/plugin install hp5200-printer@danielrosehill
+```
+
 ### Privacy & Security
 
-#### Redaction
+#### Claude Vault
 
-Human-guided document redaction, identity obfuscation, alias management, and metadata scrubbing — for whistleblowing, source protection, anonymous publishing, and research anonymization
+Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/redaction-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Vault)
 
 ```
-/plugin install redaction@danielrosehill
+/plugin install claude-vault@danielrosehill
 ```
-
----
 
 ### Network & Smart Home
 
 #### ADB Ops
 
-ADB (Android Debug Bridge) operations — onboard a phone, map folders to local paths, import media on demand, capture screenshots, and manage bloatware with an auditable log
+ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin)
 
 ```
 /plugin install adb-ops@danielrosehill
 ```
+
+---
 
 #### Home Assistant Mgmt
 
@@ -683,30 +540,6 @@ Manage a Home Assistant instance via SSH and the HA REST API — guided first-ru
 
 ```
 /plugin install home-assistant-mgmt@danielrosehill
-```
-
----
-
-#### LAN Manager
-
-Local network management
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/lan-manager-plugin)
-
-```
-/plugin install lan-manager@danielrosehill
-```
-
----
-
-#### MQTT Observability
-
-Monitor and publish MQTT broker payloads — all topics, a specific topic/space, or send a message. Credentials are collected once on first setup.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/mqtt-observability-plugin)
-
-```
-/plugin install mqtt-observability@danielrosehill
 ```
 
 ---
@@ -723,37 +556,17 @@ Interface with a Music Assistant server via its local API — onboard a deployme
 
 ### Research & Learning
 
-#### Learning
+#### Tech Research
 
-Code analysis, commit analysis, learning resources, tutorials
+Claude Code plugin: research workflow — source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/learning-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Research-Space-Plugin)
 
 ```
-/plugin install learning@danielrosehill
+/plugin install research-space@danielrosehill
 ```
 
 ---
-
-#### Tech Research
-
-Technology research and documentation tools
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/tech-research-plugin)
-
-```
-/plugin install tech-research@danielrosehill
-```
-
-#### Brainstorm Solutions
-
-When you hit a wall, spin up a research workspace to brainstorm solutions — captures the blocker, seeds context, and kicks off deep research.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/brainstorm-solutions-plugin)
-
-```
-/plugin install brainstorm-solutions@danielrosehill
-```
 
 #### Social Feedback
 
@@ -763,18 +576,6 @@ Check what people are actually saying about a topic, product, or provider by sea
 
 ```
 /plugin install social-feedback@danielrosehill
-```
-
----
-
-#### GitHub Research
-
-Research existing GitHub repositories before building something yourself — search, rank, and evaluate candidate tools via `gh` CLI with careful attention to stars, recency, and maintenance quality. Five skills for finding, comparing, and documenting tooling options.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/github-research-plugin)
-
-```
-/plugin install github-research@danielrosehill
 ```
 
 ---
@@ -793,13 +594,15 @@ Generates specifications for practice/dummy development projects tailored to the
 
 #### Teach This Repo
 
-Uses a code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with real code excerpts, and supports an interactive Q&A mode.
+Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Teach-This-Repo-Plugin)
 
 ```
 /plugin install teach-this-repo@danielrosehill
 ```
+
+---
 
 #### Geopol Sim
 
@@ -815,7 +618,7 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 
 #### Jewish Texts Reference
 
-Look up Jewish texts and references via the Sefaria MCP server — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Four skills: `find-text`, `find-reference`, `strip-nikkud` (offline regex + Dicta API), `add-nikkud` (Dicta nakdan + offline unikud). Sefaria SSE MCP endpoint bundled in.
+Look up Jewish texts and references via the Sefaria MCP server — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Jewish-Texts-Reference-Plugin)
 
@@ -837,6 +640,28 @@ Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR"A + MG"
 
 ---
 
+#### Knowledge Documentation
+
+Claude Code plugin: knowledge documentation workflow — index, cross-link, build taxonomy, version docs, with wiki/resource-library/process-docs/experiment-report variants.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Knowledge-Documentation-Plugin)
+
+```
+/plugin install knowledge-documentation@danielrosehill
+```
+
+---
+
+#### Legal Investigative
+
+Claude Code plugin: legal and investigative workflow — log evidence, analyze documents, redact, generate briefs, with legal-research/evidence/osint/document-analysis variants.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin)
+
+```
+/plugin install legal-investigative@danielrosehill
+```
+
 ### Personal Productivity
 
 #### Greeninvoice Ops
@@ -853,19 +678,19 @@ Operational commands and a skill for working with the Green Invoice MCP server �
 
 #### Diary Planner
 
-Personal diary and planning workflows
+Claude Code plugin: personal life planning workflow — log entries, review progress, set goals, with diary/health/family/house-search/preparedness/personal-dev/inbox variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/diary-planner-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin)
 
 ```
-/plugin install diary-planner@danielrosehill
+/plugin install personal-planning@danielrosehill
 ```
 
 ---
 
 #### Therapy Tracking
 
-Organise therapy reflections — pre/post-session notes, goal tracking, and turning voice-memo transcripts into structured problem summaries. Not therapy: organises notes only. Workspace data lives outside the plugin (under `$CLAUDE_USER_DATA/therapy-tracking/`) so the same install survives plugin updates.
+Claude Code plugin for organising therapy reflections — pre/post-session notes, goal tracking, and turning voice-memo transcripts into structured problem summaries. Not therapy: organises notes only. Workspace data lives outside the plugin so the same install survives plugin updates.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Therapy-Tracking-Plugin)
 
@@ -877,24 +702,24 @@ Organise therapy reflections — pre/post-session notes, goal tracking, and turn
 
 #### Home Budget Helper
 
-Personal budgeting and financial management
+Claude Code plugin: personal budgeting workflow — log transactions, categorize, forecast, track goals, monthly reports.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/home-budget-helper-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Budgeting-Plugin)
 
 ```
-/plugin install home-budget-helper@danielrosehill
+/plugin install budgeting@danielrosehill
 ```
 
 ---
 
 #### Ideation
 
-Brainstorming, design ideas, innovation, AI chat experiments
+Claude Code plugin: ideation and planning workflow — capture, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ideation-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin)
 
 ```
-/plugin install ideation@danielrosehill
+/plugin install ideation-planning@danielrosehill
 ```
 
 ---
@@ -925,7 +750,7 @@ Apply 20+ classical decision-making frameworks (cost-benefit, pre-mortem, MCDA, 
 
 #### Israel Shopping
 
-Israeli shopping workflows — tech retailers, Zap, Hebrew term resolution, ILS conversion, RRP checks, grocery/pharmacy search
+Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin)
 
@@ -933,9 +758,11 @@ Israeli shopping workflows — tech retailers, Zap, Hebrew term resolution, ILS 
 /plugin install israel-shopping@danielrosehill
 ```
 
+---
+
 #### Daniel-Rosehill
 
-Personal-use skills and slash commands for Daniel Rosehill — released publicly for convenience. Not intended as a general-purpose plugin.
+Personal-use skills and slash commands for Daniel Rosehill — released publicly for convenience.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Daniel-Rosehill-Claude-Plugin)
 
@@ -947,7 +774,7 @@ Personal-use skills and slash commands for Daniel Rosehill — released publicly
 
 #### Schedule-Manager
 
-Personal schedule, task, and meeting management. Routes mixed brain-dumps into Google Calendar (events) and Todoist (tasks); manages agenda/minutes Google Docs linked to events; produces wrapup logs and morning briefs. 22 skills covering Calendar/Todoist CRUD, firehose routing, task↔event migration, priority/date hygiene, and agenda/minutes lifecycle.
+Personal schedule, task, and meeting management. Routes mixed brain-dumps into Google Calendar (events) and Todoist (tasks); manages agenda/minutes Google Docs linked to events; produces wrapup logs and morning briefs. 22 skills covering Calendar/Todoist CRUD, firehose routing, task<->event migration, priority/date hygiene, and agenda/minutes lifecycle.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Schedule-Manager-Plugin)
 
@@ -967,13 +794,11 @@ Inventory analysis and decluttering assistant — import a household inventory i
 /plugin install declutter-genie@danielrosehill
 ```
 
----
-
 ### Regional
 
 #### Israel Agent Skills
 
-Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups. (Shopping skills live in the separate `israeli-tech-shopping` plugin.)
+Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin)
 
@@ -981,39 +806,47 @@ Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew transl
 /plugin install israel-agent-skills@danielrosehill
 ```
 
----
-
 ### Marketing & Shopping
 
 #### Israeli Tech Shopping
 
-Comparison shop Israeli tech retailers (KSP, Ivory, Bug, TMS) via BrowserMCP
+Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israeli-Tech-Shopping-MCP)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Shopping-Plugin)
 
 ```
-/plugin install israeli-tech-shopping@danielrosehill
+/plugin install shopping@danielrosehill
+```
+
+---
+
+#### PR & Media Work
+
+Claude Code plugin: PR and media monitoring workflow — scan coverage, summarize press, draft responses, comms strategy, with monitoring/response/strategy variants.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-PR-Media-Work-Plugin)
+
+```
+/plugin install pr-media-work@danielrosehill
 ```
 
 ---
 
-#### SEO
+#### Purchasing
 
-SEO optimization, audits, and reviews
+Claude Code plugin: purchasing workflow — intake, compare products, evaluate options, recommend, with general/tech-procurement/recommendations variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/seo-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Purchasing-Plugin)
 
 ```
-/plugin install seo@danielrosehill
+/plugin install purchasing@danielrosehill
 ```
-
----
 
 ### Data & Datasets
 
 #### Claude Data Wrangler
 
-Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets (visualisation out of scope). 27 skills — ISO standardisation (3166/4217/639/8601/LEI/ISIN), PII detection and synthetic overlay, data dictionaries with Typst PDF export, SQL / graph / vector / Hugging Face / GeoJSON / API loaders, date and Unicode hygiene, and an upstream → divergent-downstream incremental sync. Every destructive edit is gated by a backup-first policy.
+Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 31 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, header & numeric-precision standardisation, multilingual header localisation, incremental upstream sync, and Typst-rendered PDF documents of the data.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Wrangler-plugin)
 
@@ -1021,9 +854,11 @@ Data cleaning, enrichment, restructuring, and packaging skills for tabular and J
 /plugin install Claude-Data-Wrangler@danielrosehill
 ```
 
+---
+
 #### Data Visualisation And Publishing
 
-Create static and interactive data visualisations for reports, repos, and data storytelling — prioritising a curated inventory of open-source tools (Matplotlib, Bokeh, Chart.js, ECharts, D3, visx, Vizzu, VChart, Plotly Dash, Lightweight Charts, fl_chart, Constellation, DataWarrior, Iris, react-globe.gl, and more).
+Create static and interactive data visualisations for reports, repos, and data storytelling. Purpose-organised inventory of 60+ validated open-source tools as a head start — static figures (Matplotlib, Seaborn, ggplot2), web charts (Chart.js, ECharts, Plotly.js, ApexCharts, Highcharts), high-perf (uPlot, Perspective, Lightweight Charts), bespoke (D3, Observable Plot, Vega/Vega-Lite, visx, Victory), Python/R apps (Bokeh, Dash, Altair, Streamlit, Gradio, Shiny, D-Tale, Briefer, Preswald), storytelling (Vizzu, VChart, vue-data-ui, SandDance), graphs (G6, sigma.js, Cytoscape, Gephi, Graphviz, GoJS, 3d-force-graph, Constellation), maps (deck.gl, react-map-gl, Leaflet, MapLibre, OpenLayers, folium, react-globe.gl), mobile (fl_chart, F2), BI (Superset, Metabase, Grafana, Kibana, Redash, Chartbrew), diagrams-as-code (Mermaid, PlantUML), domain-specific (Iris, QuantInvestStrats, XCharts, BizCharts, Tablesaw).
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin)
 
@@ -1031,9 +866,11 @@ Create static and interactive data visualisations for reports, repos, and data s
 /plugin install data-visualisation-and-publishing@danielrosehill
 ```
 
+---
+
 #### Claude Data Analyst
 
-First-pass data analysis toolkit for a dataset in a folder — six skills covering correlation analysis, PII flagging, anomaly detection, hypothesis testing, data dictionary generation, and trend analysis. Leans on lightweight CLI tooling (duckdb, csvkit, miller, uv-run pandas/scipy/statsmodels) so reports are reproducible without a persistent venv.
+First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothesis tests, data dictionaries, and trend analysis on a dataset in a folder.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Analyst-plugin)
 
@@ -1041,9 +878,11 @@ First-pass data analysis toolkit for a dataset in a folder — six skills coveri
 /plugin install claude-data-analyst@danielrosehill
 ```
 
+---
+
 #### Claude Data Annotation
 
-End-to-end data annotation toolkit. Three orchestrator skills (`shape-dataset`, `annotate-with-claude`, `scaffold-annotation-env`, `hf-setup`) backed by six subagents (`data-profiler`, `pii-scanner`, `column-curator`, `schema-designer`, `format-normalizer`, `review-annotations`). Covers ingest → profile → PII/column/format prep → schema design → annotation (Claude in-session for small jobs, Gemini batch inference for larger ones) → review → publish to Hugging Face.
+End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Annotation-Plugin)
 
@@ -1051,9 +890,11 @@ End-to-end data annotation toolkit. Three orchestrator skills (`shape-dataset`, 
 /plugin install data-annotation@danielrosehill
 ```
 
+---
+
 #### Text Corpus Analysis
 
-Skills for large-corpus text and topic analysis — 14 skills covering topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness for runs over thousands of documents.
+Skills for analyzing large text corpora — topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap→premium pattern, embeddings+clustering preferred over pairwise LLM comparison.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Text-Corpus-Analysis-Plugin)
 
@@ -1065,7 +906,7 @@ Skills for large-corpus text and topic analysis — 14 skills covering topic mod
 
 #### Browser Data Capture
 
-Streamline programmatic data ingestion against sites and apps that don't ship a documented API. Three independent capture paths (HAR via DevTools, mitmproxy for any client, optional live tab via claude-in-chrome) feed a normalized endpoint inventory; downstream skills generate a draft OpenAPI 3.1 spec, build versioned per-domain map documents, provision a private GitHub repo for version-controlled storage, and draft good-faith vulnerability disclosure emails if a finding turns up incidentally. Secret redaction is enforced by default. White-hat use only.
+Streamline programmatic data ingestion against sites and apps that don't ship a documented API — capture network traffic (HAR, mitmproxy, or live tab via claude-in-chrome), map endpoints, infer schemas, and produce a draft OpenAPI spec you can build a stable client against. Ships skills for per-domain map documents, version-controlled storage in a private GitHub repo, and good-faith vulnerability disclosure if a finding turns up incidentally. White-hat use only.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin)
 
@@ -1073,16 +914,64 @@ Streamline programmatic data ingestion against sites and apps that don't ship a 
 /plugin install browser-data-capture@danielrosehill
 ```
 
+---
+
+#### Local Web Capture
+
+Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (Scrapling static -> stealth -> Playwright -> real Chrome via bb-browser). Project-local save (in-repo captures/) with global fallback. Batch capture with human + agent summaries, Typst PDF compilation, and arbitrary-language capture+translate (default Hebrew -> English).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin)
+
+```
+/plugin install Local-Web-Capture@danielrosehill
+```
+
 ### Staging
 
 #### Loose Tasks
 
-Loose skills that will be migrated into other plugins later. **Recommended not to enable/use this!** Skills here are staged provisionally and may move, rename, or disappear without notice. Currently includes `publish-to-kaggle` (publish or version a Kaggle dataset from a local directory via the Kaggle CLI).
+Loose skills that will be migrated into other plugins later. Recommended not to enable/use this!
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Loose-Tasks-Plugin)
 
 ```
 /plugin install loose-tasks@danielrosehill
+```
+
+---
+
+#### Career
+
+Claude Code plugin: career planning workflow — log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Career-Plugin)
+
+```
+/plugin install career@danielrosehill
+```
+
+---
+
+#### Resource List Builder
+
+Claude Code plugin: build, maintain, and audit curated GitHub resource lists (Awesome-style indexes) with AI-driven categorisation, alphabetised tables, and dynamic shields.io badges.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Resource-List-Builder-Plugin)
+
+```
+/plugin install resource-list-builder@danielrosehill
+```
+
+---
+
+#### Smart Home
+
+Claude Code plugin: smart home workflow — Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Smart-Home-Plugin)
+
+```
+/plugin install smart-home@danielrosehill
 ```
 
 ## Installation
@@ -1105,9 +994,9 @@ After adding the marketplace, install any plugin:
 
 **Examples:**
 ```bash
-/plugin install ai-tools@danielrosehill
-/plugin install git-github@danielrosehill
-/plugin install writing-editing@danielrosehill
+/plugin install ai-engineering@danielrosehill
+/plugin install repo-mgmt@danielrosehill
+/plugin install content-writing@danielrosehill
 ```
 
 ### Install Multiple Plugins
@@ -1118,40 +1007,42 @@ You can install multiple plugins by repeating the installation command for each 
 
 ### Full Stack Developer Setup
 ```bash
-/plugin install git-github@danielrosehill
-/plugin install tech-docs@danielrosehill
-/plugin install fix-documentation@danielrosehill
+/plugin install repo-mgmt@danielrosehill
+/plugin install dev-tools@danielrosehill
+/plugin install technical-docs@danielrosehill
+/plugin install debugging@danielrosehill
 ```
 
 ### AI/ML Developer Setup
 ```bash
-/plugin install ai-tools@danielrosehill
-/plugin install git-github@danielrosehill
+/plugin install ai-engineering@danielrosehill
+/plugin install repo-mgmt@danielrosehill
+/plugin install open-router-model-research@danielrosehill
 ```
 
 ### System Administrator Setup
 ```bash
-/plugin install linux-desktop-mgmt@danielrosehill
-/plugin install linux-server-mgmt@danielrosehill
+/plugin install desktop-manager@danielrosehill
+/plugin install sysadmin-homelab@danielrosehill
 /plugin install security-checkup@danielrosehill
-/plugin install lan-manager@danielrosehill
+/plugin install linux-debugging@danielrosehill
 ```
 
 ### Content Creator Setup
 ```bash
-/plugin install writing-editing@danielrosehill
-/plugin install tech-docs@danielrosehill
-/plugin install audio-editing@danielrosehill
-/plugin install video-editing@danielrosehill
-/plugin install image-editing@danielrosehill
+/plugin install content-writing@danielrosehill
+/plugin install technical-docs@danielrosehill
+/plugin install audio-production@danielrosehill
+/plugin install video-production@danielrosehill
+/plugin install image-production@danielrosehill
 ```
 
 ### Personal Productivity Setup
 ```bash
-/plugin install filesystem-organisation@danielrosehill
-/plugin install context-toolkit@danielrosehill
-/plugin install diary-planner@danielrosehill
-/plugin install home-budget-helper@danielrosehill
+/plugin install filesystem-organiser@danielrosehill
+/plugin install personal-planning@danielrosehill
+/plugin install schedule-manager@danielrosehill
+/plugin install budgeting@danielrosehill
 ```
 
 ## Plugin Structure
