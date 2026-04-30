@@ -718,6 +718,18 @@ Register machines and run repeatable Claude-Code-driven security audits over SSH
 /plugin install security-auditor@danielrosehill
 ```
 
+---
+
+#### Digital Evidence
+
+General-purpose digital-evidence processing: capture, hash, OpenTimestamps, ExifTool/MediaInfo metadata, BagIt packaging, immutable sync. Layers with legal-investigative for full chain-of-custody workflows.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin)
+
+```
+/plugin install digital-evidence@danielrosehill
+```
+
 ### Network & Smart Home
 
 #### ADB Ops
