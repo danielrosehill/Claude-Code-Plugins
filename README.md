@@ -868,6 +868,18 @@ Claude Code plugin: purchasing workflow — intake, compare products, evaluate o
 /plugin install purchasing@danielrosehill
 ```
 
+### Hardware & Maker
+
+#### Hardware Spec Assembly
+
+Define hardware project BOMs with ESP32-first focus — onboarding captures location/vendors/on-hand gear, then skills for spec creation, budgeting, sourcing, compatibility checks, wiring specs, assembly instructions, 3D-printable suggestions, and AI-generated mockups via fal.ai nano-banana.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Hardware-Spec-Assembly-Plugin)
+
+```
+/plugin install hardware-spec-assembly@danielrosehill
+```
+
 ### Publishing & CMS
 
 #### Buttondown Mgmt
