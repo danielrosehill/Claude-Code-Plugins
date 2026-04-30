@@ -1997,6 +1997,28 @@
         "linux",
         "cli-wrapper"
       ]
+    },
+    {
+      "name": "sop-writer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-SOP-Writer-Plugin"
+      },
+      "description": "Project-scoped authoring tools for Standard Operating Procedures and decision flowcharts. Scaffold from templates, embed Mermaid/D2 diagrams, compile to printable PDFs via Typst, and assemble multi-document binders with TOC and page numbers.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "sop",
+        "documentation",
+        "typst",
+        "pdf",
+        "flowchart"
+      ]
     }
   ]
 }

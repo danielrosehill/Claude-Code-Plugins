@@ -270,6 +270,18 @@ Claude Code plugin: content writing workflow — draft, proofread, version, publ
 
 ---
 
+#### SOP Writer
+
+Project-scoped authoring tools for Standard Operating Procedures and decision flowcharts. Scaffold from templates, embed Mermaid/D2 diagrams, compile to printable PDFs via Typst, and assemble multi-document binders with TOC and page numbers.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-SOP-Writer-Plugin)
+
+```
+/plugin install sop-writer@danielrosehill
+```
+
+---
+
 #### HTML Email Designer
 
 Design and build responsive HTML email templates using Foundation for Emails, Maizzle, or MJML. Framework-agnostic authoring with email-client compatibility baked in.
