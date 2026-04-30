@@ -318,8 +318,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Research-Space-Plugin"
       },
-      "description": "Claude Code plugin: research workflow \u2014 source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants.",
-      "version": "1.0.0",
+      "description": "Claude Code plugin: research workflow \u2014 source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants. Includes a 30-agent tech research team for hardware/software stack evaluations (folded in from Claude-Tech-Research-Team).",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2131,6 +2131,28 @@
         "sysadmin",
         "linux",
         "diagnostics"
+      ]
+    },
+    {
+      "name": "spec-starter",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/spec-starter-plugin"
+      },
+      "description": "Spec-driven development workflow for Claude Code: turn unstructured project briefs (especially voice transcripts) into a versioned spec, modular context, and a CLAUDE.md scaffolded into your current repo.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "spec",
+        "spec-driven-development",
+        "scaffolding",
+        "voice",
+        "planning"
       ]
     }
   ]

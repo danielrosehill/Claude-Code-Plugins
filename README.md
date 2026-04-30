@@ -182,6 +182,18 @@ Curated batches of third-party Claude Code plugins, grouped by type/theme, insta
 /plugin install favorite-plugins-installers@danielrosehill
 ```
 
+---
+
+#### Spec Starter
+
+Spec-driven development workflow for Claude Code: turn unstructured project briefs (especially voice transcripts) into a versioned spec, modular context, and a CLAUDE.md scaffolded into your current repo.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/spec-starter-plugin)
+
+```
+/plugin install spec-starter@danielrosehill
+```
+
 ### QA & Agent Sessions
 
 ![Claude Hopper banner](banners/claude-hopper.png)
@@ -722,7 +734,7 @@ Interface with a Music Assistant server via its local API — onboard a deployme
 
 #### Research Space
 
-Claude Code plugin: research workflow — source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants.
+Claude Code plugin: research workflow — source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants. Includes a 30-agent tech research team for hardware/software stack evaluations.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Research-Space-Plugin)
 
