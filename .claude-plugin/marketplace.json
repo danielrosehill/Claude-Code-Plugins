@@ -2592,6 +2592,30 @@
         "adguard",
         "blocklist"
       ]
+    },
+    {
+      "name": "pii-scanner",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-PII-Scanner-Plugin"
+      },
+      "description": "Scan files, directories, or git repositories for personally identifiable information — credentials (gitleaks), generic PII (Microsoft Presidio), and matches against a user-maintained personal PII inventory (names, addresses, family, IDs) stored locally.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "privacy",
+        "security",
+        "pii",
+        "secrets",
+        "gitleaks",
+        "presidio",
+        "redaction"
+      ]
     }
   ]
 }

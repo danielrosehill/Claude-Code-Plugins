@@ -826,6 +826,18 @@ AI-assisted defenses against the spam keyword filters miss — pseudo-personalis
 /plugin install spamhole@danielrosehill
 ```
 
+---
+
+#### PII Scanner
+
+Scan files, directories, or git repositories for personally identifiable information — credentials (gitleaks), generic PII (Microsoft Presidio), and matches against a user-maintained personal PII inventory (names, addresses, family, IDs) stored locally. Read-only; produces a redacted, severity-ranked report.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-PII-Scanner-Plugin)
+
+```
+/plugin install pii-scanner@danielrosehill
+```
+
 ### Network & Smart Home
 
 #### ADB Ops
