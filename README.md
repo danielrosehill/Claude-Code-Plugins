@@ -354,6 +354,18 @@ Plan and prompt-engineer AI-generated visuals (images, diagrams, video) for whit
 
 ---
 
+#### Nano-Tech-Diagrams
+
+Generate, transform, and clean up tech diagrams and whiteboard photos via the Nano Banana 2 model (Fal AI). Wraps the `nano-tech-diagrams` MCP server with seven skills (text-to-image, image-to-image, whiteboard cleanup, style/type listing, vendored prompt library, full whiteboard-to-publishable orchestrator) across 5 diagram families and 28+ visual styles.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Nano-Tech-Diagrams-Plugin)
+
+```
+/plugin install nano-tech-diagrams@danielrosehill
+```
+
+---
+
 #### GIMP
 
 Bare-bones GIMP CLI wrapper for Linux: detect install (native/Flatpak/Snap/AppImage), persist a per-user profile, run Script-Fu batch ops, export images, install/list GIMP-side plugins.

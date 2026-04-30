@@ -2291,6 +2291,29 @@
         "mcp",
         "network-discovery"
       ]
+    },
+    {
+      "name": "nano-tech-diagrams",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Nano-Tech-Diagrams-Plugin"
+      },
+      "description": "Generate, transform, and clean up tech diagrams and whiteboard photos via the Nano Banana 2 model (Fal AI). Wraps the nano-tech-diagrams MCP server with a curated prompt library across 5 diagram families and 28+ visual styles.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "diagrams",
+        "whiteboard",
+        "fal-ai",
+        "image-generation",
+        "tech-diagrams",
+        "visual-communication"
+      ]
     }
   ]
 }
