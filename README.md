@@ -342,6 +342,18 @@ Skills and an orchestrator agent for preparing PDFs for digital printing — res
 
 ### Media Editing
 
+#### Visual Communications
+
+Plan and prompt-engineer AI-generated visuals (images, diagrams, video) for whitepapers, blog posts, and long-form content. Six skills cover project onboarding, visual ideation, prompt generation, project listing, fal-ai execution, and a resolution/style reference.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Visual-Communications-Plugin)
+
+```
+/plugin install visual-communications@danielrosehill
+```
+
+---
+
 #### GIMP
 
 Bare-bones GIMP CLI wrapper for Linux: detect install (native/Flatpak/Snap/AppImage), persist a per-user profile, run Script-Fu batch ops, export images, install/list GIMP-side plugins.
