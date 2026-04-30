@@ -614,6 +614,16 @@ Claude Code skills for taming Pipewire/Wireplumber audio on Linux — manage def
 /plugin install claude-pipewire-skills@danielrosehill
 ```
 
+#### Batch Optical Archivist
+
+Plan and burn batch M-Disc / BD-R / DVD archives from a source directory on Ubuntu, with copy multipliers for offsite duplicates. Wraps growisofs, xorriso, and dvd+rw-mediainfo; optional K3B handoff for manual fallback.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin)
+
+```
+/plugin install batch-optical-archivist@danielrosehill
+```
+
 ### Privacy & Security
 
 #### Claude Vault

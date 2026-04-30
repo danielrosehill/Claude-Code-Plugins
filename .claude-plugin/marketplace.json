@@ -2019,6 +2019,30 @@
         "pdf",
         "flowchart"
       ]
+    },
+    {
+      "name": "batch-optical-archivist",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Batch-Optical-Archivist-Plugin"
+      },
+      "description": "Plan and burn batch M-Disc / BD-R / DVD archives from a source directory on Ubuntu, with copy multipliers for offsite duplicates. Wraps growisofs, xorriso, and dvd+rw-mediainfo; optional K3B handoff for manual fallback.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "optical",
+        "archiving",
+        "m-disc",
+        "bd-r",
+        "dvd",
+        "growisofs",
+        "linux"
+      ]
     }
   ]
 }
