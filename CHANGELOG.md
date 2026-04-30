@@ -6,6 +6,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-04-30
+
+- **`os-sync-agent`** — hardware-aware desktop-to-laptop environment sync for Ubuntu/Debian. Snapshots packages (apt/snap/flatpak/pip/conda/ollama) and dotfiles from a base machine and a remote machine reached over SSH, then produces an incremental install/remove/sync plan rather than a clone. Ships `/sync-os` command, `sync-environments` skill, and a `scripts/sync-agent.sh` gatherer that writes profiles to `$CLAUDE_USER_DATA/os-sync-agent/profiles/{base,remote}` and honours `SYNC_REMOTE_HOST` for non-default SSH aliases.
+
 ### Added — 2026-04-28
 
 - **`opnsense-mgmt`** — manage an OPNsense router/firewall via SSH and OPNsense API. Onboard skill writes per-host config to `$CLAUDE_USER_DATA/opnsense-mgmt/config.json`; `opnsense-maintenance` skill reads from it. Generic, multi-environment-friendly.

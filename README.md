@@ -508,6 +508,18 @@ Claude Code plugin: sysadmin and homelab workflow — diagnose, status, update c
 
 ---
 
+#### OS Sync Agent
+
+Hardware-aware desktop-to-laptop environment sync for Ubuntu/Debian. Snapshots packages (apt/snap/flatpak/pip/conda/ollama) and dotfiles from a base machine and a remote machine over SSH, then produces an incremental install/remove/sync plan rather than a perfect clone. Ships `/sync-os` command and `sync-environments` skill.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-OS-Sync-Agent)
+
+```
+/plugin install os-sync-agent@danielrosehill
+```
+
+---
+
 #### Security Checkup
 
 Claude Code plugin: security and compliance workflow — vulnerability scanning, system hardening, config audits.
