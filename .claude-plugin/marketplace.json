@@ -1862,6 +1862,29 @@
         "maker",
         "iot"
       ]
+    },
+    {
+      "name": "obs-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-OBS-Plugin"
+      },
+      "description": "Manage OBS Studio on Linux from Claude Code: detect install type (native/Flatpak/Snap/AppImage), enable and validate obs-websocket, ship a bundled obs-mcp MCP server for programmatic OBS control, back up configs to a user-defined folder, and install third-party OBS plugins.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "obs",
+        "obs-studio",
+        "streaming",
+        "recording",
+        "linux",
+        "mcp"
+      ]
     }
   ]
 }

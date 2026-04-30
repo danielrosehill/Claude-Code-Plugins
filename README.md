@@ -364,6 +364,16 @@ Claude Code plugin: media library workflow — catalog, tag, search, sort, dedup
 /plugin install media-library@danielrosehill
 ```
 
+#### OBS Mgmt
+
+Claude Code plugin for managing OBS Studio on Linux: detect install type, enable obs-websocket, bundle obs-mcp for programmatic control, back up configs, install third-party OBS plugins, and maintain a (optionally git-backed) management workspace.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-OBS-Plugin)
+
+```
+/plugin install obs-mgmt@danielrosehill
+```
+
 ### Linux Sysadmin
 
 #### Debugging
