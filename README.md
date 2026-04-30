@@ -74,6 +74,18 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 /plugin install LLM-Council-Creator@danielrosehill
 ```
 
+---
+
+#### Get Toony
+
+Convert JSON, CSV, YAML, and CLAUDE.md trees into TOON (Token-Oriented Object Notation) — a compact, lossless re-encoding that uses ~40% fewer tokens than JSON when fed to LLMs. Wraps `@toon-format/toon` and tracks the wider TOON ecosystem (Python, Java, .NET, PHP, Rust ports).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Get-Toony-Plugin)
+
+```
+/plugin install get-toony@danielrosehill
+```
+
 ### Git & GitHub
 
 #### Claude Code Feedback
