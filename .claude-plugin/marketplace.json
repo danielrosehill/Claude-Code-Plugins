@@ -1260,12 +1260,12 @@
       ]
     },
     {
-      "name": "open-router-model-research",
+      "name": "ai-model-research",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Open-Router-Model-Research-Plugin"
+        "repo": "danielrosehill/Claude-AI-Model-Research-Plugin"
       },
-      "description": "Research, filter, compare, and evaluate AI models on OpenRouter \u2014 discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.",
+      "description": "Research, discover, compare, and evaluate AI models on OpenRouter \u2014 backed by the bundled Model-Scout MCP server for live catalog data with caching. Subsumes the standalone open-router-model-research plugin and the Model-Scout-MCP server. 11 skills cover lookup, capability filtering (tools, vision, audio), recommendation, head-to-head comparison, deep evaluation, workload cost projection, and finding cheaper alternatives.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -1278,7 +1278,9 @@
         "ai-models",
         "model-research",
         "model-comparison",
-        "llm"
+        "llm",
+        "mcp",
+        "model-scout"
       ]
     },
     {
@@ -2252,7 +2254,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Donetick-Plugin"
       },
-      "description": "Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance — daily brief, list/create/complete chores, label management.",
+      "description": "Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance \u2014 daily brief, list/create/complete chores, label management.",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -2266,6 +2268,28 @@
         "mcp",
         "task-management",
         "self-hosted"
+      ]
+    },
+    {
+      "name": "network-cups",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Network-CUPS-Plugin"
+      },
+      "description": "Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps the lan-mcp-cups MCP server and adds LAN discovery (avahi/Bonjour, arp-scan) plus ufw firewall sanity checks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "cups",
+        "printing",
+        "homelab",
+        "mcp",
+        "network-discovery"
       ]
     }
   ]

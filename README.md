@@ -40,14 +40,14 @@ Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/com
 
 ---
 
-#### Open-Router Model Research
+#### AI Model Research
 
-Research, filter, compare, and evaluate AI models on OpenRouter — discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.
+Research, discover, compare, and evaluate AI models on OpenRouter — backed by the bundled Model-Scout MCP server for live catalog data with caching. 11 skills cover lookup, capability filtering, recommendation, comparison, deep evaluation, workload cost projection, and finding cheaper alternatives. Subsumes the previous `open-router-model-research` plugin and the standalone `Model-Scout-MCP` server.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Open-Router-Model-Research-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin)
 
 ```
-/plugin install open-router-model-research@danielrosehill
+/plugin install ai-model-research@danielrosehill
 ```
 
 ---
@@ -766,6 +766,18 @@ Interface with a Music Assistant server via its local API — onboard a deployme
 /plugin install media-assistant-ops@danielrosehill
 ```
 
+---
+
+#### Network CUPS
+
+Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps the lan-mcp-cups MCP server and adds LAN discovery (avahi/Bonjour, arp-scan) plus ufw firewall sanity checks.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Network-CUPS-Plugin)
+
+```
+/plugin install network-cups@danielrosehill
+```
+
 ### Research & Learning
 
 #### Research Space
@@ -1265,7 +1277,7 @@ You can install multiple plugins by repeating the installation command for each 
 ```bash
 /plugin install ai-engineering@danielrosehill
 /plugin install repo-mgmt@danielrosehill
-/plugin install open-router-model-research@danielrosehill
+/plugin install ai-model-research@danielrosehill
 ```
 
 ### System Administrator Setup
