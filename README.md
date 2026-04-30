@@ -334,7 +334,7 @@ Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, 
 
 Claude Code plugin for video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/video-editing-plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Video-Editor-Plugin)
 
 ```
 /plugin install video-editing@danielrosehill
