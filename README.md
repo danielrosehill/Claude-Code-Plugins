@@ -636,6 +636,16 @@ Plan and burn batch M-Disc / BD-R / DVD archives from a source directory on Ubun
 /plugin install batch-optical-archivist@danielrosehill
 ```
 
+#### Keyboard Scanner
+
+Profile Linux keyboards, scan keycodes, and surface underused keys for remapping. Walks intake → keycode dump (xmodmap/XKB/evdev/libinput, X11 + Wayland) → tailored remap suggestions referencing keyd, kmonad, xremap, xmodmap, xbindkeys, input-remapper, autokey.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Keyboard-Scanner)
+
+```
+/plugin install keyboard-scanner@danielrosehill
+```
+
 ### Privacy & Security
 
 #### Claude Vault
