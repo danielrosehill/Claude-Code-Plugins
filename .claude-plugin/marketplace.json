@@ -2314,6 +2314,29 @@
         "tech-diagrams",
         "visual-communication"
       ]
+    },
+    {
+      "name": "nfc-ops",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-NFC-Ops-Plugin"
+      },
+      "description": "NFC tag operations using libnfc \u2014 read, write, inspect, password-protect, and bulk-write from CSV with manual tag-by-tag feed.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "nfc",
+        "libnfc",
+        "rfid",
+        "ntag",
+        "mifare",
+        "hardware"
+      ]
     }
   ]
 }

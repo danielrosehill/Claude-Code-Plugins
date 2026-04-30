@@ -8,6 +8,8 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ### Added — 2026-04-30
 
+- **`nfc-ops`** — NFC tag operations using libnfc. Six skills: `write-tag`, `bulk-write` (CSV-driven, resumable progress sidecar), `read-tag`, `inspect-tag`, `password-protect`, and `bulk-password-update`. Human-in-the-loop workflow — user presents one tag at a time. Targets NTAG21x and MIFARE Classic via any libnfc-compatible USB reader (ACR122U, PN532). Plugin state/logs live under `$CLAUDE_USER_DATA/nfc-ops/`; user-owned batch CSVs stay user-managed with only a pointer stored in config.
+
 - **`os-sync-agent`** — hardware-aware desktop-to-laptop environment sync for Ubuntu/Debian. Snapshots packages (apt/snap/flatpak/pip/conda/ollama) and dotfiles from a base machine and a remote machine reached over SSH, then produces an incremental install/remove/sync plan rather than a clone. Ships `/sync-os` command, `sync-environments` skill, and a `scripts/sync-agent.sh` gatherer that writes profiles to `$CLAUDE_USER_DATA/os-sync-agent/profiles/{base,remote}` and honours `SYNC_REMOTE_HOST` for non-default SSH aliases.
 
 ### Added — 2026-04-28

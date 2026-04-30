@@ -1102,6 +1102,16 @@ Define hardware project BOMs with ESP32-first focus — onboarding captures loca
 /plugin install hardware-spec-assembly@danielrosehill
 ```
 
+#### NFC Ops
+
+NFC tag operations using libnfc — read, write, inspect, password-protect, and bulk-write from CSV with manual tag-by-tag feed. Targets NTAG21x and MIFARE Classic via any libnfc-compatible USB reader.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-NFC-Ops-Plugin)
+
+```
+/plugin install nfc-ops@danielrosehill
+```
+
 ### Publishing & CMS
 
 #### Buttondown Mgmt
