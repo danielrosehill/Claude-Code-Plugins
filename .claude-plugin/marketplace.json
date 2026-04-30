@@ -174,13 +174,13 @@
       ]
     },
     {
-      "name": "video-production",
+      "name": "video-editing",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Video-Production-Plugin"
+        "repo": "danielrosehill/video-editing-plugin"
       },
-      "description": "Claude Code plugin: video production workflow \u2014 transcode, organise, dedupe, ComfyUI generation, cover art, with editing/generative/cover-art variants.",
-      "version": "1.0.0",
+      "description": "Claude Code plugin for video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -190,7 +190,7 @@
       "tags": [
         "video",
         "media",
-        "generative"
+        "editing"
       ]
     },
     {

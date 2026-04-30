@@ -330,14 +330,14 @@ Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, 
 
 ---
 
-#### Video Production
+#### Video Editing
 
-Claude Code plugin: video production workflow — transcode, organise, dedupe, ComfyUI generation, cover art, with editing/generative/cover-art variants.
+Claude Code plugin for video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Video-Production-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/video-editing-plugin)
 
 ```
-/plugin install video-production@danielrosehill
+/plugin install video-editing@danielrosehill
 ```
 
 ---
@@ -1093,7 +1093,7 @@ You can install multiple plugins by repeating the installation command for each 
 /plugin install content-writing@danielrosehill
 /plugin install technical-docs@danielrosehill
 /plugin install audio-production@danielrosehill
-/plugin install video-production@danielrosehill
+/plugin install video-editing@danielrosehill
 /plugin install image-production@danielrosehill
 ```
 
