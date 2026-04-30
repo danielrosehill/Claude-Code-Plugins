@@ -260,7 +260,7 @@
         "repo": "danielrosehill/Claude-Content-Writing-Plugin"
       },
       "description": "Claude Code plugin: content writing workflow \u2014 draft, proofread, version, publish, style guides, with writing/blog/opinion/document variants.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
