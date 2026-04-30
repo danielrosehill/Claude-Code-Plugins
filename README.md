@@ -864,6 +864,18 @@ Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps
 
 ### Research & Learning
 
+#### Air Quality Toolkit
+
+Look up current and historical air quality, calculate AQI from raw pollutant readings, and run modelling utilities. Defaults to WAQI with fallbacks to OpenAQ and AireLibre.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin)
+
+```
+/plugin install air-quality-toolkit@danielrosehill
+```
+
+---
+
 #### Report Analyst
 
 Skeptical analyst toolkit for long reports — READ/SKIM/SKIP verdicts, structured extraction (arguments, findings, stats, case studies, key snippets), and an opinionated executive summary. Built-in Jaded Report Reader persona that refuses credit for filler.
