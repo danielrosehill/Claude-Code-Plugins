@@ -2479,6 +2479,30 @@
         "cms",
         "data-engineering"
       ]
+    },
+    {
+      "name": "document-to-markdown",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/document-to-markdown-plugin"
+      },
+      "description": "Convert PDFs to clean Markdown, chunk into logical sections (chapters, indexes, appendices), and extract embedded tables to CSV. Local-first via marker/docling/pymupdf4llm + camelot/tabula, with TOON manifests.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "pdf",
+        "markdown",
+        "document",
+        "extraction",
+        "ocr",
+        "tables",
+        "csv"
+      ]
     }
   ]
 }

@@ -352,6 +352,18 @@ Skills and an orchestrator agent for preparing PDFs for digital printing — res
 /plugin install digital-printing@danielrosehill
 ```
 
+---
+
+#### Document To Markdown
+
+Convert PDFs to clean Markdown, chunk into logical sections (chapters, indexes, appendices), and extract embedded tables to CSV. Local-first via marker/docling/pymupdf4llm + camelot/tabula, with TOON manifests.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/document-to-markdown-plugin)
+
+```
+/plugin install document-to-markdown@danielrosehill
+```
+
 ### Media Editing
 
 #### Visual Communications
