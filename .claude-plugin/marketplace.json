@@ -2503,6 +2503,29 @@
         "tables",
         "csv"
       ]
+    },
+    {
+      "name": "snap-it",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Snap-It-Plugin"
+      },
+      "description": "Manage BTRFS snapshots via snapper and btrfs from Claude Code — create, list, diff, rollback, and prune subvolume snapshots. Includes /snap and /snap-before commands for one-shot and pre/post-paired snapshots around risky changes.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "btrfs",
+        "snapshots",
+        "snapper",
+        "linux",
+        "sysadmin",
+        "filesystem"
+      ]
     }
   ]
 }

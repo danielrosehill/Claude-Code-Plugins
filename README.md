@@ -556,6 +556,18 @@ KDE Plasma (Wayland) runtime utilities — KWin scripting, plasmoid management, 
 
 ---
 
+#### Snap-It (BTRFS Snapshots)
+
+Manage BTRFS snapshots via snapper and btrfs from Claude Code — create, list, diff, rollback, and prune subvolume snapshots. Includes `/snap` and `/snap-before` commands for one-shot and pre/post-paired snapshots around risky changes.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Snap-It-Plugin)
+
+```
+/plugin install snap-it@danielrosehill
+```
+
+---
+
 #### Linux Packaging
 
 Linux packaging and release workflows — Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging
