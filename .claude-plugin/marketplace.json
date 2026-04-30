@@ -2337,6 +2337,28 @@
         "mifare",
         "hardware"
       ]
+    },
+    {
+      "name": "background-removal",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Background-Removal-Plugin"
+      },
+      "description": "Remove image backgrounds via rembg \u2014 single-pass, two-pass cleanup, batch mode, and KDE Dolphin right-click integration.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "image",
+        "background-removal",
+        "rembg",
+        "kde",
+        "dolphin"
+      ]
     }
   ]
 }

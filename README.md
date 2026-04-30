@@ -426,6 +426,18 @@ Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, 
 
 ---
 
+#### Background Removal
+
+Remove image backgrounds via rembg — single-pass, two-pass cleanup, batch mode, and KDE Dolphin right-click integration.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Background-Removal-Plugin)
+
+```
+/plugin install background-removal@danielrosehill
+```
+
+---
+
 #### Video Editing
 
 Claude Code plugin for video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.
