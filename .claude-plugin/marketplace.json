@@ -2043,6 +2043,28 @@
         "growisofs",
         "linux"
       ]
+    },
+    {
+      "name": "security-auditor",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Security-Auditor-Plugin"
+      },
+      "description": "Register machines and run repeatable Claude-Code-driven security audits over SSH, with timestamped reports and per-machine profiles.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "security",
+        "audit",
+        "ssh",
+        "sysadmin",
+        "fleet"
+      ]
     }
   ]
 }

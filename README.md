@@ -636,6 +636,18 @@ Meta-plugin for per-project activation of dormant plugins and MCP servers from a
 /plugin install claude-vault@danielrosehill
 ```
 
+---
+
+#### Security Auditor
+
+Register machines and run repeatable Claude-Code-driven security audits over SSH, with timestamped reports and per-machine profiles. Fleet-oriented — track multiple hosts, diff successive audits, and surface drift.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Security-Auditor-Plugin)
+
+```
+/plugin install security-auditor@danielrosehill
+```
+
 ### Network & Smart Home
 
 #### ADB Ops
