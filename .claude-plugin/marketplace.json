@@ -37,8 +37,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Desktop-Manager-Plugin"
       },
-      "description": "Claude Code plugin: Linux desktop management workflow \u2014 check system, install packages, apply config, troubleshoot hardware, review logs, update system.",
-      "version": "1.0.0",
+      "description": "Claude Code plugin: Linux desktop management workflow \u2014 auto-profiles the local machine on first run and persists it to user data, then runs system checks, package install/remove, config application, hardware troubleshooting, service/log inspection against that profile.",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -478,8 +478,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Dev-Tools-Plugin"
       },
-      "description": "Claude Code plugin: dev tools workflow \u2014 scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.",
-      "version": "1.1.0",
+      "description": "Claude Code plugin: dev-tools workflow \u2014 scaffold repos, multi-agent QA review, templatize. Session-handover commands and agent moved to claude-hopper in 1.2.0.",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
