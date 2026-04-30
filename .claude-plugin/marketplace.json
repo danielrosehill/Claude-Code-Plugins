@@ -2384,6 +2384,29 @@
         "faker",
         "sdv"
       ]
+    },
+    {
+      "name": "novelty-text-editor",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Novelty-Text-Editor-Plugin"
+      },
+      "description": "Rewrite text in deliberately ridiculous styles — Shakespearean, medieval, archaic, chaos-case, over-salesy, platitude-stuffed, pseudobot, plus length transforms (elongate / truncate). Nine no-config skills for stylistic mischief.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "text",
+        "writing",
+        "novelty",
+        "transformation",
+        "style",
+        "humor"
+      ]
     }
   ]
 }

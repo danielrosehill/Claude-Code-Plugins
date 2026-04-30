@@ -294,6 +294,18 @@ Claude Code plugin: content writing workflow — draft, proofread, version, publ
 
 ---
 
+#### Novelty Text Editor
+
+Rewrite text in deliberately ridiculous styles — Shakespearean, medieval, archaic, chaos-case, over-salesy, platitude-stuffed, pseudobot, plus length transforms (elongate / truncate). Nine no-config skills for stylistic mischief.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Novelty-Text-Editor-Plugin)
+
+```
+/plugin install novelty-text-editor@danielrosehill
+```
+
+---
+
 #### SOP Writer
 
 Project-scoped authoring tools for Standard Operating Procedures and decision flowcharts. Scaffold from templates, embed Mermaid/D2 diagrams, compile to printable PDFs via Typst, and assemble multi-document binders with TOC and page numbers.
