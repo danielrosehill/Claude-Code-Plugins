@@ -206,6 +206,18 @@ Bug-ticket workflow for development repos — capture bugs into `planning/bugs/`
 /plugin install dev-debugger@danielrosehill
 ```
 
+---
+
+#### License Populator
+
+Recommend, generate, and populate software/content licenses. Reads from a user-managed template store and advises on optimal license choice given desired freedoms and constraints.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-License-Populator-Plugin)
+
+```
+/plugin install license-populator@danielrosehill
+```
+
 ### QA & Agent Sessions
 
 ![Claude Hopper banner](banners/claude-hopper.png)
