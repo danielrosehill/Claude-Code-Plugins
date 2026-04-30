@@ -180,7 +180,7 @@
         "repo": "danielrosehill/Claude-Video-Editor-Plugin"
       },
       "description": "Claude Code plugin for video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
