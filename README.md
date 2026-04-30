@@ -436,6 +436,18 @@ Linux packaging and release workflows — Debian/.deb builds, npm publishing, Gi
 
 ---
 
+#### CopyQ Scripting
+
+Foundational advanced clipboard scripting skills for CopyQ on Ubuntu Linux — CLI reference, custom commands, tab/item management, global shortcuts, and command bundle import/export.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin)
+
+```
+/plugin install copyq-scripting@danielrosehill
+```
+
+---
+
 #### Sysadmin Homelab
 
 Claude Code plugin: sysadmin and homelab workflow — diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.

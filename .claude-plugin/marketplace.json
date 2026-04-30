@@ -1908,6 +1908,28 @@
         "csv",
         "data-format"
       ]
+    },
+    {
+      "name": "copyq-scripting",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-CopyQ-Scripting-Plugin"
+      },
+      "description": "Foundational advanced clipboard scripting skills for CopyQ on Ubuntu Linux \u2014 CLI reference, custom commands, tab/item management, global shortcuts, and command bundle import/export.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "copyq",
+        "clipboard",
+        "linux",
+        "ubuntu",
+        "automation"
+      ]
     }
   ]
 }
