@@ -814,6 +814,18 @@ GPG operations: generate keypairs, export public keys, encrypt, decrypt, sign, a
 /plugin install gpg-ops@danielrosehill
 ```
 
+---
+
+#### SpamHole
+
+AI-assisted defenses against the spam keyword filters miss — pseudo-personalised wide-scrape outreach, AI-faked impersonation, and tracking-pixel surveillance. Capture spam to a personal corpus, suggest filter patterns, scan for tracking + ad-tracker pixels, draft unsubscribe replies, push server-side Gmail blocks via an email MCP, push DNS blocks to AdGuard Home, and contribute redacted findings to public anti-tracking lists. Bundles a stub AdGuard Home MCP.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-SpamHole-Plugin)
+
+```
+/plugin install spamhole@danielrosehill
+```
+
 ### Network & Smart Home
 
 #### ADB Ops

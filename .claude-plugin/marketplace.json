@@ -2569,6 +2569,29 @@
         "waqi",
         "openaq"
       ]
+    },
+    {
+      "name": "spamhole",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-SpamHole-Plugin"
+      },
+      "description": "Claude Code plugin: AI-assisted defenses against pseudo-personalised wide-scrape outreach, AI-faked impersonation, and tracking-pixel surveillance. Capture spam to a personal corpus, analyse intent, suggest filter patterns, scan for tracking + ad-tracker pixels, draft unsubscribe replies, push server-side Gmail blocks via an email MCP, push DNS-level blocks to AdGuard Home, and contribute redacted findings to public anti-tracking lists. Bundles a stub AdGuard Home MCP.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "spam",
+        "email",
+        "tracking-pixels",
+        "privacy",
+        "adguard",
+        "blocklist"
+      ]
     }
   ]
 }
