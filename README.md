@@ -766,6 +766,18 @@ General-purpose digital-evidence processing: capture, hash, OpenTimestamps, Exif
 /plugin install digital-evidence@danielrosehill
 ```
 
+---
+
+#### GPG Ops
+
+GPG operations: generate keypairs, export public keys, encrypt, decrypt, sign, and verify files or text using the local GnuPG keyring.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-GPG-Ops-Plugin)
+
+```
+/plugin install gpg-ops@danielrosehill
+```
+
 ### Network & Smart Home
 
 #### ADB Ops
@@ -815,6 +827,18 @@ Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps
 ```
 
 ### Research & Learning
+
+#### Report Analyst
+
+Skeptical analyst toolkit for long reports — READ/SKIM/SKIP verdicts, structured extraction (arguments, findings, stats, case studies, key snippets), and an opinionated executive summary. Built-in Jaded Report Reader persona that refuses credit for filler.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Report-Analyst-Plugin)
+
+```
+/plugin install report-analyst@danielrosehill
+```
+
+---
 
 #### Research Space
 

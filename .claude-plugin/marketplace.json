@@ -2391,7 +2391,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Novelty-Text-Editor-Plugin"
       },
-      "description": "Rewrite text in deliberately ridiculous styles — Shakespearean, medieval, archaic, chaos-case, over-salesy, platitude-stuffed, pseudobot, plus length transforms (elongate / truncate). Nine no-config skills for stylistic mischief.",
+      "description": "Rewrite text in deliberately ridiculous styles \u2014 Shakespearean, medieval, archaic, chaos-case, over-salesy, platitude-stuffed, pseudobot, plus length transforms (elongate / truncate). Nine no-config skills for stylistic mischief.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -2406,6 +2406,78 @@
         "transformation",
         "style",
         "humor"
+      ]
+    },
+    {
+      "name": "report-analyst",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Report-Analyst-Plugin"
+      },
+      "description": "Skeptical analyst toolkit for long reports \u2014 READ/SKIM/SKIP verdicts, structured extraction (arguments, findings, stats, case studies, key snippets), and an opinionated executive summary. Built-in Jaded Report Reader persona that refuses credit for filler.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "analysis",
+        "reports",
+        "summarisation",
+        "extraction",
+        "research",
+        "criticism"
+      ]
+    },
+    {
+      "name": "gpg-ops",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-GPG-Ops-Plugin"
+      },
+      "description": "GPG operations: generate keypairs, export public keys, encrypt, decrypt, sign, and verify files or text using the local GnuPG keyring.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "gpg",
+        "pgp",
+        "encryption",
+        "signing",
+        "security",
+        "privacy"
+      ]
+    },
+    {
+      "name": "taxonomy-creation",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Taxonomy-Creation-Plugin"
+      },
+      "description": "Generate taxonomy and lookup tables (countries, currencies, languages, US states, timezones, custom domain taxonomies) and load them into Postgres, SQLite, MySQL, or export to CSV/JSON/SQL seed files. For data engineers, CMS builders, and eval pipeline authors.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "taxonomy",
+        "lookup-tables",
+        "reference-data",
+        "seed-data",
+        "postgres",
+        "sqlite",
+        "mysql",
+        "cms",
+        "data-engineering"
       ]
     }
   ]
