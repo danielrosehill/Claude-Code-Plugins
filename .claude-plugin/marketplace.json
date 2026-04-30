@@ -2095,7 +2095,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Keyboard-Scanner"
       },
-      "description": "Profile Linux keyboards, scan keycodes, and surface underused keys for remapping. Walks intake → keycode dump (xmodmap/XKB/evdev/libinput, X11 + Wayland) → tailored remap suggestions referencing keyd, kmonad, xremap, xmodmap, xbindkeys, input-remapper, autokey.",
+      "description": "Profile Linux keyboards, scan keycodes, and surface underused keys for remapping. Walks intake \u2192 keycode dump (xmodmap/XKB/evdev/libinput, X11 + Wayland) \u2192 tailored remap suggestions referencing keyd, kmonad, xremap, xmodmap, xbindkeys, input-remapper, autokey.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -2110,6 +2110,27 @@
         "xkb",
         "remap",
         "input"
+      ]
+    },
+    {
+      "name": "system-recovery-mode",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-System-Recovery-Mode"
+      },
+      "description": "Claude Code plugin: AI-assisted Linux system recovery \u2014 slash commands and agents (diagnose, logs, network, disk, services, packages) for diagnosing and fixing a broken system. Pairs with an optional GRUB/systemd installer that boots a minimal recovery TTY straight into Claude CLI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "recovery",
+        "sysadmin",
+        "linux",
+        "diagnostics"
       ]
     }
   ]

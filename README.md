@@ -580,6 +580,18 @@ Linux desktop debugging toolkit — targeted journal/boot/log inspection skills 
 
 ---
 
+#### System Recovery Mode
+
+AI-assisted Linux system recovery — slash commands and agents (diagnose, logs, network, disk, services, packages) for diagnosing and fixing a broken system. Pairs with an optional GRUB/systemd installer that boots a minimal recovery TTY straight into Claude CLI.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-System-Recovery-Mode)
+
+```
+/plugin install system-recovery-mode@danielrosehill
+```
+
+---
+
 #### Backup Planner
 
 Plan, document, and implement a backup and data-protection strategy for the current project — from architecture discovery through script generation and restore drills.
