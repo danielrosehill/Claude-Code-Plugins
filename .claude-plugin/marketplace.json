@@ -1930,6 +1930,51 @@
         "ubuntu",
         "automation"
       ]
+    },
+    {
+      "name": "kde-plasma",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-KDE-Plasma-Plugin"
+      },
+      "description": "KDE Plasma (Wayland) runtime utilities \u2014 KWin scripting, plasmoid management, panel layout backup, virtual desktops & activities, KGlobalAccel shortcuts, theme/look-and-feel switching, KDE Connect, Klipper, Baloo, kwriteconfig safe-edit, plasma-restart helpers, qdbus introspection, kscreen save/apply, KWallet ops. Complements generic Linux desktop-management plugins.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "kde",
+        "plasma",
+        "kwin",
+        "wayland",
+        "linux",
+        "desktop"
+      ]
+    },
+    {
+      "name": "favorite-plugins-installers",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Favorite-Plugins-Installers-Plugin"
+      },
+      "description": "Curated batches of third-party Claude Code plugins, grouped by type/theme, installable in one command.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "plugins",
+        "installer",
+        "curated",
+        "batch",
+        "marketplace"
+      ]
     }
   ]
 }

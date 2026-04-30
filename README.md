@@ -170,6 +170,18 @@ Repo-based task queueing system with categorisation and prioritisation. Scaffold
 /plugin install task-queuer@danielrosehill
 ```
 
+---
+
+#### Favorite Plugins Installers
+
+Curated batches of third-party Claude Code plugins, grouped by type/theme, installable in one command.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin)
+
+```
+/plugin install favorite-plugins-installers@danielrosehill
+```
+
 ### QA & Agent Sessions
 
 ![Claude Hopper banner](banners/claude-hopper.png)
@@ -420,6 +432,18 @@ Claude Code plugin: Linux desktop management workflow — check system, install 
 
 ```
 /plugin install desktop-manager@danielrosehill
+```
+
+---
+
+#### KDE Plasma
+
+KDE Plasma (Wayland) runtime utilities — KWin scripting, plasmoid management, panel layout backup, virtual desktops & activities, KGlobalAccel shortcuts, theme/look-and-feel switching, KDE Connect, Klipper, Baloo, kwriteconfig safe-edit, plasma-restart helpers, qdbus introspection, kscreen save/apply, KWallet ops. Complements generic Linux desktop-management plugins.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasma-Plugin)
+
+```
+/plugin install kde-plasma@danielrosehill
 ```
 
 ---
