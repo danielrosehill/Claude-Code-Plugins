@@ -1975,6 +1975,28 @@
         "batch",
         "marketplace"
       ]
+    },
+    {
+      "name": "gimp",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-GIMP-Plugin"
+      },
+      "description": "Bare-bones GIMP CLI wrapper for Linux: detect install (native/Flatpak/Snap/AppImage), persist a per-user profile, run Script-Fu batch ops, export images, install/list GIMP-side plugins.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "gimp",
+        "image-editing",
+        "script-fu",
+        "linux",
+        "cli-wrapper"
+      ]
     }
   ]
 }

@@ -306,6 +306,18 @@ Skills and an orchestrator agent for preparing PDFs for digital printing — res
 
 ### Media Editing
 
+#### GIMP
+
+Bare-bones GIMP CLI wrapper for Linux: detect install (native/Flatpak/Snap/AppImage), persist a per-user profile, run Script-Fu batch ops, export images, install/list GIMP-side plugins.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-GIMP-Plugin)
+
+```
+/plugin install gimp@danielrosehill
+```
+
+---
+
 #### Audio Production
 
 Claude Code plugin: audio production workflow — normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.
