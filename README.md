@@ -194,6 +194,18 @@ Spec-driven development workflow for Claude Code: turn unstructured project brie
 /plugin install spec-starter@danielrosehill
 ```
 
+---
+
+#### Dev Debugger
+
+Bug-ticket workflow for development repos — capture bugs into `planning/bugs/`, dispatch specialist remediation agents (reproducer, diagnoser, patcher, fix-documenter), document fixes, and ship releases.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/dev-debugger-plugin)
+
+```
+/plugin install dev-debugger@danielrosehill
+```
+
 ### QA & Agent Sessions
 
 ![Claude Hopper banner](banners/claude-hopper.png)

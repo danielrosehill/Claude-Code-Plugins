@@ -2154,6 +2154,28 @@
         "voice",
         "planning"
       ]
+    },
+    {
+      "name": "dev-debugger",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/dev-debugger-plugin"
+      },
+      "description": "Bug-ticket workflow for development repos — capture bugs into planning/bugs/, dispatch specialist remediation agents (reproducer, diagnoser, patcher, fix-documenter), document fixes, and ship releases.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "debugging",
+        "bugs",
+        "remediation",
+        "agents",
+        "dev-tools"
+      ]
     }
   ]
 }
