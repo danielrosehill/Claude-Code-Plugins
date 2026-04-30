@@ -1244,6 +1244,18 @@ Skills for analyzing large text corpora — topic modeling (BERTopic with tempor
 /plugin install text-corpus-analysis@danielrosehill
 ```
 
+---
+
+#### Taxonomy Creation
+
+Generate taxonomy and lookup tables — standard ones (ISO 3166 countries, ISO 4217 currencies, ISO 639 languages, US states, IANA timezones, HTTP status codes, MIME types) or custom domain taxonomies generated from a natural-language spec (e.g. "types of LLM evals", product categories). Supports flat and hierarchical (parent/child) shapes, validation before load, idempotent loaders for Postgres / SQLite / MySQL with replace/upsert/append modes, and exports to CSV, TSV, JSON, NDJSON, SQL seed files, and YAML. Built for data engineers, CMS builders, and eval pipeline authors.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Taxonomy-Creation-Plugin)
+
+```
+/plugin install taxonomy-creation@danielrosehill
+```
+
 ### Data Discovery
 
 #### Browser Data Capture
