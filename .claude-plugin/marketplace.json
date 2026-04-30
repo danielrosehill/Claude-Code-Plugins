@@ -520,7 +520,7 @@
         "repo": "danielrosehill/Claude-Rudder"
       },
       "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
-      "version": "2.6.0",
+      "version": "2.7.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
