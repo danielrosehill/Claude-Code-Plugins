@@ -2245,6 +2245,28 @@
         "bagit",
         "exiftool"
       ]
+    },
+    {
+      "name": "donetick",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Donetick-Plugin"
+      },
+      "description": "Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance — daily brief, list/create/complete chores, label management.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "donetick",
+        "chores",
+        "mcp",
+        "task-management",
+        "self-hosted"
+      ]
     }
   ]
 }

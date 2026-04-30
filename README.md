@@ -888,6 +888,18 @@ Operational commands and a skill for working with the Green Invoice MCP server �
 
 ---
 
+#### Donetick
+
+Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance — daily brief, list/create/complete chores, label management.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Donetick-Plugin)
+
+```
+/plugin install donetick@danielrosehill
+```
+
+---
+
 #### Personal Planning
 
 Claude Code plugin: personal life planning workflow — log entries, review progress, set goals, with diary/health/family/house-search/preparedness/personal-dev/inbox variants.
