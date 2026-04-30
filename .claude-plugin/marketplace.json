@@ -2359,6 +2359,31 @@
         "kde",
         "dolphin"
       ]
+    },
+    {
+      "name": "synthetic-data",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Synthetic-Data-Plugin"
+      },
+      "description": "Generate synthetic datasets from schemas, real data, or LLM-driven personas. Tabular fit-and-sample (SDV: GaussianCopula, CTGAN, TVAE), Faker/Mimesis schema generation, deterministic PII swap, LLM-driven real-to-synth conversion for unstructured records, and SDMetrics-based quality/privacy evaluation (plus embedding-based leakage checks for text).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "synthetic-data",
+        "data-generation",
+        "anonymisation",
+        "pii",
+        "tabular",
+        "llm",
+        "faker",
+        "sdv"
+      ]
     }
   ]
 }
