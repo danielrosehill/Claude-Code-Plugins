@@ -2624,7 +2624,7 @@
         "repo": "danielrosehill/Claude-Userscript-Development-Plugin"
       },
       "description": "Develop, test, and publish Tampermonkey userscripts \u2014 scaffolding, in-browser validation via Claude in Chrome, README generation, and version bumping.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
