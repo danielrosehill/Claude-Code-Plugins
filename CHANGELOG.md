@@ -6,6 +6,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-05-02
+
+- **`userscript-development`** — develop, test, and publish Tampermonkey userscripts from Claude Code. Seven skills: `onboard` (optional — records the user's userscripts repos base path, also respects `$USERSCRIPT_REPOS_BASE`), `new-userscript` (scaffold a `.user.js` with a complete `==UserScript==` metadata block), `test-userscript` (live validation in a real Chrome tab via the Claude in Chrome MCP — simulated injection for `@grant none` scripts; bails clearly when `GM_*` APIs are needed), `publish-userscript` (push to GitHub and wire `@updateURL` / `@downloadURL` so Tampermonkey can install from the raw URL), `generate-readme` (build a clean repo README from the metadata block), `bump-version` (semver-aware increment, commit, tag, push — guards against decreases), `docs-lookup` (fetch the official Tampermonkey docs on demand). Listed under Repo Scaffolding & Retrofitting.
+
 ### Added — 2026-04-30
 
 - **`spamhole`** — AI-assisted defenses against the spam keyword filters miss: pseudo-personalised wide-scrape outreach, AI-faked impersonation, tracking-pixel surveillance. Thirteen skills: `setup-corpus`, `capture-spam-sample` (lightweight capture + filter pattern + system-prompt tuning + optional unsubscribe reply), `analyse-email` (full forensic pipeline), `bulk-analyse`, `scan-tracking-pixels`, `scan-recent-pixels` (bulk inbox sweep), `tracking-report`, `block-sender` (server-side Gmail filter via email MCP), `draft-unsubscribe-reply`, `export-dns-blocklist` (Pi-hole/AdGuard/hosts/dnsmasq/unbound), `adguard-configure`, `adguard-push` (network-wide DNS block via AdGuard Home REST API), `contribute-blocklist` (sanitised PR-ready exports for EasyPrivacy/hagezi/oisd/AdGuard). Bundles a stub AdGuard Home stdio MCP under `mcp/adguard-home/`. Conversion of the earlier private `Claude-Spam-Processor` workspace template — corpus moved out of the plugin, configurable per-machine via `setup-corpus`. Listed under Privacy & Security.

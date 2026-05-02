@@ -2599,7 +2599,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-PII-Scanner-Plugin"
       },
-      "description": "Scan files, directories, or git repositories for personally identifiable information — credentials (gitleaks), generic PII (Microsoft Presidio), and matches against a user-maintained personal PII inventory (names, addresses, family, IDs) stored locally.",
+      "description": "Scan files, directories, or git repositories for personally identifiable information \u2014 credentials (gitleaks), generic PII (Microsoft Presidio), and matches against a user-maintained personal PII inventory (names, addresses, family, IDs) stored locally.",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -2615,6 +2615,28 @@
         "gitleaks",
         "presidio",
         "redaction"
+      ]
+    },
+    {
+      "name": "userscript-development",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Userscript-Development-Plugin"
+      },
+      "description": "Develop, test, and publish Tampermonkey userscripts \u2014 scaffolding, in-browser validation via Claude in Chrome, README generation, and version bumping.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "userscript",
+        "tampermonkey",
+        "browser",
+        "automation",
+        "web"
       ]
     }
   ]

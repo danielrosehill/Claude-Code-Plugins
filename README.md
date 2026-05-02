@@ -218,6 +218,18 @@ Recommend, generate, and populate software/content licenses. Reads from a user-m
 /plugin install license-populator@danielrosehill
 ```
 
+---
+
+#### Userscript Development
+
+Develop, test, and publish Tampermonkey userscripts — scaffold `.user.js` files with proper metadata blocks, validate behavior live in Chrome via the Claude in Chrome MCP, generate READMEs, and bump versions for auto-update.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Userscript-Development-Plugin)
+
+```
+/plugin install userscript-development@danielrosehill
+```
+
 ### QA & Agent Sessions
 
 ![Claude Hopper banner](banners/claude-hopper.png)
