@@ -2638,6 +2638,56 @@
         "automation",
         "web"
       ]
+    },
+    {
+      "name": "linux-system-optimisation",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Linux-System-Optimisation-Plugin"
+      },
+      "description": "Performance and space optimisation for Linux desktops \u2014 hardware-aware CPU/GPU/disk/memory benchmarks with governor / I/O scheduler / sysctl tuning, plus disk-usage analysis (BTRFS-aware), duplicate-file detection, package audit, and dev-clutter pruning (venvs, node_modules, caches).",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "linux",
+        "desktop",
+        "benchmark",
+        "tuning",
+        "performance",
+        "disk-usage",
+        "btrfs",
+        "cleanup"
+      ]
+    },
+    {
+      "name": "linux-av-manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Linux-AV-Manager-Plugin"
+      },
+      "description": "Manage antivirus, rootkit-detection, and UFW host firewall on a Linux desktop \u2014 install ClamAV/ClamTk/rkhunter (core) plus optional advanced tools (Lynis, chkrootkit, AIDE, debsecan), keep definitions current, run scans, schedule periodic runs, and configure conservative desktop-tuned UFW rules. Scan results stored in a user-defined folder set up on first run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "linux",
+        "security",
+        "antivirus",
+        "clamav",
+        "rootkit",
+        "lynis",
+        "ufw",
+        "firewall"
+      ]
     }
   ]
 }

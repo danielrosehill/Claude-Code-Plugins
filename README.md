@@ -778,6 +778,16 @@ Profile Linux keyboards, scan keycodes, and surface underused keys for remapping
 /plugin install keyboard-scanner@danielrosehill
 ```
 
+#### Linux System Optimisation
+
+Performance and space optimisation for Linux desktops — hardware-aware CPU/GPU/disk/memory benchmarks with governor / I/O scheduler / sysctl tuning, plus disk-usage analysis (BTRFS-aware), duplicate-file detection, package audit, and dev-clutter pruning (venvs, node_modules, caches).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Linux-System-Optimisation-Plugin)
+
+```
+/plugin install linux-system-optimisation@danielrosehill
+```
+
 ### Privacy & Security
 
 #### Claude Vault
@@ -848,6 +858,18 @@ Scan files, directories, or git repositories for personally identifiable informa
 
 ```
 /plugin install pii-scanner@danielrosehill
+```
+
+---
+
+#### Linux AV Manager
+
+Manage antivirus, rootkit-detection, and UFW host firewall on a Linux desktop — install ClamAV/ClamTk/rkhunter (core) plus optional advanced tools (Lynis, chkrootkit, AIDE, debsecan), keep definitions current, run scans, schedule periodic runs, and configure conservative desktop-tuned UFW rules.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin)
+
+```
+/plugin install linux-av-manager@danielrosehill
 ```
 
 ### Network & Smart Home
