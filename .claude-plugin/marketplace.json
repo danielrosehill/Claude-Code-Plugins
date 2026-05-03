@@ -2711,6 +2711,28 @@
         "prosody",
         "voice"
       ]
+    },
+    {
+      "name": "zigbee-home-maintenance",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Zigbee-Home-Maintenance-Plugin"
+      },
+      "description": "Maintain a home Zigbee network \u2014 onboard MQTT broker, coordinator (SMLight / Sonoff / ConBee / etc.), and Home Assistant; manage credentials, network exports, and routine maintenance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "zigbee",
+        "smart-home",
+        "home-assistant",
+        "mqtt",
+        "iot"
+      ]
     }
   ]
 }

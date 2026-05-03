@@ -932,6 +932,18 @@ Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps
 /plugin install network-cups@danielrosehill
 ```
 
+---
+
+#### Zigbee Home Maintenance
+
+Maintain a home Zigbee network — onboard MQTT broker, coordinator (SMLight / Sonoff / ConBee / etc.), and Home Assistant; manage credentials, network exports, and routine maintenance.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Zigbee-Home-Maintenance-Plugin)
+
+```
+/plugin install zigbee-home-maintenance@danielrosehill
+```
+
 ### Research & Learning
 
 #### Air Quality Toolkit
