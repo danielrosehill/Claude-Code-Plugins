@@ -2733,6 +2733,29 @@
         "mqtt",
         "iot"
       ]
+    },
+    {
+      "name": "agent-relay",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Agent-Relay-Plugin"
+      },
+      "description": "Direct agent-to-agent communication and coordination within a LAN. Two Claude instances on different machines exchange messages and files via a shared MCP relay server. Includes the relay server (Python/FastMCP, SQLite, content-addressed blob storage) and skills to deploy and connect clients. Trust-based, LAN-scoped.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "multi-agent",
+        "lan",
+        "relay",
+        "coordination",
+        "a2a"
+      ]
     }
   ]
 }

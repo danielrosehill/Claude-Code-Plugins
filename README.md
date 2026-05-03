@@ -886,6 +886,18 @@ Manage antivirus, rootkit-detection, and UFW host firewall on a Linux desktop â€
 
 ### Network & Smart Home
 
+#### Agent Relay
+
+Direct agent-to-agent communication and coordination within a LAN. Two Claude instances on different machines exchange messages and files via a shared MCP relay server. Includes the relay server (Python/FastMCP, SQLite, content-addressed blob storage) and skills to deploy and connect clients. Trust-based, LAN-scoped.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin)
+
+```
+/plugin install agent-relay@danielrosehill
+```
+
+---
+
 #### ADB Ops
 
 ADB (Android Debug Bridge) operations â€” onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.
