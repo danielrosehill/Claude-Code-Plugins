@@ -510,6 +510,18 @@ Drive an AI-generated video project end-to-end: creative brief, model selection,
 
 ---
 
+#### Text-to-Speech Toolkit
+
+Preprocess text for TTS engines — convert plain text to W3C SSML, render ElevenLabs-flavoured markup grounded in the live ElevenLabs prompting docs, run a TTS safety review (URLs, emojis, abbreviations, markdown artefacts), and apply manual prosody notes. Non-destructive by default: edits land in `edited/` alongside an unchanged `original/` copy.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Text-To-Speech-Toolkit-Plugin)
+
+```
+/plugin install text-to-speech-toolkit@danielrosehill
+```
+
+---
+
 #### Media Library
 
 Claude Code plugin: media library workflow — catalog, tag, search, sort, dedupe assets.

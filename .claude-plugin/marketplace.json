@@ -2688,6 +2688,29 @@
         "ufw",
         "firewall"
       ]
+    },
+    {
+      "name": "text-to-speech-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Text-To-Speech-Toolkit-Plugin"
+      },
+      "description": "Skills for preprocessing text for TTS engines \u2014 SSML conversion, ElevenLabs markup (grounded in live ElevenLabs prompting docs), TTS safety review, and manual prosody addition. Non-destructive by default: edits land in an edited/ folder alongside an unchanged original/ copy.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "tts",
+        "text-to-speech",
+        "ssml",
+        "elevenlabs",
+        "prosody",
+        "voice"
+      ]
     }
   ]
 }
