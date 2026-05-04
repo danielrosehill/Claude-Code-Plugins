@@ -2756,6 +2756,29 @@
         "coordination",
         "a2a"
       ]
+    },
+    {
+      "name": "hardware-id-annotation",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Hardware-ID-Annotation-Plugin"
+      },
+      "description": "Identify and annotate hardware components from photos \u2014 circuit boards, motherboards, ICs \u2014 with overlays, datasheet cross-checks, and structured BOMs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "hardware",
+        "electronics",
+        "annotation",
+        "circuit-board",
+        "datasheet",
+        "vision"
+      ]
     }
   ]
 }

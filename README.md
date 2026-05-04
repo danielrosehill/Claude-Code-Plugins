@@ -474,6 +474,18 @@ Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, 
 
 ---
 
+#### Hardware ID & Annotation
+
+Identify and annotate hardware components from photos — circuit boards, motherboards, ICs — with overlays, datasheet cross-checks, and structured BOMs.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin)
+
+```
+/plugin install hardware-id-annotation@danielrosehill
+```
+
+---
+
 #### Background Removal
 
 Remove image backgrounds via rembg — single-pass, two-pass cleanup, batch mode, and KDE Dolphin right-click integration.
