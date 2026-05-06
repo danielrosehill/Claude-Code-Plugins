@@ -2799,6 +2799,23 @@
         "documentation",
         "workflow"
       ]
+    },
+    {
+      "name": "Easy-Effects-Manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Easy-Effects-Manager"
+      },
+      "description": "Manage Easy Effects on Linux: maintain a preset library, install/export presets, bind autoload to specific mics, test input levels, and set up clean voice-dictation chains. Works with Flatpak or native installs.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "tags": [
+        "linux",
+        "audio",
+        "easyeffects",
+        "voice",
+        "dictation"
+      ]
     }
   ]
 }
