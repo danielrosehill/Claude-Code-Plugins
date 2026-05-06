@@ -2779,6 +2779,26 @@
         "datasheet",
         "vision"
       ]
+    },
+    {
+      "name": "claude-document-nudge",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Document-Nudge"
+      },
+      "description": "Nudges Claude to document decisions, todos, sprints, and handovers into a structured planning/ tree by default \u2014 without being asked each turn. Ships a home-level CLAUDE.md snippet plus /nudge-install and /nudge-scaffold slash commands.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "planning",
+        "documentation",
+        "workflow"
+      ]
     }
   ]
 }
