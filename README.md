@@ -1018,6 +1018,18 @@ Check what people are actually saying about a topic, product, or provider by sea
 
 ---
 
+#### Hermes Tweet
+
+Hermes Agent X/Twitter plugin with read tools, gated action tools, and bundled skill guidance.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Xquik-dev/hermes-tweet)
+
+```
+/plugin install hermes-tweet@danielrosehill
+```
+
+---
+
 #### Test Project Ideator
 
 Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.

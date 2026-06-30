@@ -1350,6 +1350,26 @@
       ]
     },
     {
+      "name": "hermes-tweet",
+      "source": {
+        "source": "github",
+        "repo": "Xquik-dev/hermes-tweet"
+      },
+      "description": "Hermes Agent X/Twitter plugin with read tools, gated action tools, and bundled skill guidance.",
+      "version": "0.1.6",
+      "author": {
+        "name": "Xquik-dev",
+        "url": "https://github.com/Xquik-dev/hermes-tweet"
+      },
+      "license": "MIT",
+      "tags": [
+        "hermes-agent",
+        "x",
+        "twitter",
+        "social-media"
+      ]
+    },
+    {
       "name": "linux-packaging",
       "source": {
         "source": "github",
