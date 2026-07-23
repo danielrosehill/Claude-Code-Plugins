@@ -1210,6 +1210,18 @@ Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price 
 
 ---
 
+#### AliExpress Israel Skills
+
+AliExpress shopping for an Israel-based buyer, standalone from local-retailer skills — Choice-first search in ILS via a local browser, free-shipping-to-IL filter, Israeli-buyer review filtering, single-listing landed-cost parsing, and a running cart-value nudge around Israel's $75 VAT-free de-minimis.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Aliexpress-Israel-Skills)
+
+```
+/plugin install aliexpress-israel-skills@danielrosehill
+```
+
+---
+
 #### Daniel-Rosehill
 
 Personal-use skills and slash commands for Daniel Rosehill — released publicly for convenience.
