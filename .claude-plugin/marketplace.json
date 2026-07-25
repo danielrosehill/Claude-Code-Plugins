@@ -2839,6 +2839,28 @@
         "choice",
         "vat"
       ]
+    },
+    {
+      "name": "unofficial-mcp-builder",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Unofficial-MCP-Builder-Plugin"
+      },
+      "description": "Author and maintain unofficial MCP servers for third-party APIs that don't ship one. Generate a server from the vendor's API docs verified against the live API with your own key, detect upstream drift on a schedule, and smoke-test against real operations. Bound by a committed api-surface.yaml recording what the API actually does versus what its docs claim. Publishes to npm.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "api",
+        "codegen",
+        "npm",
+        "dev-tools"
+      ]
     }
   ]
 }
