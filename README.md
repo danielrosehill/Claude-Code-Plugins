@@ -1268,6 +1268,16 @@ Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew transl
 /plugin install israel-agent-skills@danielrosehill
 ```
 
+#### Israel Opening Hours
+
+Check opening hours for Israeli businesses, including hours stated relative to Shabbat and yom tov. Combines Google Business and easy.co.il for stated hours with Hebcal candle-lighting/havdalah times, resolving phrasing like "reopens an hour after Shabbat" into concrete clock times for any date and city.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Israel-Opening-Hours-Plugin)
+
+```
+/plugin install israel-opening-hours@danielrosehill
+```
+
 ### Marketing & Shopping
 
 #### Shopping
