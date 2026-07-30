@@ -1314,6 +1314,18 @@ Claude Code plugin: purchasing workflow — intake, compare products, evaluate o
 /plugin install purchasing@danielrosehill
 ```
 
+---
+
+#### Freight Volume Calculator
+
+Freight volume arithmetic from a product's external dimensions — pallet quantity across 11 pallet standards, container loads palletised or floor-loaded for 20 ft / 40 ft / HC / reefer / 13.6 m trailer with stated buffers and payload limits, master-carton permutations ranked by units per container, and freight cost per unit from rates you supply. Reproduces published trade figures (11 EUR-1 pallets in a 20 ft, 9 Chinese 1200 × 1000, 33 on a curtainsider); holds no rate data and makes no network call.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Freight-Vol-Calculator)
+
+```
+/plugin install freight-vol-calculator@danielrosehill
+```
+
 ### Hardware & Maker
 
 #### Hardware Spec Assembly

@@ -2906,6 +2906,31 @@
         "inventory",
         "printing"
       ]
+    },
+    {
+      "name": "freight-vol-calculator",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Freight-Vol-Calculator"
+      },
+      "description": "Claude Code plugin: freight volume arithmetic from a product's external dimensions — pallet quantity across 11 pallet standards, container loads palletised or floor-loaded for 20 ft / 40 ft / HC / reefer / 13.6 m trailer with stated buffers and payload limits, master-carton permutations ranked by units per container, and freight cost per unit from rates you supply. Reproduces published trade figures; holds no rate data and makes no network call.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "freight",
+        "logistics",
+        "shipping",
+        "pallet",
+        "container",
+        "packing",
+        "supply-chain",
+        "import-export"
+      ]
     }
   ]
 }
