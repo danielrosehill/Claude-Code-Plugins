@@ -2956,6 +2956,31 @@
         "caching",
         "review"
       ]
+    },
+    {
+      "name": "contact-support",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/contact-support-plugin"
+      },
+      "description": "Claude Code plugin (work in progress \u2014 concept stage): contact a vendor's support desk from a registry of verified, dated contact routes rather than recalled ones \u2014 ticket URLs and which support plans can reach them, abuse and fraud addresses taken from mailto hrefs rather than page text, per-tier response windows, priority vocabulary, escalation ladders with SLA claim deadlines, pre-contact checks, and the plausible routes that turn out to be dead. Records the user's account identity and where credentials live (a pointer, never the secret), drafts the request with the identifiers the desk will demand, sends it through whichever channel is actually reachable, logs the ticket and chases it when the window elapses. Ships verified for Twilio only; extend with support-add-service.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "support",
+        "helpdesk",
+        "vendor",
+        "tickets",
+        "escalation",
+        "sla",
+        "twilio",
+        "work-in-progress"
+      ]
     }
   ]
 }

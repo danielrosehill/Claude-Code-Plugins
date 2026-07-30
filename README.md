@@ -1114,6 +1114,24 @@ Claude Code plugin: legal and investigative workflow — log evidence, analyze d
 
 ### Personal Productivity
 
+#### Contact Support
+
+![Status: work in progress](https://img.shields.io/badge/status-work%20in%20progress-orange) ![Stage: concept](https://img.shields.io/badge/stage-concept-blueviolet) ![Services verified: 1](https://img.shields.io/badge/services%20verified-1%20%C2%B7%20Twilio-lightgrey)
+
+Contact a vendor's support desk from a registry of **verified, dated** contact routes rather than recalled ones — ticket URLs and which support plans can actually reach them, abuse and fraud addresses taken from `mailto:` hrefs rather than page text, per-tier response windows, the vendor's own priority vocabulary, escalation ladders with SLA claim deadlines, pre-contact checks, and a `known_dead` list of the plausible routes that turn out not to work. Records the user's account identity and where their credentials live — a pointer, never the secret — then drafts the request with the identifiers the desk will demand, sends it through whichever channel is actually reachable, logs the ticket and chases it when the window elapses.
+
+Ships verified for **Twilio only**, deliberately: one vendor checked properly beats a registry of guesses. Add your own with the `support-add-service` skill.
+
+**Concept stage.** The registry is real and the Twilio entry is verified end to end, but the send and follow-up paths have never been run against a live support desk. Expect the schema to move.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/contact-support-plugin)
+
+```
+/plugin install contact-support@danielrosehill
+```
+
+---
+
 #### Greeninvoice Ops
 
 Operational commands and a skill for working with the Green Invoice MCP server — invoices, clients, expenses, and monthly summaries.
