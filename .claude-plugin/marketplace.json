@@ -2868,8 +2868,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Israel-Opening-Hours-Plugin"
       },
-      "description": "Claude Code plugin: check opening hours for Israeli businesses, including hours stated relative to Shabbat and yom tov. Combines Google Business and easy.co.il for stated hours with Hebcal candle-lighting/havdalah times, resolving phrasing like 'reopens an hour after Shabbat' into concrete clock times for any date and city.",
-      "version": "0.1.0",
+      "description": "Claude Code plugin: check opening hours for Israeli businesses, including hours stated relative to Shabbat and yom tov. Combines Google Business and easy.co.il for stated hours with Hebcal candle-lighting/havdalah times, resolving phrasing like 'reopens an hour after Shabbat' into concrete clock times. Bundles 56 Israeli locations with verified per-city candle-lighting customs.",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2884,7 +2884,6 @@
         "regional"
       ]
     },
-
     {
       "name": "label-printer",
       "source": {
