@@ -2883,6 +2883,30 @@
         "hebcal",
         "regional"
       ]
+    },
+
+    {
+      "name": "label-printer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/label-printer-plugin"
+      },
+      "description": "Claude Code plugin: print labels on a Brother P-touch label printer — single labels, N copies, batch runs, and QR-coded asset and storage-unit templates for inventory work. Bundles a streamable-HTTP MCP server that renders labels and hands them to a USB print bridge on a Linux host, plus notes on the device settings the Linux driver cannot reach.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "label-printer",
+        "brother",
+        "p-touch",
+        "qr-code",
+        "inventory",
+        "printing"
+      ]
     }
   ]
 }

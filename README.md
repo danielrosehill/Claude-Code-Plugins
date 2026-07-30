@@ -1336,6 +1336,16 @@ NFC tag operations using libnfc — read, write, inspect, password-protect, and 
 /plugin install nfc-ops@danielrosehill
 ```
 
+#### Label Printer
+
+Print labels on a Brother P-touch label printer — single labels, N copies, batch runs of up to 50, and QR-coded asset and storage-unit templates for inventory work. Bundles a streamable-HTTP MCP server that renders labels and posts them to a USB print bridge on a Linux host. Also documents the device settings the Linux driver cannot reach (auto power-off is Windows/macOS Setting Tool only).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/label-printer-plugin)
+
+```
+/plugin install label-printer@danielrosehill
+```
+
 ### Publishing & CMS
 
 #### Buttondown Mgmt
