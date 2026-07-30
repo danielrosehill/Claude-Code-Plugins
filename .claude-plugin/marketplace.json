@@ -2931,6 +2931,31 @@
         "supply-chain",
         "import-export"
       ]
+    },
+    {
+      "name": "stack-evaluator",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/stack-evaluator-plugin"
+      },
+      "description": "Claude Code plugin: component-level review of a project's technology stack, not its code — records the stack to docs/stack/ with the run date, checks each component for end-of-life and currency, finds architectural gaps (caching, backups, queues, rate limiting, observability), flags redundancy and over-engineering against the real workload, then emits a sequenced revision proposal and an execution brief. Re-runnable per repo with persistent decisions and finding history.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "stack",
+        "architecture",
+        "modernization",
+        "audit",
+        "dependencies",
+        "eol",
+        "caching",
+        "review"
+      ]
     }
   ]
 }

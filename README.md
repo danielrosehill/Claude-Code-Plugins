@@ -230,6 +230,18 @@ Develop, test, and publish Tampermonkey userscripts — scaffold `.user.js` file
 /plugin install userscript-development@danielrosehill
 ```
 
+---
+
+#### Stack Evaluator
+
+Review a project's stack rather than its code — record the components to `docs/stack/` with the run date, check each for end-of-life and currency, find what is architecturally absent (caching at all five layers, backups, queues, rate limiting, observability), flag redundancy and over-engineering against the actual workload, then emit a sequenced revision proposal and a self-contained execution brief. Re-runnable per repo: settled decisions are not re-raised and chronic findings show their age.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/stack-evaluator-plugin)
+
+```
+/plugin install stack-evaluator@danielrosehill
+```
+
 ### QA & Agent Sessions
 
 ![Claude Hopper banner](banners/claude-hopper.png)
