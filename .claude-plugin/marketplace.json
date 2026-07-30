@@ -2988,8 +2988,8 @@
         "source": "github",
         "repo": "danielrosehill/netek-disconnect-plugin"
       },
-      "description": "Claude Code plugin: cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. Uses an unofficial, undocumented API that may change without notice.",
-      "version": "0.1.0",
+      "description": "Claude Code plugin: cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. Falls back to filling the form in Chrome when the API changes. Uses Netek's own private, undocumented backend — not a published API.",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

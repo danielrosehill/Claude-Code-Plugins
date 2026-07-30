@@ -1310,7 +1310,7 @@ Check opening hours for Israeli businesses, including hours stated relative to S
 
 #### Netek Disconnect
 
-Cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and the exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. The activation link Netek emails is deliberately left for the account holder to click. Uses an unofficial, undocumented API that may change without notice.
+Cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and the exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. The activation link Netek emails is deliberately left for the account holder to click. Two paths to the same form: a fast API path, and a Chrome MCP fallback that fills the website form by visible Hebrew label when the API changes. Uses Netek's own private, undocumented backend — not a published API.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/netek-disconnect-plugin)
 
