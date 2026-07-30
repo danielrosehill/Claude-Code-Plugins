@@ -2963,7 +2963,7 @@
         "source": "github",
         "repo": "danielrosehill/contact-support-plugin"
       },
-      "description": "Claude Code plugin (work in progress \u2014 concept stage): contact a vendor's support desk from a registry of verified, dated contact routes rather than recalled ones \u2014 ticket URLs and which support plans can reach them, abuse and fraud addresses taken from mailto hrefs rather than page text, per-tier response windows, priority vocabulary, escalation ladders with SLA claim deadlines, pre-contact checks, and the plausible routes that turn out to be dead. Records the user's account identity and where credentials live (a pointer, never the secret), drafts the request with the identifiers the desk will demand, sends it through whichever channel is actually reachable, logs the ticket and chases it when the window elapses. Ships verified for Twilio only; extend with support-add-service.",
+      "description": "Claude Code plugin (work in progress — concept stage): contact a vendor's support desk from a registry of verified, dated contact routes rather than recalled ones — ticket URLs and which support plans can reach them, abuse and fraud addresses taken from mailto hrefs rather than page text, per-tier response windows, priority vocabulary, escalation ladders with SLA claim deadlines, pre-contact checks, and the plausible routes that turn out to be dead. Records the user's account identity and where credentials live (a pointer, never the secret), drafts the request with the identifiers the desk will demand, sends it through whichever channel is actually reachable, logs the ticket and chases it when the window elapses. Ships verified for Twilio only; extend with support-add-service.",
       "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -2980,6 +2980,27 @@
         "sla",
         "twilio",
         "work-in-progress"
+      ]
+    },
+    {
+      "name": "netek-disconnect",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/netek-disconnect-plugin"
+      },
+      "description": "Claude Code plugin: cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. Uses an unofficial, undocumented API that may change without notice.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "consumer-rights",
+        "cancellation",
+        "hebrew"
       ]
     }
   ]
