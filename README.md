@@ -1308,6 +1308,16 @@ Check opening hours for Israeli businesses, including hours stated relative to S
 /plugin install israel-opening-hours@danielrosehill
 ```
 
+#### RTL Email
+
+Send email in right-to-left scripts — Hebrew, Arabic, Farsi, Urdu — that actually renders RTL in the recipient's client. Plain-text email carries no direction metadata, so the client guesses: Gmail usually guesses right, Outlook frequently renders LTR, and one URL or account number is enough to flip the heuristic. The visible damage is misplaced punctuation; the real damage is multi-part numbers reordering their separators, which corrupts the account and reference numbers a recipient uses to find the file. Ships `dir=rtl` HTML templates (ordinary and formal), separate personal and business send skills that inherit saved signature profiles and their matching register, and a one-time signature setup that stores your name in both scripts. Works with Google Workspace MCP or Resend.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-RTL-Email)
+
+```
+/plugin install rtl-email@danielrosehill
+```
+
 #### Netek Disconnect
 
 Cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and the exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. The activation link Netek emails is deliberately left for the account holder to click. Two paths to the same form: a fast API path, and a Chrome MCP fallback that fills the website form by visible Hebrew label when the API changes. Uses Netek's own private, undocumented backend — not a published API.

@@ -3002,6 +3002,28 @@
         "cancellation",
         "hebrew"
       ]
+    },
+    {
+      "name": "rtl-email",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-RTL-Email"
+      },
+      "description": "Claude Code plugin: send email in right-to-left scripts (Hebrew, Arabic, Farsi, Urdu) that actually renders RTL. Plain-text email carries no direction metadata, so RTL bodies render LTR in many clients and multi-part numbers like account references reorder. Ships dir=rtl HTML templates, separate personal and business send skills inheriting saved signature profiles, and one-time signature setup. Works with Google Workspace MCP or Resend.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "email",
+        "rtl",
+        "hebrew",
+        "arabic",
+        "i18n"
+      ]
     }
   ]
 }
