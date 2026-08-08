@@ -1056,7 +1056,7 @@ Generates specifications for practice/dummy development projects tailored to the
 
 #### Teach This Repo
 
-Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.
+Uses a real code repository in reverse for developer education. Two tracks: a taught one that assesses the learner, builds a teaching plan grounded in the repo, and writes lessons with code samples drawn from the source; and an explained one that produces standalone documents — a whole-system explainer traced along one worked path, a close reading of a single file, or a file-by-file analysis in dependency order. Interactive Q&A throughout, and any of it typesets to PDF via Typst, with excerpts framed and line-numbered against their real position in the source.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Teach-This-Repo-Plugin)
 

@@ -728,8 +728,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Teach-This-Repo-Plugin"
       },
-      "description": "Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.",
-      "version": "1.0.0",
+      "description": "Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons and file-by-file analyses with code samples drawn from the source, supports interactive Q&A, and typesets any of it as a PDF via Typst.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -741,7 +741,10 @@
         "teaching",
         "repo-analysis",
         "learning",
-        "curriculum"
+        "curriculum",
+        "documentation",
+        "typst",
+        "pdf"
       ]
     },
     {
