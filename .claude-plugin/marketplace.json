@@ -3031,8 +3031,8 @@
         "source": "github",
         "repo": "danielrosehill/spec-led-certification-plugin"
       },
-      "description": "Claude Code plugin: choose a professional certification specification-first rather than market-first. Interviews you across five dated profile files — subject, current position read from evidence, learning preferences, objectives and standing positions, money and time — derives a weighted scorecard from those alone and freezes it before any credential is looked up, then surveys the market and scores candidates against it with a source and confidence tag for every number. Hard requirements exclude rather than score down. Emits a ranked comparison and a Typst PDF whose figures are computed from the CSVs at compile time. All state is written to the working directory, never to an agent memory store.",
-      "version": "0.1.0",
+      "description": "Claude Code plugin: choose a professional certification specification-first rather than market-first. Three entry points for the three situations — start-search onboards and runs the full intake, rerun-search archives the previous run and reports what moved in the market, update-profile changes what is stored about you and marks the scorecard stale. Intake writes five dated profile files — subject, current position read from evidence, learning preferences, objectives and standing positions, money and time — a weighted scorecard is derived from those alone and frozen before any credential is looked up, then candidates are scored against it with a source tier and confidence tag on every number. Hard requirements exclude rather than score down. Emits a ranked comparison and a Typst PDF whose figures are computed from the CSVs at compile time. All state is written to the working directory, never to an agent memory store.",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
