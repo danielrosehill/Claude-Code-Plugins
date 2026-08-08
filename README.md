@@ -1030,6 +1030,18 @@ Check what people are actually saying about a topic, product, or provider by sea
 
 ---
 
+#### Spec-Led Certification
+
+Choose a professional certification specification-first rather than market-first. Interviews you across five dated profile files — subject, current position read from evidence rather than self-report, learning preferences, objectives and standing positions, money and time — derives a weighted scorecard from those alone and **freezes it before any credential is looked up**, then surveys the market and scores candidates against it with a source tier and confidence tag on every number. Hard requirements exclude rather than score down. Emits a ranked comparison and a Typst PDF whose figures are computed from the CSVs at compile time, so the narrative cannot drift from the data. State lives in the working directory, never in an agent memory store, and each profile file carries its own review date so a re-run re-asks only what expired.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/spec-led-certification-plugin)
+
+```
+/plugin install spec-led-certification@danielrosehill
+```
+
+---
+
 #### Test Project Ideator
 
 Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.
