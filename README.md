@@ -64,6 +64,18 @@ Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ dir
 
 ---
 
+#### Claude SOPs
+
+Keep your own standard operating procedures — the recurring things you do a particular way — as a private, versioned library of markdown files the agent reads on demand and follows. One delimited block in your CLAUDE.md points at the library; a generated INDEX.md carries a "use when" trigger per procedure; exactly one file is read once a situation matches, so forty procedures cost one table to consult rather than forty resident skill descriptions. Skills for setup, run, write, edit, list, retire and sync. Procedures live in `~/.claude-user-data/sops/` as flat readable files in a private git repo mirrored across machines — never in the plugin repo. (For authoring printed SOP documents for other people, see `sop-writer` under Documentation & Writing; these are procedures an agent executes.)
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-SOPs)
+
+```
+/plugin install claude-sops@danielrosehill
+```
+
+---
+
 #### LLM Council Creator
 
 Scaffold new LLM Council projects from existing templates (Template, Grounded, Decide) or build bespoke council repos for specific purposes.
