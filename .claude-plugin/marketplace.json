@@ -423,8 +423,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Ideation-Planning-Plugin"
       },
-      "description": "Claude Code plugin: ideation and planning workflow — capture, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants.",
-      "version": "1.1.0",
+      "description": "Claude Code plugin: ideation and planning workflow — capture, generate, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants and Typst PDF deliverables.",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -504,7 +504,7 @@
         "repo": "danielrosehill/Claude-Workspace-Foundational-Plugin"
       },
       "description": "Claude Code plugin: foundational workspace workflow — setup, context management, report parsing, inventory, template discovery, with 6 variants.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
