@@ -3075,6 +3075,28 @@
         "context-management",
         "memory"
       ]
+    },
+    {
+      "name": "kdp-publishing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/KDP-Publishing-Plugin"
+      },
+      "description": "Claude Code plugin: Amazon KDP paperback production with Typst — choose a standard trim, typeset the interior with gutter-aware margins and an even page count, build the full-wrap cover last from the interior's measured extent, pre-flight for silent glyph substitution and stale spines, and assemble the upload folder. Production only; it does not write the book.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "kdp",
+        "publishing",
+        "typst",
+        "typesetting",
+        "print"
+      ]
     }
   ]
 }
