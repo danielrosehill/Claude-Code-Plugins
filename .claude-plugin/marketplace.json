@@ -298,8 +298,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Purchasing-Plugin"
       },
-      "description": "Claude Code plugin: purchasing workflow — intake, compare products, evaluate options, recommend, with general/tech-procurement/recommendations variants.",
-      "version": "1.0.0",
+      "description": "Claude Code plugin: purchasing workflow — intake, compare products, evaluate options, recommend, plus spec-driven market landscape surveys, with general/market-landscape/tech-procurement/recommendations variants.",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -309,7 +309,8 @@
       "tags": [
         "purchasing",
         "procurement",
-        "decision"
+        "decision",
+        "market-research"
       ]
     },
     {
@@ -503,7 +504,7 @@
         "repo": "danielrosehill/Claude-Workspace-Foundational-Plugin"
       },
       "description": "Claude Code plugin: foundational workspace workflow — setup, context management, report parsing, inventory, template discovery, with 6 variants.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
