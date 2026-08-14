@@ -40,6 +40,18 @@ Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/com
 
 ---
 
+#### Personal Context
+
+Builds and maintains a persistent, portable background context layer about the user — intake interview, ingestion of material they already have, gap analysis, scoped retrieval, maintenance and export. Plain markdown entries in a store the user owns, read through declared scopes and sensitivity levels; explicitly does not use model-managed memory. Ships the Portable Context Contract so issue-scoped workspaces can read it without re-asking who the person is. Complements `claude-user-memory`: that one holds operational facts in a memory backend, this one holds biographical context as files.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Personal-Context-Plugin)
+
+```
+/plugin install personal-context@danielrosehill
+```
+
+---
+
 #### AI Model Research
 
 Research, discover, compare, and evaluate AI models on OpenRouter — backed by the bundled Model-Scout MCP server for live catalog data with caching. 11 skills cover lookup, capability filtering, recommendation, comparison, deep evaluation, workload cost projection, and finding cheaper alternatives. Subsumes the previous `open-router-model-research` plugin and the standalone `Model-Scout-MCP` server.
