@@ -1436,7 +1436,7 @@ NFC tag operations using libnfc — read, write, inspect, password-protect, and 
 
 #### Label Printer
 
-Print labels on a Brother P-touch label printer — single labels, N copies, batch runs of up to 50, and QR-coded asset and storage-unit templates for inventory work. Bundles a streamable-HTTP MCP server that renders labels and posts them to a USB print bridge on a Linux host. Also documents the device settings the Linux driver cannot reach (auto power-off is Windows/macOS Setting Tool only).
+Print labels on Brother QL and P-touch label printers on Linux. Discovers printers over mDNS, USB and CUPS and keeps a machine-local registry so later prints can name one; renders text and QR labels to the pixel canvas of the loaded DK or TZe media; previews without touching the printer, because `brother_ql` converts and transmits in a single step with no dry run. Ships a media catalogue of DK and TZe product codes, reusable templates in the user's data directory, and a Linux driver-install skill. Zebra and DYMO are discovered and registered but not yet printable. Also bundles the original streamable-HTTP MCP server for P-touch setups built around a USB print bridge, and documents the device settings the Linux driver cannot reach (auto power-off is Windows/macOS Setting Tool only).
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/label-printer-plugin)
 
