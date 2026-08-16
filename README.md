@@ -1322,6 +1322,20 @@ Inventory analysis and decluttering assistant — import a household inventory i
 /plugin install declutter-genie@danielrosehill
 ```
 
+---
+
+#### Travel Packing
+
+Make optimal use of a baggage allowance on a multi-carrier international itinerary. Researches each carrier's real checked, cabin and personal-item allowance **per segment** — recording a source URL, the sentence the figures came from, and a confidence level for each, because out-of-date allowance tables from aggregator sites are indistinguishable from current policy until the check-in desk — then computes the single binding limit that governs the journey and packs to that rather than to the average. Inventories what is carried by weight, reconciles scale readings against the itemised list to surface unaccounted mass instead of pretending the inventory is complete, and solves the allocation to bags and packing cubes with a deterministic solver (max-min headroom by default, so no bag sits on its limit). When it does not fit: prices every way out — prepaid bag, overweight band, cabin upsell, shipping, wearing it — with the online-purchase cutoff as an absolute deadline, and ranks an emergency leave-behind list by cost per kilogram saved rather than by weight.
+
+Two documents, rendered from the workspace YAML as PDF via Typst and as Markdown: a one-page **counter card** to print and carry, and a per-bag **packing list** with tick boxes. Both recompute headroom against a measured weight where one exists and is heavier than the projection, so they cannot disagree about whether a bag is over. One trip workspace per itinerary, private by default.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Travel-Packing-Assistant-Plugin)
+
+```
+/plugin install travel-packing@danielrosehill
+```
+
 ### Regional
 
 #### Israel Agent Skills

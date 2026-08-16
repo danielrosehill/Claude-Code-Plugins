@@ -3123,6 +3123,27 @@
         "obsidian",
         "workspaces"
       ]
+    },
+    {
+      "name": "travel-packing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Travel-Packing-Assistant-Plugin"
+      },
+      "description": "Claude Code plugin: make optimal use of a baggage allowance on an international itinerary — research each carrier's real checked, cabin and personal-item allowance per segment with a source and a confidence level for every figure, compute the binding limit that governs the journey, inventory what is carried by weight, reconcile scale readings against the inventory, solve the allocation to bags and packing cubes, price every way out of being over, and rank an emergency leave-behind list by cost per kilogram saved. Renders a one-page airport counter card and a per-bag packing list as PDF via Typst and as Markdown. One trip workspace per itinerary.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "travel",
+        "packing",
+        "baggage",
+        "logistics"
+      ]
     }
   ]
 }
