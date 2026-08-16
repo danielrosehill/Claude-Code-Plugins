@@ -1382,12 +1382,24 @@ Cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile
 
 #### Shopping
 
-Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.
+Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability, provision shopping workspaces. Marketplace-specific research lives in dedicated per-marketplace plugins; the `marketplace-plugins` skill is the roster and hands off to whichever applies. Region-specific commands live in israel-skills.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Shopping-Plugin)
 
 ```
 /plugin install shopping@danielrosehill
+```
+
+---
+
+#### Amazon US
+
+Claude Code plugin: Amazon.com marketplace research. Amazon is the case where "the fetch returned something" and "the fetch worked" come apart — the default fetch tool cannot reach it, its bot wall answers with HTTP 200 and a captcha body, and every delivery date it renders belongs to whichever ZIP the requesting IP resolved to, with nothing on the page to say which. Verified price, stock, rating, seller and specs read from the listing rather than the search grid; Prime-aware delivery dates checked against the ZIP they were actually rendered for; filtered signed-in search with tested extractors, a marketplace profile and a durable brand allowlist. Ships no address, account or credentials, and the browser skill is read-only.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Amazon-US-Plugin)
+
+```
+/plugin install amazon-us@danielrosehill
 ```
 
 ---

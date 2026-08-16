@@ -77,8 +77,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Shopping-Plugin"
       },
-      "description": "Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.",
-      "version": "1.0.0",
+      "description": "Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability, provision shopping workspaces. Marketplace-specific research lives in dedicated plugins (amazon-us, aliexpress-israel-skills); the marketplace-plugins skill is the roster. Region-specific commands live in israel-skills.",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -88,7 +88,29 @@
       "tags": [
         "shopping",
         "consumer",
-        "regional"
+        "regional",
+        "marketplace-registry"
+      ]
+    },
+    {
+      "name": "amazon-us",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Amazon-US-Plugin"
+      },
+      "description": "Claude Code plugin: Amazon.com marketplace research — verified price, stock, rating, seller and specs read from the listing rather than the search grid; Prime-aware delivery dates checked against the ZIP they were actually rendered for; filtered signed-in search with tested extractors, a marketplace profile and a durable brand allowlist.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "shopping",
+        "marketplace",
+        "amazon",
+        "price-check"
       ]
     },
     {
