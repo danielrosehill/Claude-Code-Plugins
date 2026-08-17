@@ -99,7 +99,7 @@
         "repo": "danielrosehill/Claude-Amazon-US-Plugin"
       },
       "description": "Claude Code plugin: Amazon.com marketplace research — verified price, stock, rating, seller and specs read from the listing rather than the search grid; Prime-aware delivery dates checked against the ZIP they were actually rendered for; filtered signed-in search with tested extractors, a marketplace profile and a durable brand allowlist.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
