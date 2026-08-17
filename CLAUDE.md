@@ -37,7 +37,7 @@ This marketplace repo **does not use git submodules**. It is a manifest-only mar
 Raw plugin source lives in a sibling working directory (not tracked here):
 
 ```
-~/repos/github/ai-claude-plugins/<plugin-name>/
+~/repos/github/ai-agents-and-prompts/ai-claude-plugins/<plugin-name>/
 ```
 
 That's where you clone/edit/audit plugin repos locally. This marketplace repo itself should contain no `plugins/` directory.
@@ -46,7 +46,7 @@ That's where you clone/edit/audit plugin repos locally. This marketplace repo it
 
 Every new plugin **or skill** is its own repository. The marketplace only references these repos — it never hosts the plugin source directly. Follow this order of operations:
 
-1. **Create the plugin/skill in its own repo**, cloned under `~/repos/github/ai-claude-plugins/<plugin-name>/`. Build and test it there. Skills live inside a plugin repo as `skills/<skill-name>/` with a `SKILL.md`; a skill-only plugin is still a plugin repo.
+1. **Create the plugin/skill in its own repo**, cloned under `~/repos/github/ai-agents-and-prompts/ai-claude-plugins/<plugin-name>/`. Build and test it there. Skills live inside a plugin repo as `skills/<skill-name>/` with a `SKILL.md`; a skill-only plugin is still a plugin repo.
 2. **Depersonalise** — scrub Daniel-specific references, replace with "the user," ensure it's adaptable for others.
 3. **Push to GitHub** as a standalone public repo under `danielrosehill/`.
 4. **Register in `.claude-plugin/marketplace.json`** — append a new entry with `name`, `source` (github + repo), `description`, `version`, `author`, `license`, and `tags`. Validate the JSON and check for duplicate `name` values.
