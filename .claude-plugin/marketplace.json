@@ -1289,12 +1289,12 @@
     },
     {
       "name": "Daniel-Rosehill",
-      "displayName": "Daniel-Rosehill",
+      "displayName": "Daniel Rosehill — Profiles & Work",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Daniel-Rosehill-Claude-Plugin"
       },
-      "description": "Personal-use skills and slash commands for Daniel Rosehill — released publicly for convenience.",
+      "description": "Jump to Daniel Rosehill's public work from Claude Code — profiles (LinkedIn, X, GitHub, YouTube, npm, Kaggle, DeviantArt, Pexels), blog, Hugging Face, public repos by recency/stars/A–Z, bio, resume download, and contact/newsletter pages. Also refreshes this marketplace's local cache. A directory of one person's published output, not personal configuration.",
       "category": "Personal Productivity",
       "version": "1.1.0",
       "author": {
@@ -1304,7 +1304,10 @@
       },
       "license": "MIT",
       "tags": [
-        "personal",
+        "profiles",
+        "directory",
+        "bio",
+        "portfolio",
         "danielrosehill"
       ]
     },

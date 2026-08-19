@@ -20,6 +20,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ### Fixed — 2026-08-19
 
+- **`Daniel-Rosehill` was described as something it is not.** The entry read "Personal-use skills and slash commands for Daniel Rosehill — released publicly for convenience", which reads as private configuration published by mistake and was flagged as a depersonalisation breach on that basis. Inspecting the repo shows the opposite: all eight skills (`contact`, `download-resume`, `profiles`, `pull-bio`, `view-blog`, `view-github-repos`, `view-huggingface`, `update-marketplace`) open public URLs and nothing else. It is a directory of one person's published output, which is a legitimate thing to distribute. Re-described accordingly, with `displayName` "Daniel Rosehill — Profiles & Work" and tags changed from `personal`/`danielrosehill` to `profiles`/`directory`/`bio`/`portfolio`.
+
+  Left as-is, and noted here rather than fixed: the skills' trigger phrases are written in the owner's voice — *"open **my** LinkedIn"*, *"see **my** repos"* — which assumes whoever installed it is Daniel. That belongs in the plugin's own repository, not the marketplace manifest.
+
 - **`Easy-Effects-Manager` was missing its `author` block** — the only entry of 146 without one. Found by normalising key order across the manifest, not by validation, which passes without it.
 - **The README's Contributing section had never been whole.** It consisted of an orphaned "3. Submit a pull request…" with no heading and no steps 1 or 2, present in that state since the commit that introduced it.
 

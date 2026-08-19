@@ -56,9 +56,9 @@ Contact a vendor's support desk from a registry of verified, dated contact route
 
 ---
 
-#### Daniel-Rosehill
+#### Daniel Rosehill — Profiles & Work
 
-Personal-use skills and slash commands for Daniel Rosehill — released publicly for convenience.
+Jump to Daniel Rosehill's public work from Claude Code — profiles (LinkedIn, X, GitHub, YouTube, npm, Kaggle, DeviantArt, Pexels), blog, Hugging Face, public repos by recency/stars/A–Z, bio, resume download, and contact/newsletter pages. Also refreshes this marketplace's local cache. A directory of one person's published output, not personal configuration.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Daniel-Rosehill-Claude-Plugin)
 
