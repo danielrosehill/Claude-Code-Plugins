@@ -1,16 +1,31 @@
-Sync `README.md` with the current plugin inventory from `.claude-plugin/marketplace.json`.
+Regenerate `README.md` and `docs/categories/` from `.claude-plugin/marketplace.json`.
+
+The catalogue is **generated, not hand-edited**. Run:
+
+```bash
+python3 scripts/generate-catalogue.py
+```
+
+That rewrites the `## Available Plugins` block of `README.md` (everything between
+that heading and `## Installation`) and regenerates every page under
+`docs/categories/`. Everything else in `README.md` is hand-maintained and the
+script leaves it alone.
+
+The script requires every plugin entry to carry `displayName` and `category`. It
+exits with an error naming any entry that is missing either — fix the manifest,
+don't edit the generated output.
 
 Your task:
 
-1. Read `.claude-plugin/marketplace.json` — this is the source of truth for what plugins exist in the marketplace.
-2. Read the current `README.md` to understand its structure (category headings, table formats, link style, etc.).
-3. Update `README.md` so its plugin listings exactly match the manifest:
-   - Every manifest plugin must appear in the README.
-   - Any plugin in the README but not in the manifest must be removed.
-   - Names, descriptions, and GitHub repo links should match the manifest.
-   - Preserve the existing category grouping (derived from the first `tag` on each plugin, or from existing README sections — use your judgment).
-4. Do **not** restructure the README or add new sections unless necessary to fit a plugin that has no matching category. Ask before introducing a new category.
-5. After editing, do a quick diff-in-your-head: manifest plugin count should equal README plugin count.
-6. Do not commit — leave changes staged for the user to review.
+1. Confirm the manifest is valid: `claude plugin validate .claude-plugin/marketplace.json`
+2. Run the generator.
+3. Review `git diff` — the only changes should be the `## Available Plugins` table
+   and files under `docs/categories/`.
+4. Do not commit; leave the changes for the user to review.
 
-Note: this marketplace does not use submodules. Do not reference `plugins/` as a local directory. Plugin source lives at `~/repos/github/my-repos/claude-code/cc-plugins/plugins/` but the README should link to the GitHub repos, not local paths.
+If a plugin needs a category that doesn't exist yet, add it to the manifest entry
+and ask the user before introducing the new category name — categories are derived
+from the manifest, so a typo silently creates a new one-plugin category page.
+
+Note: this marketplace does not use submodules. The README links to each plugin's
+GitHub repo, never to a local path.

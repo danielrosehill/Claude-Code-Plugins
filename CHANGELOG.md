@@ -6,6 +6,23 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-08-19
+
+- **Every description rewritten for the 59-character window the `/plugin` browser actually shows.** The browse list truncates each description with `Yi(entry.description, 60)` — 59 characters plus an ellipsis — and its search matches only `name`, `displayName`, `description` and `marketplaceName`. `tags` is read for one thing, `tags.includes("community-managed")`, and nothing else. Verified by disassembling the Claude Code v2.1.236 bundle, not from the docs, which list the fields a manifest may contain without saying which are ever surfaced.
+
+  All 146 descriptions were over the limit — shortest 87 characters, median 228, longest 1166 — so every one was being cut. 47 of them opened with the literal string `Claude Code plugin: `, spending 20 of the 59 visible characters, a third of the budget, on a phrase shared by every entry in a Claude Code plugin browser. A further 23 spent 11 more on `workflow — `. Both are now gone; the full text still renders in the detail pane, so nothing was lost, it was only moved behind the fold.
+
+  The browse list reads the **marketplace entry**, not each plugin's own `plugin.json` and not the GitHub repo description — at browse time nothing has been cloned, so this manifest is the only text Claude Code has. That makes it the only place worth editing.
+
+- **`displayName` and `category` added to all 146 entries.** `displayName` is searched and rendered by the browser and was absent everywhere; the values were harvested from the README's own `#### ` headings, which had held them all along in a form nothing could read. `category` is accepted and validates but Claude Code never reads it — it is here solely as input to the catalogue generator, and is recorded as such in `CLAUDE.md` so it is not mistaken for a user-facing field later.
+
+- **`README.md` and `docs/categories/` are now generated** by `scripts/generate-catalogue.py` from the manifest. The README's plugin listing went from 1,795 lines to a single 18-row category table, with full descriptions and per-plugin install commands on one page per category. Previously `/sync-readme` rebuilt the listing by hand and derived grouping from "the first tag, or existing README sections — use your judgment", which is what let the two drift apart: seven registered plugins (`procurement-tools`, `claude-md-tester`, `style-switcher`, `claude-pa`, `claude-document-nudge`, `Easy-Effects-Manager`, `unofficial-mcp-builder`) had no README entry at all, and a stale `purchasing` slug pointed at a plugin that had been renamed. `/sync-readme` and `/check-readme-drift` now drive the generator instead of editing prose.
+
+### Fixed — 2026-08-19
+
+- **`Easy-Effects-Manager` was missing its `author` block** — the only entry of 146 without one. Found by normalising key order across the manifest, not by validation, which passes without it.
+- **The README's Contributing section had never been whole.** It consisted of an orphaned "3. Submit a pull request…" with no heading and no steps 1 or 2, present in that state since the commit that introduced it.
+
 ### Added — 2026-08-19
 
 - **`breakout-claude` 0.1.0 and `obd-diagnostics` 0.1.0 registered.** Both had shipped as public repos — 12 and 16 August respectively — and were in no marketplace, so they were public and undiscoverable. Found by auditing the 200 most recently created repos for an actual `.claude-plugin/plugin.json` rather than filtering on repo name, which would have missed the several plugins whose names do not contain "plugin".
