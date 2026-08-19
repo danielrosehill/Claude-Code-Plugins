@@ -8,6 +8,12 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ### Added — 2026-08-19
 
+- **`breakout-claude` 0.1.0 and `obd-diagnostics` 0.1.0 registered.** Both had shipped as public repos — 12 and 16 August respectively — and were in no marketplace, so they were public and undiscoverable. Found by auditing the 200 most recently created repos for an actual `.claude-plugin/plugin.json` rather than filtering on repo name, which would have missed the several plugins whose names do not contain "plugin".
+
+  Both are marked WIP in their own manifests and are listed at the versions those manifests carry, rather than at a catalogue version maintained separately from them.
+
+  The same audit found `uline` private and unregistered anywhere, which is its intended state, and confirmed that `storrs-user-education`, `dsrholdings-accounting`, `dsrholdings-rfq`, `geo-egress` and `gh-ops` are private and correctly registered in the private marketplace rather than missing from this one. `grainger` and `israel-phonebook-manager` remain public and deliberately unregistered.
+
 - **`book-writing` 1.0.0** — writing a full-length reference or instructional book with teams of subagents. Twelve agents across seven stages: definition (`brief-recorder`, `spec-interviewer`, `spec-writer`), planning (`voice-designer`, `outline-architect`), research, parallel chapter drafting, review (`proofreader`, `voice-auditor`, `continuity-auditor`), graphics (`graphics-director`, `figure-maker`) and publication.
 
   The architecture answers one constraint: **quality degrades long before a context window fills**, so no agent is ever handed the whole book. A single agent carrying a manuscript restates what it said earlier, drifts in register, echoes its own chapter openings, and produces text that is locally fluent and globally empty — failures of long-range coherence that cannot be fixed by trying harder.

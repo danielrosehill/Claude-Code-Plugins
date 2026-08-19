@@ -292,6 +292,18 @@ Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-ga
 /plugin install claude-rudder@danielrosehill
 ```
 
+---
+
+#### Claude Breakout
+
+Route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff — the seed brief is written to disk in the new repo, and the message carries a pointer to it. Companion to `interrupt-claude` (same-repo interruption routing) and `claude-hopper` (session spawning and handover); breakout splits tracks rather than work or time. WIP.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Breakout)
+
+```
+/plugin install breakout-claude@danielrosehill
+```
+
 ### Documentation & Writing
 
 #### Programmatic Doc Generation
@@ -1448,6 +1460,16 @@ Define hardware project BOMs with ESP32-first focus — onboarding captures loca
 
 ```
 /plugin install hardware-spec-assembly@danielrosehill
+```
+
+#### OBD Diagnostics
+
+Read OBD-II data from an ELM327-class adapter, normalise it to JSON, and use it to diagnose faults and plan vehicle maintenance. WIP.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-OBD-Diagnostics-Plugin)
+
+```
+/plugin install obd-diagnostics@danielrosehill
 ```
 
 #### NFC Ops

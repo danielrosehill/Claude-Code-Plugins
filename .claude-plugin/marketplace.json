@@ -3189,6 +3189,50 @@
         "subagents",
         "publishing"
       ]
+    },
+    {
+      "name": "breakout-claude",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Breakout"
+      },
+      "description": "Claude Code plugin: route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff — the seed brief is written to disk in the new repo and the message carries a pointer to it. Companion to interrupt-claude (same-repo interruption routing) and claude-hopper (session spawning and handover); breakout splits tracks rather than work or time. WIP.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "agent-to-agent",
+        "cross-session",
+        "handoff",
+        "repo-scaffolding",
+        "parallel-agents"
+      ]
+    },
+    {
+      "name": "obd-diagnostics",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-OBD-Diagnostics-Plugin"
+      },
+      "description": "Claude Code plugin: read OBD-II data from an ELM327-class adapter, normalise it to JSON, and use it to diagnose faults and plan vehicle maintenance. WIP.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "obd",
+        "elm327",
+        "vehicle",
+        "diagnostics",
+        "automotive"
+      ]
     }
   ]
 }
