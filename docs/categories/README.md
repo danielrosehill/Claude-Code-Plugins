@@ -1,6 +1,6 @@
 # Plugin Categories
 
-146 plugins across 18 categories.
+147 plugins across 18 categories.
 
 | Category | Plugins |
 | --- | ---: |
@@ -19,8 +19,8 @@
 | [QA & Agent Sessions](qa-agent-sessions.md) | 4 |
 | [Regional](regional.md) | 4 |
 | [Staging](staging.md) | 4 |
+| [Data Discovery](data-discovery.md) | 3 |
 | [Git & GitHub](git-github.md) | 3 |
 | [Publishing & CMS](publishing-cms.md) | 3 |
-| [Data Discovery](data-discovery.md) | 2 |
 
 [Back to the marketplace README](../../README.md)

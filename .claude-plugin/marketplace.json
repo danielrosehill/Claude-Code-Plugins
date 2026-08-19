@@ -3533,6 +3533,30 @@
         "diagnostics",
         "automotive"
       ]
+    },
+    {
+      "name": "site-skill-builder",
+      "displayName": "Site Skill Builder",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Site-Skill-Builder-Plugin"
+      },
+      "description": "Site skills built by watching a site in your own signed-in Chrome — observe pages and endpoints, propose a skill roster for approval, then author skills that survive UI changes and probe for drift. Semantic handles only, never pixel coordinates. Every observation is classified publishable, private, or never-recorded, with a stop rule for incidental security findings.",
+      "category": "Data Discovery",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "plugin-authoring",
+        "browser-automation",
+        "claude-in-chrome",
+        "site-integration",
+        "maintenance"
+      ]
     }
   ]
 }

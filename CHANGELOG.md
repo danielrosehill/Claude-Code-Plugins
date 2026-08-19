@@ -6,6 +6,12 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-08-20
+
+- **`site-skill-builder`** — builds a Claude Code plugin *for a website* by observing the site in the user's own signed-in Chrome. Ten skills covering intake, route choice, page observation, API-surface mapping, a per-line approval gate on the proposed skill roster, durable skill authoring, a publication gate, a drift probe and repair. Filed under Data Discovery beside `browser-data-capture`, which owns the capture layer it delegates to (`analyze-har`, `capture-via-proxy`, `observe-tab`, `generate-openapi`, and `disclose-finding` for coordinated disclosure); this plugin decides what to build from a capture and how to write it so it survives a redesign.
+
+  Two doctrines are the substance of it. **Durability** — a seven-rung handle ladder from URL grammar and the site's own JSON down to CSS classes, with pixel coordinates off the ladder entirely: they break on a window resize, a zoom level or a cookie banner while the page itself is unchanged, and the coordinate-taking click tool is the path of least resistance when driving a real browser. Page identity is asserted before any extraction, because a 200 serving another item is the expensive failure here. **Publication** — every observation is classified publishable, private, or never-recorded before it is committed, with a stop rule that quarantines incidental security findings and routes them to good-faith disclosure rather than into a skill.
+
 ### Changed — 2026-08-19
 
 - **Every description rewritten for the 59-character window the `/plugin` browser actually shows.** The browse list truncates each description with `Yi(entry.description, 60)` — 59 characters plus an ellipsis — and its search matches only `name`, `displayName`, `description` and `marketplaceName`. `tags` is read for one thing, `tags.includes("community-managed")`, and nothing else. Verified by disassembling the Claude Code v2.1.236 bundle, not from the docs, which list the fields a manifest may contain without saying which are ever surfaced.

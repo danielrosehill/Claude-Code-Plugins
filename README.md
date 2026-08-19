@@ -13,7 +13,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**146 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**147 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -36,9 +36,9 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 4 | `breakout-claude`, `claude-hopper`, `claude-pa`, `claude-rudder` |
 | **[Regional](docs/categories/regional.md)** | 4 | `israel-agent-skills`, `israel-opening-hours`, `netek-disconnect`, `rtl-email` |
 | **[Staging](docs/categories/staging.md)** | 4 | `career`, `loose-tasks`, `resource-list-builder`, `smart-home` |
+| **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `Local-Web-Capture`, `site-skill-builder` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 3 | `claude-code-feedback`, `gist-writer`, `github-explorer` |
 | **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `book-writing`, `buttondown-mgmt`, `kdp-publishing` |
-| **[Data Discovery](docs/categories/data-discovery.md)** | 2 | `browser-data-capture`, `Local-Web-Capture` |
 
 Full descriptions and per-plugin install commands live on each category page — see the [category index](docs/categories/README.md).
 
