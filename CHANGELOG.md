@@ -6,6 +6,23 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-08-19
+
+- **`book-writing` 1.0.0** — writing a full-length reference or instructional book with teams of subagents. Twelve agents across seven stages: definition (`brief-recorder`, `spec-interviewer`, `spec-writer`), planning (`voice-designer`, `outline-architect`), research, parallel chapter drafting, review (`proofreader`, `voice-auditor`, `continuity-auditor`), graphics (`graphics-director`, `figure-maker`) and publication.
+
+  The architecture answers one constraint: **quality degrades long before a context window fills**, so no agent is ever handed the whole book. A single agent carrying a manuscript restates what it said earlier, drifts in register, echoes its own chapter openings, and produces text that is locally fluent and globally empty — failures of long-range coherence that cannot be fixed by trying harder.
+
+  The cost of removing shared context is that agents cannot stay consistent by reading each other, so **consistency is carried by documents instead**: a style guide written to be checkable rather than aspirational, one brief per chapter, and a continuity ledger recording every term, claim, running example and promise the book has established. That trade is the whole pattern.
+
+  Three rules do most of the work, and each prevents a specific observed failure. **Recording and interviewing are separate agents** — an agent that records and questions in one turn leads the witness, and the user's original framing is unrecoverable once paraphrased. **Writers never read other chapters' drafts**, because text in context is text to imitate: a writer that has read chapter three reuses its transitions, borrows its examples and inherits whatever drift it had already accumulated. And **two chapters drawing on the same source do not draft concurrently** — two agents given the same source describe it differently and both descriptions ship, which no per-chapter reviewer will catch.
+
+  Authorship only. Trim, gutter, spine, cover wrap and pre-flight hand off to `kdp-publishing`, which builds the cover last from the interior's measured extent rather than from an estimated page count. Both plugins state the division in both directions: that one does not write your book, this one does not typeset it.
+
+  Each book lives in its own repo instantiated from [`Claude-Book-Workspace-Template`](https://github.com/danielrosehill/Claude-Book-Workspace-Template), which works standalone — `scripts/book.py` is stdlib-only, so `status`, `lint` and `assemble` run with the plugin uninstalled, because a book outlives a plugin version. The pattern is specified at [`Agentic-Book-Writing`](https://github.com/danielrosehill/Agentic-Book-Writing), whose `SPEC.md` is the source of truth; the plugin is an implementation and is wrong where the two disagree.
+
+- **`kdp-publishing` added to the README.** It had been registered in `marketplace.json` since 1.0.0 but was missing from the catalogue README entirely, so it was installable but not discoverable by anyone reading the repo. Both it and `book-writing` now sit under Publishing & CMS.
+
+
 ### Changed — 2026-08-17
 
 - **`amazon-us` → `amazon`, 1.1.0 → 2.0.0, breaking.** Every `/amazon-us:*` command is now `/amazon:*`, and the repo moved from `Claude-Amazon-US-Plugin` to `Claude-Amazon-Plugin`. The plugin was scoped to amazon.com and had no business being: Amazon is roughly twenty separate storefronts with separate catalogues, separate facet grammars and separate currencies, and the same ten-character ASIN can be a live listing on `amazon.co.uk`, a different product on `amazon.com` and nothing at all on `amazon.de`. The machinery is now region-neutral and the region is data — `profiles/amazon-marketplaces.json` carries domain, currency, symbol, postcode label and locale for twenty storefronts plus a `no_local_marketplace` block for destinations served as export markets rather than by a storefront of their own. Only `amazon-us` has a verified facet profile; the others are marked `null` rather than filled with the US node ids, because a US facet applied to another domain does not error, it just filters to something else and returns a clean-looking wrong answer.

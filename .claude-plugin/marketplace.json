@@ -3167,6 +3167,28 @@
         "baggage",
         "logistics"
       ]
+    },
+    {
+      "name": "book-writing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Book-Writing-Plugin"
+      },
+      "description": "Claude Code plugin: write a full-length reference or instructional book with teams of subagents — definition, planning, research, parallel chapter drafting, review, graphics and publication. Organised so no single agent is ever handed the whole book, because quality degrades long before a context window fills; consistency is carried by a style guide, per-chapter briefs and a continuity ledger instead of by shared context. Authorship only — print geometry hands off to kdp-publishing.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "book",
+        "writing",
+        "longform",
+        "subagents",
+        "publishing"
+      ]
     }
   ]
 }
