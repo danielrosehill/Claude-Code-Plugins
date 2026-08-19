@@ -28,6 +28,18 @@ Your task:
      only free-text field the browser's search matches. See the note in `CLAUDE.md`.
    - Categories holding a single plugin, which usually means a typo.
 
-5. End with: `<n> plugins / <n> categories / drift: yes|no`
+5. Check no plugin source has been committed into this manifest-only repo:
 
-6. Do not offer to auto-fix unless asked. If asked, point at `/sync-readme`.
+   ```bash
+   git ls-files -s | awk '$1=="160000"'
+   ```
+
+   Any output is a **gitlink** — a submodule entry, usually with no `.gitmodules`,
+   left behind by cloning a plugin repo inside this one. Fresh clones cannot
+   resolve it. Remove with `git rm --cached <path>`. This has recurred three times
+   (`repo-retrofitter-plugin` twice, `Claude-Handover`); `plugins/` is now
+   gitignored, but `git add -f` and `git submodule add` still bypass that.
+
+6. End with: `<n> plugins / <n> categories / drift: yes|no / gitlinks: <n>`
+
+7. Do not offer to auto-fix unless asked. If asked, point at `/sync-readme`.

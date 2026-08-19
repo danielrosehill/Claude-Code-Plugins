@@ -1,0 +1,11 @@
+# This is a manifest-only marketplace: it references each plugin's own GitHub
+# repo via the `source` block in .claude-plugin/marketplace.json and hosts no
+# plugin source itself. Cloning a plugin in here creates a gitlink (a submodule
+# entry with no .gitmodules), which every fresh clone then fails to resolve.
+# That has happened three times — repo-retrofitter-plugin twice, then
+# Claude-Handover. Plugin repos belong in
+# ~/repos/github/ai-agents-and-prompts/ai-claude-plugins/<plugin-name>/
+plugins/
+
+__pycache__/
+*.pyc
