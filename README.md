@@ -13,7 +13,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**147 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**148 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -26,8 +26,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Media Editing](docs/categories/media-editing.md)** | 14 | `ai-video-producer`, `audio-production`, `background-removal`, `claude-transcription`, `gimp`, `hardware-id-annotation`, `image-annotation`, … (7 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 12 | `ai-attribution`, `claude-document-nudge`, `content-writing`, `digital-printing`, `document-to-markdown`, `html-email-designer`, … (6 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 12 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `legal-investigative`, … (6 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 11 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `claude-md-tester`, `claude-sops`, `claude-user-memory`, `get-toony`, … (4 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 11 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `license-populator`, `repo-mgmt`, `spec-starter`, `stack-evaluator`, `task-queuer`, … (3 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 10 | `ai-engineering`, `ai-model-research`, `claude-md-tester`, `claude-sops`, `claude-user-memory`, `get-toony`, `LLM-Council-Creator`, … (3 more) |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `claude-data-analyst`, `Claude-Data-Wrangler`, `data-annotation`, `data-visualisation-and-publishing`, `synthetic-data`, `taxonomy-creation`, … (1 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 7 | `claude-vault`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `security-auditor`, `spamhole` |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 6 | `adb-ops`, `agent-relay`, `home-assistant-mgmt`, `media-assistant-ops`, `network-cups`, `zigbee-home-maintenance` |

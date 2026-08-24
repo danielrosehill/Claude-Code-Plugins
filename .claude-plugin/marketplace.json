@@ -3440,6 +3440,30 @@
       ]
     },
     {
+      "name": "chatgpt-importer",
+      "displayName": "ChatGPT Importer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-ChatGPT-Importer-Plugin"
+      },
+      "description": "Import a ChatGPT conversation into local files via the browser. Captures the full thread from a chatgpt.com URL, a shared link, or an official export archive, then normalizes it to JSON and renders Markdown or a styled Typst PDF with user and assistant turns marked, artifacts (canvas docs, images, code) extracted, cited sources collected, and conversation metadata recorded. Includes a two-pass redaction skill and a conversation-to-context workflow that writes transcripts into a repo's context/ folder.",
+      "category": "AI & Context",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "chatgpt",
+        "conversation-import",
+        "browser-automation",
+        "archival",
+        "transcripts"
+      ]
+    },
+    {
       "name": "travel-packing",
       "displayName": "Travel Packing",
       "source": {

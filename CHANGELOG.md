@@ -6,6 +6,14 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-08-24
+
+- **`chatgpt-importer`** — imports a ChatGPT conversation into local files. Ten skills covering capture (authenticated backend API, shared link, official export archive, and a DOM-scrape fallback), normalisation, and rendering to Markdown, JSON or a styled Typst PDF with user and assistant turns marked. Also carries a two-pass redaction skill, artifact extraction for canvas documents and code, a de-duplicated sources list, and a `conversation-to-context` workflow that writes a transcript into the working repo's `context/` folder for whatever agent opens it next.
+
+  Two findings shape the design and are the reason it is not a fifty-line script. **`mapping` is a DAG, not a message list** — it retains every branch abandoned when a prompt was edited or an answer regenerated, so iterating it flat yields a transcript in which the user appears to contradict themselves. The importer walks parent links back from `current_node` and reports the branch count it did not render. **The rendered DOM is virtualised** — roughly five of thirty-four messages exist at any scroll position, and `data-testid` indices track scroll rather than thread position, so a single-pass scrape returns a fraction of the conversation without erroring. That silent-partial failure is why the DOM route is documented as a fallback rather than an equal alternative.
+
+  Captured conversation bodies are written to disk rather than returned through the tool result: a tool result is transcribed into the agent's context, so returning a thread would both spend a large amount of context and copy a private conversation into a chat log. Only a summary comes back. The undocumented conversation format is recorded in the plugin's `references/`, marking what was verified against a live account on 2026-08-24 against what was inferred.
+
 ### Added — 2026-08-20
 
 - **`site-skill-builder`** — builds a Claude Code plugin *for a website* by observing the site in the user's own signed-in Chrome. Ten skills covering intake, route choice, page observation, API-surface mapping, a per-line approval gate on the proposed skill roster, durable skill authoring, a publication gate, a drift probe and repair. Filed under Data Discovery beside `browser-data-capture`, which owns the capture layer it delegates to (`analyze-har`, `capture-via-proxy`, `observe-tab`, `generate-openapi`, and `disclose-finding` for coordinated disclosure); this plugin decides what to build from a capture and how to write it so it survives a redesign.

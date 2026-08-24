@@ -1,6 +1,6 @@
 # AI & Context
 
-10 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+11 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Research, discover, compare, and evaluate AI models on OpenRouter — backed by 
 
 ```
 /plugin install ai-model-research@danielrosehill
+```
+
+---
+
+#### ChatGPT Importer
+
+Import a ChatGPT conversation into local files via the browser. Captures the full thread from a chatgpt.com URL, a shared link, or an official export archive, then normalizes it to JSON and renders Markdown or a styled Typst PDF with user and assistant turns marked, artifacts (canvas docs, images, code) extracted, cited sources collected, and conversation metadata recorded. Includes a two-pass redaction skill and a conversation-to-context workflow that writes transcripts into a repo's context/ folder.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-ChatGPT-Importer-Plugin)
+
+```
+/plugin install chatgpt-importer@danielrosehill
 ```
 
 ---
