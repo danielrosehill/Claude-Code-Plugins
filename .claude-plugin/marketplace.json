@@ -3581,6 +3581,32 @@
         "site-integration",
         "maintenance"
       ]
+    },
+    {
+      "name": "timemark",
+      "displayName": "Timemark",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Timemark-Plugin"
+      },
+      "description": "Timemark stamp-camera photo import that recovers the field data the app withholds. No Timemark export carries both the full-resolution image and the values, so imports are gated on having the originals and the Photosheet XLSX, then joined on capture timestamp. Outputs are XMP burned into the files or a self-contained archive of images, JSON sidecars and an index.",
+      "category": "Media Editing",
+      "version": "0.2.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "timemark",
+        "photo-metadata",
+        "exif",
+        "xmp",
+        "field-capture",
+        "inventory-photography",
+        "android"
+      ]
     }
   ]
 }

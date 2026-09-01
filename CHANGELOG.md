@@ -6,6 +6,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-09-01
+
+- **timemark** — import Timemark stamp-camera photo sets. No Timemark export carries both the full-resolution image and the custom field values, so the plugin gates imports on having the originals *and* the Photosheet XLSX, joins them on capture timestamp, and outputs either XMP burned into the files or a self-contained archive of images, JSON sidecars and an index.
+
 ### Added — 2026-08-24
 
 - **`chatgpt-importer`** — imports a ChatGPT conversation into local files. Ten skills covering capture (authenticated backend API, shared link, official export archive, and a DOM-scrape fallback), normalisation, and rendering to Markdown, JSON or a styled Typst PDF with user and assistant turns marked. Also carries a two-pass redaction skill, artifact extraction for canvas documents and code, a de-duplicated sources list, and a `conversation-to-context` workflow that writes a transcript into the working repo's `context/` folder for whatever agent opens it next.

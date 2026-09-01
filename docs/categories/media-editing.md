@@ -1,6 +1,6 @@
 # Media Editing
 
-14 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -148,6 +148,18 @@ Skills for preprocessing text for TTS engines — SSML conversion, ElevenLabs ma
 
 ```
 /plugin install text-to-speech-toolkit@danielrosehill
+```
+
+---
+
+#### Timemark
+
+Timemark stamp-camera photo import that recovers the field data the app withholds. No Timemark export carries both the full-resolution image and the values, so imports are gated on having the originals and the Photosheet XLSX, then joined on capture timestamp. Outputs are XMP burned into the files or a self-contained archive of images, JSON sidecars and an index.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Timemark-Plugin)
+
+```
+/plugin install timemark@danielrosehill
 ```
 
 ---
