@@ -3607,6 +3607,32 @@
         "inventory-photography",
         "android"
       ]
+    },
+    {
+      "name": "eml-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Eml-Toolkit"
+      },
+      "description": "Process .eml email exports — reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "eml",
+        "email",
+        "pdf",
+        "rtl",
+        "hebrew",
+        "bidi",
+        "thread",
+        "redaction",
+        "evidence"
+      ]
     }
   ]
 }
