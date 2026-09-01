@@ -1143,7 +1143,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin"
       },
-      "description": "Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups.",
+      "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the hebrew-correspondence plugin.",
       "category": "Regional",
       "version": "1.0.0",
       "author": {
@@ -3632,6 +3632,32 @@
         "thread",
         "redaction",
         "evidence"
+      ]
+    },
+    {
+      "name": "hebrew-correspondence",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Hebrew-Correspondence-Plugin"
+      },
+      "description": "One home for correspondence in Hebrew — send RTL email that renders correctly in every client, typeset formal letters to PDF with David Libre via Typst, turn incoming .eml threads into readable PDFs, and verify a render before it goes out.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "hebrew",
+        "rtl",
+        "bidi",
+        "email",
+        "typst",
+        "pdf",
+        "correspondence",
+        "israel",
+        "david-libre"
       ]
     }
   ]
