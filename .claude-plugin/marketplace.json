@@ -353,7 +353,7 @@
       },
       "description": "Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
       "category": "Marketing & Shopping",
-      "version": "2.1.1",
+      "version": "2.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
