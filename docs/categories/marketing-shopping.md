@@ -48,7 +48,7 @@ PR and media monitoring — scan coverage, summarize press, draft responses, com
 
 Marketplace-agnostic purchasing and procurement process — spec definition from a vague want or a photograph, annotated search vocabulary, intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory, hardware-rig profiling primitives, with general/market-landscape/tech-procurement/recommendations variants.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Purchasing-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/procurement-tools-plugin)
 
 ```
 /plugin install procurement-tools@danielrosehill
