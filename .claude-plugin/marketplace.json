@@ -109,7 +109,7 @@
       },
       "description": "Amazon.com marketplace research — verified price, stock, rating, seller and specs read from the listing rather than the search grid; Prime-aware delivery dates checked against the ZIP they were actually rendered for; filtered signed-in search with tested extractors, a marketplace profile and a durable brand allowlist.",
       "category": "Marketing & Shopping",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -176,7 +176,7 @@
       },
       "description": "Audio production — normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
       "category": "Media Editing",
-      "version": "1.0.0",
+      "version": "1.9.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -222,7 +222,7 @@
       },
       "description": "Video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.",
       "category": "Media Editing",
-      "version": "1.6.0",
+      "version": "1.14.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -332,7 +332,7 @@
       },
       "description": "Career planning — log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
       "category": "Staging",
-      "version": "1.0.0",
+      "version": "2.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -353,7 +353,7 @@
       },
       "description": "Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
       "category": "Marketing & Shopping",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -428,7 +428,7 @@
       },
       "description": "Knowledge documentation — index, cross-link, build taxonomy, version docs, with wiki/resource-library/process-docs/experiment-report variants.",
       "category": "Research & Learning",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -694,7 +694,7 @@
       },
       "description": "AI transparency — document human vs AI contributions, add attribution, audit provenance.",
       "category": "Documentation & Writing",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -739,7 +739,7 @@
       },
       "description": "HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printing, scanning, auto-discovery.",
       "category": "Linux Sysadmin",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -787,7 +787,7 @@
       },
       "description": "Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).",
       "category": "Personal Productivity",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -885,7 +885,7 @@
       },
       "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos — Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
       "category": "Git & GitHub",
-      "version": "1.1.0",
+      "version": "1.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -909,7 +909,7 @@
       },
       "description": "Plan, document, and implement a backup and data-protection strategy for the current project — from architecture discovery through script generation and restore drills.",
       "category": "Linux Sysadmin",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -982,7 +982,7 @@
       },
       "description": "ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.",
       "category": "Network & Smart Home",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1030,7 +1030,7 @@
       },
       "description": "Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.",
       "category": "Documentation & Writing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1149,7 +1149,7 @@
       },
       "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the hebrew-correspondence plugin.",
       "category": "Regional",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1353,7 +1353,7 @@
       },
       "description": "Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) — scaffold, debug, package, install, and migrate Plasma 5 → 6.",
       "category": "Linux Sysadmin",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1820,7 +1820,7 @@
       },
       "description": "Linux desktop debugging toolkit — targeted journal/boot/log inspection skills plus proactive logging instrumentation (persistent journald, kdump, sysstat, OOM protection) so AI agents can analyze hard crashes, freezes, and runtime issues. Targets Ubuntu + Wayland; forkable for other distros.",
       "category": "Linux Sysadmin",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1921,7 +1921,7 @@
       },
       "description": "Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.",
       "category": "Privacy & Security",
-      "version": "0.0.1",
+      "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3126,7 +3126,7 @@
       },
       "description": "AliExpress shopping skills for Israel-based buyers — Choice-first search in ILS via a local browser, free-shipping filter, Israeli-reviews filter, single-listing landed-cost parse, and a running cart-value VAT-threshold nudge ($75 de-minimis).",
       "category": "Personal Productivity",
-      "version": "1.3.0",
+      "version": "1.6.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3595,7 +3595,7 @@
       },
       "description": "Timemark stamp-camera photo import that recovers the field data the app withholds. No Timemark export carries both the full-resolution image and the values, so imports are gated on having the originals and the Photosheet XLSX, then joined on capture timestamp. Outputs are XMP burned into the files or a self-contained archive of images, JSON sidecars and an index.",
       "category": "Media Editing",
-      "version": "0.2.0",
+      "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
