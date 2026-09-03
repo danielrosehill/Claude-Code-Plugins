@@ -3126,7 +3126,7 @@
       },
       "description": "AliExpress shopping skills for Israel-based buyers — Choice-first search in ILS via a local browser, free-shipping filter, Israeli-reviews filter, single-listing landed-cost parse, and a running cart-value VAT-threshold nudge ($75 de-minimis).",
       "category": "Personal Productivity",
-      "version": "1.6.1",
+      "version": "1.7.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
