@@ -3967,6 +3967,30 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT"
+    },
+    {
+      "name": "ikea-israel",
+      "displayName": "IKEA Israel",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-IKEA-Israel-Plugin"
+      },
+      "description": "Stock counts, aisle/bin and prices across IKEA Israel's 5 branches.",
+      "category": "Regional",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "ikea",
+        "hebrew",
+        "retail",
+        "stock-check"
+      ]
     }
   ]
 }

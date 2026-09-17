@@ -6,6 +6,15 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-09-17
+
+- **`ikea-israel`** — per-branch stock for IKEA Israel's five stores. The site publishes real unit counts rather than a traffic-light band (`194`, not "limited availability"), plus the self-serve aisle and bin, and the scheduled restock date when a branch is out. Three public endpoints — search, `api.salesitem.ingka.com/availabilities/ru/il`, and the store directory — answer plain `curl` with no session, no cookies and no browser, so the scripted tier is the complete tier rather than a degraded fallback. Mapped against the live Hebrew site from a real Chrome session on 2026-09-17, then re-verified from the shell.
+
+  Unlike the Grainger and Uline plugins, the difficulty here is not getting past a bot wall — it is that several answers are wrong in ways that look right, all returning HTTP 200. **`expand=SalesLocations` alone omits the `salesLocations` key entirely**, which reads as "this item has no warehouse location" when it means the expand list was incomplete; the full `StoresList,Restocks,SalesLocations` string is required and the script hard-codes it. **`hours.normal` is an empty array for every Israeli store** while the real opening hours sit in `extras.normal[0].body` as Hebrew prose, so a consumer reading the structured field concludes IKEA Israel publishes no hours. **Store `name` is the franchisee legal entity**, identical across all five; `displayName` is the name a person means. And an availability response returns **nine class units, not five** — `523` reports the largest quantity on the page and is not a building a customer can enter, so every row is tagged `in_store_directory` and the non-branches are dropped before reporting.
+
+  The RTL site adds a character-level trap: rendered price text carries invisible bidi overrides (`U+202D`, `U+202C`) wedged inside the digits, which breaks a `\d+` match silently and returns an empty capture that reads like a missing price. JSON-LD and the `data-product-*` attributes carry none, which is most of why the plugin reads JSON and not pages. Where the browser tier does touch the DOM it follows a least-specific-hook policy — `[data-product-no]` over `.pipf-page`, `ld+json` filtered by `@type`, accessible name over coordinates — because three generations of class prefix coexist on a single product page and the CSS-module classes carry a build hash.
+
+
 ### Added — 2026-09-01
 
 - **timemark** — import Timemark stamp-camera photo sets. No Timemark export carries both the full-resolution image and the custom field values, so the plugin gates imports on having the originals *and* the Photosheet XLSX, joins them on capture timestamp, and outputs either XMP burned into the files or a self-contained archive of images, JSON sidecars and an index.
