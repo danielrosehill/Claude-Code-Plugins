@@ -80,3 +80,22 @@ Every new plugin **or skill** is its own repository. The marketplace only refere
 7. **Commit and push** the marketplace repo.
 
 Use the `/new-plugin` local skill to walk through this procedure.
+
+### Known pre-existing failures (verified 2026-10-08, Claude Code 2.1.294)
+
+Both checks above fail on the current manifest regardless of the entry you add.
+Read the output for your own plugin name rather than treating the exit status as
+the result.
+
+- **`claude plugin validate` reports 13 errors and 1 warning**, all
+  reserved-name rejections: newer Claude Code refuses third-party plugin names that
+  start with `claude-` (`claude-rudder`, `claude-hopper`, `claude-sops`, …,
+  plus `Claude-Data-Wrangler`), and warns on `breakout-claude`. A new entry is fine
+  if its name does not appear in that list. Fixing them means renaming those
+  plugins, which breaks existing installs — a separate decision.
+- **`scripts/generate-catalogue.py` aborts** with `missing category/displayName`
+  for 21 entries (`eml-toolkit`, `hebrew-correspondence`, `grainger`,
+  `aliexpress-shopper`, …) and writes nothing, so the README catalogue and
+  `docs/categories/` are stale until those entries get both fields.
+
+Remove this section once both checks pass clean.
