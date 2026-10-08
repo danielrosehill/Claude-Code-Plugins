@@ -13,7 +13,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**149 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**172 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -21,23 +21,23 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 | Category | Plugins | Contents |
 | --- | ---: | --- |
-| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 23 | `backup-planner`, `batch-optical-archivist`, `claude-pipewire-skills`, `copyq-scripting`, `debugging`, `desktop-manager`, … (17 more) |
-| **[Media Editing](docs/categories/media-editing.md)** | 15 | `ai-video-producer`, `audio-production`, `background-removal`, `claude-transcription`, `gimp`, `hardware-id-annotation`, `image-annotation`, … (8 more) |
-| **[Personal Productivity](docs/categories/personal-productivity.md)** | 15 | `aliexpress-israel-skills`, `budgeting`, `business-idea-eval`, `contact-support`, `Daniel-Rosehill`, `decision-evaluation-framework`, … (9 more) |
-| **[Documentation & Writing](docs/categories/documentation-writing.md)** | 12 | `ai-attribution`, `claude-document-nudge`, `content-writing`, `digital-printing`, `document-to-markdown`, `html-email-designer`, … (6 more) |
-| **[Research & Learning](docs/categories/research-learning.md)** | 12 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `legal-investigative`, … (6 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 11 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `claude-md-tester`, `claude-sops`, `claude-user-memory`, `get-toony`, … (4 more) |
-| **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 11 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `license-populator`, `repo-mgmt`, `spec-starter`, `stack-evaluator`, `task-queuer`, … (3 more) |
+| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 28 | `backup-planner`, `batch-optical-archivist`, `claude-pipewire-skills`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, … (21 more) |
+| **[Personal Productivity](docs/categories/personal-productivity.md)** | 17 | `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `Daniel-Rosehill`, … (11 more) |
+| **[Media Editing](docs/categories/media-editing.md)** | 16 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `background-removal`, `claude-transcription`, `gimp`, `hardware-id-annotation`, … (9 more) |
+| **[Research & Learning](docs/categories/research-learning.md)** | 15 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
+| **[Documentation & Writing](docs/categories/documentation-writing.md)** | 14 | `ai-attribution`, `claude-document-nudge`, `content-writing`, `digital-printing`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (7 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 12 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `claude-md-tester`, `claude-sops`, `claude-user-memory`, `context-toolkit`, … (5 more) |
+| **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 12 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `kaizen`, `license-populator`, `repo-mgmt`, `spec-starter`, `stack-evaluator`, … (4 more) |
+| **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `claude-vault`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `security-auditor`, `spamhole` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `claude-data-analyst`, `Claude-Data-Wrangler`, `data-annotation`, `data-visualisation-and-publishing`, `synthetic-data`, `taxonomy-creation`, … (1 more) |
-| **[Privacy & Security](docs/categories/privacy-security.md)** | 7 | `claude-vault`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `security-auditor`, `spamhole` |
-| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 6 | `adb-ops`, `agent-relay`, `home-assistant-mgmt`, `media-assistant-ops`, `network-cups`, `zigbee-home-maintenance` |
-| **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 5 | `amazon`, `freight-vol-calculator`, `pr-media-work`, `procurement-tools`, `shopping` |
+| **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
+| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `agent-relay`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
+| **[Regional](docs/categories/regional.md)** | 6 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `netek-disconnect`, `rtl-email` |
+| **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 5 | `breakout-claude`, `claude-hopper`, `claude-pa`, `claude-rudder`, `eval-runner` |
+| **[Git & GitHub](docs/categories/git-github.md)** | 4 | `claude-code-feedback`, `gist-writer`, `github-explorer`, `github-research` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |
-| **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 4 | `breakout-claude`, `claude-hopper`, `claude-pa`, `claude-rudder` |
-| **[Regional](docs/categories/regional.md)** | 4 | `israel-agent-skills`, `israel-opening-hours`, `netek-disconnect`, `rtl-email` |
 | **[Staging](docs/categories/staging.md)** | 4 | `career`, `loose-tasks`, `resource-list-builder`, `smart-home` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `Local-Web-Capture`, `site-skill-builder` |
-| **[Git & GitHub](docs/categories/git-github.md)** | 3 | `claude-code-feedback`, `gist-writer`, `github-explorer` |
 | **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `book-writing`, `buttondown-mgmt`, `kdp-publishing` |
 
 Full descriptions and per-plugin install commands live on each category page — see the [category index](docs/categories/README.md).

@@ -1,6 +1,6 @@
 # Network & Smart Home
 
-6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -52,6 +52,18 @@ Interface with a Music Assistant server via its local API — onboard a deployme
 
 ```
 /plugin install media-assistant-ops@danielrosehill
+```
+
+---
+
+#### MQTT Observability
+
+Observe and interact with an MQTT broker — monitor all payloads, watch a specific topic, and publish messages. Stores broker credentials once and reuses them.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/mqtt-observability-plugin)
+
+```
+/plugin install mqtt-observability@danielrosehill
 ```
 
 ---

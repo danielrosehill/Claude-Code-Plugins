@@ -1,6 +1,6 @@
 # QA & Agent Sessions
 
-4 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -52,6 +52,18 @@ Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-ga
 
 ```
 /plugin install claude-rudder@danielrosehill
+```
+
+---
+
+#### Eval Runner
+
+Scaffolding, running, documenting, and publishing AI evaluations. Ships skills and commands for setting up eval workspaces, creating custom evals (or adapting existing frameworks/benchmarks), running them, and publishing evals or datasets. Bundles a curated ground-truth list of open-source eval tools and benchmarks as a reference data source.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Eval-Runner-Plugin)
+
+```
+/plugin install eval-runner@danielrosehill
 ```
 
 ---

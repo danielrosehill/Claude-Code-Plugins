@@ -1,9 +1,21 @@
 # Marketing & Shopping
 
-5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
+```
+
+---
+
+#### AliExpress Shopper
+
+Browser-driven AliExpress shopping assistant for Claude in Chrome. Bundles userscripts (Find Similar, Hide Combo Deals) and skills/commands that drive aliexpress.com directly in the user's browser session — search, read current listing, compare open tabs, apply filters, hide bundles, and find similar items. Scope is global aliexpress.com (any locale/currency) and visual/interactive shopping, not headless scraping or programmatic API flows.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Aliexpress-Shopper)
+
+```
+/plugin install aliexpress-shopper@danielrosehill
 ```
 
 ---
@@ -28,6 +40,18 @@ Freight volume arithmetic from a product's external dimensions — retrieves and
 
 ```
 /plugin install freight-vol-calculator@danielrosehill
+```
+
+---
+
+#### Grainger
+
+Grainger.com (US industrial MRO) product research — typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Grainger-Plugin)
+
+```
+/plugin install grainger@danielrosehill
 ```
 
 ---

@@ -1,9 +1,21 @@
 # Privacy & Security
 
-7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
+```
+
+---
+
+#### Anonymisation Assistant
+
+Anonymise sensitive documents (whistleblower disclosures, harassment diaries, incident reports) by replacing identifying details while preserving narrative integrity.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Anonymisation-Assistant-Plugin)
+
+```
+/plugin install anonymisation-assistant@danielrosehill
 ```
 
 ---

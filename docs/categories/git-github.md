@@ -1,6 +1,6 @@
 # Git & GitHub
 
-3 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+4 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -40,6 +40,18 @@ Semantic GitHub repo discovery for reusable components. Search, rank, overview, 
 
 ```
 /plugin install github-explorer@danielrosehill
+```
+
+---
+
+#### GitHub Research
+
+Research existing GitHub repositories before building — search, rank, and evaluate candidate tools via gh CLI with careful attention to stars, recency, and maintenance quality
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/github-research-plugin)
+
+```
+/plugin install github-research@danielrosehill
 ```
 
 ---

@@ -1,6 +1,6 @@
 # AI & Context
 
-11 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+12 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -76,6 +76,18 @@ Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only
 
 ```
 /plugin install claude-md-tester@danielrosehill
+```
+
+---
+
+#### Context Toolkit
+
+A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/context-toolkit-plugin)
+
+```
+/plugin install context-toolkit@danielrosehill
 ```
 
 ---

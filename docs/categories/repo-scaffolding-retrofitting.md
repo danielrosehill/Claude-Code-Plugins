@@ -1,6 +1,6 @@
 # Repo Scaffolding & Retrofitting
 
-11 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+12 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -40,6 +40,18 @@ Curated batches of third-party Claude Code plugins, grouped by type/theme, insta
 
 ```
 /plugin install favorite-plugins-installers@danielrosehill
+```
+
+---
+
+#### Kaizen
+
+Kaizen for mature codebases: atomic improvements, one commit each, tracked pass by pass from a baseline. Init, intake, step, pass skills.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Kaizen)
+
+```
+/plugin install kaizen@danielrosehill
 ```
 
 ---

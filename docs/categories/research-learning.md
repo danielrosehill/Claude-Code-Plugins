@@ -1,6 +1,6 @@
 # Research & Learning
 
-12 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -68,6 +68,18 @@ Knowledge documentation — index, cross-link, build taxonomy, version docs, wit
 
 ---
 
+#### Learning
+
+Learning resources, skill development, educational content creation and knowledge management.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/learning-plugin)
+
+```
+/plugin install learning@danielrosehill
+```
+
+---
+
 #### Legal Investigative
 
 Legal and investigative — log evidence, analyze documents, redact, generate briefs, with legal-research/evidence/osint/document-analysis variants.
@@ -128,6 +140,18 @@ Choose a professional certification specification-first rather than market-first
 
 ---
 
+#### Stack Search
+
+Spawn a new stack search workspace from the Claude-Stack-Research-Workspace template — clone, name, create GitHub repo, and kick off the structured intake interview
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Stack-Search-Plugin)
+
+```
+/plugin install stack-search@danielrosehill
+```
+
+---
+
 #### Teach This Repo
 
 Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons and file-by-file analyses with code samples drawn from the source, supports interactive Q&A, and typesets any of it as a PDF via Typst.
@@ -136,6 +160,18 @@ Uses a real code repository in reverse for developer education: assesses the lea
 
 ```
 /plugin install teach-this-repo@danielrosehill
+```
+
+---
+
+#### Tech Research
+
+Technology research — competitive analysis, technical documentation retrieval and research workflows.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/tech-research-plugin)
+
+```
+/plugin install tech-research@danielrosehill
 ```
 
 ---

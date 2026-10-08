@@ -1,6 +1,6 @@
 # Regional
 
-4 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -8,9 +8,33 @@
 
 ---
 
+#### Hebrew Correspondence
+
+One home for correspondence in Hebrew — send RTL email that renders correctly in every client, typeset formal letters to PDF with David Libre via Typst, turn incoming .eml threads into readable PDFs, and verify a render before it goes out.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Hebrew-Correspondence-Plugin)
+
+```
+/plugin install hebrew-correspondence@danielrosehill
+```
+
+---
+
+#### IKEA Israel
+
+Stock counts, aisle/bin and prices across IKEA Israel's 5 branches.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-IKEA-Israel-Plugin)
+
+```
+/plugin install ikea-israel@danielrosehill
+```
+
+---
+
 #### Israel Agent Skills
 
-Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups.
+Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the hebrew-correspondence plugin.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin)
 

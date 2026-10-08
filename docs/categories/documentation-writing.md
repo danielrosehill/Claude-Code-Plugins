@@ -1,6 +1,6 @@
 # Documentation & Writing
 
-12 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+14 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -64,6 +64,18 @@ Convert PDFs to clean Markdown, chunk into logical sections (chapters, indexes, 
 
 ```
 /plugin install document-to-markdown@danielrosehill
+```
+
+---
+
+#### EML Toolkit
+
+Process .eml email exports — reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Eml-Toolkit)
+
+```
+/plugin install eml-toolkit@danielrosehill
 ```
 
 ---
@@ -148,6 +160,18 @@ Technical documentation — READMEs, reference docs, changelogs, environment doc
 
 ```
 /plugin install technical-docs@danielrosehill
+```
+
+---
+
+#### User Manual
+
+Personal user manuals and private documentation for codebases, with PDF output.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/user-manual-plugin)
+
+```
+/plugin install user-manual@danielrosehill
 ```
 
 ---

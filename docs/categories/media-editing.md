@@ -1,6 +1,6 @@
 # Media Editing
 
-15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Audio production — normalize, VAD, transcribe, diarize, podcast assembly, with
 
 ```
 /plugin install audio-production@danielrosehill
+```
+
+---
+
+#### Audio Voice ID
+
+Speaker diarization, voice enrollment, and identification for audio files — builds a local voiceprint library with optional cloud replication.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/audio-voice-id-plugin)
+
+```
+/plugin install audio-voice-id@danielrosehill
 ```
 
 ---

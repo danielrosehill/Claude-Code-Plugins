@@ -1,6 +1,6 @@
 # Personal Productivity
 
-15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -16,6 +16,18 @@ AliExpress shopping skills for Israel-based buyers — Choice-first search in IL
 
 ```
 /plugin install aliexpress-israel-skills@danielrosehill
+```
+
+---
+
+#### Brainstorm Solutions
+
+When you hit a wall, spin up a research workspace to brainstorm solutions — captures the blocker, what you tried, and kicks off deep research
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/brainstorm-solutions-plugin)
+
+```
+/plugin install brainstorm-solutions@danielrosehill
 ```
 
 ---
@@ -88,6 +100,18 @@ Inventory analysis and decluttering assistant — import a household inventory i
 
 ```
 /plugin install declutter-genie@danielrosehill
+```
+
+---
+
+#### Diary Planner
+
+A workflow planning and time management template with agent definitions and slash commands for managing daily, weekly, and monthly schedules while maintaining connections between immediate tasks and longer-term objectives.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/diary-planner-plugin)
+
+```
+/plugin install diary-planner@danielrosehill
 ```
 
 ---

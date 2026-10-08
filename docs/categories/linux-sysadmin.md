@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-23 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+28 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Plan and burn batch M-Disc / BD-R / DVD archives from a source directory on Ubun
 
 ```
 /plugin install batch-optical-archivist@danielrosehill
+```
+
+---
+
+#### Conda Manager
+
+Conda environments — list, validate, compare, back up, audit and clean up environments with AI assistance.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/conda-manager-plugin)
+
+```
+/plugin install conda-manager@danielrosehill
 ```
 
 ---
@@ -68,6 +80,18 @@ Linux desktop management — auto-profiles the local machine on first run and pe
 
 ---
 
+#### Docker Manager
+
+Slash commands and subagents for managing Docker containers, Compose stacks, volumes, networks, and multi-environment deployments.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/docker-manager-plugin)
+
+```
+/plugin install docker-manager@danielrosehill
+```
+
+---
+
 #### Easy Effects Manager
 
 Manage Easy Effects on Linux: maintain a preset library, install/export presets, bind autoload to specific mics, test input levels, and set up clean voice-dictation chains. Works with Flatpak or native installs.
@@ -76,6 +100,18 @@ Manage Easy Effects on Linux: maintain a preset library, install/export presets,
 
 ```
 /plugin install Easy-Effects-Manager@danielrosehill
+```
+
+---
+
+#### Filesystem Organisation
+
+File system organisation — folder structure optimisation and file management automation.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/filesystem-org-plugin)
+
+```
+/plugin install filesystem-organisation@danielrosehill
 ```
 
 ---
@@ -152,6 +188,18 @@ Linux desktop debugging toolkit — targeted journal/boot/log inspection skills 
 
 ---
 
+#### Linux Desktop Management
+
+Linux desktop management — KDE/Plasma configuration and desktop system administration.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-desktop-plugin)
+
+```
+/plugin install linux-desktop-mgmt@danielrosehill
+```
+
+---
+
 #### Linux Packaging
 
 Linux packaging and release workflows — Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging
@@ -160,6 +208,18 @@ Linux packaging and release workflows — Debian/.deb builds, npm publishing, Gi
 
 ```
 /plugin install linux-packaging@danielrosehill
+```
+
+---
+
+#### Linux Server Management
+
+Linux server administration — service management and server infrastructure workflows.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-server-plugin)
+
+```
+/plugin install linux-server-mgmt@danielrosehill
 ```
 
 ---
