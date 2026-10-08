@@ -6,6 +6,12 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-08
+
+- **`kaizen`** — continuous, incremental improvement for mature codebases that already work: the work that is neither a feature nor a bug fix. Six skills — `kaizen-init`, `kaizen-baseline`, `kaizen-intake`, `kaizen-step`, `kaizen-pass`, `kaizen-status`. The discipline it enforces is that every improvement is split into atomic units (one purpose, one commit, independently revertible, verifiable) before anything is implemented, and units ship strictly one at a time; a long list from the user goes through intake, never into one change. A baseline pass (P000) records the starting commit and state of the codebase, and each later pass measures its delta from where the previous one ended.
+
+  To make the behaviour predictable rather than dependent on the plugin being loaded, `kaizen-init` copies the rules into the repo as `PRINCIPLES.md`, adds a marker-delimited block to `CLAUDE.md`, and installs the plugin at project scope. The unit log carries no commit sha — a commit cannot contain its own — so each unit's commit is found by its `kaizen(K-NNN):` message prefix instead.
+
 ### Added — 2026-09-17
 
 - **`ikea-israel`** — per-branch stock for IKEA Israel's five stores. The site publishes real unit counts rather than a traffic-light band (`194`, not "limited availability"), plus the self-serve aisle and bin, and the scheduled restock date when a branch is out. Three public endpoints — search, `api.salesitem.ingka.com/availabilities/ru/il`, and the store directory — answer plain `curl` with no session, no cookies and no browser, so the scripted tier is the complete tier rather than a degraded fallback. Mapped against the live Hebrew site from a real Chrome session on 2026-09-17, then re-verified from the shell.

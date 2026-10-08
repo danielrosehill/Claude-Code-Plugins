@@ -3991,6 +3991,30 @@
         "retail",
         "stock-check"
       ]
+    },
+    {
+      "name": "kaizen",
+      "displayName": "Kaizen",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Kaizen"
+      },
+      "description": "Kaizen for mature codebases: atomic improvements, one commit each, tracked pass by pass from a baseline. Init, intake, step, pass skills.",
+      "category": "Repo Scaffolding & Retrofitting",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "kaizen",
+        "continuous-improvement",
+        "refactoring",
+        "code-quality",
+        "atomic-commits"
+      ]
     }
   ]
 }
