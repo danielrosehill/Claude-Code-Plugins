@@ -15,7 +15,7 @@ First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothe
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Analyst-plugin)
 
 ```
-/plugin install claude-data-analyst@danielrosehill
+/plugin install data-analyst@danielrosehill
 ```
 
 ---
@@ -39,7 +39,7 @@ Data cleaning, enrichment, restructuring, packaging, and documentation skills fo
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Wrangler-plugin)
 
 ```
-/plugin install Claude-Data-Wrangler@danielrosehill
+/plugin install data-wrangler@danielrosehill
 ```
 
 ---

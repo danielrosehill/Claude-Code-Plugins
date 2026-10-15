@@ -15,7 +15,7 @@ File well-formed bug reports, feature requests, model-behavior reports, and docu
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Code-Feedback)
 
 ```
-/plugin install claude-code-feedback@danielrosehill
+/plugin install feedback-filer@danielrosehill
 ```
 
 ---

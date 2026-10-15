@@ -15,7 +15,7 @@ Route an idea that surfaces mid-task but does not belong to the current reposito
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Breakout)
 
 ```
-/plugin install breakout-claude@danielrosehill
+/plugin install idea-breakout@danielrosehill
 ```
 
 ---
@@ -27,7 +27,7 @@ Claude-Hopper — skills for hopping between discrete terminal-bound Claude Code
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Hopper)
 
 ```
-/plugin install claude-hopper@danielrosehill
+/plugin install session-hopper@danielrosehill
 ```
 
 ---
@@ -39,7 +39,7 @@ Passive-aggressive PA system. Claude barks status updates over a speaker; if ign
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-PA)
 
 ```
-/plugin install claude-pa@danielrosehill
+/plugin install passive-aggressive-pa@danielrosehill
 ```
 
 ---
@@ -51,7 +51,7 @@ Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-ga
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Rudder)
 
 ```
-/plugin install claude-rudder@danielrosehill
+/plugin install rudder@danielrosehill
 ```
 
 ---

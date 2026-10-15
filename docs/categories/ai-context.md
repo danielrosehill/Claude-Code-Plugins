@@ -51,7 +51,7 @@ Keep your own standard operating procedures — the recurring things you do a pa
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-SOPs)
 
 ```
-/plugin install claude-sops@danielrosehill
+/plugin install sop-library@danielrosehill
 ```
 
 ---
@@ -63,7 +63,7 @@ Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/com
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-User-Memory-Plugin)
 
 ```
-/plugin install claude-user-memory@danielrosehill
+/plugin install user-memory@danielrosehill
 ```
 
 ---
@@ -75,7 +75,7 @@ Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-MD-Tester)
 
 ```
-/plugin install claude-md-tester@danielrosehill
+/plugin install context-file-tester@danielrosehill
 ```
 
 ---
@@ -123,7 +123,7 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-LLM-Council-Creator-Plugin)
 
 ```
-/plugin install LLM-Council-Creator@danielrosehill
+/plugin install llm-council-creator@danielrosehill
 ```
 
 ---
@@ -159,7 +159,7 @@ Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ dir
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/User-Claude-MD-Plugin)
 
 ```
-/plugin install user-claude-md@danielrosehill
+/plugin install user-context-file@danielrosehill
 ```
 
 ---

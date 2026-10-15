@@ -51,7 +51,7 @@ Nudges Claude to document decisions, todos, sprints, and handovers into a struct
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Document-Nudge)
 
 ```
-/plugin install claude-document-nudge@danielrosehill
+/plugin install document-nudge@danielrosehill
 ```
 
 ---

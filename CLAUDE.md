@@ -89,8 +89,8 @@ status as the result.
 
 - **`claude plugin validate` reports 13 errors and 1 warning**, all
   reserved-name rejections: newer Claude Code refuses third-party plugin names that
-  start with `claude-` (`claude-rudder`, `claude-hopper`, `claude-sops`, …,
-  plus `Claude-Data-Wrangler`), and warns on `breakout-claude`. A new entry is fine
+  start with `claude-` (`rudder`, `session-hopper`, `sop-library`, …,
+  plus `data-wrangler`), and warns on `idea-breakout`. A new entry is fine
   if its name does not appear in that list. Fixing them means renaming those
   plugins, which breaks existing installs — a separate decision.
 

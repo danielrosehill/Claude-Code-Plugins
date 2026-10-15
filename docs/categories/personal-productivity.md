@@ -75,7 +75,7 @@ Jump to Daniel Rosehill's public work from Claude Code — profiles (LinkedIn, X
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Daniel-Rosehill-Claude-Plugin)
 
 ```
-/plugin install Daniel-Rosehill@danielrosehill
+/plugin install daniel-rosehill@danielrosehill
 ```
 
 ---

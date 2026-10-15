@@ -27,7 +27,7 @@ Meta-plugin for per-project activation of dormant plugins and MCP servers from a
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Vault)
 
 ```
-/plugin install claude-vault@danielrosehill
+/plugin install plugin-vault@danielrosehill
 ```
 
 ---

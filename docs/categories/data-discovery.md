@@ -27,7 +27,7 @@ Capture geo-restricted web content (articles, prices) via the user's own localho
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin)
 
 ```
-/plugin install Local-Web-Capture@danielrosehill
+/plugin install local-web-capture@danielrosehill
 ```
 
 ---

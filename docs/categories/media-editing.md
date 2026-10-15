@@ -63,7 +63,7 @@ Audio transcription — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), cl
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Transcription-Plugin)
 
 ```
-/plugin install claude-transcription@danielrosehill
+/plugin install transcription-pipeline@danielrosehill
 ```
 
 ---
