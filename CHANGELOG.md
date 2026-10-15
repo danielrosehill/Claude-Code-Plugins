@@ -6,6 +6,12 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-15
+
+- **`custom-model-planning`**: the planning half of building niche open-source models, meaning small task-bounded models, classifiers and fine-tunes. Eleven skills take an idea from "is there already a model for this?" to a build spec: `capture-model-idea`, `model-exists-check`, `start-model-project`, `frame-the-task`, `survey-prior-art`, `compare-approaches`, `select-base-model`, `plan-training-data`, `plan-evaluation`, `write-model-spec`, `model-project-status`. A `prior-art-scout` agent fans the survey out across Hub models, datasets, papers and code. Each idea gets its own private planning repo with a machine-readable `project.json`. An optional hub repo holds raw ideas and a `projects.json` registry. `compare-approaches` walks a ladder that starts at "no model", and `plan-evaluation` makes a no-model baseline mandatory. Training, labelling and eval hand off to the official Hugging Face skills and to `data-annotation` / `synthetic-data` / `eval-runner`.
+
+  Several Hugging Face Hub API filters fail silently, returning HTTP 200 with off-target results. These were verified on 2026-10-15 and documented in the plugin's `references/hub-search-recipes.md`: `language=he` is ignored on `/api/models`; `filter=language:he` returns an empty list on models (the bare tag `filter=he` works; on datasets `language:he` is correct); and `num_parameters=min:0,max:500M` (API and `hf models ls --num-parameters`) returned 2B–8B models, so size has to be read from `safetensors.total` per model.
+
 ### Added — 2026-10-08
 
 - **`kaizen`** — continuous, incremental improvement for mature codebases that already work: the work that is neither a feature nor a bug fix. Six skills — `kaizen-init`, `kaizen-baseline`, `kaizen-intake`, `kaizen-step`, `kaizen-pass`, `kaizen-status`. The discipline it enforces is that every improvement is split into atomic units (one purpose, one commit, independently revertible, verifiable) before anything is implemented, and units ship strictly one at a time; a long list from the user goes through intake, never into one change. A baseline pass (P000) records the starting commit and state of the codebase, and each later pass measures its delta from where the previous one ended.

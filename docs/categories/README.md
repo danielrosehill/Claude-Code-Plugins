@@ -1,6 +1,6 @@
 # Plugin Categories
 
-172 plugins across 18 categories.
+173 plugins across 18 categories.
 
 | Category | Plugins |
 | --- | ---: |
@@ -9,7 +9,7 @@
 | [Media Editing](media-editing.md) | 16 |
 | [Research & Learning](research-learning.md) | 15 |
 | [Documentation & Writing](documentation-writing.md) | 14 |
-| [AI & Context](ai-context.md) | 12 |
+| [AI & Context](ai-context.md) | 13 |
 | [Repo Scaffolding & Retrofitting](repo-scaffolding-retrofitting.md) | 12 |
 | [Privacy & Security](privacy-security.md) | 8 |
 | [Data & Datasets](data-datasets.md) | 7 |

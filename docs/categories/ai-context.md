@@ -1,6 +1,6 @@
 # AI & Context
 
-12 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+13 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -88,6 +88,18 @@ A comprehensive toolkit implementing the CONTEXT.md workflow system for managing
 
 ```
 /plugin install context-toolkit@danielrosehill
+```
+
+---
+
+#### Custom Model Planning
+
+Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Custom-Model-Planning-Plugin)
+
+```
+/plugin install custom-model-planning@danielrosehill
 ```
 
 ---

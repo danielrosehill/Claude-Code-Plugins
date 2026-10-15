@@ -13,7 +13,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**172 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**173 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -26,7 +26,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Media Editing](docs/categories/media-editing.md)** | 16 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `background-removal`, `claude-transcription`, `gimp`, `hardware-id-annotation`, … (9 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 15 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 14 | `ai-attribution`, `claude-document-nudge`, `content-writing`, `digital-printing`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (7 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 12 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `claude-md-tester`, `claude-sops`, `claude-user-memory`, `context-toolkit`, … (5 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 13 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `claude-md-tester`, `claude-sops`, `claude-user-memory`, `context-toolkit`, … (6 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 12 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `kaizen`, `license-populator`, `repo-mgmt`, `spec-starter`, `stack-evaluator`, … (4 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `claude-vault`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `security-auditor`, `spamhole` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `claude-data-analyst`, `Claude-Data-Wrangler`, `data-annotation`, `data-visualisation-and-publishing`, `synthetic-data`, `taxonomy-creation`, … (1 more) |
