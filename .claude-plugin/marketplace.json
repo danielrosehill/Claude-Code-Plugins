@@ -4048,7 +4048,7 @@
       },
       "description": "Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.",
       "category": "AI & Context",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
