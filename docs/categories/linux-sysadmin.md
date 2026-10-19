@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-28 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+29 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -136,6 +136,18 @@ HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printin
 
 ```
 /plugin install hp5200-printer@danielrosehill
+```
+
+---
+
+#### KDE Agent Workspace
+
+Give Claude its own KDE Plasma desktop to test apps in. Creates a "Claude" or "AI Agents" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture — without taking over the user's screen — and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin)
+
+```
+/plugin install kde-agent-workspace@danielrosehill
 ```
 
 ---
