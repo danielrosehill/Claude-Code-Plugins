@@ -13,7 +13,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**175 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**176 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -27,7 +27,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 14 | `ai-attribution`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (7 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 13 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `context-toolkit`, `custom-model-planning`, `get-toony`, … (6 more) |
-| **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 12 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `kaizen`, `license-populator`, `repo-mgmt`, `spec-starter`, `stack-evaluator`, … (4 more) |
+| **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 13 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `gh-ops`, `kaizen`, `license-populator`, `repo-mgmt`, `spec-starter`, … (5 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `plugin-vault`, `security-auditor`, `spamhole` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |

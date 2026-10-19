@@ -1,6 +1,6 @@
 # Repo Scaffolding & Retrofitting
 
-12 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+13 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -40,6 +40,18 @@ Curated batches of third-party Claude Code plugins, grouped by type/theme, insta
 
 ```
 /plugin install favorite-plugins-installers@danielrosehill
+```
+
+---
+
+#### GH Ops
+
+GitHub repo primitives and cleanup: exists, visibility, create, full listing without truncation, PAT-backed delete that never asks for gh auth refresh, and stale-repo triage with a multi-select menu.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-GH-Ops-Plugin)
+
+```
+/plugin install gh-ops@danielrosehill
 ```
 
 ---
