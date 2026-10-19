@@ -4065,15 +4065,15 @@
       ]
     },
     {
-      "name": "research-briefing",
-      "displayName": "Research Briefing",
+      "name": "modular-research",
+      "displayName": "Modular Research",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Research-Briefing-Plugin"
+        "repo": "danielrosehill/Claude-Modular-Research-Plugin"
       },
-      "description": "Dictated brief → research repo, PDF report, podcast, Drive + email. Spins up a GitHub repo as the research notebook, researches with parallel subagents and a source log, typesets a PDF via Typst, renders a two-host educational podcast with Gemini multi-speaker TTS, uploads both to Google Drive and emails the summary. Stages also run alone (make-podcast, deliver).",
+      "description": "Modular research task: brief in, PDF + podcast out. Takes a (dictated) brief through a GitHub repo as research notebook, parallel-subagent research with a source log, a Typst PDF report and a two-host educational podcast (Gemini TTS), then Google Drive and email. Every output module is optional and runs alone; the repo can stay a one-off or keep growing in follow-up rounds.",
       "category": "Research & Learning",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4083,6 +4083,7 @@
       "tags": [
         "research",
         "deep-research",
+        "modular",
         "pdf",
         "typst",
         "podcast",
