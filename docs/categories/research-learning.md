@@ -1,6 +1,6 @@
 # Research & Learning
 
-15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -100,6 +100,18 @@ Skeptical analyst toolkit for long reports — READ/SKIM/SKIP verdicts, structur
 
 ```
 /plugin install report-analyst@danielrosehill
+```
+
+---
+
+#### Research Briefing
+
+Dictated brief → research repo, PDF report, podcast, Drive + email. Spins up a GitHub repo as the research notebook, researches with parallel subagents and a source log, typesets a PDF via Typst, renders a two-host educational podcast with Gemini multi-speaker TTS, uploads both to Google Drive and emails the summary. Stages also run alone (make-podcast, deliver).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Research-Briefing-Plugin)
+
+```
+/plugin install research-briefing@danielrosehill
 ```
 
 ---

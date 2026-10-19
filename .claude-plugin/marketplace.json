@@ -4063,6 +4063,33 @@
         "model-research",
         "model-spec"
       ]
+    },
+    {
+      "name": "research-briefing",
+      "displayName": "Research Briefing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Research-Briefing-Plugin"
+      },
+      "description": "Dictated brief → research repo, PDF report, podcast, Drive + email. Spins up a GitHub repo as the research notebook, researches with parallel subagents and a source log, typesets a PDF via Typst, renders a two-host educational podcast with Gemini multi-speaker TTS, uploads both to Google Drive and emails the summary. Stages also run alone (make-podcast, deliver).",
+      "category": "Research & Learning",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "research",
+        "deep-research",
+        "pdf",
+        "typst",
+        "podcast",
+        "tts",
+        "google-drive",
+        "email"
+      ]
     }
   ]
 }

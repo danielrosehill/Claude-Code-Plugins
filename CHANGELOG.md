@@ -6,6 +6,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-19
+
+- **`research-briefing`**: runs one research job end to end. A dictated brief becomes a private GitHub repo used as the research notebook. The research is done by one subagent per sub-question, with a global source log, and the orchestrator then checks the claims the answer rests on. The output is a Typst-typeset PDF report and a two-host educational podcast made with Gemini multi-speaker TTS (`scripts/podcast_tts.py`, standard library + ffmpeg). Both go to Google Drive, and an email follows with the summary and links. Every stage is recorded in `delivery.json`, so an interrupted run resumes from the last finished stage. `make-podcast` and `deliver` run their stages alone. The README documents a trap verified on 2026-10-19: the `gemini-3.x` and `gemini-2.5` TTS models take incompatible multi-speaker request shapes (per-part `speechMetadata` versus inline speaker labels), and 3.x rejects `systemInstruction`.
+
 ### Added — 2026-10-15
 
 - **`custom-model-planning`**: the planning half of building niche open-source models, meaning small task-bounded models, classifiers and fine-tunes. Eleven skills take an idea from "is there already a model for this?" to a build spec: `capture-model-idea`, `model-exists-check`, `start-model-project`, `frame-the-task`, `survey-prior-art`, `compare-approaches`, `select-base-model`, `plan-training-data`, `plan-evaluation`, `write-model-spec`, `model-project-status`. A `prior-art-scout` agent fans the survey out across Hub models, datasets, papers and code. Each idea gets its own private planning repo with a machine-readable `project.json`. An optional hub repo holds raw ideas and a `projects.json` registry. `compare-approaches` walks a ladder that starts at "no model", and `plan-evaluation` makes a no-model baseline mandatory. Training, labelling and eval hand off to the official Hugging Face skills and to `data-annotation` / `synthetic-data` / `eval-runner`.

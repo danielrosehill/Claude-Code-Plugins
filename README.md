@@ -13,7 +13,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**173 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**174 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -21,19 +21,19 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 | Category | Plugins | Contents |
 | --- | ---: | --- |
-| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 28 | `backup-planner`, `batch-optical-archivist`, `pipewire-audio`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, … (21 more) |
+| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 28 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `docker-manager`, … (21 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 17 | `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (11 more) |
-| **[Media Editing](docs/categories/media-editing.md)** | 16 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `background-removal`, `transcription-pipeline`, `gimp`, `hardware-id-annotation`, … (9 more) |
-| **[Research & Learning](docs/categories/research-learning.md)** | 15 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
-| **[Documentation & Writing](docs/categories/documentation-writing.md)** | 14 | `ai-attribution`, `document-nudge`, `content-writing`, `digital-printing`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (7 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 13 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `sop-library`, `user-memory`, `context-toolkit`, … (6 more) |
+| **[Media Editing](docs/categories/media-editing.md)** | 16 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `background-removal`, `gimp`, `hardware-id-annotation`, `image-annotation`, … (9 more) |
+| **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
+| **[Documentation & Writing](docs/categories/documentation-writing.md)** | 14 | `ai-attribution`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (7 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 13 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `context-toolkit`, `custom-model-planning`, `get-toony`, … (6 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 12 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `kaizen`, `license-populator`, `repo-mgmt`, `spec-starter`, `stack-evaluator`, … (4 more) |
-| **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `plugin-vault`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `security-auditor`, `spamhole` |
-| **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-wrangler`, `data-annotation`, `data-visualisation-and-publishing`, `synthetic-data`, `taxonomy-creation`, … (1 more) |
+| **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `plugin-vault`, `security-auditor`, `spamhole` |
+| **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `agent-relay`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
 | **[Regional](docs/categories/regional.md)** | 6 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `netek-disconnect`, `rtl-email` |
-| **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 5 | `idea-breakout`, `session-hopper`, `passive-aggressive-pa`, `rudder`, `eval-runner` |
+| **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 5 | `eval-runner`, `idea-breakout`, `passive-aggressive-pa`, `rudder`, `session-hopper` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 4 | `feedback-filer`, `gist-writer`, `github-explorer`, `github-research` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |
 | **[Staging](docs/categories/staging.md)** | 4 | `career`, `loose-tasks`, `resource-list-builder`, `smart-home` |
