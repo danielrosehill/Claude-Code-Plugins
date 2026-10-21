@@ -10,7 +10,7 @@
 
 #### 1Password Feedback
 
-1Password feature requests and Community posts: dedupe-search the forum and release notes, draft a Feature Request topic, post it in your browser after approval, reply to threads, and track requests to shipped.
+1Password feature requests, bug reports and Community posts: dedupe-search the forum and release notes, post Feature Request or [Bug] topics from your browser, reply to threads, and track them to shipped.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-1Password-Feedback-Plugin)
 
