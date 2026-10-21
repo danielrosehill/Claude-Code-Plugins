@@ -4259,7 +4259,7 @@
         "repo": "danielrosehill/To-Skill-Or-Not-To-Skill"
       },
       "description": "Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
