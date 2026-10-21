@@ -6,6 +6,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-21
+
+- **`linux-bt` 0.1.0** (new public repo `Claude-Linux-BT-Plugin`): Bluetooth on Linux through `bluetoothctl`, for when the KDE/GNOME pairing dialogs don't list a device. Five self-contained skills: `bt-status` (adapter, rfkill, daemon, log), `bt-scan`, `bt-pair` (scan + pair + trust + connect in one piped session, because a cold `pair <MAC>` fails on evicted BLE devices), `bt-manage` (list, connect, disconnect, remove, trust, block, battery) and `bt-reset` (escalating ladder). Pairing verified 2026-10-21 on a Logitech MX Vertical that the Plasma 6 dialog never showed.
+
 ### Added — 2026-10-19
 
 - **`gh-ops` 1.3.0** (moved here from the private marketplace; new public repo `Claude-GH-Ops-Plugin`, fresh history): GitHub repo primitives (`repo-exists`, `repo-visibility`, `create-repo`, `set-repo-visibility`, `list-repos`), `delete-repo` through an admin PAT over REST (it never asks for `gh auth refresh`), and `suggest-deletions`, a stale-repo triage that reads tiers from a repo-index MCP, lets the user pick from a multi-select menu, clears links with `scripts/find_links.py`, then deletes. The token's 1Password reference is no longer built in; it comes from `~/.config/gh-ops/config` or `GH_ADMIN_TOKEN[_REF]`.

@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-29 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+30 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -184,6 +184,18 @@ Profile Linux keyboards, scan keycodes, and surface underused keys for remapping
 
 ```
 /plugin install keyboard-scanner@danielrosehill
+```
+
+---
+
+#### Linux BT
+
+Bluetooth on Linux from the command line, because the desktop pairing dialogs are unreliable. Diagnose the adapter, scan, pair + trust + connect in one non-interactive bluetoothctl session, manage known devices (connect, disconnect, forget, battery) and reset the stack.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Linux-BT-Plugin)
+
+```
+/plugin install linux-bt@danielrosehill
 ```
 
 ---
