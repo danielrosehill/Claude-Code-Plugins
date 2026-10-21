@@ -354,7 +354,7 @@
       },
       "description": "Career planning — log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
       "category": "Staging",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -695,7 +695,7 @@
       },
       "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.",
       "category": "AI & Context",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
