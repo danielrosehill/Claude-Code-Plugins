@@ -1,6 +1,6 @@
 # AI & Context
 
-13 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+14 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -148,6 +148,18 @@ Persona-recipe library for swapping Claude into themed personalities (Daredevil,
 
 ```
 /plugin install style-switcher@danielrosehill
+```
+
+---
+
+#### To Skill Or Not To Skill
+
+Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/To-Skill-Or-Not-To-Skill)
+
+```
+/plugin install skill-or-not@danielrosehill
 ```
 
 ---

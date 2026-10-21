@@ -4250,6 +4250,30 @@
         "forum",
         "feedback"
       ]
+    },
+    {
+      "name": "skill-or-not",
+      "displayName": "To Skill Or Not To Skill",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/To-Skill-Or-Not-To-Skill"
+      },
+      "description": "Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "skills",
+        "meta",
+        "heuristic",
+        "claude-md",
+        "agents-md"
+      ],
+      "category": "AI & Context"
     }
   ]
 }

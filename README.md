@@ -19,7 +19,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**180 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**181 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -31,8 +31,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 19 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (12 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 16 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `background-removal`, `gimp`, `hardware-id-annotation`, `image-annotation`, … (9 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 14 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `custom-model-planning`, `get-toony`, `llm-council-creator`, … (7 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 14 | `ai-attribution`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (7 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 13 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `custom-model-planning`, `get-toony`, `llm-council-creator`, … (6 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 12 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `gh-ops`, `kaizen`, `license-populator`, `spec-starter`, `stack-evaluator`, … (4 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, `security-auditor` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
