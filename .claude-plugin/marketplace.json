@@ -4214,6 +4214,29 @@
         "hebrew",
         "claude-in-chrome"
       ]
+    },
+    {
+      "name": "start-here",
+      "displayName": "Start Here (Daniel Rosehill's GitHub)",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Start-Here"
+      },
+      "description": "Find, navigate and download Daniel Rosehill's GitHub repositories: search all 1,000+ public repos, find the curated topic index for a subject, and clone one repo or a filtered set. Reads the Start-Here index JSON instead of crawling GitHub.",
+      "category": "Git & GitHub",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "tags": [
+        "github",
+        "repositories",
+        "index",
+        "navigation",
+        "clone"
+      ]
     }
   ]
 }

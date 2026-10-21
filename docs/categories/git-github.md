@@ -1,6 +1,6 @@
 # Git & GitHub
 
-4 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -52,6 +52,18 @@ Research existing GitHub repositories before building — search, rank, and eval
 
 ```
 /plugin install github-research@danielrosehill
+```
+
+---
+
+#### Start Here (Daniel Rosehill's GitHub)
+
+Find, navigate and download Daniel Rosehill's GitHub repositories: search all 1,000+ public repos, find the curated topic index for a subject, and clone one repo or a filtered set. Reads the Start-Here index JSON instead of crawling GitHub.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Start-Here)
+
+```
+/plugin install start-here@danielrosehill
 ```
 
 ---
