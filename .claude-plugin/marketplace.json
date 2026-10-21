@@ -8,7 +8,7 @@
   },
   "metadata": {
     "description": "A consolidated collection of Claude Code plugins for workflows across research, media, sysadmin, personal planning, dev tools, and more. Each plugin bundles primitives + a provisioning skill for domain-specific workspaces.",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   "plugins": [
     {
@@ -946,30 +946,6 @@
         "invoicing",
         "israel",
         "mcp"
-      ]
-    },
-    {
-      "name": "repo-mgmt",
-      "displayName": "Repo Mgmt",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Repo-Mgmt-Plugin"
-      },
-      "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, spin off breakaway or parallel-private repos; scan for dead remotes, missing clones, visibility risks, and stale archive candidates; bulk git ops across folders of clones plus an interactive PyQt6 prune GUI. Includes a preferences layer that remembers where different repo types live on disk. (PII scanning has moved to the standalone `pii-scanner` plugin.)",
-      "category": "Repo Scaffolding & Retrofitting",
-      "version": "1.8.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "github",
-        "repo-management",
-        "retrofit",
-        "janitor",
-        "huggingface"
       ]
     },
     {
@@ -3766,23 +3742,6 @@
       "license": "MIT"
     },
     {
-      "name": "context-toolkit",
-      "displayName": "Context Toolkit",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/context-toolkit-plugin"
-      },
-      "description": "A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.",
-      "category": "AI & Context",
-      "version": "1.0.1",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT"
-    },
-    {
       "name": "diary-planner",
       "displayName": "Diary Planner",
       "source": {
@@ -4244,6 +4203,7 @@
     },
     {
       "name": "agent-exchange",
+      "displayName": "Agent Exchange",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Agent-Exchange"
@@ -4264,7 +4224,8 @@
         "inbox",
         "launcher",
         "outbox"
-      ]
+      ],
+      "category": "Personal Productivity"
     }
   ]
 }

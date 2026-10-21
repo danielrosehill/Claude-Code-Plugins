@@ -1,6 +1,6 @@
 # AI & Context
 
-14 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+13 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -58,7 +58,7 @@ Keep your own standard operating procedures — the recurring things you do a pa
 
 #### Claude User Memory
 
-Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; defaults to the `memory` upstream on an MCP gateway, or bring your own memory MCP (Mem0 or other) via a workspace memory-config.md.
+Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; defaults to the `memory` upstream on an MCP gateway, or bring your own memory MCP via a workspace memory-config.md.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-User-Memory-Plugin)
 
@@ -76,18 +76,6 @@ Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only
 
 ```
 /plugin install context-file-tester@danielrosehill
-```
-
----
-
-#### Context Toolkit
-
-A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/context-toolkit-plugin)
-
-```
-/plugin install context-toolkit@danielrosehill
 ```
 
 ---

@@ -1,9 +1,21 @@
 # Personal Productivity
 
-17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
+```
+
+---
+
+#### Agent Exchange
+
+Two-way file exchange between you and Claude: from-human/ and from-agent/ folders, a CLAUDE.md block so Claude uses them unprompted, and a small explorer app (with launcher) locked to that folder, with new-file badges and read receipts.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Agent-Exchange)
+
+```
+/plugin install agent-exchange@danielrosehill
 ```
 
 ---

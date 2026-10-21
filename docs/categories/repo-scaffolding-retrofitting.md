@@ -1,6 +1,6 @@
 # Repo Scaffolding & Retrofitting
 
-13 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+12 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -76,18 +76,6 @@ Recommend, generate, and populate software/content licenses. Reads from a user-m
 
 ```
 /plugin install license-populator@danielrosehill
-```
-
----
-
-#### Repo Mgmt
-
-Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, spin off breakaway or parallel-private repos; scan for dead remotes, missing clones, visibility risks, and stale archive candidates; bulk git ops across folders of clones plus an interactive PyQt6 prune GUI. Includes a preferences layer that remembers where different repo types live on disk. (PII scanning has moved to the standalone `pii-scanner` plugin.)
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Repo-Mgmt-Plugin)
-
-```
-/plugin install repo-mgmt@danielrosehill
 ```
 
 ---
