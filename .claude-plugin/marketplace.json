@@ -4238,29 +4238,6 @@
         "storage",
         "homelab"
       ]
-    },
-    {
-      "name": "file-exchange",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-File-Exchange-Plugin"
-      },
-      "description": "Two-way drop folder between you and Claude: ~/Desktop/Claude-Exchange with from-user/ and from-agent/. Set up, save, pick up new files, archive. Never deletes.",
-      "version": "0.2.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "desktop",
-        "exchange",
-        "files",
-        "handoff",
-        "inbox",
-        "outbox"
-      ]
     }
   ]
 }
