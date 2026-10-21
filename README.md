@@ -13,7 +13,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**177 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**178 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -32,7 +32,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `agent-relay`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
-| **[Regional](docs/categories/regional.md)** | 6 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `netek-disconnect`, `rtl-email` |
+| **[Regional](docs/categories/regional.md)** | 7 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `maccabi-online-skills`, `netek-disconnect`, `rtl-email` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 5 | `eval-runner`, `idea-breakout`, `passive-aggressive-pa`, `rudder`, `session-hopper` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 4 | `feedback-filer`, `gist-writer`, `github-explorer`, `github-research` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |

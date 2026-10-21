@@ -1,6 +1,6 @@
 # Regional
 
-6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -52,6 +52,18 @@ Check opening hours for Israeli businesses, including hours stated relative to S
 
 ```
 /plugin install israel-opening-hours@danielrosehill
+```
+
+---
+
+#### Maccabi Online Skills
+
+Maccabi Online (Israel health fund) portal: meds, appointments, doctor messages, results, hitchaivut, refunds. Unofficial; needs your signed-in Chrome.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Maccabi-Online-Skills)
+
+```
+/plugin install maccabi-online-skills@danielrosehill
 ```
 
 ---

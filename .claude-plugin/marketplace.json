@@ -4168,6 +4168,30 @@
         "pairing",
         "ble"
       ]
+    },
+    {
+      "name": "maccabi-online-skills",
+      "displayName": "Maccabi Online Skills",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Maccabi-Online-Skills"
+      },
+      "description": "Maccabi Online (Israel health fund) portal: meds, appointments, doctor messages, results, hitchaivut, refunds. Unofficial; needs your signed-in Chrome.",
+      "category": "Regional",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "maccabi",
+        "health",
+        "hebrew",
+        "claude-in-chrome"
+      ]
     }
   ]
 }

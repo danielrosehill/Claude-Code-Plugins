@@ -8,6 +8,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ### Added — 2026-10-21
 
+- **`maccabi-online-skills` 0.1.0** (new public repo `Maccabi-Online-Skills`): unofficial skills for Maccabi Online, the Maccabi Healthcare Services member portal, driving the user's own signed-in Chrome. Twenty skills: inbox, doctor/office requests, booking and upcoming appointments, request status, commitment (hitchaivut) and refund requests, cardless visit, travel-insurance redirect, test results, medications and purchase history, visit summaries, my doctor, vaccinations, personal details, public appeal form, branch finder, family-member switcher, and `admin-rediscover-portal` for re-mapping after UI changes. Writes are gated; routes live in one profile JSON; `scripts/pii_check.py` keeps account data out of the repo.
 - **`linux-bt` 0.1.0** (new public repo `Claude-Linux-BT-Plugin`): Bluetooth on Linux through `bluetoothctl`, for when the KDE/GNOME pairing dialogs don't list a device. Five self-contained skills: `bt-status` (adapter, rfkill, daemon, log), `bt-scan`, `bt-pair` (scan + pair + trust + connect in one piped session, because a cold `pair <MAC>` fails on evicted BLE devices), `bt-manage` (list, connect, disconnect, remove, trust, block, battery) and `bt-reset` (escalating ladder). Pairing verified 2026-10-21 on a Logitech MX Vertical that the Plasma 6 dialog never showed.
 
 ### Added — 2026-10-19
