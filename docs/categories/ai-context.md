@@ -58,7 +58,7 @@ Keep your own standard operating procedures — the recurring things you do a pa
 
 #### Claude User Memory
 
-Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.
+Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; defaults to the `memory` upstream on an MCP gateway, or bring your own memory MCP (Mem0 or other) via a workspace memory-config.md.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-User-Memory-Plugin)
 

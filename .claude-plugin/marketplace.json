@@ -2870,13 +2870,13 @@
       ]
     },
     {
-      "name": "spamhole",
-      "displayName": "SpamHole",
+      "name": "pseudospam-filter",
+      "displayName": "Pseudospam Filter",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-SpamHole-Plugin"
+        "repo": "danielrosehill/Claude-Pseudospam-Filter-Plugin"
       },
-      "description": "AI-assisted defenses against pseudo-personalised wide-scrape outreach, AI-faked impersonation, and tracking-pixel surveillance. Capture spam to a personal corpus, analyse intent, suggest filter patterns, scan for tracking + ad-tracker pixels, draft unsubscribe replies, push server-side Gmail blocks via an email MCP, push DNS-level blocks to AdGuard Home, and contribute redacted findings to public anti-tracking lists. Bundles a stub AdGuard Home MCP.",
+      "description": "A second spam filter for pseudospam (outreach produced at scale, dressed up as personal): parallel Haiku judges taught by your own Gmail example labels, a review-queue label instead of deletion, a reply queue for genuine mail, plus sender blocks, unsubscribe replies and tracking-pixel/DNS blocking.",
       "category": "Privacy & Security",
       "version": "0.1.0",
       "author": {
@@ -2886,12 +2886,15 @@
       },
       "license": "MIT",
       "tags": [
-        "spam",
-        "email",
-        "tracking-pixels",
-        "privacy",
         "adguard",
-        "blocklist"
+        "blocklist",
+        "cold-outreach",
+        "email",
+        "gmail",
+        "privacy",
+        "pseudospam",
+        "spam",
+        "tracking-pixels"
       ]
     },
     {

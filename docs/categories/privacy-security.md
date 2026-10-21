@@ -80,6 +80,18 @@ Scan files, directories, or git repositories for personally identifiable informa
 
 ---
 
+#### Pseudospam Filter
+
+A second spam filter for pseudospam (outreach produced at scale, dressed up as personal): parallel Haiku judges taught by your own Gmail example labels, a review-queue label instead of deletion, a reply queue for genuine mail, plus sender blocks, unsubscribe replies and tracking-pixel/DNS blocking.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Pseudospam-Filter-Plugin)
+
+```
+/plugin install pseudospam-filter@danielrosehill
+```
+
+---
+
 #### Security Auditor
 
 Register machines and run repeatable Claude-Code-driven security audits over SSH, with timestamped reports and per-machine profiles.
@@ -88,18 +100,6 @@ Register machines and run repeatable Claude-Code-driven security audits over SSH
 
 ```
 /plugin install security-auditor@danielrosehill
-```
-
----
-
-#### SpamHole
-
-AI-assisted defenses against pseudo-personalised wide-scrape outreach, AI-faked impersonation, and tracking-pixel surveillance. Capture spam to a personal corpus, analyse intent, suggest filter patterns, scan for tracking + ad-tracker pixels, draft unsubscribe replies, push server-side Gmail blocks via an email MCP, push DNS-level blocks to AdGuard Home, and contribute redacted findings to public anti-tracking lists. Bundles a stub AdGuard Home MCP.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-SpamHole-Plugin)
-
-```
-/plugin install spamhole@danielrosehill
 ```
 
 ---
