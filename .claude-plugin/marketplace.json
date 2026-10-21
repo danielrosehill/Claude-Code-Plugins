@@ -4249,7 +4249,7 @@
         "repo": "danielrosehill/Claude-Agent-Exchange"
       },
       "description": "Two-way file exchange between you and Claude: from-human/ and from-agent/ folders, a CLAUDE.md block so Claude uses them unprompted, and a small explorer app (with launcher) locked to that folder, with new-file badges and read receipts.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
