@@ -1,9 +1,21 @@
 # Personal Productivity
 
-18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+19 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
+```
+
+---
+
+#### 1Password Feedback
+
+1Password feature requests and Community posts: dedupe-search the forum and release notes, draft a Feature Request topic, post it in your browser after approval, reply to threads, and track requests to shipped.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-1Password-Feedback-Plugin)
+
+```
+/plugin install onepassword-feedback@danielrosehill
 ```
 
 ---

@@ -4226,6 +4226,30 @@
         "outbox"
       ],
       "category": "Personal Productivity"
+    },
+    {
+      "name": "onepassword-feedback",
+      "displayName": "1Password Feedback",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-1Password-Feedback-Plugin"
+      },
+      "description": "1Password feature requests and Community posts: dedupe-search the forum and release notes, draft a Feature Request topic, post it in your browser after approval, reply to threads, and track requests to shipped.",
+      "category": "Personal Productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "1password",
+        "feature-request",
+        "community",
+        "forum",
+        "feedback"
+      ]
     }
   ]
 }
