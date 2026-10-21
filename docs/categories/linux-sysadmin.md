@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-29 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+30 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -244,6 +244,18 @@ Performance and space optimisation for Linux desktops — hardware-aware CPU/GPU
 
 ```
 /plugin install linux-system-optimisation@danielrosehill
+```
+
+---
+
+#### Network Tmp
+
+Overflow /tmp to a capped, self-wiping NFS share on a home server. For laptops whose /tmp is a small tmpfs (RAM) or whose disk is tight: an ext4 image exported over NFS, mounted on demand with a local-disk fallback, expired hourly after 24 h. Skills to set it up, route large temporary files there, and report and clean it.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Network-Tmp-Plugin)
+
+```
+/plugin install network-tmp@danielrosehill
 ```
 
 ---

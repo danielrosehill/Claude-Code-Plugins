@@ -4214,6 +4214,30 @@
         "navigation",
         "clone"
       ]
+    },
+    {
+      "name": "network-tmp",
+      "displayName": "Network Tmp",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Network-Tmp-Plugin"
+      },
+      "description": "Overflow /tmp to a capped, self-wiping NFS share on a home server. For laptops whose /tmp is a small tmpfs (RAM) or whose disk is tight: an ext4 image exported over NFS, mounted on demand with a local-disk fallback, expired hourly after 24 h. Skills to set it up, route large temporary files there, and report and clean it.",
+      "category": "Linux Sysadmin",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "tmp",
+        "tmpfs",
+        "nfs",
+        "storage",
+        "homelab"
+      ]
     }
   ]
 }
