@@ -9,11 +9,17 @@
 
 A comprehensive marketplace of Claude Code plugins for developers, system administrators, content creators, and productivity enthusiasts. These plugins extend Claude Code with specialized slash commands and agents for various workflows.
 
+🧭 **New here? Start with [`marketplace-guide`](https://github.com/danielrosehill/Claude-Marketplace-Guide-Plugin).** Install it and ask Claude *"what's in the marketplace?"* or *"is there a plugin for X?"*. It browses all plugins by theme (Israel & Hebrew, homelab, Linux desktop, Claude Code tooling, shopping, writing…), recommends plugins for a task and shows what's new. It reads the live manifest, so it is always current.
+
+```bash
+/plugin install marketplace-guide@danielrosehill
+```
+
 📋 **[Browse plugins by category](docs/categories/README.md)** — every plugin with its description, source repository and install command
 
 ## Available Plugins
 
-**178 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**179 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -25,8 +31,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 17 | `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (11 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 16 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `background-removal`, `gimp`, `hardware-id-annotation`, `image-annotation`, … (9 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 14 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `context-toolkit`, `custom-model-planning`, `get-toony`, … (7 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 14 | `ai-attribution`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (7 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 13 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `context-toolkit`, `custom-model-planning`, `get-toony`, … (6 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 13 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `gh-ops`, `kaizen`, `license-populator`, `repo-mgmt`, `spec-starter`, … (5 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `plugin-vault`, `security-auditor`, `spamhole` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |

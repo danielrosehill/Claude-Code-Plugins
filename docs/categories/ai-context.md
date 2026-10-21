@@ -1,6 +1,6 @@
 # AI & Context
 
-13 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+14 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,6 +124,18 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 
 ```
 /plugin install llm-council-creator@danielrosehill
+```
+
+---
+
+#### Marketplace Guide — start here
+
+Start here: browse these plugins by theme, find one for a task, see what's new. Reads the live manifest.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Marketplace-Guide-Plugin)
+
+```
+/plugin install marketplace-guide@danielrosehill
 ```
 
 ---

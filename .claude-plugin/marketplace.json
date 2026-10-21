@@ -12,6 +12,28 @@
   },
   "plugins": [
     {
+      "name": "marketplace-guide",
+      "displayName": "Marketplace Guide — start here",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Marketplace-Guide-Plugin"
+      },
+      "description": "Start here: browse these plugins by theme, find one for a task, see what's new. Reads the live manifest.",
+      "category": "AI & Context",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "discovery",
+        "marketplace",
+        "start-here"
+      ]
+    },
+    {
       "name": "filesystem-organiser",
       "displayName": "Filesystem Organiser",
       "source": {
