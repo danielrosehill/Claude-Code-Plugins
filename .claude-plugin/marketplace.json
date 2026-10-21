@@ -108,7 +108,7 @@
       },
       "description": "Region-specific consumer shopping primitives — find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.",
       "category": "Marketing & Shopping",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -375,7 +375,7 @@
       },
       "description": "Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
       "category": "Marketing & Shopping",
-      "version": "2.3.0",
+      "version": "2.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -693,9 +693,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-User-Memory-Plugin"
       },
-      "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; defaults to the `memory` upstream on an MCP gateway, or bring your own memory MCP (Mem0 or other) via a workspace memory-config.md.",
+      "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; defaults to the `memory` upstream on an MCP gateway, or bring your own memory MCP via a workspace memory-config.md.",
       "category": "AI & Context",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3455,7 +3455,7 @@
       },
       "description": "Builds and maintains a persistent, portable background context layer about the user — intake interview, ingestion of material they already have, gap analysis, scoped retrieval, maintenance and export. Plain markdown entries in a store the user owns, read through declared scopes and sensitivity levels; explicitly does not use model-managed memory. Ships the Portable Context Contract so issue-scoped workspaces can read it without re-asking who the person is.",
       "category": "AI & Context",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

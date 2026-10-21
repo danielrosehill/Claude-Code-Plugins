@@ -6,6 +6,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-10-21
+
+- **Mem0 retired as a named option** in `user-memory` 2.2.1 (Mem0 example config removed; custom-backend option is now Option B; manifest description no longer names Mem0), `shopping` 2.0.2 and `procurement-tools` 2.3.1 (`load-preferences` / `save-preferences` now use the gateway `memory` server, `mcp__gateway__memory__recall` / `remember`, namespace `personal`) and `personal-context` 0.1.2 (dropped from the example backends in `docs/context-contract.md`).
+
 ### Removed — 2026-10-21
 
 - **`spamhole`** (repo `Claude-SpamHole-Plugin`, deleted): replaced by `pseudospam-filter`, which carries all of its skills (`setup-corpus` → `setup`, `capture-spam-sample` → `capture-example`; the rest keep their names).
