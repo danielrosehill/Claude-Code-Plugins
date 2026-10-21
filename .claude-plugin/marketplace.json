@@ -753,29 +753,6 @@
       ]
     },
     {
-      "name": "hp5200-printer",
-      "displayName": "HP5200 Printer",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-HP5200-Skill-plugin"
-      },
-      "description": "HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printing, scanning, auto-discovery.",
-      "category": "Linux Sysadmin",
-      "version": "1.0.1",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "printer",
-        "scanner",
-        "hardware",
-        "hp"
-      ]
-    },
-    {
       "name": "repo-to-content",
       "displayName": "Repo To Content",
       "source": {

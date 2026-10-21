@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-30 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+29 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,18 +124,6 @@ Filesystem organisation — scan, dedupe, cleanup, rename, sort for local direct
 
 ```
 /plugin install filesystem-organiser@danielrosehill
-```
-
----
-
-#### HP5200 Printer
-
-HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printing, scanning, auto-discovery.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin)
-
-```
-/plugin install hp5200-printer@danielrosehill
 ```
 
 ---

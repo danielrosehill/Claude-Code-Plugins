@@ -6,6 +6,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Removed — 2026-10-21
+
+- **`hp5200-printer`** (repo `Claude-HP5200-Skill-plugin`, deleted): too narrow for one printer model. Its ink, print, scan, test-page and Typst-template skills were folded into a private, model-agnostic `home-printing` plugin in the `danielrosehill-private` marketplace.
+
 ### Added — 2026-10-21
 
 - **`start-here` 0.1.0** (existing public repo `Index`, renamed `Start-Here`): skills for agents navigating Daniel's GitHub. `find-repo` searches every public repo from the index's `repositories.json` (ships a stdlib-only `search.py`), `find-index` finds and reads the curated topic index for a subject from `indexing-repos.json`, and `clone-repos` covers raw fetch, shallow clone, tarball and filtered bulk clone.
