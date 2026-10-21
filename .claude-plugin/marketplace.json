@@ -4236,7 +4236,7 @@
       },
       "description": "1Password feature requests and Community posts: dedupe-search the forum and release notes, draft a Feature Request topic, post it in your browser after approval, reply to threads, and track requests to shipped.",
       "category": "Personal Productivity",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
