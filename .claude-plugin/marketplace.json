@@ -693,7 +693,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-User-Memory-Plugin"
       },
-      "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.",
+      "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; defaults to the `memory` upstream on an MCP gateway, or bring your own memory MCP (Mem0 or other) via a workspace memory-config.md.",
       "category": "AI & Context",
       "version": "2.2.0",
       "author": {
