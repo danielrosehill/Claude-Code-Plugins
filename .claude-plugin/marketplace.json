@@ -20,7 +20,7 @@
       },
       "description": "Start here: browse these plugins by theme, find one for a task, see what's new. Reads the live manifest.",
       "category": "AI & Context",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
