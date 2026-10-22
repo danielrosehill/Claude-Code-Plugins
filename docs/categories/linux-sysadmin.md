@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-30 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+31 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,6 +124,18 @@ Filesystem organisation — scan, dedupe, cleanup, rename, sort for local direct
 
 ```
 /plugin install filesystem-organiser@danielrosehill
+```
+
+---
+
+#### Hotkey Builder (Ubuntu)
+
+Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind text macros. Checks and installs ydotool/input-remapper, records lsusb IDs, finds non-conflicting keys across KDE, GNOME, input-remapper, keyd and hwdb, and binds by the route that works on X11 or Wayland, then verifies.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Ubuntu-Hotkey-Builder)
+
+```
+/plugin install hotkey-builder@danielrosehill
 ```
 
 ---

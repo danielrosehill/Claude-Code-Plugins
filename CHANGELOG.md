@@ -6,6 +6,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-22
+
+- **`hotkey-builder` 0.1.0** (new public repo `Claude-Ubuntu-Hotkey-Builder`): find free keys and build working shortcuts, macros and text-injection hotkeys on Ubuntu. Six skills (`check-environment`, `inventory-devices`, `probe-keyboard`, `audit-bindings`, `suggest-shortcut`, `create-shortcut`) over stdlib Python scripts: environment and service checks with apt install line, lsusb/evdev inventory with VID:PID, declared-key probe plus live listener, audit of hwdb/keyd/input-remapper/KDE/GNOME claims, ranked suggestions with route, binders for KDE (kglobalaccel D-Bus), GNOME (gsettings) and input-remapper, `hkb-type` injector with KDE layout pinning, and a per-machine reference. Distinct from `keyboard-scanner`, which profiles by questionnaire and does not implement bindings.
+
 ### Changed — 2026-10-21
 
 - **Mem0 retired as a named option** in `user-memory` 2.2.1 (Mem0 example config removed; custom-backend option is now Option B; manifest description no longer names Mem0), `shopping` 2.0.2 and `procurement-tools` 2.3.1 (`load-preferences` / `save-preferences` now use the gateway `memory` server, `mcp__gateway__memory__recall` / `remember`, namespace `personal`) and `personal-context` 0.1.2 (dropped from the example backends in `docs/context-contract.md`).

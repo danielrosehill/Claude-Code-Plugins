@@ -4274,6 +4274,33 @@
         "agents-md"
       ],
       "category": "AI & Context"
+    },
+    {
+      "name": "hotkey-builder",
+      "displayName": "Hotkey Builder (Ubuntu)",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Ubuntu-Hotkey-Builder"
+      },
+      "description": "Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind text macros. Checks and installs ydotool/input-remapper, records lsusb IDs, finds non-conflicting keys across KDE, GNOME, input-remapper, keyd and hwdb, and binds by the route that works on X11 or Wayland, then verifies.",
+      "category": "Linux Sysadmin",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "linux",
+        "ubuntu",
+        "keyboard",
+        "shortcuts",
+        "macros",
+        "ydotool",
+        "input-remapper",
+        "wayland"
+      ]
     }
   ]
 }
