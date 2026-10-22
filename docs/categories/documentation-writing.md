@@ -1,6 +1,6 @@
 # Documentation & Writing
 
-14 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -100,6 +100,18 @@ Rewrite text in deliberately ridiculous styles — Shakespearean, medieval, arch
 
 ```
 /plugin install novelty-text-editor@danielrosehill
+```
+
+---
+
+#### Planning Docs
+
+Keep a repo's decision log and plans lean: record numbered decisions, and compact old decisions and plans into in-place summaries so agents read the live state, not the history.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Planning-Docs-Plugin)
+
+```
+/plugin install planning-docs@danielrosehill
 ```
 
 ---

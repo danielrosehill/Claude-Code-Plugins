@@ -4304,6 +4304,30 @@
         "av1"
       ],
       "category": "Media Editing"
+    },
+    {
+      "name": "planning-docs",
+      "displayName": "Planning Docs",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Planning-Docs-Plugin"
+      },
+      "description": "Keep a repo's decision log and plans lean: record numbered decisions, and compact old decisions and plans into in-place summaries so agents read the live state, not the history.",
+      "category": "Documentation & Writing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "planning",
+        "decisions",
+        "adr",
+        "documentation",
+        "context-management"
+      ]
     }
   ]
 }
