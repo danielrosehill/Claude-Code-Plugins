@@ -19,7 +19,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**182 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**181 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -37,8 +37,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, `security-auditor` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
-| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `agent-relay`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
 | **[Regional](docs/categories/regional.md)** | 7 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `maccabi-online-skills`, `netek-disconnect`, `rtl-email` |
+| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 6 | `adb-ops`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 5 | `feedback-filer`, `gist-writer`, `github-explorer`, `github-research`, `start-here` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 5 | `dead-drop`, `eval-runner`, `passive-aggressive-pa`, `rudder`, `session-hopper` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |

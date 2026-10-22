@@ -1,6 +1,6 @@
 # Network & Smart Home
 
-7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -16,18 +16,6 @@ ADB (Android Debug Bridge) operations — onboard a phone, map folders, import m
 
 ```
 /plugin install adb-ops@danielrosehill
-```
-
----
-
-#### Agent Relay
-
-Direct agent-to-agent communication and coordination within a LAN. Two Claude instances on different machines exchange messages and files via a shared MCP relay server. Includes the relay server (Python/FastMCP, SQLite, content-addressed blob storage) and skills to deploy and connect clients. Trust-based, LAN-scoped.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin)
-
-```
-/plugin install agent-relay@danielrosehill
 ```
 
 ---

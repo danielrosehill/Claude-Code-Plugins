@@ -627,7 +627,7 @@
       },
       "description": "Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
       "category": "QA & Agent Sessions",
-      "version": "2.8.0",
+      "version": "2.8.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3027,31 +3027,6 @@
       ]
     },
     {
-      "name": "agent-relay",
-      "displayName": "Agent Relay",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Agent-Relay-Plugin"
-      },
-      "description": "Direct agent-to-agent communication and coordination within a LAN. Two Claude instances on different machines exchange messages and files via a shared MCP relay server. Includes the relay server (Python/FastMCP, SQLite, content-addressed blob storage) and skills to deploy and connect clients. Trust-based, LAN-scoped.",
-      "category": "Network & Smart Home",
-      "version": "0.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "mcp",
-        "multi-agent",
-        "lan",
-        "relay",
-        "coordination",
-        "a2a"
-      ]
-    },
-    {
       "name": "hardware-id-annotation",
       "displayName": "Hardware ID & Annotation",
       "source": {
@@ -3526,9 +3501,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Dead-Drop"
       },
-      "description": "Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.",
+      "description": "Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. For long tasks the sender keeps one living message current (revision: counter) and asks the reader to re-check it on an interval (watch: 30m). No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.",
       "category": "QA & Agent Sessions",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
