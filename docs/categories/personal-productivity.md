@@ -8,18 +8,6 @@
 
 ---
 
-#### 1Password Feedback
-
-1Password feature requests, bug reports and Community posts: dedupe-search the forum and release notes, post Feature Request or [Bug] topics from your browser, reply to threads, and track them to shipped.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-1Password-Feedback-Plugin)
-
-```
-/plugin install onepassword-feedback@danielrosehill
-```
-
----
-
 #### Agent Exchange
 
 Two-way file exchange between you and Claude: from-human/ and from-agent/ folders, a CLAUDE.md block so Claude uses them unprompted, and a small explorer app (with launcher) locked to that folder, with new-file badges and read receipts.
@@ -232,6 +220,18 @@ Make optimal use of a baggage allowance on an international itinerary — resear
 
 ```
 /plugin install travel-packing@danielrosehill
+```
+
+---
+
+#### Vendor Feedback
+
+Vendor bug reports and feature requests, dupe-checked first. One folder of reporting notes per vendor plus vendor skills: Claude Code (search anthropics/claude-code issues, then file via the live bug form) and 1Password (Community feature requests, [Bug] topics, replies, tracking to shipped).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Vendor-Feedback-Plugin)
+
+```
+/plugin install vendor-feedback@danielrosehill
 ```
 
 ---

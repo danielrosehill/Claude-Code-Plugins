@@ -14,10 +14,13 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ### Removed — 2026-10-22
 
+- **`onepassword-feedback`** (repo `Claude-1Password-Feedback-Plugin`, retired): consolidated into `vendor-feedback`, so there is one feedback plugin covering several vendors instead of one plugin per vendor. Its five `op-*` skills carry over unchanged apart from paths.
 - **`agent-relay`** (repo `Claude-Agent-Relay-Plugin`, deleted): superseded by `dead-drop`; source kept in `Claude-Dead-Drop/iterations/02-agent-relay/`.
 - **`rudder` 2.8.1**: dropped the `junction-relay` skill; Agent Junction (repo deleted) is now `Claude-Dead-Drop/iterations/01-agent-junction/`.
 
 ### Added — 2026-10-22
+
+- **`vendor-feedback` 1.0.0** (new public repo `Claude-Vendor-Feedback-Plugin`): bug reports and feature requests to software vendors from one plugin. Each vendor has a `vendors/<vendor>/` folder whose `reporting.md` records how that vendor takes bug reports and feature requests, plus skills with a vendor prefix. Claude Code: `cc-bug-report` searches open and closed `anthropics/claude-code` issues, offers a comment on a match, files through the live `bug_report.yml` form, and explains the repo's 3-day duplicate auto-close and how the author's 👎 stops it. 1Password: the `op-*` skills from the retired `onepassword-feedback`.
 
 - **`planning-docs` 1.0.0** (repo `Claude-Planning-Docs-Plugin`): keep a repo's decision log and plans lean. `record-decision` adds numbered, dated entries to `planning/DECISIONS.md` and keeps 3 in full; `decision-compaction` keeps the newest 3 decisions and plans (plus any in progress) in full and summarises the rest in place, headings and paths kept so citations resolve, full text pinned to a commit.
 

@@ -4204,15 +4204,15 @@
       "category": "Personal Productivity"
     },
     {
-      "name": "onepassword-feedback",
-      "displayName": "1Password Feedback",
+      "name": "vendor-feedback",
+      "displayName": "Vendor Feedback",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-1Password-Feedback-Plugin"
+        "repo": "danielrosehill/Claude-Vendor-Feedback-Plugin"
       },
-      "description": "1Password feature requests, bug reports and Community posts: dedupe-search the forum and release notes, post Feature Request or [Bug] topics from your browser, reply to threads, and track them to shipped.",
+      "description": "Vendor bug reports and feature requests, dupe-checked first. One folder of reporting notes per vendor plus vendor skills: Claude Code (search anthropics/claude-code issues, then file via the live bug form) and 1Password (Community feature requests, [Bug] topics, replies, tracking to shipped).",
       "category": "Personal Productivity",
-      "version": "0.3.0",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4220,11 +4220,12 @@
       },
       "license": "MIT",
       "tags": [
-        "1password",
+        "feedback",
+        "bug-report",
         "feature-request",
-        "community",
-        "forum",
-        "feedback"
+        "claude-code",
+        "1password",
+        "github-issues"
       ]
     },
     {
