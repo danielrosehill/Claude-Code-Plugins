@@ -4277,6 +4277,33 @@
         "input-remapper",
         "wayland"
       ]
+    },
+    {
+      "name": "avp-music-video",
+      "displayName": "AVP Music Video",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-AVP-Music-Video-Plugin"
+      },
+      "description": "Audio → branded music video (avp): waveform, logo, karaoke. Install audio-visualizer-python, pull logo/colours/font from a repo into a brand kit, render an MP3 (e.g. from Suno) through JSON templates (waveform, spectrum bars, logo pulse, 9:16), burn in karaoke lyrics from LRC/SRT, and encode small with AV1 by default.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "avp",
+        "music-video",
+        "audiogram",
+        "visualizer",
+        "karaoke",
+        "suno",
+        "ffmpeg",
+        "av1"
+      ],
+      "category": "Media Editing"
     }
   ]
 }

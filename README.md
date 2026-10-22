@@ -19,7 +19,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**181 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**182 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -29,7 +29,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | --- | ---: | --- |
 | **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 31 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `docker-manager`, … (24 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 19 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (12 more) |
-| **[Media Editing](docs/categories/media-editing.md)** | 16 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `background-removal`, `gimp`, `hardware-id-annotation`, `image-annotation`, … (9 more) |
+| **[Media Editing](docs/categories/media-editing.md)** | 17 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (10 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 14 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `custom-model-planning`, `get-toony`, `llm-council-creator`, … (7 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 14 | `ai-attribution`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (7 more) |

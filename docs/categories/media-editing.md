@@ -1,6 +1,6 @@
 # Media Editing
 
-16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -40,6 +40,18 @@ Speaker diarization, voice enrollment, and identification for audio files — bu
 
 ```
 /plugin install audio-voice-id@danielrosehill
+```
+
+---
+
+#### AVP Music Video
+
+Audio → branded music video (avp): waveform, logo, karaoke. Install audio-visualizer-python, pull logo/colours/font from a repo into a brand kit, render an MP3 (e.g. from Suno) through JSON templates (waveform, spectrum bars, logo pulse, 9:16), burn in karaoke lyrics from LRC/SRT, and encode small with AV1 by default.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-AVP-Music-Video-Plugin)
+
+```
+/plugin install avp-music-video@danielrosehill
 ```
 
 ---
