@@ -224,14 +224,14 @@ Make optimal use of a baggage allowance on an international itinerary — resear
 
 ---
 
-#### Vendor Feedback
+#### Vendor Liaison
 
-Vendor bug reports and feature requests, dupe-checked first. One folder of reporting notes per vendor plus vendor skills: Claude Code (search anthropics/claude-code issues, then file via the live bug form) and 1Password (Community feature requests, [Bug] topics, replies, tracking to shipped).
+Report bugs, request features, disclose security to vendors: per-vendor channel data with routing rules, a private overlay for your preferred channels and personal contacts, duplicate checks before filing. Vendors: Claude Code, 1Password, Whisperian.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Vendor-Feedback-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Vendor-Liaison)
 
 ```
-/plugin install vendor-feedback@danielrosehill
+/plugin install vendor-liaison@danielrosehill
 ```
 
 ---

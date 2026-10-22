@@ -1,21 +1,9 @@
 # Git & GitHub
 
-5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+4 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
-```
-
----
-
-#### Claude Code Feedback
-
-File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Code-Feedback)
-
-```
-/plugin install feedback-filer@danielrosehill
 ```
 
 ---

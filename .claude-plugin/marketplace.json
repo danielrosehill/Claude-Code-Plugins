@@ -1443,30 +1443,6 @@
       ]
     },
     {
-      "name": "feedback-filer",
-      "displayName": "Claude Code Feedback",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Code-Feedback"
-      },
-      "description": "File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.",
-      "category": "Git & GitHub",
-      "version": "1.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "claude-code",
-        "feedback",
-        "bug-report",
-        "feature-request",
-        "github-issues"
-      ]
-    },
-    {
       "name": "social-feedback",
       "displayName": "Social Feedback",
       "source": {
@@ -4204,15 +4180,15 @@
       "category": "Personal Productivity"
     },
     {
-      "name": "vendor-feedback",
-      "displayName": "Vendor Feedback",
+      "name": "vendor-liaison",
+      "displayName": "Vendor Liaison",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Vendor-Feedback-Plugin"
+        "repo": "danielrosehill/Vendor-Liaison"
       },
-      "description": "Vendor bug reports and feature requests, dupe-checked first. One folder of reporting notes per vendor plus vendor skills: Claude Code (search anthropics/claude-code issues, then file via the live bug form) and 1Password (Community feature requests, [Bug] topics, replies, tracking to shipped).",
+      "description": "Report bugs, request features, disclose security to vendors: per-vendor channel data with routing rules, a private overlay for your preferred channels and personal contacts, duplicate checks before filing. Vendors: Claude Code, 1Password, Whisperian.",
       "category": "Personal Productivity",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4220,12 +4196,13 @@
       },
       "license": "MIT",
       "tags": [
+        "vendor",
         "feedback",
         "bug-report",
         "feature-request",
+        "security-disclosure",
         "claude-code",
-        "1password",
-        "github-issues"
+        "1password"
       ]
     },
     {
