@@ -8,14 +8,14 @@
 
 ---
 
-#### Claude Breakout
+#### Claude Dead Drop
 
-Route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff — the seed brief is written to disk in the new repo and the message carries a pointer to it. Companion to interrupt-claude (same-repo interruption routing) and claude-hopper (session spawning and handover); breakout splits tracks rather than work or time. WIP.
+Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Breakout)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Dead-Drop)
 
 ```
-/plugin install idea-breakout@danielrosehill
+/plugin install dead-drop@danielrosehill
 ```
 
 ---

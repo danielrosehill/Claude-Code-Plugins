@@ -3520,15 +3520,15 @@
       ]
     },
     {
-      "name": "idea-breakout",
-      "displayName": "Claude Breakout",
+      "name": "dead-drop",
+      "displayName": "Claude Dead Drop",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Breakout"
+        "repo": "danielrosehill/Claude-Dead-Drop"
       },
-      "description": "Route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff — the seed brief is written to disk in the new repo and the message carries a pointer to it. Companion to interrupt-claude (same-repo interruption routing) and claude-hopper (session spawning and handover); breakout splits tracks rather than work or time. WIP.",
+      "description": "Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.",
       "category": "QA & Agent Sessions",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3538,9 +3538,10 @@
       "tags": [
         "agent-to-agent",
         "cross-session",
+        "cross-repo",
+        "mailbox",
         "handoff",
-        "repo-scaffolding",
-        "parallel-agents"
+        "breakout"
       ]
     },
     {

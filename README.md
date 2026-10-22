@@ -40,7 +40,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `agent-relay`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
 | **[Regional](docs/categories/regional.md)** | 7 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `maccabi-online-skills`, `netek-disconnect`, `rtl-email` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 5 | `feedback-filer`, `gist-writer`, `github-explorer`, `github-research`, `start-here` |
-| **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 5 | `eval-runner`, `idea-breakout`, `passive-aggressive-pa`, `rudder`, `session-hopper` |
+| **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 5 | `dead-drop`, `eval-runner`, `passive-aggressive-pa`, `rudder`, `session-hopper` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |
 | **[Staging](docs/categories/staging.md)** | 4 | `career`, `loose-tasks`, `resource-list-builder`, `smart-home` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `local-web-capture`, `site-skill-builder` |

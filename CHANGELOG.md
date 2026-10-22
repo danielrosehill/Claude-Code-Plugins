@@ -6,6 +6,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-10-22
+
+- **`idea-breakout` → `dead-drop` 0.3.0** (repo renamed `Claude-Breakout` → `Claude-Dead-Drop`): generalised from "idea → new repo" into asynchronous agent-to-agent messages between repos. Agent A writes a markdown message into repo B's `a2a/` folder and pings B by `SendMessage` when exactly one session runs there; a SessionStart hook (`scripts/a2a-inbox.sh`) lists open messages; `inbox` acts on them, sets reminders the message requests with `CronCreate` (UTC converted to local, session-only), and records what it did in the same file. Skills `send`, `inbox`, `breakout`; `breakout-adopt` folded into `inbox`. Breakout is now the `founding` message kind.
+
 ### Added — 2026-10-22
 
 - **`hotkey-builder` 0.1.0** (new public repo `Claude-Ubuntu-Hotkey-Builder`): find free keys and build working shortcuts, macros and text-injection hotkeys on Ubuntu. Six skills (`check-environment`, `inventory-devices`, `probe-keyboard`, `audit-bindings`, `suggest-shortcut`, `create-shortcut`) over stdlib Python scripts: environment and service checks with apt install line, lsusb/evdev inventory with VID:PID, declared-key probe plus live listener, audit of hwdb/keyd/input-remapper/KDE/GNOME claims, ranked suggestions with route, binders for KDE (kglobalaccel D-Bus), GNOME (gsettings) and input-remapper, `hkb-type` injector with KDE layout pinning, and a per-machine reference. Distinct from `keyboard-scanner`, which profiles by questionnaire and does not implement bindings.
