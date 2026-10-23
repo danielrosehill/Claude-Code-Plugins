@@ -56,18 +56,6 @@ GPG operations: generate keypairs, export public keys, encrypt, decrypt, sign, a
 
 ---
 
-#### Linux AV Manager
-
-Manage antivirus, rootkit-detection, and UFW host firewall on a Linux desktop — install ClamAV/ClamTk/rkhunter (core) plus optional advanced tools (Lynis, chkrootkit, AIDE, debsecan), keep definitions current, run scans, schedule periodic runs, and configure conservative desktop-tuned UFW rules. Scan results stored in a user-defined folder set up on first run.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin)
-
-```
-/plugin install linux-av-manager@danielrosehill
-```
-
----
-
 #### PII Scanner
 
 Scan files, directories, or git repositories for personally identifiable information — credentials (gitleaks), generic PII (Microsoft Presidio), and matches against a user-maintained personal PII inventory (names, addresses, family, IDs) stored locally.
@@ -100,6 +88,18 @@ Register machines and run repeatable Claude-Code-driven security audits over SSH
 
 ```
 /plugin install security-auditor@danielrosehill
+```
+
+---
+
+#### Ubuntu Security
+
+Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Ubuntu-Security)
+
+```
+/plugin install ubuntu-security@danielrosehill
 ```
 
 ---

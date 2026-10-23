@@ -552,28 +552,6 @@
       ]
     },
     {
-      "name": "sysadmin-homelab",
-      "displayName": "Sysadmin Homelab",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Sysadmin-Homelab-Plugin"
-      },
-      "description": "Sysadmin and homelab — diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.",
-      "category": "Linux Sysadmin",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "sysadmin",
-        "homelab",
-        "remote-admin"
-      ]
-    },
-    {
       "name": "dev-tools",
       "displayName": "Dev Tools",
       "source": {
@@ -663,27 +641,6 @@
         "terminal",
         "linux",
         "ux"
-      ]
-    },
-    {
-      "name": "security-checkup",
-      "displayName": "Security Checkup",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Security-Checkup-Plugin"
-      },
-      "description": "Security and compliance — vulnerability scanning, system hardening, config audits.",
-      "category": "Linux Sysadmin",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "security",
-        "compliance"
       ]
     },
     {
@@ -2927,33 +2884,6 @@
       ]
     },
     {
-      "name": "linux-av-manager",
-      "displayName": "Linux AV Manager",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Linux-AV-Manager-Plugin"
-      },
-      "description": "Manage antivirus, rootkit-detection, and UFW host firewall on a Linux desktop — install ClamAV/ClamTk/rkhunter (core) plus optional advanced tools (Lynis, chkrootkit, AIDE, debsecan), keep definitions current, run scans, schedule periodic runs, and configure conservative desktop-tuned UFW rules. Scan results stored in a user-defined folder set up on first run.",
-      "category": "Privacy & Security",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "linux",
-        "security",
-        "antivirus",
-        "clamav",
-        "rootkit",
-        "lynis",
-        "ufw",
-        "firewall"
-      ]
-    },
-    {
       "name": "text-to-speech-toolkit",
       "displayName": "Text-to-Speech Toolkit",
       "source": {
@@ -3813,40 +3743,6 @@
       "license": "MIT"
     },
     {
-      "name": "linux-desktop-mgmt",
-      "displayName": "Linux Desktop Management",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/linux-desktop-plugin"
-      },
-      "description": "Linux desktop management — KDE/Plasma configuration and desktop system administration.",
-      "category": "Linux Sysadmin",
-      "version": "2.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT"
-    },
-    {
-      "name": "linux-server-mgmt",
-      "displayName": "Linux Server Management",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/linux-server-plugin"
-      },
-      "description": "Linux server administration — service management and server infrastructure workflows.",
-      "category": "Linux Sysadmin",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT"
-    },
-    {
       "name": "mqtt-observability",
       "displayName": "MQTT Observability",
       "source": {
@@ -3896,6 +3792,62 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT"
+    },
+    {
+      "name": "ubuntu-admin",
+      "displayName": "Ubuntu Admin",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Ubuntu-Admin"
+      },
+      "description": "Administer Ubuntu machines, desktop or server, locally or over SSH: health and diagnosis, packages (apt/snap/flatpak), systemd services and logs, Docker, storage and backups, networking, hardware and GPU drivers, displays, fonts, codecs, shell and dev environments. Supersedes linux-desktop-mgmt, linux-server-mgmt and sysadmin-homelab.",
+      "category": "Linux Sysadmin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "ubuntu",
+        "linux",
+        "sysadmin",
+        "desktop",
+        "server",
+        "ssh",
+        "systemd",
+        "apt",
+        "docker"
+      ]
+    },
+    {
+      "name": "ubuntu-security",
+      "displayName": "Ubuntu Security",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Ubuntu-Security"
+      },
+      "description": "Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.",
+      "category": "Privacy & Security",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "ubuntu",
+        "linux",
+        "security",
+        "ufw",
+        "firewall",
+        "clamav",
+        "ssh",
+        "fail2ban",
+        "audit"
+      ]
     },
     {
       "name": "user-manual",

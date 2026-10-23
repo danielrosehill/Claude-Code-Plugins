@@ -19,7 +19,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**182 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**179 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -27,14 +27,14 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 | Category | Plugins | Contents |
 | --- | ---: | --- |
-| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 31 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `docker-manager`, … (24 more) |
+| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 28 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `docker-manager`, … (21 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 19 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (12 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 17 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (10 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 15 | `ai-attribution`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (8 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 14 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `custom-model-planning`, `get-toony`, `llm-council-creator`, … (7 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 12 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `gh-ops`, `kaizen`, `license-populator`, `spec-starter`, `stack-evaluator`, … (4 more) |
-| **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `linux-av-manager`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, `security-auditor` |
+| **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Regional](docs/categories/regional.md)** | 7 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `maccabi-online-skills`, `netek-disconnect`, `rtl-email` |
@@ -97,8 +97,8 @@ You can install multiple plugins by repeating the installation command for each 
 ### System Administrator Setup
 ```bash
 /plugin install desktop-manager@danielrosehill
-/plugin install sysadmin-homelab@danielrosehill
-/plugin install security-checkup@danielrosehill
+/plugin install ubuntu-admin@danielrosehill
+/plugin install ubuntu-security@danielrosehill
 /plugin install linux-debugging@danielrosehill
 ```
 

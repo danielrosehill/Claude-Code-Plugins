@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-31 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+28 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -212,18 +212,6 @@ Linux desktop debugging toolkit — targeted journal/boot/log inspection skills 
 
 ---
 
-#### Linux Desktop Management
-
-Linux desktop management — KDE/Plasma configuration and desktop system administration.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-desktop-plugin)
-
-```
-/plugin install linux-desktop-mgmt@danielrosehill
-```
-
----
-
 #### Linux Packaging
 
 Linux packaging and release workflows — Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging
@@ -232,18 +220,6 @@ Linux packaging and release workflows — Debian/.deb builds, npm publishing, Gi
 
 ```
 /plugin install linux-packaging@danielrosehill
-```
-
----
-
-#### Linux Server Management
-
-Linux server administration — service management and server infrastructure workflows.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/linux-server-plugin)
-
-```
-/plugin install linux-server-mgmt@danielrosehill
 ```
 
 ---
@@ -320,18 +296,6 @@ Manage a Proxmox VE host via SSH and the Proxmox API — guided first-run onboar
 
 ---
 
-#### Security Checkup
-
-Security and compliance — vulnerability scanning, system hardening, config audits.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin)
-
-```
-/plugin install security-checkup@danielrosehill
-```
-
----
-
 #### Snap-It (BTRFS Snapshots)
 
 Manage BTRFS snapshots via snapper and btrfs from Claude Code — create, list, diff, rollback, and prune subvolume snapshots. Includes /snap and /snap-before commands for one-shot and pre/post-paired snapshots around risky changes.
@@ -356,18 +320,6 @@ Manage a Synology NAS via SSH — guided first-run onboarding, share/volume insp
 
 ---
 
-#### Sysadmin Homelab
-
-Sysadmin and homelab — diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin)
-
-```
-/plugin install sysadmin-homelab@danielrosehill
-```
-
----
-
 #### System Recovery Mode
 
 AI-assisted Linux system recovery — slash commands and agents (diagnose, logs, network, disk, services, packages) for diagnosing and fixing a broken system. Pairs with an optional GRUB/systemd installer that boots a minimal recovery TTY straight into Claude CLI.
@@ -376,6 +328,18 @@ AI-assisted Linux system recovery — slash commands and agents (diagnose, logs,
 
 ```
 /plugin install system-recovery-mode@danielrosehill
+```
+
+---
+
+#### Ubuntu Admin
+
+Administer Ubuntu machines, desktop or server, locally or over SSH: health and diagnosis, packages (apt/snap/flatpak), systemd services and logs, Docker, storage and backups, networking, hardware and GPU drivers, displays, fonts, codecs, shell and dev environments. Supersedes linux-desktop-mgmt, linux-server-mgmt and sysadmin-homelab.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Ubuntu-Admin)
+
+```
+/plugin install ubuntu-admin@danielrosehill
 ```
 
 ---

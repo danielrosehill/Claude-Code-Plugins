@@ -6,6 +6,15 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-23
+- `ubuntu-admin` (danielrosehill/Ubuntu-Admin): 45 skills + 2 agents for administering Ubuntu desktops and servers, local or over SSH.
+- `ubuntu-security` (danielrosehill/Ubuntu-Security): 18 skills for Ubuntu host security — ufw firewall, AV/rootkit scanning, audits, SSH, fail2ban, hardware keys.
+
+### Removed — 2026-10-23
+- `linux-desktop-mgmt`, `linux-server-mgmt`, `sysadmin-homelab` → superseded by `ubuntu-admin`.
+- `linux-av-manager`, `security-checkup` → superseded by `ubuntu-security`.
+Each successor's README maps every old command or skill to its replacement.
+
 ### Changed — 2026-10-22
 
 - **`idea-breakout` → `dead-drop` 0.3.0** (repo renamed `Claude-Breakout` → `Claude-Dead-Drop`): generalised from "idea → new repo" into asynchronous agent-to-agent messages between repos. Agent A writes a markdown message into repo B's `a2a/` folder and pings B by `SendMessage` when exactly one session runs there; a SessionStart hook (`scripts/a2a-inbox.sh`) lists open messages; `inbox` acts on them, sets reminders the message requests with `CronCreate` (UTC converted to local, session-only), and records what it did in the same file. Skills `send`, `inbox`, `breakout`; `breakout-adopt` folded into `inbox`. Breakout is now the `founding` message kind.
