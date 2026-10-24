@@ -4283,6 +4283,30 @@
         "preferences",
         "context"
       ]
+    },
+    {
+      "name": "new-task-split",
+      "displayName": "New Task Split",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/New-Task-Split"
+      },
+      "description": "Auto-/clear on a new task: local ONNX classifier moves unrelated prompts to a fresh session. Shadow mode, install, toggle, update-model, remove.",
+      "category": "AI & Context",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "hooks",
+        "context",
+        "clear",
+        "classifier",
+        "onnx"
+      ]
     }
   ]
 }
