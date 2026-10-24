@@ -45,5 +45,5 @@ Review the marketplace and find plugins that should be removed — duplicates, h
 ## Guardrails
 
 - Never remove a plugin without Daniel naming it in the confirmation.
-- The source GitHub repositories are **not** your concern — only remove from this marketplace. Don't `gh repo delete` anything. If Daniel separately asks for a source repo to be deleted, hand off to `gh-ops:delete-repo` (admin PAT over REST) — never `gh repo delete` or `gh auth refresh -s delete_repo`; the gh login deliberately lacks that scope.
+- The source GitHub repositories are **not** your concern — only remove from this marketplace. Don't `gh repo delete` anything. If Daniel separately asks for a source repo to be deleted, hand off to `repo-mgmt:delete-repo` (admin PAT over REST) — never `gh repo delete` or `gh auth refresh -s delete_repo`; the gh login deliberately lacks that scope.
 - If in doubt, flag it and let Daniel decide rather than silently dropping it.
