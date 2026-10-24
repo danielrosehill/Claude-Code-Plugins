@@ -4258,6 +4258,29 @@
         "documentation",
         "context-management"
       ]
+    },
+    {
+      "name": "habits",
+      "displayName": "Habits",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Habits-Of-Claude"
+      },
+      "description": "Standing agent habits as one file each: short index block in CLAUDE.md/AGENTS.md pointing at the full texts. Add, update, remove, list, check habits; verify the prompt wiring.",
+      "category": "AI & Context",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "habits",
+        "system-prompt",
+        "preferences",
+        "context"
+      ]
     }
   ]
 }
