@@ -1,6 +1,6 @@
 # AI & Context
 
-14 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,6 +124,18 @@ Start here: browse these plugins by theme, find one for a task, see what's new. 
 
 ```
 /plugin install marketplace-guide@danielrosehill
+```
+
+---
+
+#### New Task Split
+
+Auto-/clear on a new task: local ONNX classifier moves unrelated prompts to a fresh session. claudehook trial launcher, install, toggle, update-model, remove.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/New-Task-Split)
+
+```
+/plugin install new-task-split@danielrosehill
 ```
 
 ---

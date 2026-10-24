@@ -3986,31 +3986,6 @@
       ]
     },
     {
-      "name": "gh-ops",
-      "displayName": "GH Ops",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-GH-Ops-Plugin"
-      },
-      "description": "GitHub repo primitives and cleanup: exists, visibility, create, full listing without truncation, PAT-backed delete that never asks for gh auth refresh, and stale-repo triage with a multi-select menu.",
-      "category": "Repo Scaffolding & Retrofitting",
-      "version": "1.4.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "github",
-        "gh-cli",
-        "repo-management",
-        "visibility",
-        "delete-repo",
-        "stale-repos"
-      ]
-    },
-    {
       "name": "linux-bt",
       "displayName": "Linux BT",
       "source": {

@@ -8,9 +8,9 @@
 | [Personal Productivity](personal-productivity.md) | 20 |
 | [Media Editing](media-editing.md) | 17 |
 | [Research & Learning](research-learning.md) | 16 |
+| [AI & Context](ai-context.md) | 15 |
 | [Documentation & Writing](documentation-writing.md) | 15 |
-| [AI & Context](ai-context.md) | 14 |
-| [Repo Scaffolding & Retrofitting](repo-scaffolding-retrofitting.md) | 12 |
+| [Repo Scaffolding & Retrofitting](repo-scaffolding-retrofitting.md) | 11 |
 | [Privacy & Security](privacy-security.md) | 8 |
 | [Data & Datasets](data-datasets.md) | 7 |
 | [Marketing & Shopping](marketing-shopping.md) | 7 |
