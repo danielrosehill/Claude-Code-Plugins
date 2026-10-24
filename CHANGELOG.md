@@ -7,7 +7,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Added — 2026-10-24
-- `kaizen-please` (danielrosehill/Kaizen-Please): Kaizen for non-code projects. Skills `kaizen-adopt` (project or user level), `kaizen-breakdown`, `kaizen-next`, `kaizen-review`, `kaizen-progress`, `kaizen-essay` (Typst PDF assessment, delivered by the user's preferred route), `kaizen-remove`.
+- `kaizen-please` (danielrosehill/Kaizen-Please): Kaizen for non-code projects. Skills `kaizen-adopt` (project or user level), `kaizen-breakdown`, `kaizen-next`, `kaizen-review`, `kaizen-progress`, `kaizen-remove`; 0.2.0 same day adds `kaizen-journal` (shared monthly Markdown journal, user and agent write the same one-line entries) and renames `kaizen-essay` → `kaizen-thoughts` (the agent's Kaizen view of the project as a Typst PDF, delivered by the user's preferred route).
 
 ### Added — 2026-10-23
 - `ubuntu-admin` (danielrosehill/Ubuntu-Admin): 45 skills + 2 agents for administering Ubuntu desktops and servers, local or over SSH.

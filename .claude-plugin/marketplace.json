@@ -3914,9 +3914,9 @@
         "source": "github",
         "repo": "danielrosehill/Kaizen-Please"
       },
-      "description": "Kaizen for any project, not just code: small steps, task breakdown, reviews, a Kaizen essay as PDF, clean uninstall.",
+      "description": "Kaizen for any project, not just code: small steps, a shared journal, reviews, the agent's Kaizen thoughts as PDF.",
       "category": "Personal Productivity",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3928,6 +3928,7 @@
         "continuous-improvement",
         "productivity",
         "task-breakdown",
+        "journal",
         "typst"
       ]
     },

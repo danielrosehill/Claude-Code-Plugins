@@ -178,7 +178,7 @@ Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price 
 
 #### Kaizen Please
 
-Kaizen for any project, not just code: small steps, task breakdown, reviews, a Kaizen essay as PDF, clean uninstall.
+Kaizen for any project, not just code: small steps, a shared journal, reviews, the agent's Kaizen thoughts as PDF.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Kaizen-Please)
 
