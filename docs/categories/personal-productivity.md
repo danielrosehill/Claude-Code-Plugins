@@ -1,6 +1,6 @@
 # Personal Productivity
 
-19 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+20 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -172,6 +172,18 @@ Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price 
 
 ```
 /plugin install israel-shopping@danielrosehill
+```
+
+---
+
+#### Kaizen Please
+
+Kaizen for any project, not just code: small steps, task breakdown, reviews, a Kaizen essay as PDF, clean uninstall.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Kaizen-Please)
+
+```
+/plugin install kaizen-please@danielrosehill
 ```
 
 ---

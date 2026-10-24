@@ -44,18 +44,6 @@ Import a ChatGPT conversation into local files via the browser. Captures the ful
 
 ---
 
-#### Claude SOPs
-
-Keep your own standard operating procedures — the recurring things you do a particular way — as a private, versioned library of markdown files the agent reads on demand and follows. Distinct from sop-writer, which authors printed SOP documents for other people; these are procedures an agent executes. One delimited block in your CLAUDE.md points at the library, a generated INDEX.md carries id, title and a 'use when' trigger for each procedure, and exactly one file is read once a situation matches — so a library of forty procedures costs one table to consult rather than forty resident skill descriptions. Seven skills cover setup, run, write, edit, list, retire and sync. Procedures live in ~/.claude-user-data/sops/ as flat readable files inside a private git repo, mirrored across machines; the plugin repo never holds one. Each SOP declares an autonomy level (auto, confirm, confirm-each, manual) that records a default rather than granting permission, and a last_verified date meaning the procedure was seen to work rather than that the file was edited.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-SOPs)
-
-```
-/plugin install sop-library@danielrosehill
-```
-
----
-
 #### Claude User Memory
 
 Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; defaults to the `memory` upstream on an MCP gateway, or bring your own memory MCP via a workspace memory-config.md.
@@ -100,6 +88,18 @@ Convert JSON, CSV, YAML, and other structured data into TOON (Token-Oriented Obj
 
 ```
 /plugin install get-toony@danielrosehill
+```
+
+---
+
+#### Habits
+
+Habits (rules, always-on or triggered) and SOPs (procedures) as one markdown file each, in a private folder, with one small CLAUDE.md block. Library of example habits to adopt. Replaces sop-library.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Agent-Habits)
+
+```
+/plugin install habits@danielrosehill
 ```
 
 ---
