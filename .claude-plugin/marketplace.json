@@ -4291,9 +4291,9 @@
         "source": "github",
         "repo": "danielrosehill/New-Task-Split"
       },
-      "description": "Auto-/clear on a new task: local ONNX classifier moves unrelated prompts to a fresh session. Shadow mode, install, toggle, update-model, remove.",
+      "description": "Auto-/clear on a new task: local ONNX classifier moves unrelated prompts to a fresh session. claudehook trial launcher, install, toggle, update-model, remove.",
       "category": "AI & Context",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
