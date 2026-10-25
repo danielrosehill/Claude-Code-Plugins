@@ -4345,7 +4345,7 @@
       },
       "description": "Israel Post (דואר ישראל) appointments, branch search and parcel tracking: book, check or cancel a counter slot.",
       "category": "Regional",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-10-25
+- `israel-post` 0.2.0: new `israel-post-tracking` skill (status, history, pickup branch and shelf, customs, days left).
+
 ### Added — 2026-10-25
 - `israel-post` (danielrosehill/Israel-Post-Plugin): Israel Post operations. Ships `israel-post-appointment` (moved from `israel-agent-skills`); branch search and parcel tracking planned.
 
