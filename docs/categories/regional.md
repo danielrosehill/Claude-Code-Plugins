@@ -1,6 +1,6 @@
 # Regional
 
-7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -52,6 +52,18 @@ Check opening hours for Israeli businesses, including hours stated relative to S
 
 ```
 /plugin install israel-opening-hours@danielrosehill
+```
+
+---
+
+#### Israel Post
+
+Israel Post (דואר ישראל) appointments, branch search and parcel tracking: book, check or cancel a counter slot.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-Post-Plugin)
+
+```
+/plugin install israel-post@danielrosehill
 ```
 
 ---

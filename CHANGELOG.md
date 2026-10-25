@@ -7,6 +7,12 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Added — 2026-10-25
+- `israel-post` (danielrosehill/Israel-Post-Plugin): Israel Post operations. Ships `israel-post-appointment` (moved from `israel-agent-skills`); branch search and parcel tracking planned.
+
+### Changed — 2026-10-25
+- `israel-agent-skills` 1.0.6: `israel-post-appointment` moved out to `israel-post`.
+
+### Added — 2026-10-25
 - `session-restore` (danielrosehill/Session-Restore): reopen Claude Code sessions lost to a terminal crash. Skills `restore-lost-sessions` (detects the sessions whose transcripts closed in the same burst, skips live ones) and `restore-recent-sessions` (last N or picked); resumes each in its launch directory in one Konsole window of split panes, or tabs, or windows.
 
 ### Changed — 2026-10-25
