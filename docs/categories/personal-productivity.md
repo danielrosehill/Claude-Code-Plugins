@@ -250,7 +250,7 @@ Report bugs, request features, disclose security to vendors: per-vendor channel 
 
 #### Voicenotes
 
-Voicenotes.com notes: search, read transcripts, list by date or tag, add text notes. Official MCP; early placeholder.
+Voicenotes.com: search, read transcripts, list, add notes; bulk export with audio. Unofficial; early placeholder.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Voicenotes-Plugin)
 
