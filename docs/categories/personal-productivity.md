@@ -1,6 +1,6 @@
 # Personal Productivity
 
-20 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+21 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -244,6 +244,18 @@ Report bugs, request features, disclose security to vendors: per-vendor channel 
 
 ```
 /plugin install vendor-liaison@danielrosehill
+```
+
+---
+
+#### Voicenotes
+
+Voicenotes.com notes: search, read transcripts, list by date or tag, add text notes. Official MCP; early placeholder.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Voicenotes-Plugin)
+
+```
+/plugin install voicenotes@danielrosehill
 ```
 
 ---

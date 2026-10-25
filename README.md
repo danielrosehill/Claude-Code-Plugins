@@ -19,7 +19,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**183 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**184 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -28,7 +28,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | Category | Plugins | Contents |
 | --- | ---: | --- |
 | **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 28 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `docker-manager`, … (21 more) |
-| **[Personal Productivity](docs/categories/personal-productivity.md)** | 20 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (13 more) |
+| **[Personal Productivity](docs/categories/personal-productivity.md)** | 21 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (14 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 17 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (10 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 16 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, … (9 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |

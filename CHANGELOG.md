@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-25
+- `voicenotes` 0.1.0: Voicenotes.com via the official MCP (search, read transcripts, list by date or tag, create text notes). Early placeholder; tag editing and audio import pending.
+
 ### Changed — 2026-10-25
 - `israel-post` 0.3.0: new `israel-post-calendar-event` skill (calendar event after a booking, with branch address and items to collect; `.ics` fallback).
 

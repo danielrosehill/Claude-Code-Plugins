@@ -4359,6 +4359,30 @@
         "appointments",
         "parcel-tracking"
       ]
+    },
+    {
+      "name": "voicenotes",
+      "displayName": "Voicenotes",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Voicenotes-Plugin"
+      },
+      "description": "Voicenotes.com notes: search, read transcripts, list by date or tag, add text notes. Official MCP; early placeholder.",
+      "category": "Personal Productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "voicenotes",
+        "voice-notes",
+        "transcripts",
+        "notes",
+        "mcp"
+      ]
     }
   ]
 }
