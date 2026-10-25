@@ -142,7 +142,7 @@ Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind 
 
 #### KDE Agent Workspace
 
-Give Claude its own KDE Plasma desktop to test apps in. Creates a "Claude" or "AI Agents" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture — without taking over the user's screen — and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+).
+Give Claude its own KDE Plasma desktop to test apps in. Creates a "Claude" or "AI Agents" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture — without taking over the user's screen — and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+). Or test in a headless sandbox KWin on a private bus, off your screen entirely.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin)
 

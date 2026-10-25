@@ -1,6 +1,6 @@
 # QA & Agent Sessions
 
-5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -64,6 +64,18 @@ Scaffolding, running, documenting, and publishing AI evaluations. Ships skills a
 
 ```
 /plugin install eval-runner@danielrosehill
+```
+
+---
+
+#### Session Restore
+
+Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also restores the last N or picked sessions.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Session-Restore)
+
+```
+/plugin install session-restore@danielrosehill
 ```
 
 ---

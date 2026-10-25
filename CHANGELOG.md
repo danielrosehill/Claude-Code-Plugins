@@ -7,6 +7,12 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Added — 2026-10-25
+- `session-restore` (danielrosehill/Session-Restore): reopen Claude Code sessions lost to a terminal crash. Skills `restore-lost-sessions` (detects the sessions whose transcripts closed in the same burst, skips live ones) and `restore-recent-sessions` (last N or picked); resumes each in its launch directory in one Konsole window of split panes, or tabs, or windows.
+
+### Changed — 2026-10-25
+- `kde-agent-workspace` 0.4.0: new `use-sandbox` skill and `--sandbox` flag, a headless KWin on a private D-Bus bus and runtime dir for testing without touching the user's screen or focus.
+
+### Added — 2026-10-25
 - `comparison-artifacts` (danielrosehill/Comparison-Artifacts): comparison artifacts for software evaluations. Skills `comparison-table` (ticks, short descriptors or both), `weighted-scoring` (criteria and weights from the user's priorities, computed ranking with sensitivity check), `quadrant-chart` (Mermaid, Typst, SVG); all render from one `comparison.json` per evaluation and can write into the document being drafted.
 
 ### Added — 2026-10-24
