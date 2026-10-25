@@ -1,6 +1,6 @@
 # Documentation & Writing
 
-15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -16,6 +16,18 @@ AI transparency — document human vs AI contributions, add attribution, audit p
 
 ```
 /plugin install ai-attribution@danielrosehill
+```
+
+---
+
+#### Comparison Artifacts
+
+Software evaluation tables, scoring and quadrants: tick/cross or short-descriptor feature tables, weighted scoring from your stated priorities, and 2x2 quadrant charts, rendered to Markdown, Typst or SVG from one data file and written into the document you're drafting.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Comparison-Artifacts)
+
+```
+/plugin install comparison-artifacts@danielrosehill
 ```
 
 ---

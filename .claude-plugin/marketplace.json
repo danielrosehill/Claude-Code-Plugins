@@ -4282,6 +4282,33 @@
         "classifier",
         "onnx"
       ]
+    },
+    {
+      "name": "comparison-artifacts",
+      "displayName": "Comparison Artifacts",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Comparison-Artifacts"
+      },
+      "description": "Software evaluation tables, scoring and quadrants: tick/cross or short-descriptor feature tables, weighted scoring from your stated priorities, and 2x2 quadrant charts, rendered to Markdown, Typst or SVG from one data file and written into the document you're drafting.",
+      "category": "Documentation & Writing",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "comparison",
+        "evaluation",
+        "software-selection",
+        "feature-matrix",
+        "weighted-scoring",
+        "quadrant",
+        "typst",
+        "markdown"
+      ]
     }
   ]
 }

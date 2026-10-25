@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-25
+- `comparison-artifacts` (danielrosehill/Comparison-Artifacts): comparison artifacts for software evaluations. Skills `comparison-table` (ticks, short descriptors or both), `weighted-scoring` (criteria and weights from the user's priorities, computed ranking with sensitivity check), `quadrant-chart` (Mermaid, Typst, SVG); all render from one `comparison.json` per evaluation and can write into the document being drafted.
+
 ### Added — 2026-10-24
 - `kaizen-please` (danielrosehill/Kaizen-Please): Kaizen for non-code projects. Skills `kaizen-adopt` (project or user level), `kaizen-breakdown`, `kaizen-next`, `kaizen-review`, `kaizen-progress`, `kaizen-remove`; 0.2.0 same day adds `kaizen-journal` (shared monthly Markdown journal, user and agent write the same one-line entries) and renames `kaizen-essay` → `kaizen-thoughts` (the agent's Kaizen view of the project as a Typst PDF, delivered by the user's preferred route).
 

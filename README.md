@@ -19,7 +19,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**180 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**181 plugins across 18 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -30,9 +30,9 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 28 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `docker-manager`, … (21 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 20 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (13 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 17 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (10 more) |
+| **[Documentation & Writing](docs/categories/documentation-writing.md)** | 16 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, … (9 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 15 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `custom-model-planning`, `get-toony`, `habits`, … (8 more) |
-| **[Documentation & Writing](docs/categories/documentation-writing.md)** | 15 | `ai-attribution`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, `html-email-designer`, … (8 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 11 | `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `kaizen`, `license-populator`, `spec-starter`, `stack-evaluator`, `task-queuer`, … (3 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
