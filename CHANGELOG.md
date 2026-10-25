@@ -7,6 +7,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Changed — 2026-10-25
+- `israel-post` 0.3.0: new `israel-post-calendar-event` skill (calendar event after a booking, with branch address and items to collect; `.ics` fallback).
+
+### Changed — 2026-10-25
 - `israel-agent-skills` 1.1.1: removed `install-companion-plugins` (superseded by `install-israel-plugins`).
 - `israel-post` 0.2.1: `israel-post-appointment` re-verified with a live booking; selectors updated.
 
