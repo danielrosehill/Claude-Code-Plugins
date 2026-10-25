@@ -7,6 +7,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Changed — 2026-10-25
+- `voicenotes` 0.4.0: new unofficial `export-text` (transcripts only) and `export-date-range` (notes between two dates, audio optional) skills.
+
+### Changed — 2026-10-25
 - `voicenotes` 0.3.0: new unofficial `edit-tags` (add/remove/replace tags on existing notes) and `import-audio` (upload audio to be transcribed as a note) skills, both verified live.
 
 ### Changed — 2026-10-25
