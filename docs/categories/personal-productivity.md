@@ -250,7 +250,7 @@ Report bugs, request features, disclose security to vendors: per-vendor channel 
 
 #### Voicenotes
 
-Voicenotes.com: search, read transcripts, list, add notes; bulk export with audio. Unofficial; early placeholder.
+Voicenotes.com: search, transcripts, create; unofficial tag editing, audio import, bulk export. Not affiliated.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Voicenotes-Plugin)
 
