@@ -605,7 +605,7 @@
       },
       "description": "Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
       "category": "QA & Agent Sessions",
-      "version": "2.8.1",
+      "version": "2.9.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
