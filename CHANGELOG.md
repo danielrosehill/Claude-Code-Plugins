@@ -7,6 +7,10 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Changed — 2026-10-25
+- `israel-agent-skills` 1.1.1: removed `install-companion-plugins` (superseded by `install-israel-plugins`).
+- `israel-post` 0.2.1: `israel-post-appointment` re-verified with a live booking; selectors updated.
+
+### Changed — 2026-10-25
 - `israel-agent-skills` 1.1.0: new `install-israel-plugins` skill; installs the Israel- and Hebrew-specific plugins in this marketplace from a categorised list (data-driven, confirms before installing).
 
 ### Changed — 2026-10-25
