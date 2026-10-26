@@ -2090,9 +2090,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-KDE-Agent-Workspace-Plugin"
       },
-      "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture — without taking over the user's screen — and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+). Or test in a headless sandbox KWin on a private bus, off your screen entirely.",
+      "description": "Give Claude its own KDE Plasma virtual desktop, or a headless sandbox KWin on a private bus: list desktops, create a \"Claude\" or \"AI Agents\" desktop, launch and test GUI or terminal apps there without taking over the user's screen (AT-SPI input, KWin window capture), bind the agent desktop to its own display output. Plasma 6 on Wayland.",
       "category": "Linux Sysadmin",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
