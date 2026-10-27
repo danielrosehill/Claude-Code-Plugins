@@ -4319,7 +4319,7 @@
       },
       "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.",
       "category": "QA & Agent Sessions",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
