@@ -4387,6 +4387,32 @@
         "tags",
         "transcription"
       ]
+    },
+    {
+      "name": "agentic-dev-workflows",
+      "displayName": "Agentic Dev Workflows",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Agentic-Dev-Workflows"
+      },
+      "description": "Agent dev workflows: UI friction fixes, release patterns. Any platform: options-then-build for UI friction, sprint or release-to-test release patterns pinned to CLAUDE.md.",
+      "category": "Repo Scaffolding & Retrofitting",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "development",
+        "workflow",
+        "ui",
+        "ux",
+        "releases",
+        "sprints",
+        "ci"
+      ]
     }
   ]
 }

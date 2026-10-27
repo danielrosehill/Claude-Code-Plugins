@@ -1,9 +1,21 @@
 # Repo Scaffolding & Retrofitting
 
-11 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+12 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
+```
+
+---
+
+#### Agentic Dev Workflows
+
+Agent dev workflows: UI friction fixes, release patterns. Any platform: options-then-build for UI friction, sprint or release-to-test release patterns pinned to CLAUDE.md.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Agentic-Dev-Workflows)
+
+```
+/plugin install agentic-dev-workflows@danielrosehill
 ```
 
 ---

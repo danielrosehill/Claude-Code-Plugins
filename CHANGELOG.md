@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-27
+- `agentic-dev-workflows` 0.1.0: cross-cutting workflows for developing with AI agents — `ui-friction`, `release-pattern` (sprint, release-to-test), `pin-release-pattern`, `complementary-plugins`.
+
 ### Changed — 2026-10-25
 - `voicenotes` 0.4.0: new unofficial `export-text` (transcripts only) and `export-date-range` (notes between two dates, audio optional) skills.
 
