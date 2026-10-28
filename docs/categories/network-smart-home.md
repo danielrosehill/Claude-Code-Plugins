@@ -10,7 +10,7 @@
 
 #### ADB Ops
 
-ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.
+ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin)
 

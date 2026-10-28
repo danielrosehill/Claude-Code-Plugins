@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-28
+- `noise-pollution-analysis` 0.1.0: document home noise nuisance and analyse recordings at the frequency level — `setup-noise-workspace`, `log-noise-sample`, `spectral-analysis` (uv script: spectrum, 1/3 octaves, tonal peaks, harmonic families, periodicity, background excess).
+
 ### Added — 2026-10-27
 - `agentic-dev-workflows` 0.1.0: cross-cutting workflows for developing with AI agents — `ui-friction`, `release-pattern` (sprint, release-to-test), `pin-release-pattern`, `complementary-plugins`.
 

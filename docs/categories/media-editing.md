@@ -1,6 +1,6 @@
 # Media Editing
 
-17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -148,6 +148,18 @@ Generate, transform, and clean up tech diagrams and whiteboard photos via the Na
 
 ```
 /plugin install nano-tech-diagrams@danielrosehill
+```
+
+---
+
+#### Noise Pollution Analysis
+
+Document indoor noise pollution and analyse recordings at the frequency level: hums, tones, low-frequency drone, cycling, with reports per sample.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Noise-Pollution-Analysis)
+
+```
+/plugin install noise-pollution-analysis@danielrosehill
 ```
 
 ---
