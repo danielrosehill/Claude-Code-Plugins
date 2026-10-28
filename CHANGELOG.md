@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-10-29
+- `noise-pollution-analysis` 0.2.0: analysis now drives ffmpeg, sox and aubio (CLI spectrograms, onset and pitch tracking); new `install-analysis-tools` and `isolate-nuisance` (background subtraction with sox) skills.
+
 ### Added — 2026-10-28
 - `noise-pollution-analysis` 0.1.0: document home noise nuisance and analyse recordings at the frequency level — `setup-noise-workspace`, `log-noise-sample`, `spectral-analysis` (uv script: spectrum, 1/3 octaves, tonal peaks, harmonic families, periodicity, background excess).
 

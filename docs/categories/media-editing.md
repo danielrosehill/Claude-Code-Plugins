@@ -154,7 +154,7 @@ Generate, transform, and clean up tech diagrams and whiteboard photos via the Na
 
 #### Noise Pollution Analysis
 
-Document indoor noise pollution and analyse recordings at the frequency level: hums, tones, low-frequency drone, cycling, with reports per sample.
+Document indoor noise pollution and analyse recordings with ffmpeg, sox and aubio: hums, tones, drone, impacts, isolation from background.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Noise-Pollution-Analysis)
 
