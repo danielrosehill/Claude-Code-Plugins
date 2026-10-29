@@ -4441,6 +4441,32 @@
         "sox",
         "spectral-analysis"
       ]
+    },
+    {
+      "name": "rclone-manager",
+      "displayName": "Rclone Manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Rclone-Manager"
+      },
+      "description": "Routine rclone admin: install/update, add/list/edit/delete remotes, add/list/edit/remove mounts as systemd user units, config backup (one-off or automatic to a private git repo on a timer), migrate config between machines with path rewriting, and docs lookup.",
+      "category": "Linux Sysadmin",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "rclone",
+        "cloud-storage",
+        "remotes",
+        "mounts",
+        "systemd",
+        "backup",
+        "linux"
+      ]
     }
   ]
 }
