@@ -8,18 +8,6 @@
 
 ---
 
-#### Claude Dead Drop
-
-Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. For long tasks the sender keeps one living message current (revision: counter) and asks the reader to re-check it on an interval (watch: 30m). No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Dead-Drop)
-
-```
-/plugin install dead-drop@danielrosehill
-```
-
----
-
 #### Claude Hopper
 
 Claude-Hopper — skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.
@@ -64,6 +52,18 @@ Scaffolding, running, documenting, and publishing AI evaluations. Ships skills a
 
 ```
 /plugin install eval-runner@danielrosehill
+```
+
+---
+
+#### Multisession
+
+Hand work to another Claude session, then close this pane. Writes HANDOVER.md to a local or Google Drive agent-to-agent space, pings the peer with the built-in SendMessage, and closes only this session's Konsole pane. Also asynchronous a2a/ mailbox messages between repos, with SessionStart pickup, reminders, living messages and breakout to a new repo.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Multisession)
+
+```
+/plugin install multisession@danielrosehill
 ```
 
 ---

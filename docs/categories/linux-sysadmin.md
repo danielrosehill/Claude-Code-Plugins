@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-28 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+29 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -292,6 +292,18 @@ Manage a Proxmox VE host via SSH and the Proxmox API — guided first-run onboar
 
 ```
 /plugin install proxmox-mgmt@danielrosehill
+```
+
+---
+
+#### Rclone Manager
+
+Routine rclone admin: install/update, add/list/edit/delete remotes, add/list/edit/remove mounts as systemd user units, config backup (one-off or automatic to a private git repo on a timer), migrate config between machines with path rewriting, and docs lookup.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Rclone-Manager)
+
+```
+/plugin install rclone-manager@danielrosehill
 ```
 
 ---

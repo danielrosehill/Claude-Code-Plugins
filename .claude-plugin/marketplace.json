@@ -3377,15 +3377,15 @@
       ]
     },
     {
-      "name": "dead-drop",
-      "displayName": "Claude Dead Drop",
+      "name": "multisession",
+      "displayName": "Multisession",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Dead-Drop"
+        "repo": "danielrosehill/Multisession"
       },
-      "description": "Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. For long tasks the sender keeps one living message current (revision: counter) and asks the reader to re-check it on an interval (watch: 30m). No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.",
+      "description": "Hand work to another Claude session, then close this pane. Writes HANDOVER.md to a local or Google Drive agent-to-agent space, pings the peer with the built-in SendMessage, and closes only this session's Konsole pane. Also asynchronous a2a/ mailbox messages between repos, with SessionStart pickup, reminders, living messages and breakout to a new repo.",
       "category": "QA & Agent Sessions",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

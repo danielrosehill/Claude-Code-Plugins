@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-10-31
+- **`dead-drop` → `multisession` 0.5.0** (repo renamed `Claude-Dead-Drop` → `Multisession`). New skill `handover`: writes `HANDOVER.md` to a local or Google Drive agent-to-agent space, pings the peer with `SendMessage`, and closes only the calling session's Konsole pane (`scripts/close-pane.sh`, clean exit via an optional `~/.bashrc` trap).
+
 ### Changed — 2026-10-29
 - `noise-pollution-analysis` 0.2.0: analysis now drives ffmpeg, sox and aubio (CLI spectrograms, onset and pitch tracking); new `install-analysis-tools` and `isolate-nuisance` (background subtraction with sox) skills.
 
