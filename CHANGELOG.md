@@ -6,7 +6,11 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-10-31
+- **`flow-control` 0.1.0**: stay in flow while the project keeps its structure. `capture` intercepts ideas, bugs and requests mentioned mid-task, triages each (category, priority P0–P3) into the current sprint, next sprint, backlog or ideas in an in-repo `planning/` scaffold, and resumes the task; plus `setup`, `plan-sprint`, `ship-gate`, `next`.
+
 ### Changed — 2026-10-31
+- **`agentic-dev-workflows` 0.6.0**: `sprint-decomposition`, `release-pattern` and `pin-release-pattern` moved to `flow-control` (`capture`, `ship-gate`).
 - **`multisession` 0.6.0**: new skill `fresh-session`, which splits the Konsole pane, launches a new Claude with `--name`/`--session-id`, and hands it the next task over `SendMessage` for a clean context.
 - **`dead-drop` → `multisession` 0.5.0** (repo renamed `Claude-Dead-Drop` → `Multisession`). New skill `handover`: writes `HANDOVER.md` to a local or Google Drive agent-to-agent space, pings the peer with `SendMessage`, and closes only the calling session's Konsole pane (`scripts/close-pane.sh`, clean exit via an optional `~/.bashrc` trap).
 

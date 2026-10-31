@@ -1,6 +1,6 @@
 # Repo Scaffolding & Retrofitting
 
-12 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+13 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -10,7 +10,7 @@
 
 #### Agentic Dev Workflows
 
-Agent dev workflows: UI friction fixes, release patterns. Any platform: options-then-build for UI friction, sprint or release-to-test release patterns pinned to CLAUDE.md.
+Agent dev workflows: voice notes, screenshots, UI review. Any platform: steer work from voice notes, screenshots and screen recordings; review the running UI; resolve UI friction by options-then-build.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Agentic-Dev-Workflows)
 
@@ -52,6 +52,18 @@ Curated batches of third-party Claude Code plugins, grouped by type/theme, insta
 
 ```
 /plugin install favorite-plugins-installers@danielrosehill
+```
+
+---
+
+#### Flow Control
+
+Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, and answers what's next.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Flow-Control)
+
+```
+/plugin install flow-control@danielrosehill
 ```
 
 ---

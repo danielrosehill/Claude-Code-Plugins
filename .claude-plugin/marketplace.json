@@ -4396,9 +4396,9 @@
         "source": "github",
         "repo": "danielrosehill/Agentic-Dev-Workflows"
       },
-      "description": "Agent dev workflows: UI friction fixes, release patterns. Any platform: options-then-build for UI friction, sprint or release-to-test release patterns pinned to CLAUDE.md.",
+      "description": "Agent dev workflows: voice notes, screenshots, UI review. Any platform: steer work from voice notes, screenshots and screen recordings; review the running UI; resolve UI friction by options-then-build.",
       "category": "Repo Scaffolding & Retrofitting",
-      "version": "0.1.0",
+      "version": "0.6.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4410,9 +4410,35 @@
         "workflow",
         "ui",
         "ux",
-        "releases",
+        "voice-notes",
+        "screenshots"
+      ]
+    },
+    {
+      "name": "flow-control",
+      "displayName": "Flow Control",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Flow-Control"
+      },
+      "description": "Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, and answers what's next.",
+      "category": "Repo Scaffolding & Retrofitting",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "project-management",
+        "capture",
+        "triage",
+        "backlog",
         "sprints",
-        "ci"
+        "priorities",
+        "release-gate",
+        "flow"
       ]
     },
     {
