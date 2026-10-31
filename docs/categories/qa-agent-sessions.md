@@ -58,7 +58,7 @@ Scaffolding, running, documenting, and publishing AI evaluations. Ships skills a
 
 #### Multisession
 
-Hand work to another Claude session, then close this pane. Writes HANDOVER.md to a local or Google Drive agent-to-agent space, pings the peer with the built-in SendMessage, and closes only this session's Konsole pane. Also asynchronous a2a/ mailbox messages between repos, with SessionStart pickup, reminders, living messages and breakout to a new repo.
+Start fresh or hand off: split the pane, launch a new named Claude session and give it the next task, or hand work to a running peer. Payload goes to a local or Google Drive agent-to-agent space and is sent with the built-in SendMessage; this session's Konsole pane then closes. Also asynchronous a2a/ mailbox messages between repos.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Multisession)
 

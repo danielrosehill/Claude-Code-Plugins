@@ -7,6 +7,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Changed — 2026-10-31
+- **`multisession` 0.6.0**: new skill `fresh-session`, which splits the Konsole pane, launches a new Claude with `--name`/`--session-id`, and hands it the next task over `SendMessage` for a clean context.
 - **`dead-drop` → `multisession` 0.5.0** (repo renamed `Claude-Dead-Drop` → `Multisession`). New skill `handover`: writes `HANDOVER.md` to a local or Google Drive agent-to-agent space, pings the peer with `SendMessage`, and closes only the calling session's Konsole pane (`scripts/close-pane.sh`, clean exit via an optional `~/.bashrc` trap).
 
 ### Changed — 2026-10-29
