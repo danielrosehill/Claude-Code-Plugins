@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-02 (typst)
+- **`typst-document-generator` 0.6.0** moved here from the private marketplace (repo now public). Built-in Typst formats (personal, public, business, client-confidential, personal-confidential, briefing sheet) plus a new spec-format `screenplay` (Courier 12, industry indents, title page; converts Fountain, text, Word/PDF, `.fdx` or prose). Your identity, logo and own formats live in a private overlay folder (`~/.claude-user-data/typst-document-generator` or `$TYPST_DOCGEN_HOME`) that overrides and extends the built-ins; `render` renders any template, including user-only ones.
+
 ### Added — 2026-11-02
 - **`useful-user-manuals` 0.1.0** (new public repo `Useful-User-Manuals`): turns bloated product manuals into useful ones. `fetch-manual` gets the official PDF with its source and SHA-256; `trim-manual` keeps chosen pages (language per line, OCR, warranty/regulatory hints) behind an attribution cover; `rewrite-manual` rewrites into a clean single-language manual; `how-to-guide` answers one task as a 1–2 page PDF, separating documented, not-documented and inferred content. Every output says it was generated and links the original.
 

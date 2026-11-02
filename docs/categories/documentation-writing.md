@@ -1,6 +1,6 @@
 # Documentation & Writing
 
-17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -184,6 +184,18 @@ Technical documentation — READMEs, reference docs, changelogs, environment doc
 
 ```
 /plugin install technical-docs@danielrosehill
+```
+
+---
+
+#### Typst Document Generator
+
+Typst PDFs: docs, briefings, screenplays + your own private formats. Built-in templates (personal, public, business, client-confidential, briefing sheet, spec screenplay) with a private overlay folder for your identity, logo and custom formats, so you extend it without forking.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/typst-document-generator-plugin)
+
+```
+/plugin install typst-document-generator@danielrosehill
 ```
 
 ---

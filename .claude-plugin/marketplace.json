@@ -4545,6 +4545,30 @@
         "ocr",
         "typst"
       ]
+    },
+    {
+      "name": "typst-document-generator",
+      "displayName": "Typst Document Generator",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/typst-document-generator-plugin"
+      },
+      "description": "Typst PDFs: docs, briefings, screenplays + your own private formats. Built-in templates (personal, public, business, client-confidential, briefing sheet, spec screenplay) with a private overlay folder for your identity, logo and custom formats, so you extend it without forking.",
+      "category": "Documentation & Writing",
+      "version": "0.6.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "typst",
+        "pdf",
+        "templates",
+        "screenplay",
+        "document-generation"
+      ]
     }
   ]
 }
