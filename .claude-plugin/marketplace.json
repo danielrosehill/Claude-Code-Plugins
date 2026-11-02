@@ -3357,15 +3357,15 @@
       ]
     },
     {
-      "name": "book-writing",
-      "displayName": "Book Writing",
+      "name": "long-form-content",
+      "displayName": "Long-Form Content",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Book-Writing-Plugin"
+        "repo": "danielrosehill/Long-Form-Content-Plugin"
       },
-      "description": "Write a full-length reference or instructional book with teams of subagents — definition, planning, research, parallel chapter drafting, review, graphics and publication. Organised so no single agent is ever handed the whole book, because quality degrades long before a context window fills; consistency is carried by a style guide, per-chapter briefs and a continuity ledger instead of by shared context. Authorship only — print geometry hands off to kdp-publishing.",
+      "description": "Produce books, long-form research reports, screenplays and audiobooks with teams of subagents. One pipeline (definition, planning, parallel unit drafting, review), then a production stage per type: print handoff, PDF, Fountain, or spoken script + per-chapter TTS + chaptered m4b. Consistency is carried by a style guide, per-unit briefs and a continuity ledger, and a seam reviewer checks every join between units. Successor to book-writing.",
       "category": "Publishing & CMS",
-      "version": "1.0.0",
+      "version": "2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
