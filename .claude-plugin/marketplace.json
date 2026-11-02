@@ -688,14 +688,14 @@
     },
     {
       "name": "transcription-pipeline",
-      "displayName": "Claude Transcription",
+      "displayName": "Transcription Pipeline",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Transcription-Plugin"
+        "repo": "danielrosehill/Transcription-Pipeline"
       },
-      "description": "Audio transcription — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
+      "description": "Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog), Typst PDF, save. Preferences in a plain file.",
       "category": "Media Editing",
-      "version": "2.2.1",
+      "version": "3.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -705,8 +705,12 @@
       "tags": [
         "transcription",
         "audio",
+        "asr",
+        "assemblyai",
+        "gemini",
+        "openrouter",
         "whisper",
-        "gemini"
+        "diarization"
       ]
     },
     {
