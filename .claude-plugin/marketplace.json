@@ -4521,6 +4521,30 @@
         "profile",
         "close-guard"
       ]
+    },
+    {
+      "name": "useful-user-manuals",
+      "displayName": "Useful User Manuals",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Useful-User-Manuals"
+      },
+      "description": "Product manuals cut to what you need: your language, no warranty boilerplate, or a one-task how-to PDF. Fetches the official PDF, trims pages, rewrites via OCR, and cites the original in every output.",
+      "category": "Documentation & Writing",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "user-manual",
+        "pdf",
+        "how-to",
+        "ocr",
+        "typst"
+      ]
     }
   ]
 }

@@ -190,7 +190,7 @@ Timemark stamp-camera photo import that recovers the field data the app withhold
 
 #### Transcription Pipeline
 
-Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog), Typst PDF, save. Preferences in a plain file.
+Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog, 206 bundled text-transformation prompts), Typst PDF, save. Batch mode runs several files concurrently. Preferences in a plain file.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Transcription-Pipeline)
 

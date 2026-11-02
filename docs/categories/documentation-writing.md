@@ -1,6 +1,6 @@
 # Documentation & Writing
 
-16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -184,6 +184,18 @@ Technical documentation — READMEs, reference docs, changelogs, environment doc
 
 ```
 /plugin install technical-docs@danielrosehill
+```
+
+---
+
+#### Useful User Manuals
+
+Product manuals cut to what you need: your language, no warranty boilerplate, or a one-task how-to PDF. Fetches the official PDF, trims pages, rewrites via OCR, and cites the original in every output.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Useful-User-Manuals)
+
+```
+/plugin install useful-user-manuals@danielrosehill
 ```
 
 ---

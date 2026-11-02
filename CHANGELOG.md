@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-02
+- **`useful-user-manuals` 0.1.0** (new public repo `Useful-User-Manuals`): turns bloated product manuals into useful ones. `fetch-manual` gets the official PDF with its source and SHA-256; `trim-manual` keeps chosen pages (language per line, OCR, warranty/regulatory hints) behind an attribution cover; `rewrite-manual` rewrites into a clean single-language manual; `how-to-guide` answers one task as a 1–2 page PDF, separating documented, not-documented and inferred content. Every output says it was generated and links the original.
+
 ### Added — 2026-10-31
 - **`flow-control` 0.1.0**: stay in flow while the project keeps its structure. `capture` intercepts ideas, bugs and requests mentioned mid-task, triages each (category, priority P0–P3) into the current sprint, next sprint, backlog or ideas in an in-repo `planning/` scaffold, and resumes the task; plus `setup`, `plan-sprint`, `ship-gate`, `next`.
 
