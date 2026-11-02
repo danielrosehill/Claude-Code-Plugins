@@ -1,6 +1,6 @@
 # Media Editing
 
-18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+19 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -112,6 +112,18 @@ Image production — editing, format conversion, batch ops, and filesystem organ
 
 ```
 /plugin install image-production@danielrosehill
+```
+
+---
+
+#### Local TTS
+
+Local text-to-speech: Kokoro, NeuTTS Air, Chatterbox. Installs to fit your hardware (CPU or ROCm/CUDA GPU), one-shot voice cloning with stored embeddings, read-aloud and audio files.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Local-TTS-Plugin)
+
+```
+/plugin install local-tts@danielrosehill
 ```
 
 ---

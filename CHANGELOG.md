@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-02 (local-tts)
+- **`local-tts` 0.1.0** (new, public): local text-to-speech that installs itself to fit the hardware. Kokoro-82M (ONNX, CPU), NeuTTS Air (CPU one-shot cloning, gated HF weights) and Chatterbox Turbo/standard/multilingual/Nano (ROCm/CUDA). Keeps a registry of installed engines and cloned voice embeddings; skills for read-aloud (reply, clipboard, selection) and audio files. Repo: `danielrosehill/Local-TTS-Plugin`.
+
 ### Added — 2026-11-02 (typst)
 - **`typst-document-generator` 0.6.0** moved here from the private marketplace (repo now public). Built-in Typst formats (personal, public, business, client-confidential, personal-confidential, briefing sheet) plus a new spec-format `screenplay` (Courier 12, industry indents, title page; converts Fountain, text, Word/PDF, `.fdx` or prose). Your identity, logo and own formats live in a private overlay folder (`~/.claude-user-data/typst-document-generator` or `$TYPST_DOCGEN_HOME`) that overrides and extends the built-ins; `render` renders any template, including user-only ones.
 

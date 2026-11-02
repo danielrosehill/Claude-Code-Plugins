@@ -4569,6 +4569,31 @@
         "screenplay",
         "document-generation"
       ]
+    },
+    {
+      "name": "local-tts",
+      "displayName": "Local TTS",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Local-TTS-Plugin"
+      },
+      "description": "Local text-to-speech: Kokoro, NeuTTS Air, Chatterbox. Installs to fit your hardware (CPU or ROCm/CUDA GPU), one-shot voice cloning with stored embeddings, read-aloud and audio files.",
+      "category": "Media Editing",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "tts",
+        "text-to-speech",
+        "kokoro",
+        "chatterbox",
+        "voice-cloning",
+        "rocm"
+      ]
     }
   ]
 }
