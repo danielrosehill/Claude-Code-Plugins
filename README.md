@@ -47,7 +47,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |
 | **[Staging](docs/categories/staging.md)** | 4 | `career`, `loose-tasks`, `resource-list-builder`, `smart-home` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `local-web-capture`, `site-skill-builder` |
-| **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `book-writing`, `buttondown-mgmt`, `kdp-publishing` |
+| **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `buttondown-mgmt`, `kdp-publishing`, `long-form-content` |
 
 Full descriptions and per-plugin install commands live on each category page — see the [category index](docs/categories/README.md).
 
