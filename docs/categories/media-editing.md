@@ -68,18 +68,6 @@ Remove image backgrounds via rembg — single-pass, two-pass cleanup, batch mode
 
 ---
 
-#### Claude Transcription
-
-Audio transcription — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Transcription-Plugin)
-
-```
-/plugin install transcription-pipeline@danielrosehill
-```
-
----
-
 #### GIMP
 
 Bare-bones GIMP CLI wrapper for Linux: detect install (native/Flatpak/Snap/AppImage), persist a per-user profile, run Script-Fu batch ops, export images, install/list GIMP-side plugins.
@@ -196,6 +184,18 @@ Timemark stamp-camera photo import that recovers the field data the app withhold
 
 ```
 /plugin install timemark@danielrosehill
+```
+
+---
+
+#### Transcription Pipeline
+
+Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog), Typst PDF, save. Preferences in a plain file.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Transcription-Pipeline)
+
+```
+/plugin install transcription-pipeline@danielrosehill
 ```
 
 ---

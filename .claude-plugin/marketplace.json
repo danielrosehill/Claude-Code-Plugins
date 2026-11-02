@@ -4323,7 +4323,7 @@
       },
       "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.",
       "category": "QA & Agent Sessions",
-      "version": "0.3.1",
+      "version": "0.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4496,6 +4496,30 @@
         "systemd",
         "backup",
         "linux"
+      ]
+    },
+    {
+      "name": "konsole-setup",
+      "displayName": "Konsole Setup",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Konsole-Setup"
+      },
+      "description": "Konsole tuned for many agent sessions: window close asks, tab close doesn't; split layout and a Hack-font profile, applied by script.",
+      "category": "Linux Sysadmin",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "konsole",
+        "kde",
+        "terminal",
+        "profile",
+        "close-guard"
       ]
     }
   ]
