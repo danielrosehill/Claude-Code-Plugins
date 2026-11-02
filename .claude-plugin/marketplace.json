@@ -198,7 +198,7 @@
       },
       "description": "Audio production — normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
       "category": "Media Editing",
-      "version": "1.10.0",
+      "version": "1.11.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
