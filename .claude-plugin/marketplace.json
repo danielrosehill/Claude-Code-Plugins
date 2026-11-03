@@ -4594,6 +4594,32 @@
         "voice-cloning",
         "rocm"
       ]
+    },
+    {
+      "name": "guava-health",
+      "displayName": "Guava Health (unofficial)",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Guava-Health-Plugin"
+      },
+      "description": "Unofficial Guava Health API client: log meds, symptoms and readings, review data, for you and dependents on a family plan. CLI + optional MCP server; DIY NFC tags as a side feature. Not made by Guava.",
+      "category": "Health",
+      "version": "0.3.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "guava",
+        "health",
+        "medication",
+        "fhir",
+        "family",
+        "mcp",
+        "nfc"
+      ]
     }
   ]
 }
