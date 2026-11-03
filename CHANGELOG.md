@@ -7,6 +7,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Changed — 2026-11-03 (network-forensics)
+- **`network-forensics` 0.3.0**: boot-capture analysis (hard-coded IPs vs DNS answers, boot order, DHCP gap) and a full Xiongmai camera worked example.
 - **`network-forensics` 0.2.0**: `lockdown-iot-device` now observes in three windows (idle, live remote view, reboot for DNS names and firmware check), reads DNS from the capture, and inspects payloads for cleartext IDs and media.
 
 ### Added — 2026-11-03 (network-forensics)

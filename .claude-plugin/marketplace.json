@@ -4630,7 +4630,7 @@
       },
       "description": "Trace an IoT device's cloud egress, document it, lock it down: IP cameras, OPNsense, packet capture, whois, block rules, verify.",
       "category": "Privacy & Security",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
