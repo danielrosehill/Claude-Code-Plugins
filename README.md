@@ -22,7 +22,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**192 plugins across 18 categories.** Browse a category below, then install any plugin with:
+**194 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -37,7 +37,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 15 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `custom-model-planning`, `get-toony`, `habits`, … (8 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 13 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (6 more) |
-| **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
+| **[Privacy & Security](docs/categories/privacy-security.md)** | 9 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `network-forensics`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, … (2 more) |
 | **[Regional](docs/categories/regional.md)** | 8 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-email` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
@@ -48,6 +48,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Staging](docs/categories/staging.md)** | 4 | `career`, `loose-tasks`, `resource-list-builder`, `smart-home` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `local-web-capture`, `site-skill-builder` |
 | **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `buttondown-mgmt`, `kdp-publishing`, `long-form-content` |
+| **[Health](docs/categories/health.md)** | 1 | `guava-health` |
 
 Full descriptions and per-plugin install commands live on each category page — see the [category index](docs/categories/README.md).
 

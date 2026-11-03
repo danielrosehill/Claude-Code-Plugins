@@ -1,6 +1,6 @@
 # Privacy & Security
 
-8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+9 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -52,6 +52,18 @@ GPG operations: generate keypairs, export public keys, encrypt, decrypt, sign, a
 
 ```
 /plugin install gpg-ops@danielrosehill
+```
+
+---
+
+#### Network Forensics
+
+Trace an IoT device's cloud egress, document it, lock it down: IP cameras, OPNsense, packet capture, whois, block rules, verify.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Network-Forensics-Plugin)
+
+```
+/plugin install network-forensics@danielrosehill
 ```
 
 ---

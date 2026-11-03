@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-03 (network-forensics)
+- **`network-forensics` 0.1.0** (new, public): `lockdown-iot-device` skill, a forensics-first playbook for keeping an IoT device (IP camera etc.) local-only: probe the hardware, capture and attribute its cloud egress at the firewall (state table, pcap, whois, DNS/SNI), document, block (incl. IPv6, UPnP, hard-coded DNS), kill states, verify. OPNsense API reference included. Repo: `danielrosehill/Network-Forensics-Plugin`.
+
 ### Added — 2026-11-02 (local-tts)
 - **`local-tts` 0.1.0** (new, public): local text-to-speech that installs itself to fit the hardware. Kokoro-82M (ONNX, CPU), NeuTTS Air (CPU one-shot cloning, gated HF weights) and Chatterbox Turbo/standard/multilingual/Nano (ROCm/CUDA). Keeps a registry of installed engines and cloned voice embeddings; skills for read-aloud (reply, clipboard, selection) and audio files. Repo: `danielrosehill/Local-TTS-Plugin`.
 

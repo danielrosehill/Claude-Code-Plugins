@@ -4620,6 +4620,32 @@
         "mcp",
         "nfc"
       ]
+    },
+    {
+      "name": "network-forensics",
+      "displayName": "Network Forensics",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Network-Forensics-Plugin"
+      },
+      "description": "Trace an IoT device's cloud egress, document it, lock it down: IP cameras, OPNsense, packet capture, whois, block rules, verify.",
+      "category": "Privacy & Security",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "network-forensics",
+        "iot",
+        "ip-camera",
+        "egress",
+        "firewall",
+        "opnsense",
+        "packet-capture"
+      ]
     }
   ]
 }
