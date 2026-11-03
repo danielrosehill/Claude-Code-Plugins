@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-03 (network-forensics)
+- **`network-forensics` 0.2.0**: `lockdown-iot-device` now observes in three windows (idle, live remote view, reboot for DNS names and firmware check), reads DNS from the capture, and inspects payloads for cleartext IDs and media.
+
 ### Added — 2026-11-03 (network-forensics)
 - **`network-forensics` 0.1.0** (new, public): `lockdown-iot-device` skill, a forensics-first playbook for keeping an IoT device (IP camera etc.) local-only: probe the hardware, capture and attribute its cloud egress at the firewall (state table, pcap, whois, DNS/SNI), document, block (incl. IPv6, UPnP, hard-coded DNS), kill states, verify. OPNsense API reference included. Repo: `danielrosehill/Network-Forensics-Plugin`.
 
