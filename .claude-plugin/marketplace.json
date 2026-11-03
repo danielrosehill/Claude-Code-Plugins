@@ -4646,6 +4646,30 @@
         "opnsense",
         "packet-capture"
       ]
+    },
+    {
+      "name": "chatgpt-agent-builder",
+      "displayName": "ChatGPT Agent Builder",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/ChatGPT-Workspace-Agents-Claude-Plugin"
+      },
+      "description": "ChatGPT Workspace Agents: build, update, inspect, list and share them by driving chatgpt.com/agents/studio in a browser (there is no API for editing agents). Sets instructions, files, skills (one zip per skill; re-upload duplicates, so remove first) and apps. Browser automation: expect breakage when the UI changes; the mechanics doc is dated so drift is easy to fix.",
+      "category": "AI & Context",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "chatgpt",
+        "workspace-agents",
+        "agent-skills",
+        "browser-automation",
+        "openai"
+      ]
     }
   ]
 }

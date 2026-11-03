@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**194 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**195 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -36,8 +36,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 21 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (14 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 19 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (12 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, … (11 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 16 | `ai-engineering`, `ai-model-research`, `chatgpt-agent-builder`, `chatgpt-importer`, `context-file-tester`, `custom-model-planning`, … (10 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 15 | `ai-engineering`, `ai-model-research`, `chatgpt-importer`, `context-file-tester`, `custom-model-planning`, `get-toony`, `habits`, … (8 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 13 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (6 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 9 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `network-forensics`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, … (2 more) |
 | **[Regional](docs/categories/regional.md)** | 8 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-email` |

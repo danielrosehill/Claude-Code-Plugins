@@ -1,6 +1,6 @@
 # AI & Context
 
-15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Research, discover, compare, and evaluate AI models on OpenRouter — backed by 
 
 ```
 /plugin install ai-model-research@danielrosehill
+```
+
+---
+
+#### ChatGPT Agent Builder
+
+ChatGPT Workspace Agents: build, update, inspect, list and share them by driving chatgpt.com/agents/studio in a browser (there is no API for editing agents). Sets instructions, files, skills (one zip per skill; re-upload duplicates, so remove first) and apps. Browser automation: expect breakage when the UI changes; the mechanics doc is dated so drift is easy to fix.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ChatGPT-Workspace-Agents-Claude-Plugin)
+
+```
+/plugin install chatgpt-agent-builder@danielrosehill
 ```
 
 ---

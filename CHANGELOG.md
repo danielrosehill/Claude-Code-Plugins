@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-03 (chatgpt-agent-builder)
+- **`chatgpt-agent-builder` 1.0.0** (new, public): build and manage ChatGPT Workspace Agents (Business/Enterprise/Edu) by driving the agent builder in a browser, since no API exists for editing them. Skills: create-agent, update-agent, inspect-agent, list-agents, share-agent; dated builder-mechanics reference (incl. skills: one per zip, re-upload duplicates) and snippet scripts. Repo: `danielrosehill/ChatGPT-Workspace-Agents-Claude-Plugin`.
+
 ### Changed — 2026-11-03 (network-forensics)
 - **`network-forensics` 0.3.0**: boot-capture analysis (hard-coded IPs vs DNS answers, boot order, DHCP gap) and a full Xiongmai camera worked example.
 - **`network-forensics` 0.2.0**: `lockdown-iot-device` now observes in three windows (idle, live remote view, reboot for DNS names and firmware check), reads DNS from the capture, and inspects payloads for cleartext IDs and media.
