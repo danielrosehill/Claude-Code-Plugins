@@ -142,7 +142,7 @@ Media library — catalog, tag, search, sort, dedupe assets.
 
 #### Tech-Comms-Diagrams
 
-Tech diagrams for blogs and docs: Mermaid, text-to-image and whiteboard-to-diagram on fal or Replicate, with label and arrow checks.
+Tech diagrams for blogs and docs: Mermaid, text-to-image and image-to-image on fal, Replicate, ComfyUI or your own route, with label and arrow checks.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Tech-Comms-Diagrams)
 

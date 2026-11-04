@@ -7,6 +7,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Changed — 2026-11-04 (tech-comms-diagrams)
+- **`tech-comms-diagrams` 2.1.0**: ComfyUI and custom command backends, image staging, `setup-backend`, and one `image-to-image` skill. User settings live outside the plugin.
 - **`tech-comms-diagrams` 2.0.0** (renamed from `nano-tech-diagrams`): Mermaid, direct fal and Replicate generation, sketch transcription and label and arrow verification. The MCP server is no longer needed.
 
 ### Added — 2026-11-03 (chatgpt-agent-builder)
