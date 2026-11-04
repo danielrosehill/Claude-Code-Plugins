@@ -3639,15 +3639,15 @@
       "license": "MIT"
     },
     {
-      "name": "eval-runner",
-      "displayName": "Eval Runner",
+      "name": "ai-eval",
+      "displayName": "AI Eval",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Eval-Runner-Plugin"
+        "repo": "danielrosehill/AI-Eval"
       },
-      "description": "Scaffolding, running, documenting, and publishing AI evaluations. Ships skills and commands for setting up eval workspaces, creating custom evals (or adapting existing frameworks/benchmarks), running them, and publishing evals or datasets. Bundles a curated ground-truth list of open-source eval tools and benchmarks as a reference data source.",
+      "description": "Evaluate AI models for a real job: define the objective and the workload's requirements, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Also authors standalone evals (one repo plus Hugging Face datasets), runs third-party frameworks, and takes results through to findings and articles.",
       "category": "QA & Agent Sessions",
-      "version": "0.1.0",
+      "version": "0.7.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
