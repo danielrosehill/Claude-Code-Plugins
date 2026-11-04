@@ -3922,9 +3922,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Custom-Model-Planning-Plugin"
       },
-      "description": "Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.",
+      "description": "Plan small custom models and fine-tunes, then save training recipes privately and run them on Modal, RunPod or local Unsloth.",
       "category": "AI & Context",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
