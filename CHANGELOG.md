@@ -9,6 +9,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ### Changed — 2026-11-04 (rtl-skills)
 - **`rtl-skills` 1.0.0** (new listing, repo renamed from RTL-Conformity-Skills): one plugin for right-to-left output. Replaces `rtl-email` and `hebrew-correspondence`, and adds general Typst documents and HTML newsletters. User data moves to a private overlay.
 
+### Changed — 2026-11-04 (batch-inference)
+- **`batch-inference` 1.3.0**: local inference through `local_batch.py` (Ollama, llama.cpp, vLLM, LM Studio), and `onboarding`, which records your backends and your guide to when each is used.
+
 ### Added — 2026-11-04 (batch-inference)
 - **`batch-inference` 1.2.0** (new, public; briefly listed as `llm-ops`): bulk LLM jobs across batch and sync routes. Lists OpenRouter's batch models and sync instruct candidates, compares batch vs sync cost on the day, live-probes shortlists, runs Anthropic and OpenRouter batches or resumable parallel sync calls with a spend cap, and sets up job evals through `ai-eval`.
 

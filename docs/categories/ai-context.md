@@ -34,7 +34,7 @@ Research, discover, compare, and evaluate AI models on OpenRouter — backed by 
 
 #### Batch Inference
 
-Batch inference: batch vs sync cost, OpenRouter model lists, model evals, and batch and parallel sync runners with real cost tracking and spend caps.
+Batch inference, cloud or local: Ollama and vLLM backends, batch vs sync cost, OpenRouter model lists, model evals, and runners with spend caps.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Batch-Inference)
 
