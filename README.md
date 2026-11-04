@@ -32,7 +32,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 | Category | Plugins | Contents |
 | --- | ---: | --- |
-| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 30 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `docker-manager`, … (23 more) |
+| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 30 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `device-sync`, … (23 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 21 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (14 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 19 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (12 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `digital-printing`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, … (11 more) |

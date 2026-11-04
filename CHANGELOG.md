@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-04 (device-sync)
+- **`device-sync` 0.2.0** (replaces `os-sync-agent`, repo renamed from Claude-OS-Sync-Agent): adds a git-backed task queue between computers (`setup`, `make-note`, `read-queue`, `view-queue`), with a private queue repo per user. The SSH comparison stays as `compare-machines` and now queues its results. `/sync-os` is gone.
+
 ### Changed — 2026-11-04 (rtl-skills)
 - **`rtl-skills` 1.0.0** (new listing, repo renamed from RTL-Conformity-Skills): one plugin for right-to-left output. Replaces `rtl-email` and `hebrew-correspondence`, and adds general Typst documents and HTML newsletters. User data moves to a private overlay.
 

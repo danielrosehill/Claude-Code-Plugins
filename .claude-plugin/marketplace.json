@@ -2237,15 +2237,15 @@
       ]
     },
     {
-      "name": "os-sync-agent",
-      "displayName": "OS Sync Agent",
+      "name": "device-sync",
+      "displayName": "Device Sync",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-OS-Sync-Agent"
+        "repo": "danielrosehill/Device-Sync"
       },
-      "description": "Hardware-aware desktop-to-laptop environment sync for Ubuntu/Debian. Snapshots packages (apt/snap/flatpak/pip/conda/ollama) and dotfiles from a base machine and a remote machine over SSH, then produces an incremental install/remove/sync plan rather than a perfect clone. Ships /sync-os command and sync-environments skill.",
+      "description": "Keep your computers in step. A git-backed task queue carries installs from one machine to the other, and an SSH comparison finds what has drifted. Successor to os-sync-agent.",
       "category": "Linux Sysadmin",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2254,11 +2254,11 @@
       "license": "MIT",
       "tags": [
         "linux",
-        "sysadmin",
         "sync",
-        "ssh",
-        "ubuntu",
-        "debian"
+        "devices",
+        "queue",
+        "packages",
+        "dotfiles"
       ]
     },
     {

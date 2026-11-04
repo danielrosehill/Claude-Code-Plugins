@@ -80,6 +80,18 @@ Linux desktop management — auto-profiles the local machine on first run and pe
 
 ---
 
+#### Device Sync
+
+Keep your computers in step. A git-backed task queue carries installs from one machine to the other, and an SSH comparison finds what has drifted. Successor to os-sync-agent.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Device-Sync)
+
+```
+/plugin install device-sync@danielrosehill
+```
+
+---
+
 #### Docker Manager
 
 Slash commands and subagents for managing Docker containers, Compose stacks, volumes, networks, and multi-environment deployments.
@@ -268,18 +280,6 @@ Manage an OPNsense router/firewall via SSH and the OPNsense API — guided first
 
 ```
 /plugin install opnsense-mgmt@danielrosehill
-```
-
----
-
-#### OS Sync Agent
-
-Hardware-aware desktop-to-laptop environment sync for Ubuntu/Debian. Snapshots packages (apt/snap/flatpak/pip/conda/ollama) and dotfiles from a base machine and a remote machine over SSH, then produces an incremental install/remove/sync plan rather than a perfect clone. Ships /sync-os command and sync-environments skill.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-OS-Sync-Agent)
-
-```
-/plugin install os-sync-agent@danielrosehill
 ```
 
 ---

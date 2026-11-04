@@ -94,7 +94,7 @@ Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only
 
 #### Custom Model Planning
 
-Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.
+Plan small custom models and fine-tunes, then save training recipes privately and run them on Modal, RunPod or local Unsloth.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Custom-Model-Planning-Plugin)
 
