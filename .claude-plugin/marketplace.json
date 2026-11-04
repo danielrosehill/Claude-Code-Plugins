@@ -20,7 +20,7 @@
       },
       "description": "Start here: browse these plugins by theme, find one for a task, see what's new. Reads the live manifest.",
       "category": "AI & Context",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -221,7 +221,7 @@
       },
       "description": "Image production — editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
       "category": "Media Editing",
-      "version": "2.3.2",
+      "version": "2.3.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -722,7 +722,7 @@
       },
       "description": "Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.",
       "category": "Documentation & Writing",
-      "version": "1.1.0",
+      "version": "1.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1786,7 +1786,7 @@
       },
       "description": "Evaluate, refine, and develop business ideas through structured lenses — VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact — plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
       "category": "Personal Productivity",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4556,7 +4556,7 @@
       },
       "description": "Typst PDFs: docs, briefings, screenplays + your own private formats. Built-in templates (personal, public, business, client-confidential, briefing sheet, spec screenplay) with a private overlay folder for your identity, logo and custom formats, so you extend it without forking.",
       "category": "Documentation & Writing",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
