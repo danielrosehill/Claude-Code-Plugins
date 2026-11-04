@@ -140,14 +140,14 @@ Media library — catalog, tag, search, sort, dedupe assets.
 
 ---
 
-#### Nano-Tech-Diagrams
+#### Tech-Comms-Diagrams
 
-Generate, transform, and clean up tech diagrams and whiteboard photos via the Nano Banana 2 model (Fal AI). Wraps the nano-tech-diagrams MCP server with a curated prompt library across 5 diagram families and 28+ visual styles.
+Tech diagrams for blogs and docs: Mermaid, text-to-image and whiteboard-to-diagram on fal or Replicate, with label and arrow checks.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Nano-Tech-Diagrams-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Tech-Comms-Diagrams)
 
 ```
-/plugin install nano-tech-diagrams@danielrosehill
+/plugin install tech-comms-diagrams@danielrosehill
 ```
 
 ---

@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-04 (tech-comms-diagrams)
+- **`tech-comms-diagrams` 2.0.0** (renamed from `nano-tech-diagrams`): Mermaid, direct fal and Replicate generation, sketch transcription and label and arrow verification. The MCP server is no longer needed.
+
 ### Added — 2026-11-03 (chatgpt-agent-builder)
 - **`chatgpt-agent-builder` 1.0.0** (new, public): build and manage ChatGPT Workspace Agents (Business/Enterprise/Edu) by driving the agent builder in a browser, since no API exists for editing them. Skills: create-agent, update-agent, inspect-agent, list-agents, share-agent; dated builder-mechanics reference (incl. skills: one per zip, re-upload duplicates) and snippet scripts. Repo: `danielrosehill/ChatGPT-Workspace-Agents-Claude-Plugin`.
 
