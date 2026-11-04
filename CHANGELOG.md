@@ -7,6 +7,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Changed — 2026-11-04 (device-sync)
+- **`device-sync` 0.3.0**: `add-shortcut` skill for a shell shortcut to the queue repo, and `reserve`, so notes can wait for a machine that has not been set up yet.
+
+### Changed — 2026-11-04 (device-sync)
 - **`device-sync` 0.2.0** (replaces `os-sync-agent`, repo renamed from Claude-OS-Sync-Agent): adds a git-backed task queue between computers (`setup`, `make-note`, `read-queue`, `view-queue`), with a private queue repo per user. The SSH comparison stays as `compare-machines` and now queues its results. `/sync-os` is gone.
 
 ### Changed — 2026-11-04 (rtl-skills)
