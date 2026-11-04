@@ -1,6 +1,6 @@
 # AI & Context
 
-16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,6 +124,18 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 
 ```
 /plugin install llm-council-creator@danielrosehill
+```
+
+---
+
+#### LLM Ops
+
+Bulk LLM jobs: batch vs sync cost, OpenRouter model lists, screening, and batch and parallel sync runners with real cost tracking and spend caps.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/LLM-Ops-Plugin)
+
+```
+/plugin install llm-ops@danielrosehill
 ```
 
 ---

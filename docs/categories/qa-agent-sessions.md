@@ -8,6 +8,18 @@
 
 ---
 
+#### AI Eval
+
+Evaluate AI models for a real job, starting from start-eval: define the objective and workload, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Covers in-repo and agent-run eval spaces, framework CLIs, image, RAG, agent, speech and regression evals, private annotation and human feedback Spaces, and findings through to articles.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/AI-Eval)
+
+```
+/plugin install ai-eval@danielrosehill
+```
+
+---
+
 #### Claude Hopper
 
 Claude-Hopper — skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.
@@ -40,18 +52,6 @@ Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-ga
 
 ```
 /plugin install rudder@danielrosehill
-```
-
----
-
-#### Eval Runner
-
-Scaffolding, running, documenting, and publishing AI evaluations. Ships skills and commands for setting up eval workspaces, creating custom evals (or adapting existing frameworks/benchmarks), running them, and publishing evals or datasets. Bundles a curated ground-truth list of open-source eval tools and benchmarks as a reference data source.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Eval-Runner-Plugin)
-
-```
-/plugin install eval-runner@danielrosehill
 ```
 
 ---

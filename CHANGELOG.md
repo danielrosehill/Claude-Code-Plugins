@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-04 (llm-ops)
+- **`llm-ops` 1.1.0** (new, public): bulk LLM jobs across batch and sync routes. Lists OpenRouter's batch models and sync instruct candidates, compares batch vs sync cost on the day, live-probes shortlists, and runs Anthropic and OpenRouter batches or resumable parallel sync calls with a spend cap.
+
 ### Changed — 2026-11-04 (tech-comms-diagrams)
 - **`tech-comms-diagrams` 2.1.0**: ComfyUI and custom command backends, image staging, `setup-backend`, and one `image-to-image` skill. User settings live outside the plugin.
 - **`tech-comms-diagrams` 2.0.0** (renamed from `nano-tech-diagrams`): Mermaid, direct fal and Replicate generation, sketch transcription and label and arrow verification. The MCP server is no longer needed.

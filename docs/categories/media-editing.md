@@ -140,18 +140,6 @@ Media library — catalog, tag, search, sort, dedupe assets.
 
 ---
 
-#### Tech-Comms-Diagrams
-
-Tech diagrams for blogs and docs: Mermaid, text-to-image and image-to-image on fal, Replicate, ComfyUI or your own route, with label and arrow checks.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Tech-Comms-Diagrams)
-
-```
-/plugin install tech-comms-diagrams@danielrosehill
-```
-
----
-
 #### Noise Pollution Analysis
 
 Document indoor noise pollution and analyse recordings with ffmpeg, sox and aubio: hums, tones, drone, impacts, isolation from background.
@@ -172,6 +160,18 @@ Manage OBS Studio on Linux from Claude Code: detect install type (native/Flatpak
 
 ```
 /plugin install obs-mgmt@danielrosehill
+```
+
+---
+
+#### Tech-Comms-Diagrams
+
+Tech diagrams for blogs and docs: Mermaid, text-to-image and image-to-image on fal, Replicate, ComfyUI or your own route, with label and arrow checks.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Tech-Comms-Diagrams)
+
+```
+/plugin install tech-comms-diagrams@danielrosehill
 ```
 
 ---
