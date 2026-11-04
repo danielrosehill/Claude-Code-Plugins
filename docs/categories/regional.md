@@ -22,7 +22,7 @@ Stock counts, aisle/bin and prices across IKEA Israel's 5 branches.
 
 #### Israel Agent Skills
 
-Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the hebrew-correspondence plugin.
+Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the rtl-skills plugin.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin)
 
