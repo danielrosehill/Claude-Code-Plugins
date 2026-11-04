@@ -32,6 +32,18 @@ Research, discover, compare, and evaluate AI models on OpenRouter — backed by 
 
 ---
 
+#### Batch Inference
+
+Batch inference: batch vs sync cost, OpenRouter model lists, model evals, and batch and parallel sync runners with real cost tracking and spend caps.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Batch-Inference)
+
+```
+/plugin install batch-inference@danielrosehill
+```
+
+---
+
 #### ChatGPT Agent Builder
 
 ChatGPT Workspace Agents: build, update, inspect, list and share them by driving chatgpt.com/agents/studio in a browser (there is no API for editing agents). Sets instructions, files, skills (one zip per skill; re-upload duplicates, so remove first) and apps. Browser automation: expect breakage when the UI changes; the mechanics doc is dated so drift is easy to fix.
@@ -124,18 +136,6 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 
 ```
 /plugin install llm-council-creator@danielrosehill
-```
-
----
-
-#### LLM Ops
-
-Bulk LLM jobs: batch vs sync cost, OpenRouter model lists, screening, and batch and parallel sync runners with real cost tracking and spend caps.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/LLM-Ops-Plugin)
-
-```
-/plugin install llm-ops@danielrosehill
 ```
 
 ---
