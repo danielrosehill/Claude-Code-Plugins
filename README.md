@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**196 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**195 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -40,9 +40,9 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 13 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (6 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 9 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `network-forensics`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, … (2 more) |
-| **[Regional](docs/categories/regional.md)** | 8 | `hebrew-correspondence`, `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-email` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
+| **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 6 | `adb-ops`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 6 | `ai-eval`, `multisession`, `passive-aggressive-pa`, `rudder`, `session-hopper`, `session-restore` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 4 | `gist-writer`, `github-explorer`, `github-research`, `start-here` |

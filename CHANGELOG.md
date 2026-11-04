@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-04 (rtl-skills)
+- **`rtl-skills` 1.0.0** (new listing, repo renamed from RTL-Conformity-Skills): one plugin for right-to-left output. Replaces `rtl-email` and `hebrew-correspondence`, and adds general Typst documents and HTML newsletters. User data moves to a private overlay.
+
 ### Added — 2026-11-04 (llm-ops)
 - **`llm-ops` 1.1.0** (new, public): bulk LLM jobs across batch and sync routes. Lists OpenRouter's batch models and sync instruct candidates, compares batch vs sync cost on the day, live-probes shortlists, and runs Anthropic and OpenRouter batches or resumable parallel sync calls with a spend cap.
 

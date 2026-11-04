@@ -1,21 +1,9 @@
 # Regional
 
-8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
-```
-
----
-
-#### Hebrew Correspondence
-
-One home for correspondence in Hebrew — send RTL email that renders correctly in every client, typeset formal letters to PDF with David Libre via Typst, turn incoming .eml threads into readable PDFs, and verify a render before it goes out.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Hebrew-Correspondence-Plugin)
-
-```
-/plugin install hebrew-correspondence@danielrosehill
 ```
 
 ---
@@ -92,14 +80,14 @@ Cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile
 
 ---
 
-#### RTL Email
+#### RTL Skills
 
-Send email in right-to-left scripts (Hebrew, Arabic, Farsi, Urdu) that actually renders RTL. Plain-text email carries no direction metadata, so RTL bodies render LTR in many clients and multi-part numbers like account references reorder. Ships dir=rtl HTML templates, separate personal and business send skills inheriting saved signature profiles, and one-time signature setup. Works with Google Workspace MCP or Resend.
+Everything right-to-left in one plugin: Hebrew, Arabic, Farsi and Urdu email, Typst PDFs and formal Hebrew letters, HTML marketing newsletters, Google Docs and Sheets, calendar events, Word and Excel files, and render checks. Your signatures, brands and house styles stay in a private user-data folder.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-RTL-Email)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/RTL-Skills)
 
 ```
-/plugin install rtl-email@danielrosehill
+/plugin install rtl-skills@danielrosehill
 ```
 
 ---
