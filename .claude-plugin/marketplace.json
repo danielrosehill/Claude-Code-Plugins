@@ -4609,7 +4609,7 @@
       },
       "description": "Turn a workflow into a reusable skill, or improve an existing one with what you just learned, and publish it.",
       "category": "AI & Context",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
