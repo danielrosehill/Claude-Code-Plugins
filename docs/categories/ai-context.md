@@ -1,6 +1,6 @@
 # AI & Context
 
-18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -76,18 +76,6 @@ Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/com
 
 ```
 /plugin install user-memory@danielrosehill
-```
-
----
-
-#### CLAUDE.md Tester
-
-Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only restore that does not depend on the Claude harness, so a hostile test config can never trap you.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-MD-Tester)
-
-```
-/plugin install context-file-tester@danielrosehill
 ```
 
 ---

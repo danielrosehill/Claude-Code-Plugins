@@ -1,6 +1,6 @@
 # Research & Learning
 
-16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -34,7 +34,7 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 
 #### Jewish Texts Reference
 
-Look up Jewish texts and references via the Sefaria MCP server — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).
+Look up Jewish texts and references through Sefaria's public REST API (no key, no MCP) — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Jewish-Texts-Reference-Plugin)
 
@@ -46,7 +46,7 @@ Look up Jewish texts and references via the Sefaria MCP server — Tanakh, Talmu
 
 #### Jewish Utilities
 
-Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR"A + MG"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Wraps zmanim-mcp-server and hebcal MCP. Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.
+Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR"A + MG"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Calls the public Hebcal REST API (no key, no MCP). Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Jewish-Utilities-Plugin)
 
@@ -172,18 +172,6 @@ Uses a real code repository in reverse for developer education: assesses the lea
 
 ```
 /plugin install teach-this-repo@danielrosehill
-```
-
----
-
-#### Tech Research
-
-Technology research — competitive analysis, technical documentation retrieval and research workflows.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/tech-research-plugin)
-
-```
-/plugin install tech-research@danielrosehill
 ```
 
 ---

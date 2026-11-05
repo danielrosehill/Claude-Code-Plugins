@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**193 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**185 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -32,24 +32,24 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 | Category | Plugins | Contents |
 | --- | ---: | --- |
-| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 29 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `device-sync`, … (22 more) |
+| **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 25 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `device-sync`, `docker-manager`, … (18 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 21 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (14 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 19 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (12 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 18 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `context-file-tester`, … (12 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `digital-printing`, `document-nudge`, `document-to-markdown`, … (11 more) |
-| **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 17 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `custom-model-planning`, `get-toony`, … (10 more) |
+| **[Research & Learning](docs/categories/research-learning.md)** | 15 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 13 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (6 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 9 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `network-forensics`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, … (2 more) |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 6 | `adb-ops`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
-| **[Git & GitHub](docs/categories/git-github.md)** | 4 | `gist-writer`, `github-explorer`, `github-research`, `start-here` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 4 | `ai-eval`, `multisession`, `passive-aggressive-pa`, `rudder` |
-| **[Staging](docs/categories/staging.md)** | 4 | `career`, `loose-tasks`, `resource-list-builder`, `smart-home` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `local-web-capture`, `site-skill-builder` |
+| **[Git & GitHub](docs/categories/git-github.md)** | 3 | `gist-writer`, `github-explorer`, `start-here` |
 | **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `buttondown-mgmt`, `kdp-publishing`, `long-form-content` |
+| **[Staging](docs/categories/staging.md)** | 3 | `career`, `resource-list-builder`, `smart-home` |
 | **[Health](docs/categories/health.md)** | 1 | `guava-health` |
 
 Full descriptions and per-plugin install commands live on each category page — see the [category index](docs/categories/README.md).

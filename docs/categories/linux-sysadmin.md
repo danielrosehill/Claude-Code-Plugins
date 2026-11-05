@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-29 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+25 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -68,18 +68,6 @@ Debugging — capture logs, isolate issue, diagnose error, track bugs, with code
 
 ---
 
-#### Desktop Manager
-
-Linux desktop management — auto-profiles the local machine on first run and persists it to user data, then runs system checks, package install/remove, config application, hardware troubleshooting, service/log inspection against that profile.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Desktop-Manager-Plugin)
-
-```
-/plugin install desktop-manager@danielrosehill
-```
-
----
-
 #### Device Sync
 
 Keep your computers in step. A git-backed task queue carries installs from one machine to the other, and an SSH comparison finds what has drifted. Successor to os-sync-agent.
@@ -112,18 +100,6 @@ Manage Easy Effects on Linux: maintain a preset library, install/export presets,
 
 ```
 /plugin install easy-effects-manager@danielrosehill
-```
-
----
-
-#### Filesystem Organisation
-
-File system organisation — folder structure optimisation and file management automation.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/filesystem-org-plugin)
-
-```
-/plugin install filesystem-organisation@danielrosehill
 ```
 
 ---
@@ -172,30 +148,6 @@ KDE Plasma (Wayland) runtime utilities — KWin scripting, plasmoid management, 
 
 ```
 /plugin install kde-plasma@danielrosehill
-```
-
----
-
-#### KDE Plasmoid Dev
-
-Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) — scaffold, debug, package, install, and migrate Plasma 5 → 6.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin)
-
-```
-/plugin install kde-plasmoid-dev@danielrosehill
-```
-
----
-
-#### Keyboard Scanner
-
-Profile Linux keyboards, scan keycodes, and surface underused keys for remapping. Walks intake → keycode dump (xmodmap/XKB/evdev/libinput, X11 + Wayland) → tailored remap suggestions referencing keyd, kmonad, xremap, xmodmap, xbindkeys, input-remapper, autokey.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Keyboard-Scanner)
-
-```
-/plugin install keyboard-scanner@danielrosehill
 ```
 
 ---
