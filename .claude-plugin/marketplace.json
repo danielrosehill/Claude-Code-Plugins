@@ -4607,9 +4607,9 @@
         "source": "github",
         "repo": "danielrosehill/Skill-This"
       },
-      "description": "Skill-This: stub plugin, scope to be defined.",
-      "category": "Staging",
-      "version": "0.1.0",
+      "description": "Turn the workflow just completed into a reusable skill: checks your catalogue, picks the plugin, builds and publishes it.",
+      "category": "AI & Context",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4617,7 +4617,10 @@
       },
       "license": "MIT",
       "tags": [
-        "skills"
+        "skills",
+        "plugins",
+        "workflow-capture",
+        "authoring"
       ]
     }
   ]

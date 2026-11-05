@@ -35,8 +35,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 29 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `desktop-manager`, `device-sync`, … (22 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 21 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `contact-support`, `daniel-rosehill`, … (14 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 19 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (12 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 18 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `context-file-tester`, … (12 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `digital-printing`, `document-nudge`, `document-to-markdown`, … (11 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 17 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `context-file-tester`, … (11 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 13 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (6 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 9 | `anonymisation-assistant`, `digital-evidence`, `gpg-ops`, `network-forensics`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, … (2 more) |
@@ -44,10 +44,10 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 6 | `adb-ops`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
-| **[Staging](docs/categories/staging.md)** | 5 | `career`, `loose-tasks`, `resource-list-builder`, `skill-this`, `smart-home` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 4 | `gist-writer`, `github-explorer`, `github-research`, `start-here` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 4 | `ai-eval`, `multisession`, `passive-aggressive-pa`, `rudder` |
+| **[Staging](docs/categories/staging.md)** | 4 | `career`, `loose-tasks`, `resource-list-builder`, `smart-home` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `local-web-capture`, `site-skill-builder` |
 | **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `buttondown-mgmt`, `kdp-publishing`, `long-form-content` |
 | **[Health](docs/categories/health.md)** | 1 | `guava-health` |
