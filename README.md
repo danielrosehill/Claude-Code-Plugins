@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**192 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**193 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -44,10 +44,10 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 6 | `adb-ops`, `home-assistant-mgmt`, `media-assistant-ops`, `mqtt-observability`, `network-cups`, `zigbee-home-maintenance` |
+| **[Staging](docs/categories/staging.md)** | 5 | `career`, `loose-tasks`, `resource-list-builder`, `skill-this`, `smart-home` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 4 | `gist-writer`, `github-explorer`, `github-research`, `start-here` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 4 | `ai-eval`, `multisession`, `passive-aggressive-pa`, `rudder` |
-| **[Staging](docs/categories/staging.md)** | 4 | `career`, `loose-tasks`, `resource-list-builder`, `smart-home` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `local-web-capture`, `site-skill-builder` |
 | **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `buttondown-mgmt`, `kdp-publishing`, `long-form-content` |
 | **[Health](docs/categories/health.md)** | 1 | `guava-health` |

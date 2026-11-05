@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-05 (skill-this)
+- **`skill-this` 0.1.0**: stub plugin, scope to follow.
+
 ### Changed — 2026-11-05 (multisession consolidation)
 - **`multisession` 0.12.0**: absorbs `session-hopper`, `session-restore` and `konsole-setup`, and adds phone and desktop notifications and remote machines. New skills: `restore`, `guard`, `setup`, `notify`, `remote`.
 

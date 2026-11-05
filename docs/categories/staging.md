@@ -1,6 +1,6 @@
 # Staging
 
-4 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -40,6 +40,18 @@ Build, maintain, and audit curated GitHub resource lists (Awesome-style indexes)
 
 ```
 /plugin install resource-list-builder@danielrosehill
+```
+
+---
+
+#### Skill-This
+
+Skill-This: stub plugin, scope to be defined.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Skill-This)
+
+```
+/plugin install skill-this@danielrosehill
 ```
 
 ---
