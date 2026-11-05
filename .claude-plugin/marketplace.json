@@ -4607,9 +4607,9 @@
         "source": "github",
         "repo": "danielrosehill/Skill-This"
       },
-      "description": "Turn the workflow just completed into a reusable skill: checks your catalogue, picks the plugin, builds and publishes it.",
+      "description": "Turn a workflow into a reusable skill, or improve an existing one with what you just learned, and publish it.",
       "category": "AI & Context",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

@@ -7,7 +7,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 ## Unreleased
 
 ### Added — 2026-11-05 (skill-this)
-- **`skill-this` 0.4.0**: turns the workflow just completed into a reusable skill. Skills: `skill-this`, `setup`. Absorbs `extract-skill`, removed from `rudder` 2.9.2. Built for Canopy: `canopy run` and `canopy stage`.
+- **`skill-this` 0.5.0**: turns the workflow just completed into a reusable skill, or updates an existing one. Skills: `skill-this`, `improve-skill`, `setup`. Absorbs `extract-skill`, removed from `rudder` 2.9.2. Built for Canopy: `canopy run` and `canopy stage`.
 
 ### Changed — 2026-11-05 (multisession consolidation)
 - **`multisession` 0.12.0**: absorbs `session-hopper`, `session-restore` and `konsole-setup`, and adds phone and desktop notifications and remote machines. New skills: `restore`, `guard`, `setup`, `notify`, `remote`.

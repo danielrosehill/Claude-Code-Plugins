@@ -178,7 +178,7 @@ Builds and maintains a persistent, portable background context layer about the u
 
 #### Skill-This
 
-Turn the workflow just completed into a reusable skill: checks your catalogue, picks the plugin, builds and publishes it.
+Turn a workflow into a reusable skill, or improve an existing one with what you just learned, and publish it.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Skill-This)
 
