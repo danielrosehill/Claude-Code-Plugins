@@ -620,30 +620,6 @@
       ]
     },
     {
-      "name": "session-hopper",
-      "displayName": "Claude Hopper",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Hopper"
-      },
-      "description": "Claude-Hopper — skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.",
-      "category": "QA & Agent Sessions",
-      "version": "1.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "claude-code",
-        "session-handover",
-        "terminal",
-        "linux",
-        "ux"
-      ]
-    },
-    {
       "name": "user-memory",
       "displayName": "Claude User Memory",
       "source": {
@@ -3394,9 +3370,9 @@
         "source": "github",
         "repo": "danielrosehill/Multisession"
       },
-      "description": "Start fresh or hand off: split the pane, launch a new named Claude session and give it the next task, or hand work to a running peer. Payload goes to a local or Google Drive agent-to-agent space and is sent with the built-in SendMessage; this session's Konsole pane then closes. Also asynchronous a2a/ mailbox messages between repos.",
+      "description": "Run many Claude sessions: handover, layouts, crash restore, notify and remote machines. Start sessions, hand work over with a confirmed receipt, tile Konsole, restore after a crash, guard against losing windows, reach the user by desktop or phone, and work on other machines.",
       "category": "QA & Agent Sessions",
-      "version": "0.6.0",
+      "version": "0.12.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4294,33 +4270,6 @@
       ]
     },
     {
-      "name": "session-restore",
-      "displayName": "Session Restore",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Session-Restore"
-      },
-      "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.",
-      "category": "QA & Agent Sessions",
-      "version": "0.5.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "session",
-        "restore",
-        "resume",
-        "crash-recovery",
-        "konsole",
-        "kde",
-        "terminal",
-        "prevention"
-      ]
-    },
-    {
       "name": "israel-post",
       "displayName": "Israel Post",
       "source": {
@@ -4475,30 +4424,6 @@
         "systemd",
         "backup",
         "linux"
-      ]
-    },
-    {
-      "name": "konsole-setup",
-      "displayName": "Konsole Setup",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Konsole-Setup"
-      },
-      "description": "Konsole tuned for many agent sessions: window close asks, tab close doesn't; split layout and a Hack-font profile, applied by script.",
-      "category": "Linux Sysadmin",
-      "version": "0.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "konsole",
-        "kde",
-        "terminal",
-        "profile",
-        "close-guard"
       ]
     },
     {

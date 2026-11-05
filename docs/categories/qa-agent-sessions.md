@@ -1,6 +1,6 @@
 # QA & Agent Sessions
 
-6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+4 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -16,18 +16,6 @@ Evaluate AI models for a real job, starting from start-eval: define the objectiv
 
 ```
 /plugin install ai-eval@danielrosehill
-```
-
----
-
-#### Claude Hopper
-
-Claude-Hopper — skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Hopper)
-
-```
-/plugin install session-hopper@danielrosehill
 ```
 
 ---
@@ -58,24 +46,12 @@ Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-ga
 
 #### Multisession
 
-Start fresh or hand off: split the pane, launch a new named Claude session and give it the next task, or hand work to a running peer. Payload goes to a local or Google Drive agent-to-agent space and is sent with the built-in SendMessage; this session's Konsole pane then closes. Also asynchronous a2a/ mailbox messages between repos.
+Run many Claude sessions: handover, layouts, crash restore, notify and remote machines. Start sessions, hand work over with a confirmed receipt, tile Konsole, restore after a crash, guard against losing windows, reach the user by desktop or phone, and work on other machines.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Multisession)
 
 ```
 /plugin install multisession@danielrosehill
-```
-
----
-
-#### Session Restore
-
-Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Session-Restore)
-
-```
-/plugin install session-restore@danielrosehill
 ```
 
 ---

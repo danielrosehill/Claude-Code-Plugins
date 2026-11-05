@@ -1,10 +1,10 @@
 # Plugin Categories
 
-195 plugins across 19 categories.
+192 plugins across 19 categories.
 
 | Category | Plugins |
 | --- | ---: |
-| [Linux Sysadmin](linux-sysadmin.md) | 30 |
+| [Linux Sysadmin](linux-sysadmin.md) | 29 |
 | [Personal Productivity](personal-productivity.md) | 21 |
 | [Media Editing](media-editing.md) | 19 |
 | [Documentation & Writing](documentation-writing.md) | 18 |
@@ -16,9 +16,9 @@
 | [Marketing & Shopping](marketing-shopping.md) | 7 |
 | [Regional](regional.md) | 7 |
 | [Network & Smart Home](network-smart-home.md) | 6 |
-| [QA & Agent Sessions](qa-agent-sessions.md) | 6 |
 | [Git & GitHub](git-github.md) | 4 |
 | [Hardware & Maker](hardware-maker.md) | 4 |
+| [QA & Agent Sessions](qa-agent-sessions.md) | 4 |
 | [Staging](staging.md) | 4 |
 | [Data Discovery](data-discovery.md) | 3 |
 | [Publishing & CMS](publishing-cms.md) | 3 |

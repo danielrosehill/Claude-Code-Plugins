@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-30 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+29 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -196,18 +196,6 @@ Profile Linux keyboards, scan keycodes, and surface underused keys for remapping
 
 ```
 /plugin install keyboard-scanner@danielrosehill
-```
-
----
-
-#### Konsole Setup
-
-Konsole tuned for many agent sessions: window close asks, tab close doesn't; split layout and a Hack-font profile, applied by script.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Konsole-Setup)
-
-```
-/plugin install konsole-setup@danielrosehill
 ```
 
 ---
