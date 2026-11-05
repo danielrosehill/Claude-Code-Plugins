@@ -44,6 +44,18 @@ Content writing — draft, proofread, version, publish, style guides, with writi
 
 ---
 
+#### Dev Project Docs
+
+Debug retrospectives, decision logs and lean plans in the repo: internal docs for development projects, so the next agent or person reads what broke, what was decided and the live state, not the history.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Dev-Project-Docs)
+
+```
+/plugin install dev-project-docs@danielrosehill
+```
+
+---
+
 #### Digital Printing
 
 Skills and an orchestrator agent for preparing PDFs for digital printing — resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.
@@ -112,18 +124,6 @@ Rewrite text in deliberately ridiculous styles — Shakespearean, medieval, arch
 
 ```
 /plugin install novelty-text-editor@danielrosehill
-```
-
----
-
-#### Planning Docs
-
-Keep a repo's decision log and plans lean: record numbered decisions, and compact old decisions and plans into in-place summaries so agents read the live state, not the history.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Planning-Docs-Plugin)
-
-```
-/plugin install planning-docs@danielrosehill
 ```
 
 ---

@@ -4195,15 +4195,15 @@
       "category": "Media Editing"
     },
     {
-      "name": "planning-docs",
-      "displayName": "Planning Docs",
+      "name": "dev-project-docs",
+      "displayName": "Dev Project Docs",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Planning-Docs-Plugin"
+        "repo": "danielrosehill/Dev-Project-Docs"
       },
-      "description": "Keep a repo's decision log and plans lean: record numbered decisions, and compact old decisions and plans into in-place summaries so agents read the live state, not the history.",
+      "description": "Debug retrospectives, decision logs and lean plans in the repo: internal docs for development projects, so the next agent or person reads what broke, what was decided and the live state, not the history.",
       "category": "Documentation & Writing",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4381,7 +4381,7 @@
       },
       "description": "Agent dev workflows: voice notes, screenshots, UI review. Any platform: steer work from voice notes, screenshots and screen recordings; review the running UI; resolve UI friction by options-then-build.",
       "category": "Repo Scaffolding & Retrofitting",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

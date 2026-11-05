@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-05 (dev-project-docs)
+- **`dev-project-docs` 2.0.0** (replaces `planning-docs`, repo renamed from Claude-Planning-Docs-Plugin to Dev-Project-Docs): adds `debug-retrospective`, which writes up a debugging session in `docs/debug-log/` (what broke, cause, how it was found, what was ruled out, fix, verified versus inferred). `record-decision` and `decision-compaction` stay; `record-decision` now also finds flow-control's `planning/decisions.md`.
+
 ### Changed — 2026-11-04 (device-sync)
 - **`device-sync` 0.3.0**: `add-shortcut` skill for a shell shortcut to the queue repo, and `reserve`, so notes can wait for a machine that has not been set up yet.
 
