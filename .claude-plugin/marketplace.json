@@ -1556,7 +1556,7 @@
         "source": "github",
         "repo": "danielrosehill/Jewish-Texts-Reference-Plugin"
       },
-      "description": "Look up Jewish texts and references via the Sefaria MCP server — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).",
+      "description": "Look up Jewish texts and references through Sefaria's public REST API (no key, no MCP) — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).",
       "category": "Research & Learning",
       "version": "1.1.0",
       "author": {
@@ -1607,7 +1607,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Jewish-Utilities-Plugin"
       },
-      "description": "Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR\"A + MG\"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Wraps zmanim-mcp-server and hebcal MCP. Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.",
+      "description": "Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR\"A + MG\"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Calls the public Hebcal REST API (no key, no MCP). Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.",
       "category": "Research & Learning",
       "version": "1.0.0",
       "author": {
