@@ -1,6 +1,6 @@
 # Network & Smart Home
 
-6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -64,6 +64,18 @@ Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps
 
 ```
 /plugin install network-cups@danielrosehill
+```
+
+---
+
+#### Network Playbook
+
+Document a home network so it can be rebuilt after a move: scan and probe it, then keep a printable PDF playbook and an agent-readable JSON definition.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Network-Playbook)
+
+```
+/plugin install network-playbook@danielrosehill
 ```
 
 ---

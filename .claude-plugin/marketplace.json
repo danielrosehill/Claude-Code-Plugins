@@ -4455,6 +4455,32 @@
         "workflow-capture",
         "authoring"
       ]
+    },
+    {
+      "name": "network-playbook",
+      "displayName": "Network Playbook",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Network-Playbook"
+      },
+      "description": "Document a home network so it can be rebuilt after a move: scan and probe it, then keep a printable PDF playbook and an agent-readable JSON definition.",
+      "category": "Network & Smart Home",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "network-documentation",
+        "home-network",
+        "homelab",
+        "arp-scan",
+        "typst",
+        "port-map",
+        "disaster-recovery"
+      ]
     }
   ]
 }

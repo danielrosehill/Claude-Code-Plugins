@@ -1,6 +1,6 @@
 # Plugin Categories
 
-185 plugins across 19 categories.
+186 plugins across 19 categories.
 
 | Category | Plugins |
 | --- | ---: |
@@ -14,8 +14,8 @@
 | [Privacy & Security](privacy-security.md) | 9 |
 | [Data & Datasets](data-datasets.md) | 7 |
 | [Marketing & Shopping](marketing-shopping.md) | 7 |
+| [Network & Smart Home](network-smart-home.md) | 7 |
 | [Regional](regional.md) | 7 |
-| [Network & Smart Home](network-smart-home.md) | 6 |
 | [Hardware & Maker](hardware-maker.md) | 4 |
 | [QA & Agent Sessions](qa-agent-sessions.md) | 4 |
 | [Data Discovery](data-discovery.md) | 3 |
