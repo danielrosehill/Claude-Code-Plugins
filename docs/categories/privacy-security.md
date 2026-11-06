@@ -8,18 +8,6 @@
 
 ---
 
-#### Anonymisation Assistant
-
-Anonymise sensitive documents (whistleblower disclosures, harassment diaries, incident reports) by replacing identifying details while preserving narrative integrity.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Anonymisation-Assistant-Plugin)
-
-```
-/plugin install anonymisation-assistant@danielrosehill
-```
-
----
-
 #### Claude Vault
 
 Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.
@@ -64,6 +52,18 @@ Trace an IoT device's cloud egress, document it, lock it down: IP cameras, OPNse
 
 ```
 /plugin install network-forensics@danielrosehill
+```
+
+---
+
+#### Obfuscation Tools
+
+Obfuscate logs, bug reports and sensitive documents: swap identifying details for plausible stand-ins at a chosen closeness.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Obfuscation-Tools)
+
+```
+/plugin install obfuscation-tools@danielrosehill
 ```
 
 ---

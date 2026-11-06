@@ -3375,15 +3375,15 @@
       ]
     },
     {
-      "name": "anonymisation-assistant",
-      "displayName": "Anonymisation Assistant",
+      "name": "obfuscation-tools",
+      "displayName": "Obfuscation Tools",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Anonymisation-Assistant-Plugin"
+        "repo": "danielrosehill/Obfuscation-Tools"
       },
-      "description": "Anonymise sensitive documents (whistleblower disclosures, harassment diaries, incident reports) by replacing identifying details while preserving narrative integrity.",
+      "description": "Obfuscate logs, bug reports and sensitive documents: swap identifying details for plausible stand-ins at a chosen closeness.",
       "category": "Privacy & Security",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
