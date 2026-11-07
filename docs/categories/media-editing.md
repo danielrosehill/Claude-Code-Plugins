@@ -92,18 +92,6 @@ Identify and annotate hardware components from photos — circuit boards, mother
 
 ---
 
-#### Image Annotation
-
-Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, blur/redaction) on Linux via Pillow + ImageMagick, with batch WebP conversion and PDF bundling. Originals are never modified.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Image-Annotation-Plugin)
-
-```
-/plugin install image-annotation@danielrosehill
-```
-
----
-
 #### Image Production
 
 Image production — editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.
@@ -160,6 +148,18 @@ Manage OBS Studio on Linux from Claude Code: detect install type (native/Flatpak
 
 ```
 /plugin install obs-mgmt@danielrosehill
+```
+
+---
+
+#### Screenshotting
+
+Linux screenshots from the CLI: capture, annotate, OCR, pixel redaction, and spoofing live web pages with stand-in data before capture.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Screenshotting)
+
+```
+/plugin install screenshotting@danielrosehill
 ```
 
 ---

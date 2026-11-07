@@ -1630,15 +1630,15 @@
       ]
     },
     {
-      "name": "image-annotation",
-      "displayName": "Image Annotation",
+      "name": "screenshotting",
+      "displayName": "Screenshotting",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Image-Annotation-Plugin"
+        "repo": "danielrosehill/Screenshotting"
       },
-      "description": "Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, blur/redaction) on Linux via Pillow + ImageMagick, with batch WebP conversion and PDF bundling. Originals are never modified.",
+      "description": "Linux screenshots from the CLI: capture, annotate, OCR, pixel redaction, and spoofing live web pages with stand-in data before capture.",
       "category": "Media Editing",
-      "version": "1.1.0",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
