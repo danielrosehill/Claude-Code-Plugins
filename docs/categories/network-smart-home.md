@@ -60,10 +60,10 @@ Observe and interact with an MQTT broker — monitor all payloads, watch a speci
 
 Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps the lan-mcp-cups MCP server and adds LAN discovery (avahi/Bonjour, arp-scan) plus ufw firewall sanity checks.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Network-CUPS-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/LAN-Print-Scan-Plugin)
 
 ```
-/plugin install network-cups@danielrosehill
+/plugin install lan-print-scan@danielrosehill
 ```
 
 ---
