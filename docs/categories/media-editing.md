@@ -154,7 +154,7 @@ Manage OBS Studio on Linux from Claude Code: detect install type (native/Flatpak
 
 #### Screenshotting
 
-Linux screenshots from the CLI: capture, annotate, OCR, pixel redaction, and spoofing live web pages with stand-in data before capture.
+Linux screenshots from the CLI: capture, annotate, OCR, scan for PII and secrets, then redact or spoof live pages with stand-in data.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Screenshotting)
 
