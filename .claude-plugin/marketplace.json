@@ -2317,15 +2317,15 @@
       ]
     },
     {
-      "name": "network-cups",
+      "name": "lan-print-scan",
       "displayName": "Network CUPS",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Network-CUPS-Plugin"
+        "repo": "danielrosehill/LAN-Print-Scan-Plugin"
       },
-      "description": "Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps the lan-mcp-cups MCP server and adds LAN discovery (avahi/Bonjour, arp-scan) plus ufw firewall sanity checks.",
+      "description": "Print and scan on a local network: discover printers, keep a registry, add driverless CUPS queues, typeset Typst printouts, scan over eSCL, and share it all from one server.",
       "category": "Network & Smart Home",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2333,11 +2333,11 @@
       },
       "license": "MIT",
       "tags": [
-        "cups",
         "printing",
-        "homelab",
-        "mcp",
-        "network-discovery"
+        "scanning",
+        "cups",
+        "escl",
+        "homelab"
       ]
     },
     {
