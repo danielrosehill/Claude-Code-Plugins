@@ -1,6 +1,6 @@
 # Personal Productivity
 
-21 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+20 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -64,18 +64,6 @@ Evaluate, refine, and develop business ideas through structured lenses — VC re
 
 ```
 /plugin install business-idea-eval@danielrosehill
-```
-
----
-
-#### Contact Support
-
-Contact a vendor's support desk from a registry of verified, dated contact routes rather than recalled ones — ticket URLs and which support plans can reach them, abuse and fraud addresses taken from mailto hrefs rather than page text, per-tier response windows, priority vocabulary, escalation ladders with SLA claim deadlines, pre-contact checks, and the plausible routes that turn out to be dead. Records the user's account identity and where credentials live (a pointer, never the secret), drafts the request with the identifiers the desk will demand, sends it through whichever channel is actually reachable, logs the ticket and chases it when the window elapses. Ships verified for Twilio only; extend with support-add-service. Work in progress — concept stage.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/contact-support-plugin)
-
-```
-/plugin install contact-support@danielrosehill
 ```
 
 ---

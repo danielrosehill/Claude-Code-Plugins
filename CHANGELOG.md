@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Removed — 2026-11-09 (contact-support)
+- **`contact-support`**: overhauled into the private `support-tickets` plugin (repo renamed to Support-Tickets-Plugin and made private); now listed in the private marketplace.
+
 ### Changed — 2026-11-07 (skill-this)
 - **`skill-this` 0.6.0**: keeps its own marketplace map in the user's data folder, tries reshaping existing skills before creating one, and has one standard shape for public plugins with a private overlay.
 
