@@ -1,6 +1,6 @@
 # Privacy & Security
 
-9 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -64,18 +64,6 @@ Obfuscate logs, bug reports and sensitive documents: swap identifying details fo
 
 ```
 /plugin install obfuscation-tools@danielrosehill
-```
-
----
-
-#### PII Scanner
-
-Scan files, directories, or git repositories for personally identifiable information — credentials (gitleaks), generic PII (Microsoft Presidio), and matches against a user-maintained personal PII inventory (names, addresses, family, IDs) stored locally.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-PII-Scanner-Plugin)
-
-```
-/plugin install pii-scanner@danielrosehill
 ```
 
 ---

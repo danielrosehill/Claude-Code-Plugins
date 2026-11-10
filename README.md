@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**185 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**184 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -39,7 +39,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[AI & Context](docs/categories/ai-context.md)** | 17 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `custom-model-planning`, `get-toony`, … (10 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 15 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 13 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (6 more) |
-| **[Privacy & Security](docs/categories/privacy-security.md)** | 9 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `pii-scanner`, `plugin-vault`, `pseudospam-filter`, … (2 more) |
+| **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `home-assistant-mgmt`, `lan-print-scan`, `media-assistant-ops`, `mqtt-observability`, `network-playbook`, `zigbee-home-maintenance` |
