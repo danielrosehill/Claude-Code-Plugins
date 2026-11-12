@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-12 (email-batcher)
+- **`email-batcher` 0.1.0**: outbound email batching. A team queues client updates into a shared private git repo; a server releases one consolidated email per client on a daily/weekly schedule or threshold, with an urgent override.
+
 ### Removed — 2026-11-09 (contact-support)
 - **`contact-support`**: overhauled into the private `support-tickets` plugin (repo renamed to Support-Tickets-Plugin and made private); now listed in the private marketplace.
 

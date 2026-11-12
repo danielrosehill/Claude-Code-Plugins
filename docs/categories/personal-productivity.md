@@ -1,6 +1,6 @@
 # Personal Productivity
 
-20 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+21 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,6 +124,18 @@ Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills fo
 
 ```
 /plugin install donetick@danielrosehill
+```
+
+---
+
+#### EmailBatcher
+
+Batch client email updates into one daily/weekly digest: a team queues updates, a server sends them on schedule, urgent ones go at once.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/EmailBatcher)
+
+```
+/plugin install email-batcher@danielrosehill
 ```
 
 ---

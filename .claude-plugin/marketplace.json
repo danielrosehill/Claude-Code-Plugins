@@ -4428,6 +4428,31 @@
         "port-map",
         "disaster-recovery"
       ]
+    },
+    {
+      "name": "email-batcher",
+      "displayName": "EmailBatcher",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/EmailBatcher"
+      },
+      "description": "Batch client email updates into one daily/weekly digest: a team queues updates, a server sends them on schedule, urgent ones go at once.",
+      "category": "Personal Productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "email",
+        "batching",
+        "outbound-queue",
+        "digest",
+        "client-updates",
+        "teams"
+      ]
     }
   ]
 }
