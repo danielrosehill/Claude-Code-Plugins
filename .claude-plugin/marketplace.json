@@ -86,7 +86,7 @@
       },
       "description": "Region-specific consumer shopping primitives — find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.",
       "category": "Marketing & Shopping",
-      "version": "2.0.2",
+      "version": "2.0.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -222,7 +222,7 @@
       },
       "description": "Video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.",
       "category": "Media Editing",
-      "version": "1.15.0",
+      "version": "1.15.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -353,7 +353,7 @@
       },
       "description": "Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
       "category": "Marketing & Shopping",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -381,7 +381,7 @@
       },
       "description": "Research — source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor/purchasing/general-research-workspace/obsidian-vault variants. The obsidian-vault variant scaffolds the research loop as a working Obsidian vault (committed .obsidian/ config, frontmatter schema, wikilinks, templates, canvas). Includes a 30-agent tech research team for hardware/software stack evaluations (folded in from Claude-Tech-Research-Team).",
       "category": "Research & Learning",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -701,7 +701,7 @@
       },
       "description": "Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).",
       "category": "Personal Productivity",
-      "version": "1.4.0",
+      "version": "1.5.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -748,7 +748,7 @@
       },
       "description": "Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons and file-by-file analyses with code samples drawn from the source, supports interactive Q&A, and typesets any of it as a PDF via Typst.",
       "category": "Research & Learning",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -872,7 +872,7 @@
       },
       "description": "ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
       "category": "Network & Smart Home",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1039,7 +1039,7 @@
       },
       "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the rtl-skills plugin.",
       "category": "Regional",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1214,7 +1214,7 @@
       },
       "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export. Ships fal.ai/Replicate/MiniMax MCP servers and fal-js + WaveSpeed Python SDK runners.",
       "category": "Media Editing",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1243,7 +1243,7 @@
       },
       "description": "Skills and an orchestrator agent for preparing PDFs for digital printing — resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
       "category": "Documentation & Writing",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1317,7 +1317,7 @@
       },
       "description": "End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.",
       "category": "Data & Datasets",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1787,7 +1787,7 @@
       },
       "description": "Publish content to GitHub gists with clear AI authorship — Claude-authored solution gists and collaborative debug write-ups, both with model+date attribution, environment context, and a PII pre-flight scrub for public publishes. Visibility is a per-call parameter with a configurable default.",
       "category": "Git & GitHub",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1956,7 +1956,7 @@
       },
       "description": "KDE Plasma (Wayland) runtime utilities — KWin scripting, plasmoid management, panel layout backup, virtual desktops & activities, KGlobalAccel shortcuts, theme/look-and-feel switching, KDE Connect, Klipper, Baloo, kwriteconfig safe-edit, plasma-restart helpers, qdbus introspection, kscreen save/apply, KWallet ops. Complements generic Linux desktop-management plugins.",
       "category": "Linux Sysadmin",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2301,7 +2301,7 @@
       },
       "description": "Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance — daily brief, list/create/complete chores, label management.",
       "category": "Personal Productivity",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2925,7 +2925,7 @@
       },
       "description": "Print labels from Claude Code on Brother QL and P-touch label printers on Linux. Discovers printers over mDNS, USB and CUPS and keeps a machine-local registry so later prints can name one; renders text and QR labels to the pixel canvas of the loaded DK or TZe media; previews without touching the printer, because brother_ql converts and transmits in a single step with no dry run. Ships a media catalogue of DK and TZe product codes, reusable label templates in the user's data directory, and a Linux driver-install skill covering brother_ql, ptouch-print, mDNS and CUPS. Zebra and DYMO are discovered and registered but not yet printable. Also bundles the original streamable-HTTP MCP server for P-touch setups built around a USB print bridge.",
       "category": "Hardware & Maker",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3156,7 +3156,7 @@
       },
       "description": "Make optimal use of a baggage allowance on an international itinerary — research each carrier's real checked, cabin and personal-item allowance per segment with a source and a confidence level for every figure, compute the binding limit that governs the journey, inventory what is carried by weight, reconcile scale readings against the inventory, solve the allocation to bags and packing cubes, price every way out of being over, and rank an emergency leave-behind list by cost per kilogram saved. Renders a one-page airport counter card and a per-bag packing list as PDF via Typst and as Markdown. One trip workspace per itinerary.",
       "category": "Personal Productivity",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3330,7 +3330,7 @@
       },
       "description": "Obfuscate logs, bug reports and sensitive documents: swap identifying details for plausible stand-ins at a chosen closeness.",
       "category": "Privacy & Security",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3517,7 +3517,7 @@
       },
       "description": "Administer Ubuntu machines, desktop or server, locally or over SSH: health and diagnosis, packages (apt/snap/flatpak), systemd services and logs, Docker, storage and backups, networking, hardware and GPU drivers, displays, fonts, codecs, shell and dev environments. Supersedes linux-desktop-mgmt, linux-server-mgmt and sysadmin-homelab.",
       "category": "Linux Sysadmin",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3607,7 +3607,7 @@
       },
       "description": "Stock counts, aisle/bin and prices across IKEA Israel's 5 branches.",
       "category": "Regional",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3680,7 +3680,7 @@
       },
       "description": "Plan small custom models and fine-tunes, then save training recipes privately and run them on Modal, RunPod or local Unsloth.",
       "category": "AI & Context",
-      "version": "1.6.0",
+      "version": "1.7.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3983,7 +3983,7 @@
       },
       "description": "Habits (rules, always-on or triggered) and SOPs (procedures) as one markdown file each, in a private folder, with one small CLAUDE.md block. Library of example habits to adopt. Replaces sop-library.",
       "category": "AI & Context",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4489,7 +4489,7 @@
       },
       "description": "Video editing and rendering on rented cloud GPUs (Modal): offload heavy jobs like AI voice cleanup from a local machine.",
       "category": "Media Editing",
-      "version": "1.0.0",
+      "version": "1.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
