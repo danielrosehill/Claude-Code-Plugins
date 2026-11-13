@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "marketplace-guide",
-      "displayName": "Marketplace Guide — start here",
+      "displayName": "Marketplace Guide \u2014 start here",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Marketplace-Guide-Plugin"
@@ -40,7 +40,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Filesystem-Organiser-Plugin"
       },
-      "description": "Filesystem organisation — scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants. Includes organise-filesystem (modular modes) and super-organise (comprehensive single-pass) skills.",
+      "description": "Filesystem organisation \u2014 scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants. Includes organise-filesystem (modular modes) and super-organise (comprehensive single-pass) skills.",
       "category": "Linux Sysadmin",
       "version": "1.3.0",
       "author": {
@@ -62,7 +62,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Budgeting-Plugin"
       },
-      "description": "Personal budgeting — log transactions, categorize, forecast, track goals, monthly reports.",
+      "description": "Personal budgeting \u2014 log transactions, categorize, forecast, track goals, monthly reports.",
       "category": "Personal Productivity",
       "version": "1.0.0",
       "author": {
@@ -84,7 +84,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Shopping-Plugin"
       },
-      "description": "Region-specific consumer shopping primitives — find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.",
+      "description": "Region-specific consumer shopping primitives \u2014 find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.",
       "category": "Marketing & Shopping",
       "version": "2.0.2",
       "author": {
@@ -107,7 +107,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Amazon-Plugin"
       },
-      "description": "Amazon.com marketplace research — verified price, stock, rating, seller and specs read from the listing rather than the search grid; Prime-aware delivery dates checked against the ZIP they were actually rendered for; filtered signed-in search with tested extractors, a marketplace profile and a durable brand allowlist.",
+      "description": "Amazon.com marketplace research \u2014 verified price, stock, rating, seller and specs read from the listing rather than the search grid; Prime-aware delivery dates checked against the ZIP they were actually rendered for; filtered signed-in search with tested extractors, a marketplace profile and a durable brand allowlist.",
       "category": "Marketing & Shopping",
       "version": "2.1.0",
       "author": {
@@ -130,7 +130,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-AI-Engineering-Plugin"
       },
-      "description": "Prompt engineering — craft, eval, catalog, version, search prompts, with library/factory variants.",
+      "description": "Prompt engineering \u2014 craft, eval, catalog, version, search prompts, with library/factory variants.",
       "category": "AI & Context",
       "version": "1.0.0",
       "author": {
@@ -152,7 +152,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Media-Library-Plugin"
       },
-      "description": "Media library — catalog, tag, search, sort, dedupe assets.",
+      "description": "Media library \u2014 catalog, tag, search, sort, dedupe assets.",
       "category": "Media Editing",
       "version": "1.0.0",
       "author": {
@@ -174,7 +174,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Audio-Production-Plugin"
       },
-      "description": "Audio production — normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
+      "description": "Audio production \u2014 normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
       "category": "Media Editing",
       "version": "1.11.1",
       "author": {
@@ -197,7 +197,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Image-Production-Plugin"
       },
-      "description": "Image production — editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
+      "description": "Image production \u2014 editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
       "category": "Media Editing",
       "version": "2.3.4",
       "author": {
@@ -242,7 +242,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-PR-Media-Work-Plugin"
       },
-      "description": "PR and media monitoring — scan coverage, summarize press, draft responses, comms strategy, with monitoring/response/strategy variants.",
+      "description": "PR and media monitoring \u2014 scan coverage, summarize press, draft responses, comms strategy, with monitoring/response/strategy variants.",
       "category": "Marketing & Shopping",
       "version": "1.0.0",
       "author": {
@@ -265,7 +265,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Smart-Home-Plugin"
       },
-      "description": "Smart home — Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.",
+      "description": "Smart home \u2014 Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.",
       "category": "Staging",
       "version": "1.0.0",
       "author": {
@@ -287,7 +287,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Debugging-Plugin"
       },
-      "description": "Debugging — capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants. Includes a KDE hotkey utility for capturing live system bugs.",
+      "description": "Debugging \u2014 capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants. Includes a KDE hotkey utility for capturing live system bugs.",
       "category": "Linux Sysadmin",
       "version": "1.1.0",
       "author": {
@@ -308,7 +308,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Content-Writing-Plugin"
       },
-      "description": "Content writing — draft, proofread, version, publish, style guides, with writing/blog/opinion/document variants.",
+      "description": "Content writing \u2014 draft, proofread, version, publish, style guides, with writing/blog/opinion/document variants.",
       "category": "Documentation & Writing",
       "version": "1.1.0",
       "author": {
@@ -330,7 +330,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Career-Plugin"
       },
-      "description": "Career planning — log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
+      "description": "Career planning \u2014 log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
       "category": "Staging",
       "version": "2.3.4",
       "author": {
@@ -351,7 +351,7 @@
         "source": "github",
         "repo": "danielrosehill/procurement-tools-plugin"
       },
-      "description": "Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
+      "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
       "category": "Marketing & Shopping",
       "version": "2.3.2",
       "author": {
@@ -379,7 +379,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Research-Space-Plugin"
       },
-      "description": "Research — source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor/purchasing/general-research-workspace/obsidian-vault variants. The obsidian-vault variant scaffolds the research loop as a working Obsidian vault (committed .obsidian/ config, frontmatter schema, wikilinks, templates, canvas). Includes a 30-agent tech research team for hardware/software stack evaluations (folded in from Claude-Tech-Research-Team).",
+      "description": "Research \u2014 source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor/purchasing/general-research-workspace/obsidian-vault variants. The obsidian-vault variant scaffolds the research loop as a working Obsidian vault (committed .obsidian/ config, frontmatter schema, wikilinks, templates, canvas). Includes a 30-agent tech research team for hardware/software stack evaluations (folded in from Claude-Tech-Research-Team).",
       "category": "Research & Learning",
       "version": "1.4.0",
       "author": {
@@ -404,7 +404,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Legal-Investigative-Plugin"
       },
-      "description": "Legal and investigative — log evidence, analyze documents, redact, generate briefs, with legal-research/evidence/osint/document-analysis variants.",
+      "description": "Legal and investigative \u2014 log evidence, analyze documents, redact, generate briefs, with legal-research/evidence/osint/document-analysis variants.",
       "category": "Research & Learning",
       "version": "1.0.0",
       "author": {
@@ -426,7 +426,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Knowledge-Documentation-Plugin"
       },
-      "description": "Knowledge documentation — index, cross-link, build taxonomy, version docs, with wiki/resource-library/process-docs/experiment-report variants.",
+      "description": "Knowledge documentation \u2014 index, cross-link, build taxonomy, version docs, with wiki/resource-library/process-docs/experiment-report variants.",
       "category": "Research & Learning",
       "version": "1.0.1",
       "author": {
@@ -448,7 +448,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Personal-Planning-Plugin"
       },
-      "description": "Personal life planning — log entries, review progress, set goals, with diary/health/family/house-search/preparedness/personal-dev/inbox variants.",
+      "description": "Personal life planning \u2014 log entries, review progress, set goals, with diary/health/family/house-search/preparedness/personal-dev/inbox variants.",
       "category": "Personal Productivity",
       "version": "1.1.0",
       "author": {
@@ -470,7 +470,7 @@
         "source": "github",
         "repo": "danielrosehill/Therapy-Tracking-Plugin"
       },
-      "description": "Organising therapy reflections — pre/post-session notes, goal tracking, and turning voice-memo transcripts into structured problem summaries. Not therapy: organises notes only. Workspace data lives outside the plugin so the same install survives plugin updates.",
+      "description": "Organising therapy reflections \u2014 pre/post-session notes, goal tracking, and turning voice-memo transcripts into structured problem summaries. Not therapy: organises notes only. Workspace data lives outside the plugin so the same install survives plugin updates.",
       "category": "Personal Productivity",
       "version": "1.0.0",
       "author": {
@@ -493,7 +493,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Ideation-Planning-Plugin"
       },
-      "description": "Ideation and planning — capture, generate, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants and Typst PDF deliverables.",
+      "description": "Ideation and planning \u2014 capture, generate, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants and Typst PDF deliverables.",
       "category": "Personal Productivity",
       "version": "1.4.1",
       "author": {
@@ -514,7 +514,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Technical-Docs-Plugin"
       },
-      "description": "Technical documentation — READMEs, reference docs, changelogs, environment docs, with api-reference/code-docs/environment-docs/dev-notebook variants.",
+      "description": "Technical documentation \u2014 READMEs, reference docs, changelogs, environment docs, with api-reference/code-docs/environment-docs/dev-notebook variants.",
       "category": "Documentation & Writing",
       "version": "1.0.0",
       "author": {
@@ -536,7 +536,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Dev-Tools-Plugin"
       },
-      "description": "Dev-tools — scaffold repos, multi-agent QA review, templatize. Session-handover commands and agent moved to claude-hopper in 1.2.0.",
+      "description": "Dev-tools \u2014 scaffold repos, multi-agent QA review, templatize. Session-handover commands and agent moved to claude-hopper in 1.2.0.",
       "category": "Repo Scaffolding & Retrofitting",
       "version": "1.2.0",
       "author": {
@@ -559,7 +559,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Workspace-Foundational-Plugin"
       },
-      "description": "Foundational workspace — setup, context management, report parsing, inventory, template discovery, with 6 variants.",
+      "description": "Foundational workspace \u2014 setup, context management, report parsing, inventory, template discovery, with 6 variants.",
       "category": "Repo Scaffolding & Retrofitting",
       "version": "1.0.4",
       "author": {
@@ -581,7 +581,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Rudder"
       },
-      "description": "Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
+      "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
       "category": "QA & Agent Sessions",
       "version": "2.9.2",
       "author": {
@@ -625,7 +625,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-AI-Attribution-Plugin"
       },
-      "description": "AI transparency — document human vs AI contributions, add attribution, audit provenance.",
+      "description": "AI transparency \u2014 document human vs AI contributions, add attribution, audit provenance.",
       "category": "Documentation & Writing",
       "version": "0.1.0",
       "author": {
@@ -699,7 +699,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Israel-Shopping-Plugin"
       },
-      "description": "Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).",
+      "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).",
       "category": "Personal Productivity",
       "version": "1.4.0",
       "author": {
@@ -797,7 +797,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Github-Explorer-Plugin"
       },
-      "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos — Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
+      "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
       "category": "Git & GitHub",
       "version": "1.4.0",
       "author": {
@@ -821,7 +821,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Backup-Planner-Plugin"
       },
-      "description": "Plan, document, and implement a backup and data-protection strategy for the current project — from architecture discovery through script generation and restore drills.",
+      "description": "Plan, document, and implement a backup and data-protection strategy for the current project \u2014 from architecture discovery through script generation and restore drills.",
       "category": "Linux Sysadmin",
       "version": "1.0.1",
       "author": {
@@ -846,7 +846,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin"
       },
-      "description": "Operational commands and a skill for working with the Green Invoice MCP server — invoices, clients, expenses, and monthly summaries.",
+      "description": "Operational commands and a skill for working with the Green Invoice MCP server \u2014 invoices, clients, expenses, and monthly summaries.",
       "category": "Personal Productivity",
       "version": "1.0.0",
       "author": {
@@ -870,7 +870,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-ADB-Ops-Plugin"
       },
-      "description": "ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
+      "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
       "category": "Network & Smart Home",
       "version": "1.1.0",
       "author": {
@@ -942,7 +942,7 @@
         "source": "github",
         "repo": "danielrosehill/User-Claude-MD-Plugin"
       },
-      "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory — audit, chunk, list, and edit global Claude Code user context for token efficiency.",
+      "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory \u2014 audit, chunk, list, and edit global Claude Code user context for token efficiency.",
       "category": "AI & Context",
       "version": "1.2.1",
       "author": {
@@ -966,7 +966,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Media-Assistant-Ops-Plugin"
       },
-      "description": "Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
+      "description": "Interface with a Music Assistant server via its local API \u2014 onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
       "category": "Network & Smart Home",
       "version": "1.1.0",
       "author": {
@@ -1088,7 +1088,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin"
       },
-      "description": "Create static and interactive data visualisations for reports, repos, and data storytelling. Purpose-organised inventory of 60+ validated open-source tools as a head start — static figures (Matplotlib, Seaborn, ggplot2), web charts (Chart.js, ECharts, Plotly.js, ApexCharts, Highcharts), high-perf (uPlot, Perspective, Lightweight Charts), bespoke (D3, Observable Plot, Vega/Vega-Lite, visx, Victory), Python/R apps (Bokeh, Dash, Altair, Streamlit, Gradio, Shiny, D-Tale, Briefer, Preswald), storytelling (Vizzu, VChart, vue-data-ui, SandDance), graphs (G6, sigma.js, Cytoscape, Gephi, Graphviz, GoJS, 3d-force-graph, Constellation), maps (deck.gl, react-map-gl, Leaflet, MapLibre, OpenLayers, folium, react-globe.gl), mobile (fl_chart, F2), BI (Superset, Metabase, Grafana, Kibana, Redash, Chartbrew), diagrams-as-code (Mermaid, PlantUML), domain-specific (Iris, QuantInvestStrats, XCharts, BizCharts, Tablesaw).",
+      "description": "Create static and interactive data visualisations for reports, repos, and data storytelling. Purpose-organised inventory of 60+ validated open-source tools as a head start \u2014 static figures (Matplotlib, Seaborn, ggplot2), web charts (Chart.js, ECharts, Plotly.js, ApexCharts, Highcharts), high-perf (uPlot, Perspective, Lightweight Charts), bespoke (D3, Observable Plot, Vega/Vega-Lite, visx, Victory), Python/R apps (Bokeh, Dash, Altair, Streamlit, Gradio, Shiny, D-Tale, Briefer, Preswald), storytelling (Vizzu, VChart, vue-data-ui, SandDance), graphs (G6, sigma.js, Cytoscape, Gephi, Graphviz, GoJS, 3d-force-graph, Constellation), maps (deck.gl, react-map-gl, Leaflet, MapLibre, OpenLayers, folium, react-globe.gl), mobile (fl_chart, F2), BI (Superset, Metabase, Grafana, Kibana, Redash, Chartbrew), diagrams-as-code (Mermaid, PlantUML), domain-specific (Iris, QuantInvestStrats, XCharts, BizCharts, Tablesaw).",
       "category": "Data & Datasets",
       "version": "1.1.0",
       "author": {
@@ -1137,7 +1137,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Text-Corpus-Analysis-Plugin"
       },
-      "description": "Skills for analyzing large text corpora — topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap→premium pattern, embeddings+clustering preferred over pairwise LLM comparison.",
+      "description": "Skills for analyzing large text corpora \u2014 topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata\u2194content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap\u2192premium pattern, embeddings+clustering preferred over pairwise LLM comparison.",
       "category": "Data & Datasets",
       "version": "0.1.0",
       "author": {
@@ -1183,12 +1183,12 @@
     },
     {
       "name": "daniel-rosehill",
-      "displayName": "Daniel Rosehill — Profiles & Work",
+      "displayName": "Daniel Rosehill \u2014 Profiles & Work",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Daniel-Rosehill-Claude-Plugin"
       },
-      "description": "Jump to Daniel Rosehill's public work from Claude Code — profiles (LinkedIn, X, GitHub, YouTube, npm, Kaggle, DeviantArt, Pexels), blog, Hugging Face, public repos by recency/stars/A–Z, bio, resume download, and contact/newsletter pages. Also refreshes this marketplace's local cache. A directory of one person's published output, not personal configuration.",
+      "description": "Jump to Daniel Rosehill's public work from Claude Code \u2014 profiles (LinkedIn, X, GitHub, YouTube, npm, Kaggle, DeviantArt, Pexels), blog, Hugging Face, public repos by recency/stars/A\u2013Z, bio, resume download, and contact/newsletter pages. Also refreshes this marketplace's local cache. A directory of one person's published output, not personal configuration.",
       "category": "Personal Productivity",
       "version": "1.2.0",
       "author": {
@@ -1241,7 +1241,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Digital-Printing-Plugin"
       },
-      "description": "Skills and an orchestrator agent for preparing PDFs for digital printing — resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
+      "description": "Skills and an orchestrator agent for preparing PDFs for digital printing \u2014 resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
       "category": "Documentation & Writing",
       "version": "1.0.1",
       "author": {
@@ -1264,7 +1264,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Programmatic-Doc-Generation-Plugin"
       },
-      "description": "Build programmatic document generation pipelines — Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen).",
+      "description": "Build programmatic document generation pipelines \u2014 Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen).",
       "category": "Documentation & Writing",
       "version": "1.0.0",
       "author": {
@@ -1289,7 +1289,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-AI-Model-Research-Plugin"
       },
-      "description": "Research, discover, compare, and evaluate AI models on OpenRouter — backed by the bundled Model-Scout MCP server for live catalog data with caching. Subsumes the standalone open-router-model-research plugin and the Model-Scout-MCP server. 11 skills cover lookup, capability filtering (tools, vision, audio), recommendation, head-to-head comparison, deep evaluation, workload cost projection, and finding cheaper alternatives.",
+      "description": "Research, discover, compare, and evaluate AI models on OpenRouter \u2014 backed by the bundled Model-Scout MCP server for live catalog data with caching. Subsumes the standalone open-router-model-research plugin and the Model-Scout-MCP server. 11 skills cover lookup, capability filtering (tools, vision, audio), recommendation, head-to-head comparison, deep evaluation, workload cost projection, and finding cheaper alternatives.",
       "category": "AI & Context",
       "version": "1.0.0",
       "author": {
@@ -1363,7 +1363,7 @@
         "source": "github",
         "repo": "danielrosehill/Linux-Packaging-Plugin"
       },
-      "description": "Linux packaging and release workflows — Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging",
+      "description": "Linux packaging and release workflows \u2014 Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging",
       "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
@@ -1387,7 +1387,7 @@
         "source": "github",
         "repo": "danielrosehill/Opnsense-Mgmt-Plugin"
       },
-      "description": "Manage an OPNsense router/firewall via SSH and the OPNsense API — guided first-run onboarding, firewall rule inspection, network debugging, and host/log diagnostics. Per-host config is stored outside the plugin so the same install works across multiple environments.",
+      "description": "Manage an OPNsense router/firewall via SSH and the OPNsense API \u2014 guided first-run onboarding, firewall rule inspection, network debugging, and host/log diagnostics. Per-host config is stored outside the plugin so the same install works across multiple environments.",
       "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
@@ -1412,7 +1412,7 @@
         "source": "github",
         "repo": "danielrosehill/Synology-Mgmt-Plugin"
       },
-      "description": "Manage a Synology NAS via SSH — guided first-run onboarding, share/volume inspection, storage health, and file operations. Per-host config is stored outside the plugin so the same install works across multiple NAS environments.",
+      "description": "Manage a Synology NAS via SSH \u2014 guided first-run onboarding, share/volume inspection, storage health, and file operations. Per-host config is stored outside the plugin so the same install works across multiple NAS environments.",
       "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
@@ -1437,7 +1437,7 @@
         "source": "github",
         "repo": "danielrosehill/Proxmox-Mgmt-Plugin"
       },
-      "description": "Manage a Proxmox VE host via SSH and the Proxmox API — guided first-run onboarding, VM/CT lifecycle, storage and ZFS inspection, log review, and update workflows. Per-host config is stored outside the plugin so the same install works across multiple Proxmox environments.",
+      "description": "Manage a Proxmox VE host via SSH and the Proxmox API \u2014 guided first-run onboarding, VM/CT lifecycle, storage and ZFS inspection, log review, and update workflows. Per-host config is stored outside the plugin so the same install works across multiple Proxmox environments.",
       "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
@@ -1462,7 +1462,7 @@
         "source": "github",
         "repo": "danielrosehill/Home-Assistant-Mgmt-Plugin"
       },
-      "description": "Manage a Home Assistant instance via SSH and the HA REST API — guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.",
+      "description": "Manage a Home Assistant instance via SSH and the HA REST API \u2014 guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.",
       "category": "Network & Smart Home",
       "version": "1.0.0",
       "author": {
@@ -1510,7 +1510,7 @@
         "source": "github",
         "repo": "danielrosehill/Jewish-Texts-Reference-Plugin"
       },
-      "description": "Look up Jewish texts and references through Sefaria's public REST API (no key, no MCP) — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).",
+      "description": "Look up Jewish texts and references through Sefaria's public REST API (no key, no MCP) \u2014 Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).",
       "category": "Research & Learning",
       "version": "1.1.0",
       "author": {
@@ -1587,7 +1587,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Browser-Data-Capture-Plugin"
       },
-      "description": "Streamline programmatic data ingestion against sites and apps that don't ship a documented API — capture network traffic (HAR, mitmproxy, or live tab via claude-in-chrome), map endpoints, infer schemas, and produce a draft OpenAPI spec you can build a stable client against. Ships skills for per-domain map documents, version-controlled storage in a private GitHub repo, and good-faith vulnerability disclosure if a finding turns up incidentally. White-hat use only.",
+      "description": "Streamline programmatic data ingestion against sites and apps that don't ship a documented API \u2014 capture network traffic (HAR, mitmproxy, or live tab via claude-in-chrome), map endpoints, infer schemas, and produce a draft OpenAPI spec you can build a stable client against. Ships skills for per-domain map documents, version-controlled storage in a private GitHub repo, and good-faith vulnerability disclosure if a finding turns up incidentally. White-hat use only.",
       "category": "Data Discovery",
       "version": "1.0.1",
       "author": {
@@ -1612,7 +1612,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin"
       },
-      "description": "Apply 20+ classical decision-making frameworks (cost-benefit, pre-mortem, MCDA, decision tree, reversibility, regret minimization, OODA, Eisenhower, SWOT, second-order, opportunity cost, 10/10/10, inversion, base rates, Kepner-Tregoe, six hats, Cynefin, red-team, stakeholder map, time-horizon) to any major decision — parallel multi-lens analysis, synthesis, and Typst PDF export.",
+      "description": "Apply 20+ classical decision-making frameworks (cost-benefit, pre-mortem, MCDA, decision tree, reversibility, regret minimization, OODA, Eisenhower, SWOT, second-order, opportunity cost, 10/10/10, inversion, base rates, Kepner-Tregoe, six hats, Cynefin, red-team, stakeholder map, time-horizon) to any major decision \u2014 parallel multi-lens analysis, synthesis, and Typst PDF export.",
       "category": "Personal Productivity",
       "version": "1.0.0",
       "author": {
@@ -1660,7 +1660,7 @@
         "source": "github",
         "repo": "danielrosehill/Linux-Debugging-Plugin"
       },
-      "description": "Linux desktop debugging toolkit — targeted journal/boot/log inspection skills plus proactive logging instrumentation (persistent journald, kdump, sysstat, OOM protection) so AI agents can analyze hard crashes, freezes, and runtime issues. Targets Ubuntu + Wayland; forkable for other distros.",
+      "description": "Linux desktop debugging toolkit \u2014 targeted journal/boot/log inspection skills plus proactive logging instrumentation (persistent journald, kdump, sysstat, OOM protection) so AI agents can analyze hard crashes, freezes, and runtime issues. Targets Ubuntu + Wayland; forkable for other distros.",
       "category": "Linux Sysadmin",
       "version": "2.1.0",
       "author": {
@@ -1688,7 +1688,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Declutter-Genie-Plugin"
       },
-      "description": "Inventory analysis and decluttering assistant — import a household inventory in any format, then identify discards, duplicates, resale targets, donation targets (geo-aware), insurance-worthy items, and generate throw-out / giveaway lists as CSV or PDF.",
+      "description": "Inventory analysis and decluttering assistant \u2014 import a household inventory in any format, then identify discards, duplicates, resale targets, donation targets (geo-aware), insurance-worthy items, and generate throw-out / giveaway lists as CSV or PDF.",
       "category": "Personal Productivity",
       "version": "1.0.0",
       "author": {
@@ -1714,7 +1714,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Business-Idea-Eval-Plugin"
       },
-      "description": "Evaluate, refine, and develop business ideas through structured lenses — VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact — plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
+      "description": "Evaluate, refine, and develop business ideas through structured lenses \u2014 VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact \u2014 plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
       "category": "Personal Productivity",
       "version": "1.0.3",
       "author": {
@@ -1761,7 +1761,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Buttondown-Mgmt-Plugin"
       },
-      "description": "Manage one or more Buttondown newsletters from Claude Code — multi-newsletter config, reusable email templates, drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.",
+      "description": "Manage one or more Buttondown newsletters from Claude Code \u2014 multi-newsletter config, reusable email templates, drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.",
       "category": "Publishing & CMS",
       "version": "1.1.0",
       "author": {
@@ -1785,7 +1785,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Gist-Writer-Plugin"
       },
-      "description": "Publish content to GitHub gists with clear AI authorship — Claude-authored solution gists and collaborative debug write-ups, both with model+date attribution, environment context, and a PII pre-flight scrub for public publishes. Visibility is a per-call parameter with a configurable default.",
+      "description": "Publish content to GitHub gists with clear AI authorship \u2014 Claude-authored solution gists and collaborative debug write-ups, both with model+date attribution, environment context, and a PII pre-flight scrub for public publishes. Visibility is a per-call parameter with a configurable default.",
       "category": "Git & GitHub",
       "version": "1.2.0",
       "author": {
@@ -1807,7 +1807,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Pipewire-Skills-plugin"
       },
-      "description": "Claude Code skills for taming Pipewire/Wireplumber audio on Linux — manage default devices, persistent device-priority rules, per-app routing, mic level checks, and EasyEffects bindings.",
+      "description": "Claude Code skills for taming Pipewire/Wireplumber audio on Linux \u2014 manage default devices, persistent device-priority rules, per-app routing, mic level checks, and EasyEffects bindings.",
       "category": "Linux Sysadmin",
       "version": "1.1.0",
       "author": {
@@ -1855,7 +1855,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin"
       },
-      "description": "Define hardware project BOMs with ESP32-first focus — onboarding captures location/vendors/on-hand gear, then skills for spec creation, live web research of parts (AliExpress/Adafruit/etc.), budgeting, sourcing, compatibility checks, wiring specs, PCB design starting points, assembly instructions, 3D-printable suggestions, and AI-generated mockups via fal.ai nano-banana.",
+      "description": "Define hardware project BOMs with ESP32-first focus \u2014 onboarding captures location/vendors/on-hand gear, then skills for spec creation, live web research of parts (AliExpress/Adafruit/etc.), budgeting, sourcing, compatibility checks, wiring specs, PCB design starting points, assembly instructions, 3D-printable suggestions, and AI-generated mockups via fal.ai nano-banana.",
       "category": "Hardware & Maker",
       "version": "1.1.0",
       "author": {
@@ -1880,9 +1880,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-OBS-Plugin"
       },
-      "description": "Manage OBS Studio on Linux from Claude Code: detect install type (native/Flatpak/Snap/AppImage), enable and validate obs-websocket, ship a bundled obs-mcp MCP server for programmatic OBS control, back up configs to a user-defined folder, and install third-party OBS plugins.",
+      "description": "Manage OBS Studio on Linux: detect install type, enable obs-websocket, bundled obs-mcp server, config backups, third-party plugin installs, declarative scenes and hotkeys (KDE global shortcuts on Wayland), health and update checks, one multi-machine config workspace.",
       "category": "Media Editing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1905,7 +1905,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Get-Toony-Plugin"
       },
-      "description": "Convert JSON, CSV, YAML, and other structured data into TOON (Token-Oriented Object Notation) — a compact, lossless re-encoding that uses ~40% fewer tokens than JSON when fed to LLMs. Wraps @toon-format/toon and tracks the wider ecosystem (Python, Java, .NET, PHP, Rust ports).",
+      "description": "Convert JSON, CSV, YAML, and other structured data into TOON (Token-Oriented Object Notation) \u2014 a compact, lossless re-encoding that uses ~40% fewer tokens than JSON when fed to LLMs. Wraps @toon-format/toon and tracks the wider ecosystem (Python, Java, .NET, PHP, Rust ports).",
       "category": "AI & Context",
       "version": "1.0.0",
       "author": {
@@ -1930,7 +1930,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-CopyQ-Scripting-Plugin"
       },
-      "description": "Foundational advanced clipboard scripting skills for CopyQ on Ubuntu Linux — CLI reference, custom commands, tab/item management, global shortcuts, and command bundle import/export.",
+      "description": "Foundational advanced clipboard scripting skills for CopyQ on Ubuntu Linux \u2014 CLI reference, custom commands, tab/item management, global shortcuts, and command bundle import/export.",
       "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
@@ -1954,7 +1954,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-KDE-Plasma-Plugin"
       },
-      "description": "KDE Plasma (Wayland) runtime utilities — KWin scripting, plasmoid management, panel layout backup, virtual desktops & activities, KGlobalAccel shortcuts, theme/look-and-feel switching, KDE Connect, Klipper, Baloo, kwriteconfig safe-edit, plasma-restart helpers, qdbus introspection, kscreen save/apply, KWallet ops. Complements generic Linux desktop-management plugins.",
+      "description": "KDE Plasma (Wayland) runtime utilities \u2014 KWin scripting, plasmoid management, panel layout backup, virtual desktops & activities, KGlobalAccel shortcuts, theme/look-and-feel switching, KDE Connect, Klipper, Baloo, kwriteconfig safe-edit, plasma-restart helpers, qdbus introspection, kscreen save/apply, KWallet ops. Complements generic Linux desktop-management plugins.",
       "category": "Linux Sysadmin",
       "version": "0.3.0",
       "author": {
@@ -2153,7 +2153,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-System-Recovery-Mode"
       },
-      "description": "AI-assisted Linux system recovery — slash commands and agents (diagnose, logs, network, disk, services, packages) for diagnosing and fixing a broken system. Pairs with an optional GRUB/systemd installer that boots a minimal recovery TTY straight into Claude CLI.",
+      "description": "AI-assisted Linux system recovery \u2014 slash commands and agents (diagnose, logs, network, disk, services, packages) for diagnosing and fixing a broken system. Pairs with an optional GRUB/systemd installer that boots a minimal recovery TTY straight into Claude CLI.",
       "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
@@ -2200,7 +2200,7 @@
         "source": "github",
         "repo": "danielrosehill/dev-debugger-plugin"
       },
-      "description": "Bug-ticket workflow for development repos — capture bugs into planning/bugs/, dispatch specialist remediation agents (reproducer, diagnoser, patcher, fix-documenter), document fixes, and ship releases.",
+      "description": "Bug-ticket workflow for development repos \u2014 capture bugs into planning/bugs/, dispatch specialist remediation agents (reproducer, diagnoser, patcher, fix-documenter), document fixes, and ship releases.",
       "category": "Repo Scaffolding & Retrofitting",
       "version": "2.0.0",
       "author": {
@@ -2299,7 +2299,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Donetick-Plugin"
       },
-      "description": "Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance — daily brief, list/create/complete chores, label management.",
+      "description": "Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance \u2014 daily brief, list/create/complete chores, label management.",
       "category": "Personal Productivity",
       "version": "0.3.0",
       "author": {
@@ -2374,7 +2374,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-NFC-Ops-Plugin"
       },
-      "description": "NFC tag operations using libnfc — read, write, inspect, password-protect, and bulk-write from CSV with manual tag-by-tag feed.",
+      "description": "NFC tag operations using libnfc \u2014 read, write, inspect, password-protect, and bulk-write from CSV with manual tag-by-tag feed.",
       "category": "Hardware & Maker",
       "version": "1.0.0",
       "author": {
@@ -2399,7 +2399,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Background-Removal-Plugin"
       },
-      "description": "Remove image backgrounds via rembg — single-pass, two-pass cleanup, batch mode, and KDE Dolphin right-click integration.",
+      "description": "Remove image backgrounds via rembg \u2014 single-pass, two-pass cleanup, batch mode, and KDE Dolphin right-click integration.",
       "category": "Media Editing",
       "version": "1.0.0",
       "author": {
@@ -2450,7 +2450,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Novelty-Text-Editor-Plugin"
       },
-      "description": "Rewrite text in deliberately ridiculous styles — Shakespearean, medieval, archaic, chaos-case, over-salesy, platitude-stuffed, pseudobot, plus length transforms (elongate / truncate). Nine no-config skills for stylistic mischief.",
+      "description": "Rewrite text in deliberately ridiculous styles \u2014 Shakespearean, medieval, archaic, chaos-case, over-salesy, platitude-stuffed, pseudobot, plus length transforms (elongate / truncate). Nine no-config skills for stylistic mischief.",
       "category": "Documentation & Writing",
       "version": "1.0.0",
       "author": {
@@ -2475,7 +2475,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Report-Analyst-Plugin"
       },
-      "description": "Skeptical analyst toolkit for long reports — READ/SKIM/SKIP verdicts, structured extraction (arguments, findings, stats, case studies, key snippets), and an opinionated executive summary. Built-in Jaded Report Reader persona that refuses credit for filler.",
+      "description": "Skeptical analyst toolkit for long reports \u2014 READ/SKIM/SKIP verdicts, structured extraction (arguments, findings, stats, case studies, key snippets), and an opinionated executive summary. Built-in Jaded Report Reader persona that refuses credit for filler.",
       "category": "Research & Learning",
       "version": "0.1.0",
       "author": {
@@ -2579,7 +2579,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Snap-It-Plugin"
       },
-      "description": "Manage BTRFS snapshots via snapper and btrfs from Claude Code — create, list, diff, rollback, and prune subvolume snapshots. Includes /snap and /snap-before commands for one-shot and pre/post-paired snapshots around risky changes.",
+      "description": "Manage BTRFS snapshots via snapper and btrfs from Claude Code \u2014 create, list, diff, rollback, and prune subvolume snapshots. Includes /snap and /snap-before commands for one-shot and pre/post-paired snapshots around risky changes.",
       "category": "Linux Sysadmin",
       "version": "0.1.0",
       "author": {
@@ -2679,7 +2679,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Userscript-Development-Plugin"
       },
-      "description": "Develop, test, and publish Tampermonkey userscripts — scaffolding, in-browser validation via Claude in Chrome, README generation, and version bumping.",
+      "description": "Develop, test, and publish Tampermonkey userscripts \u2014 scaffolding, in-browser validation via Claude in Chrome, README generation, and version bumping.",
       "category": "Repo Scaffolding & Retrofitting",
       "version": "1.1.1",
       "author": {
@@ -2703,7 +2703,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Linux-System-Optimisation-Plugin"
       },
-      "description": "Performance and space optimisation for Linux desktops — hardware-aware CPU/GPU/disk/memory benchmarks with governor / I/O scheduler / sysctl tuning, plus disk-usage analysis (BTRFS-aware), duplicate-file detection, package audit, and dev-clutter pruning (venvs, node_modules, caches).",
+      "description": "Performance and space optimisation for Linux desktops \u2014 hardware-aware CPU/GPU/disk/memory benchmarks with governor / I/O scheduler / sysctl tuning, plus disk-usage analysis (BTRFS-aware), duplicate-file detection, package audit, and dev-clutter pruning (venvs, node_modules, caches).",
       "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
@@ -2730,7 +2730,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Text-To-Speech-Toolkit-Plugin"
       },
-      "description": "Skills for preprocessing text for TTS engines — SSML conversion, ElevenLabs markup (grounded in live ElevenLabs prompting docs), TTS safety review, and manual prosody addition. Non-destructive by default: edits land in an edited/ folder alongside an unchanged original/ copy.",
+      "description": "Skills for preprocessing text for TTS engines \u2014 SSML conversion, ElevenLabs markup (grounded in live ElevenLabs prompting docs), TTS safety review, and manual prosody addition. Non-destructive by default: edits land in an edited/ folder alongside an unchanged original/ copy.",
       "category": "Media Editing",
       "version": "1.0.0",
       "author": {
@@ -2755,7 +2755,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Zigbee-Home-Maintenance-Plugin"
       },
-      "description": "Maintain a home Zigbee network — onboard MQTT broker, coordinator (SMLight / Sonoff / ConBee / etc.), and Home Assistant; manage credentials, network exports, and routine maintenance.",
+      "description": "Maintain a home Zigbee network \u2014 onboard MQTT broker, coordinator (SMLight / Sonoff / ConBee / etc.), and Home Assistant; manage credentials, network exports, and routine maintenance.",
       "category": "Network & Smart Home",
       "version": "1.0.0",
       "author": {
@@ -2779,7 +2779,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Hardware-ID-Annotation-Plugin"
       },
-      "description": "Identify and annotate hardware components from photos — circuit boards, motherboards, ICs — with overlays, datasheet cross-checks, and structured BOMs.",
+      "description": "Identify and annotate hardware components from photos \u2014 circuit boards, motherboards, ICs \u2014 with overlays, datasheet cross-checks, and structured BOMs.",
       "category": "Media Editing",
       "version": "1.0.0",
       "author": {
@@ -2804,7 +2804,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Document-Nudge"
       },
-      "description": "Nudges Claude to document decisions, todos, sprints, and handovers into a structured planning/ tree by default — without being asked each turn. Ships a home-level CLAUDE.md snippet plus /nudge-install and /nudge-scaffold slash commands.",
+      "description": "Nudges Claude to document decisions, todos, sprints, and handovers into a structured planning/ tree by default \u2014 without being asked each turn. Ships a home-level CLAUDE.md snippet plus /nudge-install and /nudge-scaffold slash commands.",
       "category": "Documentation & Writing",
       "version": "0.2.0",
       "author": {
@@ -2850,7 +2850,7 @@
         "source": "github",
         "repo": "danielrosehill/Aliexpress-Israel-Skills"
       },
-      "description": "AliExpress shopping skills for Israel-based buyers — honest deep search that resolves true SKU prices behind anchored and bundle cards, fast-delivery-to-Israel filter, locale preference with drift guard (default EN/USD), Choice-first search, Israeli-reviews filter, landed cost, findings export (JSON/Markdown/PDF) and the $75 de-minimis across listings and cart.",
+      "description": "AliExpress shopping skills for Israel-based buyers \u2014 honest deep search that resolves true SKU prices behind anchored and bundle cards, fast-delivery-to-Israel filter, locale preference with drift guard (default EN/USD), Choice-first search, Israeli-reviews filter, landed cost, findings export (JSON/Markdown/PDF) and the $75 de-minimis across listings and cart.",
       "category": "Personal Productivity",
       "version": "1.9.0",
       "author": {
@@ -2950,7 +2950,7 @@
         "source": "github",
         "repo": "danielrosehill/Freight-Vol-Calculator"
       },
-      "description": "Freight volume arithmetic from a product's external dimensions — retrieves and cross-checks dimensions from a supplier listing, then pallet quantity across 11 pallet standards, container loads palletised or floor-loaded for 20 ft / 40 ft / HC / reefer / 13.6 m trailer with stated buffers and payload limits, master-carton permutations ranked by units per container, and freight cost per unit from rates you supply. Reproduces published trade figures; holds no rate data and makes no network call.",
+      "description": "Freight volume arithmetic from a product's external dimensions \u2014 retrieves and cross-checks dimensions from a supplier listing, then pallet quantity across 11 pallet standards, container loads palletised or floor-loaded for 20 ft / 40 ft / HC / reefer / 13.6 m trailer with stated buffers and payload limits, master-carton permutations ranked by units per container, and freight cost per unit from rates you supply. Reproduces published trade figures; holds no rate data and makes no network call.",
       "category": "Marketing & Shopping",
       "version": "1.1.0",
       "author": {
@@ -2977,7 +2977,7 @@
         "source": "github",
         "repo": "danielrosehill/stack-evaluator-plugin"
       },
-      "description": "Component-level review of a project's technology stack, not its code — records the stack to docs/stack/ with the run date, checks each component for end-of-life and currency, finds architectural gaps (caching, backups, queues, rate limiting, observability), flags redundancy and over-engineering against the real workload, then emits a sequenced revision proposal and an execution brief. Re-runnable per repo with persistent decisions and finding history.",
+      "description": "Component-level review of a project's technology stack, not its code \u2014 records the stack to docs/stack/ with the run date, checks each component for end-of-life and currency, finds architectural gaps (caching, backups, queues, rate limiting, observability), flags redundancy and over-engineering against the real workload, then emits a sequenced revision proposal and an execution brief. Re-runnable per repo with persistent decisions and finding history.",
       "category": "Repo Scaffolding & Retrofitting",
       "version": "0.1.1",
       "author": {
@@ -3004,7 +3004,7 @@
         "source": "github",
         "repo": "danielrosehill/netek-disconnect-plugin"
       },
-      "description": "Cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. Falls back to filling the form in Chrome when the API changes. Uses Netek's own private, undocumented backend — not a published API.",
+      "description": "Cancel Israeli service subscriptions (\u05e0\u05d9\u05ea\u05d5\u05e7) through netek.co.il \u2014 mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. Falls back to filling the form in Chrome when the API changes. Uses Netek's own private, undocumented backend \u2014 not a published API.",
       "category": "Regional",
       "version": "0.2.0",
       "author": {
@@ -3056,7 +3056,7 @@
         "source": "github",
         "repo": "danielrosehill/spec-led-certification-plugin"
       },
-      "description": "Choose a professional certification specification-first rather than market-first. create-workspace stands the search up as a private GitHub repo instantiated from the Spec-Led-Certification template, so it survives the machine and its git history shows when the scorecard was frozen relative to when the research ran. Three entry points for the three situations — start-search onboards and runs the full intake, rerun-search archives the previous run and reports what moved in the market, update-profile changes what is stored about you and marks the scorecard stale. Intake writes five dated profile files — subject, current position read from evidence, learning preferences, objectives and standing positions, money and time — a weighted scorecard is derived from those alone and frozen before any credential is looked up, then candidates are scored against it with a source tier and confidence tag on every number. Hard requirements exclude rather than score down. Emits a ranked comparison and a Typst PDF whose figures are computed from the CSVs at compile time. All state is written to the working directory, never to an agent memory store.",
+      "description": "Choose a professional certification specification-first rather than market-first. create-workspace stands the search up as a private GitHub repo instantiated from the Spec-Led-Certification template, so it survives the machine and its git history shows when the scorecard was frozen relative to when the research ran. Three entry points for the three situations \u2014 start-search onboards and runs the full intake, rerun-search archives the previous run and reports what moved in the market, update-profile changes what is stored about you and marks the scorecard stale. Intake writes five dated profile files \u2014 subject, current position read from evidence, learning preferences, objectives and standing positions, money and time \u2014 a weighted scorecard is derived from those alone and frozen before any credential is looked up, then candidates are scored against it with a source tier and confidence tag on every number. Hard requirements exclude rather than score down. Emits a ranked comparison and a Typst PDF whose figures are computed from the CSVs at compile time. All state is written to the working directory, never to an agent memory store.",
       "category": "Research & Learning",
       "version": "0.3.0",
       "author": {
@@ -3080,7 +3080,7 @@
         "source": "github",
         "repo": "danielrosehill/KDP-Publishing-Plugin"
       },
-      "description": "Amazon KDP paperback production with Typst — choose a standard trim, typeset the interior with gutter-aware margins and an even page count, build the full-wrap cover last from the interior's measured extent, pre-flight for silent glyph substitution and stale spines, and assemble the upload folder. Production only; it does not write the book.",
+      "description": "Amazon KDP paperback production with Typst \u2014 choose a standard trim, typeset the interior with gutter-aware margins and an even page count, build the full-wrap cover last from the interior's measured extent, pre-flight for silent glyph substitution and stale spines, and assemble the upload folder. Production only; it does not write the book.",
       "category": "Publishing & CMS",
       "version": "1.0.0",
       "author": {
@@ -3104,7 +3104,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Personal-Context-Plugin"
       },
-      "description": "Builds and maintains a persistent, portable background context layer about the user — intake interview, ingestion of material they already have, gap analysis, scoped retrieval, maintenance and export. Plain markdown entries in a store the user owns, read through declared scopes and sensitivity levels; explicitly does not use model-managed memory. Ships the Portable Context Contract so issue-scoped workspaces can read it without re-asking who the person is.",
+      "description": "Builds and maintains a persistent, portable background context layer about the user \u2014 intake interview, ingestion of material they already have, gap analysis, scoped retrieval, maintenance and export. Plain markdown entries in a store the user owns, read through declared scopes and sensitivity levels; explicitly does not use model-managed memory. Ships the Portable Context Contract so issue-scoped workspaces can read it without re-asking who the person is.",
       "category": "AI & Context",
       "version": "0.1.2",
       "author": {
@@ -3154,7 +3154,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Travel-Packing-Assistant-Plugin"
       },
-      "description": "Make optimal use of a baggage allowance on an international itinerary — research each carrier's real checked, cabin and personal-item allowance per segment with a source and a confidence level for every figure, compute the binding limit that governs the journey, inventory what is carried by weight, reconcile scale readings against the inventory, solve the allocation to bags and packing cubes, price every way out of being over, and rank an emergency leave-behind list by cost per kilogram saved. Renders a one-page airport counter card and a per-bag packing list as PDF via Typst and as Markdown. One trip workspace per itinerary.",
+      "description": "Make optimal use of a baggage allowance on an international itinerary \u2014 research each carrier's real checked, cabin and personal-item allowance per segment with a source and a confidence level for every figure, compute the binding limit that governs the journey, inventory what is carried by weight, reconcile scale readings against the inventory, solve the allocation to bags and packing cubes, price every way out of being over, and rank an emergency leave-behind list by cost per kilogram saved. Renders a one-page airport counter card and a per-bag packing list as PDF via Typst and as Markdown. One trip workspace per itinerary.",
       "category": "Personal Productivity",
       "version": "1.0.2",
       "author": {
@@ -3250,7 +3250,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Site-Skill-Builder-Plugin"
       },
-      "description": "Site skills built by watching a site in your own signed-in Chrome — network-first discovery, a surface survey or your own URL list, a skill roster for approval, then skills that survive UI changes, keep the session alive, clean up after themselves and probe for drift. Semantic handles only. Every observation is classified publishable, private, or never-recorded.",
+      "description": "Site skills built by watching a site in your own signed-in Chrome \u2014 network-first discovery, a surface survey or your own URL list, a skill roster for approval, then skills that survive UI changes, keep the session alive, clean up after themselves and probe for drift. Semantic handles only. Every observation is classified publishable, private, or never-recorded.",
       "category": "Data Discovery",
       "version": "1.2.0",
       "author": {
@@ -3300,7 +3300,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Eml-Toolkit"
       },
-      "description": "Process .eml email exports — reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.",
+      "description": "Process .eml email exports \u2014 reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.",
       "category": "Documentation & Writing",
       "version": "0.1.0",
       "author": {
@@ -3345,7 +3345,7 @@
         "source": "github",
         "repo": "danielrosehill/audio-voice-id-plugin"
       },
-      "description": "Speaker diarization, voice enrollment, and identification for audio files — builds a local voiceprint library with optional cloud replication.",
+      "description": "Speaker diarization, voice enrollment, and identification for audio files \u2014 builds a local voiceprint library with optional cloud replication.",
       "category": "Media Editing",
       "version": "0.1.0",
       "author": {
@@ -3362,7 +3362,7 @@
         "source": "github",
         "repo": "danielrosehill/brainstorm-solutions-plugin"
       },
-      "description": "When you hit a wall, spin up a research workspace to brainstorm solutions — captures the blocker, what you tried, and kicks off deep research",
+      "description": "When you hit a wall, spin up a research workspace to brainstorm solutions \u2014 captures the blocker, what you tried, and kicks off deep research",
       "category": "Personal Productivity",
       "version": "1.0.2",
       "author": {
@@ -3379,7 +3379,7 @@
         "source": "github",
         "repo": "danielrosehill/conda-manager-plugin"
       },
-      "description": "Conda environments — list, validate, compare, back up, audit and clean up environments with AI assistance.",
+      "description": "Conda environments \u2014 list, validate, compare, back up, audit and clean up environments with AI assistance.",
       "category": "Linux Sysadmin",
       "version": "0.1.0",
       "author": {
@@ -3447,7 +3447,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Grainger-Plugin"
       },
-      "description": "Grainger.com (US industrial MRO) product research — typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.",
+      "description": "Grainger.com (US industrial MRO) product research \u2014 typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.",
       "category": "Marketing & Shopping",
       "version": "0.1.1",
       "author": {
@@ -3481,7 +3481,7 @@
         "source": "github",
         "repo": "danielrosehill/mqtt-observability-plugin"
       },
-      "description": "Observe and interact with an MQTT broker — monitor all payloads, watch a specific topic, and publish messages. Stores broker credentials once and reuses them.",
+      "description": "Observe and interact with an MQTT broker \u2014 monitor all payloads, watch a specific topic, and publish messages. Stores broker credentials once and reuses them.",
       "category": "Network & Smart Home",
       "version": "1.0.0",
       "author": {
@@ -3498,7 +3498,7 @@
         "source": "github",
         "repo": "danielrosehill/Stack-Search-Plugin"
       },
-      "description": "Spawn a new stack search workspace from the Claude-Stack-Research-Workspace template — clone, name, create GitHub repo, and kick off the structured intake interview",
+      "description": "Spawn a new stack search workspace from the Claude-Stack-Research-Workspace template \u2014 clone, name, create GitHub repo, and kick off the structured intake interview",
       "category": "Research & Learning",
       "version": "1.0.0",
       "author": {
@@ -3588,7 +3588,7 @@
         "source": "github",
         "repo": "danielrosehill/Aliexpress-Shopper"
       },
-      "description": "Browser-driven AliExpress shopping assistant for Claude in Chrome. Bundles userscripts (Find Similar, Hide Combo Deals) and skills/commands that drive aliexpress.com directly in the user's browser session — search, read current listing, compare open tabs, apply filters, hide bundles, and find similar items. Scope is global aliexpress.com (any locale/currency) and visual/interactive shopping, not headless scraping or programmatic API flows.",
+      "description": "Browser-driven AliExpress shopping assistant for Claude in Chrome. Bundles userscripts (Find Similar, Hide Combo Deals) and skills/commands that drive aliexpress.com directly in the user's browser session \u2014 search, read current listing, compare open tabs, apply filters, hide bundles, and find similar items. Scope is global aliexpress.com (any locale/currency) and visual/interactive shopping, not headless scraping or programmatic API flows.",
       "category": "Marketing & Shopping",
       "version": "0.1.0",
       "author": {
@@ -3930,7 +3930,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-AVP-Music-Video-Plugin"
       },
-      "description": "Audio → branded music video (avp): waveform, logo, karaoke. Install audio-visualizer-python, pull logo/colours/font from a repo into a brand kit, render an MP3 (e.g. from Suno) through JSON templates (waveform, spectrum bars, logo pulse, 9:16), burn in karaoke lyrics from LRC/SRT, and encode small with AV1 by default.",
+      "description": "Audio \u2192 branded music video (avp): waveform, logo, karaoke. Install audio-visualizer-python, pull logo/colours/font from a repo into a brand kit, render an MP3 (e.g. from Suno) through JSON templates (waveform, spectrum bars, logo pulse, 9:16), burn in karaoke lyrics from LRC/SRT, and encode small with AV1 by default.",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -4056,7 +4056,7 @@
         "source": "github",
         "repo": "danielrosehill/Israel-Post-Plugin"
       },
-      "description": "Israel Post (דואר ישראל) appointments, branch search and parcel tracking: book, check or cancel a counter slot.",
+      "description": "Israel Post (\u05d3\u05d5\u05d0\u05e8 \u05d9\u05e9\u05e8\u05d0\u05dc) appointments, branch search and parcel tracking: book, check or cancel a counter slot.",
       "category": "Regional",
       "version": "0.3.0",
       "author": {
