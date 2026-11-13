@@ -176,7 +176,7 @@
       },
       "description": "Audio production — normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
       "category": "Media Editing",
-      "version": "1.11.1",
+      "version": "1.11.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -199,7 +199,7 @@
       },
       "description": "Image production — editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
       "category": "Media Editing",
-      "version": "2.3.4",
+      "version": "2.4.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -332,7 +332,7 @@
       },
       "description": "Career planning — log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
       "category": "Staging",
-      "version": "2.3.4",
+      "version": "2.4.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -495,7 +495,7 @@
       },
       "description": "Ideation and planning — capture, generate, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants and Typst PDF deliverables.",
       "category": "Personal Productivity",
-      "version": "1.4.1",
+      "version": "1.4.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -583,7 +583,7 @@
       },
       "description": "Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
       "category": "QA & Agent Sessions",
-      "version": "2.9.2",
+      "version": "2.9.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -649,7 +649,7 @@
       },
       "description": "Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog, 206 bundled text-transformation prompts), Typst PDF, save. Batch mode runs several files concurrently. Preferences in a plain file.",
       "category": "Media Editing",
-      "version": "3.1.0",
+      "version": "2.3.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -676,7 +676,7 @@
       },
       "description": "Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.",
       "category": "Documentation & Writing",
-      "version": "1.1.2",
+      "version": "1.1.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1342,7 +1342,7 @@
       },
       "description": "Check what people are actually saying about a topic, product, or provider by searching curated social-discourse sources (Reddit, Hacker News, Stack Exchange, Trustpilot, YouTube, Lobsters).",
       "category": "Research & Learning",
-      "version": "1.0.0",
+      "version": "1.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1538,7 +1538,7 @@
       },
       "description": "Personal schedule, task, and meeting management. Routes mixed brain-dumps into Google Calendar (events) and Todoist (tasks); manages agenda/minutes Google Docs linked to events; produces wrapup logs and morning briefs. 22 skills covering Calendar/Todoist CRUD, firehose routing, task<->event migration, priority/date hygiene, and agenda/minutes lifecycle.",
       "category": "Personal Productivity",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1716,7 +1716,7 @@
       },
       "description": "Evaluate, refine, and develop business ideas through structured lenses — VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact — plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
       "category": "Personal Productivity",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2226,7 +2226,7 @@
       },
       "description": "Plan and prompt-engineer AI-generated visuals (images, diagrams, video) for whitepapers, blog posts, and long-form content. Six skills cover project onboarding, visual ideation, prompt generation, project listing, fal-ai execution, and a resolution/style reference.",
       "category": "Media Editing",
-      "version": "1.1.0",
+      "version": "1.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2250,7 +2250,7 @@
       },
       "description": "Passive-aggressive PA system. Claude barks status updates over a speaker; if ignored, escalates across the house via Home Assistant or MQTT. Includes pre-recorded voice packs, RGB signal bulb, full-screen flash overlay, and a quiet-mode skill that translates natural-language pause/schedule requests.",
       "category": "QA & Agent Sessions",
-      "version": "0.3.1",
+      "version": "0.3.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2852,7 +2852,7 @@
       },
       "description": "AliExpress shopping skills for Israel-based buyers — honest deep search that resolves true SKU prices behind anchored and bundle cards, fast-delivery-to-Israel filter, locale preference with drift guard (default EN/USD), Choice-first search, Israeli-reviews filter, landed cost, findings export (JSON/Markdown/PDF) and the $75 de-minimis across listings and cart.",
       "category": "Personal Productivity",
-      "version": "1.9.0",
+      "version": "1.10.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3179,7 +3179,7 @@
       },
       "description": "Produce books, long-form research reports, screenplays and audiobooks with teams of subagents. One pipeline (definition, planning, parallel unit drafting, review), then a production stage per type: print handoff, PDF, Fountain, or spoken script + per-chapter TTS + chaptered m4b. Consistency is carried by a style guide, per-unit briefs and a continuity ledger, and a seam reviewer checks every join between units. Successor to book-writing.",
       "category": "Publishing & CMS",
-      "version": "2.0",
+      "version": "2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3302,7 +3302,7 @@
       },
       "description": "Process .eml email exports — reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.",
       "category": "Documentation & Writing",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3415,7 +3415,7 @@
       },
       "description": "Slash commands and subagents for managing Docker containers, Compose stacks, volumes, networks, and multi-environment deployments.",
       "category": "Linux Sysadmin",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3705,7 +3705,7 @@
       },
       "description": "Modular research task: brief in, PDF + podcast out. Takes a (dictated) brief through a GitHub repo as research notebook, parallel-subagent research with a source log, a Typst PDF report and a two-host educational podcast (Gemini TTS), then Google Drive and email. Every output module is optional and runs alone; the repo can stay a one-off or keep growing in follow-up rounds.",
       "category": "Research & Learning",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
