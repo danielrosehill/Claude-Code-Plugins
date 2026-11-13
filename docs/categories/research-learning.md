@@ -1,6 +1,6 @@
 # Research & Learning
 
-15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 
 ```
 /plugin install geopol-sim@danielrosehill
+```
+
+---
+
+#### HF Research
+
+Unofficial Hugging Face research skills for AI agents, task first. task-directory has every Hub task with its page and model-listing URL built in (no fetch), and hf-tasks re-reads the live huggingface.co/tasks taxonomy on request and shows what changed. task-model-research goes from a need to its task(s) to a vetted shortlist. transcription-model-research searches ASR, audio-text-to-text and any-to-any together. Also candidate base-model and dataset research, gated-access (pre-fills gate forms from your saved answers and asks before submitting), bundle-collection and model-notebook. Your details live in a private profile outside the plugin (setup).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/HF-Research-Plugin)
+
+```
+/plugin install hf-research@danielrosehill
 ```
 
 ---

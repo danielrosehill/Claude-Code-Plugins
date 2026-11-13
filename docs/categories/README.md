@@ -1,6 +1,6 @@
 # Plugin Categories
 
-187 plugins across 19 categories.
+191 plugins across 19 categories.
 
 | Category | Plugins |
 | --- | ---: |
@@ -9,10 +9,10 @@
 | [Media Editing](media-editing.md) | 20 |
 | [Documentation & Writing](documentation-writing.md) | 18 |
 | [AI & Context](ai-context.md) | 17 |
-| [Research & Learning](research-learning.md) | 15 |
-| [Repo Scaffolding & Retrofitting](repo-scaffolding-retrofitting.md) | 13 |
+| [Research & Learning](research-learning.md) | 16 |
+| [Repo Scaffolding & Retrofitting](repo-scaffolding-retrofitting.md) | 14 |
+| [Data & Datasets](data-datasets.md) | 8 |
 | [Privacy & Security](privacy-security.md) | 8 |
-| [Data & Datasets](data-datasets.md) | 7 |
 | [Marketing & Shopping](marketing-shopping.md) | 7 |
 | [Network & Smart Home](network-smart-home.md) | 7 |
 | [Regional](regional.md) | 7 |
@@ -22,6 +22,6 @@
 | [Git & GitHub](git-github.md) | 3 |
 | [Publishing & CMS](publishing-cms.md) | 3 |
 | [Staging](staging.md) | 3 |
-| [Health](health.md) | 1 |
+| [Health](health.md) | 2 |
 
 [Back to the marketplace README](../../README.md)

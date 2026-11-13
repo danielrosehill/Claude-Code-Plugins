@@ -1,6 +1,6 @@
 # Data & Datasets
 
-7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -52,6 +52,18 @@ Create static and interactive data visualisations for reports, repos, and data s
 
 ```
 /plugin install data-visualisation-and-publishing@danielrosehill
+```
+
+---
+
+#### HF Publisher Tools
+
+Unofficial Hugging Face publisher skills for AI agents: create datasets, models and Spaces (static, Gradio, Docker), set visibility, build explainer Spaces from templates you can override, keep collections, review and decide access requests on gated repos (only the users you name), mint DOIs, take a Hub inventory, convert loose audio datasets to parquet, curate sentence-dataset lists, use Storage Buckets over S3, and contact support. Your account, orgs, naming style and policies live in a private profile outside the plugin (setup). Companion: hf-research.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/HF-Publisher-Tools-Plugin)
+
+```
+/plugin install hf-publisher-tools@danielrosehill
 ```
 
 ---

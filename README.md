@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**187 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**191 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -37,10 +37,10 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Media Editing](docs/categories/media-editing.md)** | 20 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (13 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `digital-printing`, `document-nudge`, `document-to-markdown`, … (11 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 17 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `custom-model-planning`, `get-toony`, … (10 more) |
-| **[Research & Learning](docs/categories/research-learning.md)** | 15 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
-| **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 13 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (6 more) |
+| **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `hf-research`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
+| **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 14 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (7 more) |
+| **[Data & Datasets](docs/categories/data-datasets.md)** | 8 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `hf-publisher-tools`, `synthetic-data`, … (2 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
-| **[Data & Datasets](docs/categories/data-datasets.md)** | 7 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `synthetic-data`, `taxonomy-creation`, `text-corpus-analysis` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `home-assistant-mgmt`, `lan-print-scan`, `media-assistant-ops`, `mqtt-observability`, `network-playbook`, `zigbee-home-maintenance` |
 | **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
@@ -50,7 +50,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Git & GitHub](docs/categories/git-github.md)** | 3 | `gist-writer`, `github-explorer`, `start-here` |
 | **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `buttondown-mgmt`, `kdp-publishing`, `long-form-content` |
 | **[Staging](docs/categories/staging.md)** | 3 | `career`, `resource-list-builder`, `smart-home` |
-| **[Health](docs/categories/health.md)** | 1 | `guava-health` |
+| **[Health](docs/categories/health.md)** | 2 | `family-systems-context`, `guava-health` |
 
 Full descriptions and per-plugin install commands live on each category page — see the [category index](docs/categories/README.md).
 

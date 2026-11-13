@@ -1,6 +1,6 @@
 # Repo Scaffolding & Retrofitting
 
-13 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+14 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -88,6 +88,18 @@ Recommend, generate, and populate software/content licenses. Reads from a user-m
 
 ```
 /plugin install license-populator@danielrosehill
+```
+
+---
+
+#### Public Plugin, Private Overlay
+
+The Public Plugin, Private Overlay standard for agent plugins, aligned with Anthropic's plugin and skill guidance: one public generic plugin, the user's own content in a consistent overlay folder outside ~/.claude, caches in CLAUDE_PLUGIN_DATA, secrets in sensitive userConfig. audit-plugins audits a publisher's marketplaces and plugins against it (leaks of personal particulars or secrets, storage rules, overlay conformance, skill limits, version drift) and brings them into line in approved batches. check-guidance re-reads the Anthropic docs the standard quotes and proposes updates when they change.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Public-Plugin-Private-Overlay)
+
+```
+/plugin install public-private-overlay@danielrosehill
 ```
 
 ---

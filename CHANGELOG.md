@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-13 (family-systems-context)
+- **`family-systems-context` 1.0.0**: map a toxic or abusive family system as persistent context. One file per person, research-grounded roles and dynamics with evidence tiers, a glossary mapping informal abuse-recovery terms to research constructs, printable relationship diagram, therapy intake-pack PDF, alias mappings (comfort, share, obfuscated), voice-note ingest, private git workspace from the Family-System-Context-Template, optional Qdrant sync.
+
 ### Changed — 2026-11-13 (skill-genie)
 - **`skill-genie` 0.3.0** (renamed from `skill-or-not`, repo To-Skill-Or-Not-To-Skill → Skill-Genie): order of operations for skill + task requests (task first by default), skill writing delegated to a background subagent, new `reindex` skill that reads the user's own procedure from a private overlay.
 
