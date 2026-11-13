@@ -222,7 +222,7 @@
       },
       "description": "Video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.",
       "category": "Media Editing",
-      "version": "1.14.0",
+      "version": "1.15.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4478,6 +4478,30 @@
         "macropad",
         "input",
         "button-mapping"
+      ]
+    },
+    {
+      "name": "remote-video-editing",
+      "displayName": "Remote Video Editing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Remote-Video-Editing"
+      },
+      "description": "Video editing and rendering on rented cloud GPUs (Modal): offload heavy jobs like AI voice cleanup from a local machine.",
+      "category": "Media Editing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "video-editing",
+        "cloud-gpu",
+        "modal",
+        "speech-enhancement",
+        "media-editing"
       ]
     }
   ]

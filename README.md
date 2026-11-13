@@ -114,6 +114,7 @@ You can install multiple plugins by repeating the installation command for each 
 /plugin install technical-docs@danielrosehill
 /plugin install audio-production@danielrosehill
 /plugin install video-editing@danielrosehill
+/plugin install remote-video-editing@danielrosehill
 /plugin install image-production@danielrosehill
 ```
 
