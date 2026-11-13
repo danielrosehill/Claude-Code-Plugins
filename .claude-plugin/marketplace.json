@@ -3873,14 +3873,14 @@
       ]
     },
     {
-      "name": "skill-or-not",
-      "displayName": "To Skill Or Not To Skill",
+      "name": "skill-genie",
+      "displayName": "Skill Genie",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/To-Skill-Or-Not-To-Skill"
+        "repo": "danielrosehill/Skill-Genie"
       },
-      "description": "Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
-      "version": "0.1.1",
+      "description": "Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default), plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

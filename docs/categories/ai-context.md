@@ -188,14 +188,14 @@ Persona-recipe library for swapping Claude into themed personalities (Daredevil,
 
 ---
 
-#### To Skill Or Not To Skill
+#### Skill Genie
 
-Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
+Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default), plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/To-Skill-Or-Not-To-Skill)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Skill-Genie)
 
 ```
-/plugin install skill-or-not@danielrosehill
+/plugin install skill-genie@danielrosehill
 ```
 
 ---
