@@ -1,6 +1,6 @@
 # Media Editing
 
-19 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+20 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -142,12 +142,24 @@ Document indoor noise pollution and analyse recordings with ffmpeg, sox and aubi
 
 #### OBS Mgmt
 
-Manage OBS Studio on Linux from Claude Code: detect install type (native/Flatpak/Snap/AppImage), enable and validate obs-websocket, ship a bundled obs-mcp MCP server for programmatic OBS control, back up configs to a user-defined folder, and install third-party OBS plugins.
+Manage OBS Studio on Linux: detect install type, enable obs-websocket, bundled obs-mcp server, config backups, third-party plugin installs, declarative scenes and hotkeys (KDE global shortcuts on Wayland), health and update checks, one multi-machine config workspace.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-OBS-Plugin)
 
 ```
 /plugin install obs-mgmt@danielrosehill
+```
+
+---
+
+#### Remote Video Editing
+
+Video editing and rendering on rented cloud GPUs (Modal): offload heavy jobs like AI voice cleanup from a local machine.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Remote-Video-Editing)
+
+```
+/plugin install remote-video-editing@danielrosehill
 ```
 
 ---

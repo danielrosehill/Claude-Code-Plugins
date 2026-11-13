@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-25 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+26 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,6 +124,18 @@ Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind 
 
 ```
 /plugin install hotkey-builder@danielrosehill
+```
+
+---
+
+#### Input Device Mapper
+
+Identify a Linux input device (gamepad, macro pad, pedal, remote), map each button to its evdev code one press at a time, and look devices up in a shared mapping library.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Input-Device-Mapper-Plugin)
+
+```
+/plugin install input-device-mapper@danielrosehill
 ```
 
 ---

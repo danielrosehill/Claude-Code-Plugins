@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-13 (skill-genie)
+- **`skill-genie` 0.3.0** (renamed from `skill-or-not`, repo To-Skill-Or-Not-To-Skill → Skill-Genie): order of operations for skill + task requests (task first by default), skill writing delegated to a background subagent, new `reindex` skill that reads the user's own procedure from a private overlay.
+
 ### Added — 2026-11-12 (email-batcher)
 - **`email-batcher` 0.1.0**: outbound email batching. A team queues client updates into a shared private git repo; a server releases one consolidated email per client on a daily/weekly schedule or threshold, with an urgent override.
 
