@@ -3415,7 +3415,7 @@
       },
       "description": "Slash commands and subagents for managing Docker containers, Compose stacks, volumes, networks, and multi-environment deployments.",
       "category": "Linux Sysadmin",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
