@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Removed — 2026-11-14 (hf-research)
+- **`hf-research`** de-listed; merged into `ai-model-research` 1.2.0 (all 11 Hugging Face skills, `hubexplorer` CLI, HF-URLs data). Repo HF-Research-Plugin deleted.
+
 ### Added — 2026-11-14 (home-audio)
 - **`home-audio` 1.0.0**: network speakers and multi-room audio across Music Assistant, Lyrion/Squeezelite and Snapcast. Skills: setup (private overlay record), inventory, install-server, install-client, connect-server, set-speaker, debug, groups, music-assistant (API), home-assistant (integrations + API). Shared stdlib CLI `audioctl.py`.
 

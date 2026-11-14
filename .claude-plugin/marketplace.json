@@ -4507,35 +4507,6 @@
       ]
     },
     {
-      "name": "hf-research",
-      "displayName": "HF Research",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/HF-Research-Plugin"
-      },
-      "description": "Unofficial Hugging Face research skills for AI agents, task first. task-directory has every Hub task with its page and model-listing URL built in (no fetch), and hf-tasks re-reads the live huggingface.co/tasks taxonomy on request and shows what changed. task-model-research goes from a need to its task(s) to a vetted shortlist. transcription-model-research searches ASR, audio-text-to-text and any-to-any together. Also candidate base-model and dataset research, gated-access (pre-fills gate forms from your saved answers and asks before submitting), bundle-collection and model-notebook. Your details live in a private profile outside the plugin (setup).",
-      "category": "Research & Learning",
-      "version": "1.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "huggingface",
-        "hugging-face",
-        "tasks",
-        "model-search",
-        "model-research",
-        "asr",
-        "transcription",
-        "gated-models",
-        "datasets",
-        "base-model"
-      ]
-    },
-    {
       "name": "hf-publisher-tools",
       "displayName": "HF Publisher Tools",
       "source": {
