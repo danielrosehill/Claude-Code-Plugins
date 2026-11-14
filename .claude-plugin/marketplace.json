@@ -265,7 +265,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Smart-Home-Plugin"
       },
-      "description": "Smart home — Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.",
+      "description": "Smart home — Home Assistant and Plex media server ops, with HA/media-server workspace variants. Multi-room audio is in home-audio.",
       "category": "Staging",
       "version": "1.0.0",
       "author": {

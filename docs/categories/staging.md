@@ -34,7 +34,7 @@ Build, maintain, and audit curated GitHub resource lists (Awesome-style indexes)
 
 #### Smart Home
 
-Smart home — Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.
+Smart home — Home Assistant and Plex media server ops, with HA/media-server workspace variants. Multi-room audio is in home-audio.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Smart-Home-Plugin)
 
