@@ -22,7 +22,7 @@ Define hardware project BOMs with ESP32-first focus — onboarding captures loca
 
 #### Label Printer
 
-Print labels from Claude Code on Brother QL and P-touch label printers on Linux. Discovers printers over mDNS, USB and CUPS and keeps a machine-local registry so later prints can name one; renders text and QR labels to the pixel canvas of the loaded DK or TZe media; previews without touching the printer, because brother_ql converts and transmits in a single step with no dry run. Ships a media catalogue of DK and TZe product codes, reusable label templates in the user's data directory, and a Linux driver-install skill covering brother_ql, ptouch-print, mDNS and CUPS. Zebra and DYMO are discovered and registered but not yet printable. Also bundles the original streamable-HTTP MCP server for P-touch setups built around a USB print bridge.
+Design and print labels from Claude Code. Turns "four labels for the wine bottles with a wine icon" into a finished label: Iconify icon search (filled icons first), fonts by name with automatic download (IBM Plex Sans Bold by default), auto two-line wrap, icon-left/icon-top/QR layouts and saved styles, sized to the loaded media (Brother DK and TZe, NIIMBOT die-cut; live tape detection on bridge and hub printers). Prints through pluggable backends: CUPS, ptouch-print, brother_ql, a USB print bridge (P-touch or niimblue-node for NIIMBOT) or a LAN Print Hub. Printers, styles and templates live in the user's own Label-Templates repo, created from a public template. Also bundles the original P-touch MCP server.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/label-printer-plugin)
 

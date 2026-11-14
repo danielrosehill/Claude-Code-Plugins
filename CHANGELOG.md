@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-14 (label-printer)
+- **`label-printer` 2.0.0**: now a label design + print plugin. New `design-label` (Iconify icon search, fonts by name with download, IBM Plex Sans Bold default, auto two-line wrap, styles), `setup` and `niimbot-bridge-setup` skills; pluggable backends add `http_bridge` (ptouch-print or niimblue-node) and `print_hub` with live tape detection; NIIMBOT media. Printers, styles and templates live in a per-user Label-Templates repo created from the new public template `danielrosehill/Label-Templates-Template`. Absorbs the private `niimbot-labels` plugin.
+
 ### Added — 2026-11-14 (tts-tools)
 - **`tts-tools` 1.0.0**: harness for TTS and voice work. Skill `listening-page` and stdlib CLI `listen-page`: local listening pages (grid and compare layouts; templates voice-pick, ab-original, eq-mix, checkpoint-compare, blind-ab) that autosave the listener's picks to `choices.json`.
 
