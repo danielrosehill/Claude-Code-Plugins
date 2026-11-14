@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-26 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+27 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -304,6 +304,18 @@ AI-assisted Linux system recovery — slash commands and agents (diagnose, logs,
 
 ```
 /plugin install system-recovery-mode@danielrosehill
+```
+
+---
+
+#### Tooling
+
+Seed a machine with Daniel Rosehill's public channels: Claude Code marketplaces, APT repo, F-Droid repos, CLIs, Hugging Face and GitHub projects. Ships the danielrosehill TUI.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Tooling)
+
+```
+/plugin install tooling@danielrosehill
 ```
 
 ---

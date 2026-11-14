@@ -22,9 +22,9 @@ Prompt engineering — craft, eval, catalog, version, search prompts, with libra
 
 #### AI Model Research
 
-Research, discover, compare, and evaluate AI models on OpenRouter — backed by the bundled Model-Scout MCP server for live catalog data with caching. Subsumes the standalone open-router-model-research plugin and the Model-Scout-MCP server. 11 skills cover lookup, capability filtering (tools, vision, audio), recommendation, head-to-head comparison, deep evaluation, workload cost projection, and finding cheaper alternatives.
+Research AI models: discover, filter, compare and evaluate, across OpenRouter and the Hugging Face Hub. Built on small unofficial read-only CLIs: orexplorer for OpenRouter (capabilities, batch support, prices, providers, new and trending models, benchmarks) and hubexplorer for the Hugging Face Hub (task-first discovery filtered by format, language, local app, inference provider, model type, size and licence, with every sort order). Skills cover lookup, capability filtering, recommendation, comparison, deep evaluation, cost projection, alternatives, task-first HF model research, transcription models, base models and datasets, gated access, collections and a model notebook.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/AI-Model-Research-Plugin)
 
 ```
 /plugin install ai-model-research@danielrosehill

@@ -4589,6 +4589,33 @@
         "voice-notes",
         "vector-store"
       ]
+    },
+    {
+      "name": "tooling",
+      "displayName": "Tooling",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Tooling"
+      },
+      "description": "Seed a machine with Daniel Rosehill's public channels: Claude Code marketplaces, APT repo, F-Droid repos, CLIs, Hugging Face and GitHub projects. Ships the danielrosehill TUI.",
+      "category": "Linux Sysadmin",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "setup",
+        "bootstrap",
+        "apt",
+        "f-droid",
+        "marketplace",
+        "huggingface",
+        "github",
+        "tui"
+      ]
     }
   ]
 }

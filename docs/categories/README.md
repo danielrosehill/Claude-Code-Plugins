@@ -4,12 +4,12 @@
 
 | Category | Plugins |
 | --- | ---: |
-| [Linux Sysadmin](linux-sysadmin.md) | 26 |
+| [Linux Sysadmin](linux-sysadmin.md) | 27 |
 | [Personal Productivity](personal-productivity.md) | 21 |
 | [Media Editing](media-editing.md) | 20 |
 | [Documentation & Writing](documentation-writing.md) | 18 |
 | [AI & Context](ai-context.md) | 17 |
-| [Research & Learning](research-learning.md) | 16 |
+| [Research & Learning](research-learning.md) | 15 |
 | [Repo Scaffolding & Retrofitting](repo-scaffolding-retrofitting.md) | 14 |
 | [Data & Datasets](data-datasets.md) | 8 |
 | [Privacy & Security](privacy-security.md) | 8 |
