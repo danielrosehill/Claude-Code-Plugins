@@ -6,6 +6,12 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-14 (home-audio)
+- **`home-audio` 1.0.0**: network speakers and multi-room audio across Music Assistant, Lyrion/Squeezelite and Snapcast. Skills: setup (private overlay record), inventory, install-server, install-client, connect-server, set-speaker, debug, groups, music-assistant (API), home-assistant (integrations + API). Shared stdlib CLI `audioctl.py`.
+
+### Removed — 2026-11-14 (media-assistant-ops)
+- **`media-assistant-ops`** de-listed; folded into `home-audio` (`music-assistant` skill, DSP presets). The Snapcast/Spotify-network parts of `smart-home` moved there too.
+
 ### Added — 2026-11-13 (family-systems-context)
 - **`family-systems-context` 1.0.0**: map a toxic or abusive family system as persistent context. One file per person, research-grounded roles and dynamics with evidence tiers, a glossary mapping informal abuse-recovery terms to research constructs, printable relationship diagram, therapy intake-pack PDF, alias mappings (comfort, share, obfuscated), voice-note ingest, private git workspace from the Family-System-Context-Template, optional Qdrant sync.
 

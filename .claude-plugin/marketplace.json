@@ -960,15 +960,15 @@
       ]
     },
     {
-      "name": "media-assistant-ops",
-      "displayName": "Media Assistant Ops",
+      "name": "home-audio",
+      "displayName": "Home Audio",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Media-Assistant-Ops-Plugin"
+        "repo": "danielrosehill/Home-Audio"
       },
-      "description": "Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
+      "description": "Network speakers and multi-room audio across backends (Music Assistant, Lyrion/Squeezelite, Snapcast): install servers and clients, inventory, set speakers, debug, drive the MA and Home Assistant APIs. Your installation lives in a private overlay.",
       "category": "Network & Smart Home",
-      "version": "1.1.0",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -976,11 +976,13 @@
       },
       "license": "MIT",
       "tags": [
+        "audio",
+        "multi-room",
         "music-assistant",
-        "home-audio",
-        "smart-home",
-        "dsp",
-        "automation"
+        "squeezelite",
+        "snapcast",
+        "home-assistant",
+        "speakers"
       ]
     },
     {

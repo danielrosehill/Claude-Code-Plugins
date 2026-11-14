@@ -42,7 +42,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 8 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `hf-publisher-tools`, `synthetic-data`, … (2 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
-| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `home-assistant-mgmt`, `lan-print-scan`, `media-assistant-ops`, `mqtt-observability`, `network-playbook`, `zigbee-home-maintenance` |
+| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `home-assistant-mgmt`, `home-audio`, `lan-print-scan`, `mqtt-observability`, `network-playbook`, `zigbee-home-maintenance` |
 | **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 4 | `ai-eval`, `multisession`, `passive-aggressive-pa`, `rudder` |

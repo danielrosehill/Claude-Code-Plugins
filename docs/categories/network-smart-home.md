@@ -32,14 +32,14 @@ Manage a Home Assistant instance via SSH and the HA REST API — guided first-ru
 
 ---
 
-#### Media Assistant Ops
+#### Home Audio
 
-Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.
+Network speakers and multi-room audio across backends (Music Assistant, Lyrion/Squeezelite, Snapcast): install servers and clients, inventory, set speakers, debug, drive the MA and Home Assistant APIs. Your installation lives in a private overlay.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Media-Assistant-Ops-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Home-Audio)
 
 ```
-/plugin install media-assistant-ops@danielrosehill
+/plugin install home-audio@danielrosehill
 ```
 
 ---
