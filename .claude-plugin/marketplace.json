@@ -4616,6 +4616,29 @@
         "github",
         "tui"
       ]
+    },
+    {
+      "name": "tts-tools",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/TTS-Tools"
+      },
+      "description": "TTS listening pages: compare clips side by side, save picks. Voice candidates, original vs processed, EQ chains, checkpoints, blind A/B; choices saved as JSON.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "tts",
+        "audio",
+        "listening-test",
+        "ab-test"
+      ],
+      "displayName": "TTS Tools",
+      "category": "Media Editing"
     }
   ]
 }

@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-14 (tts-tools)
+- **`tts-tools` 1.0.0**: harness for TTS and voice work. Skill `listening-page` and stdlib CLI `listen-page`: local listening pages (grid and compare layouts; templates voice-pick, ab-original, eq-mix, checkpoint-compare, blind-ab) that autosave the listener's picks to `choices.json`.
+
 ### Removed — 2026-11-14 (hf-research)
 - **`hf-research`** de-listed; merged into `ai-model-research` 1.2.0 (all 11 Hugging Face skills, `hubexplorer` CLI, HF-URLs data). Repo HF-Research-Plugin deleted.
 

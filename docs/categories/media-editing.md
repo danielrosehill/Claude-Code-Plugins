@@ -1,6 +1,6 @@
 # Media Editing
 
-20 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+21 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -220,6 +220,18 @@ Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denois
 
 ```
 /plugin install transcription-pipeline@danielrosehill
+```
+
+---
+
+#### TTS Tools
+
+TTS listening pages: compare clips side by side, save picks. Voice candidates, original vs processed, EQ chains, checkpoints, blind A/B; choices saved as JSON.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/TTS-Tools)
+
+```
+/plugin install tts-tools@danielrosehill
 ```
 
 ---
