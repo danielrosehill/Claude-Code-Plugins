@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-15 (claude-agent-browsers)
+- **`claude-agent-browsers` 0.4.0**: agent browsers as a typed registry (local / LAN / VPS, addresses resolved LAN → tailnet → public) in the user's own `browsers.json`. Skills: setup, pick-browser, drive-browser (reuse + cleanup), show-me, browser-login, captcha-handoff, browser-status, install-viewers (Xpra launchers), deconflict-desktop (KWin rule: own desktop, no focus), panel-current-desktop. Supersedes the owner's private `agent-browsers` plugin (de-listed from the private marketplace, repo deleted).
+
 ### Changed — 2026-11-14 (label-printer)
 - **`label-printer` 2.0.0**: now a label design + print plugin. New `design-label` (Iconify icon search, fonts by name with download, IBM Plex Sans Bold default, auto two-line wrap, styles), `setup` and `niimbot-bridge-setup` skills; pluggable backends add `http_bridge` (ptouch-print or niimblue-node) and `print_hub` with live tape detection; NIIMBOT media. Printers, styles and templates live in a per-user Label-Templates repo created from the new public template `danielrosehill/Label-Templates-Template`. Absorbs the private `niimbot-labels` plugin.
 

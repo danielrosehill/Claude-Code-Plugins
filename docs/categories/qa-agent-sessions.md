@@ -1,6 +1,6 @@
 # QA & Agent Sessions
 
-4 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -16,6 +16,18 @@ Evaluate AI models for a real job, starting from start-eval: define the objectiv
 
 ```
 /plugin install ai-eval@danielrosehill
+```
+
+---
+
+#### Claude Agent Browsers
+
+Give Claude its own browsers without it taking over your screen. A typed registry of agent browsers (local, LAN server, VPS) with addresses, MCP endpoints, viewers and login sources in your own config; skills to pick, drive and clean up after a browser, hand sign-ins and CAPTCHAs to you, check status and install Xpra viewer launchers. On KDE Plasma 6 the local agent browser stays on its own virtual desktop, never steals focus, stays out of your panel, and is shown to you only when you say yes.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Agent-Browsers-Plugin)
+
+```
+/plugin install claude-agent-browsers@danielrosehill
 ```
 
 ---
