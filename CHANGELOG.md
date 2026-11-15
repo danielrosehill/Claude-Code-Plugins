@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-15 (digital-printing → print-shop 2.0.0)
+- **`digital-printing` renamed `print-shop` 2.0.0**, repo `danielrosehill/Print-Shop-Plugin` (ex Claude-Digital-Printing-Plugin). `upload-to-printing-folder` became `file-for-print` (by date, by subject or printer queue). New `add-printer` (registry of print shops: email/Gmail, submission method, procedure, queue folder) and `send-to-printer` (Drive share, email attachment/link, web upload, manual; verified and logged). Reinstall as `print-shop@danielrosehill`.
+
 ### Added — 2026-11-15 (folder-tree-templates)
 - **`folder-tree-templates` 1.0.0**: dated folder-tree templates (months, year/month, year/month/day, flat DDMMYY, current-and-past). Skills `seed-tree`, `restructure-tree`, `sort-by-date` (exiftool metadata dates, mtime fallback), `add-template` (user overlay), `setup`. The engine is `scripts/ftt.py`: it plans before acting and writes undo logs. Repo `danielrosehill/Folder-Tree-Templates`.
 
