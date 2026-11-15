@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-15 (cf-domain-reg-ops)
+- **`cf-domain-reg-ops` 1.0.0**: Cloudflare Registrar API (beta) via one `cfreg` script (curl + jq). Skills `setup-token`, `search-domains`, `check-registrations`, `register-domain`. `register` re-checks live and refuses on a price change, a taken domain or a premium tier. Repo `danielrosehill/CF-Domain-Reg-Ops`.
+
 ### Added — 2026-11-15 (agent-deconfliction)
 - **`agent-deconfliction` 1.0.0**: one skill for when two agents end up in the same repository. Freezes writes, snapshots its own scope, messages the peer (`ListAgents` + `SendMessage`) in a fixed shape, agrees a split (partition, hot-spot owner, path-only commits, sequencing, separate worktrees) and records it in `.git/agent-deconfliction.md`. Initiator and responder roles; shared-file fallback for agents without messaging.
 

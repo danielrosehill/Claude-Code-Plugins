@@ -1,6 +1,6 @@
 # Network & Smart Home
 
-7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -16,6 +16,18 @@ ADB (Android Debug Bridge) operations — onboard a phone, map folders, import m
 
 ```
 /plugin install adb-ops@danielrosehill
+```
+
+---
+
+#### CF Domain Reg Ops
+
+Cloudflare domains: search, live price check, buy, audit expiry. Registrar API with a price guard on every purchase.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/CF-Domain-Reg-Ops)
+
+```
+/plugin install cf-domain-reg-ops@danielrosehill
 ```
 
 ---

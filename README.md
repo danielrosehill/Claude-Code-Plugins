@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**194 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**195 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -40,9 +40,9 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Research & Learning](docs/categories/research-learning.md)** | 15 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 14 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (7 more) |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 8 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `hf-publisher-tools`, `synthetic-data`, … (2 more) |
+| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 8 | `adb-ops`, `cf-domain-reg-ops`, `home-assistant-mgmt`, `home-audio`, `lan-print-scan`, `mqtt-observability`, `network-playbook`, `zigbee-home-maintenance` |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
-| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 7 | `adb-ops`, `home-assistant-mgmt`, `home-audio`, `lan-print-scan`, `mqtt-observability`, `network-playbook`, `zigbee-home-maintenance` |
 | **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 6 | `agent-deconfliction`, `ai-eval`, `claude-agent-browsers`, `multisession`, `passive-aggressive-pa`, `rudder` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 4 | `hardware-spec-assembly`, `label-printer`, `nfc-ops`, `obd-diagnostics` |
