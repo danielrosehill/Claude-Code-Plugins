@@ -1,6 +1,6 @@
 # Linux Sysadmin
 
-27 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+28 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -112,6 +112,18 @@ Filesystem organisation — scan, dedupe, cleanup, rename, sort for local direct
 
 ```
 /plugin install filesystem-organiser@danielrosehill
+```
+
+---
+
+#### Folder Tree Templates
+
+Dated folder-tree templates (months, year/month, year/month/day, flat DDMMYY, current-and-past): seed them, restructure existing trees into them, sort files by metadata date. Your own templates live in a private overlay.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Folder-Tree-Templates)
+
+```
+/plugin install folder-tree-templates@danielrosehill
 ```
 
 ---

@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-15 (folder-tree-templates)
+- **`folder-tree-templates` 1.0.0**: dated folder-tree templates (months, year/month, year/month/day, flat DDMMYY, current-and-past). Skills `seed-tree`, `restructure-tree`, `sort-by-date` (exiftool metadata dates, mtime fallback), `add-template` (user overlay), `setup`. The engine is `scripts/ftt.py`: it plans before acting and writes undo logs. Repo `danielrosehill/Folder-Tree-Templates`.
+
 ### Changed — 2026-11-15 (cf-domain-reg-ops 1.1.0)
 - **`cf-domain-reg-ops` 1.1.0**: skills `export-csv`, `expiry-report` (PDF), `expiry-reminders` (.ics), `whois-report`, `pii-scan`, `setup-workspace`, `run-scan`; `domrep` report script; paginated `cfreg list` and `dump`.
 

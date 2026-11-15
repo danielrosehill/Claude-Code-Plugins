@@ -4711,6 +4711,31 @@
         "registrar",
         "dns"
       ]
+    },
+    {
+      "name": "folder-tree-templates",
+      "displayName": "Folder Tree Templates",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Folder-Tree-Templates"
+      },
+      "description": "Dated folder-tree templates (months, year/month, year/month/day, flat DDMMYY, current-and-past): seed them, restructure existing trees into them, sort files by metadata date. Your own templates live in a private overlay.",
+      "category": "Linux Sysadmin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "filesystem",
+        "folders",
+        "organisation",
+        "dates",
+        "exif",
+        "templates"
+      ]
     }
   ]
 }
