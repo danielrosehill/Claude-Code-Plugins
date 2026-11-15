@@ -22,7 +22,7 @@ ADB (Android Debug Bridge) operations — onboard a phone, map folders, import m
 
 #### CF Domain Reg Ops
 
-Cloudflare domains: search, live price check, buy, audit expiry. Registrar API with a price guard on every purchase.
+Cloudflare domains: search, buy, audit; CSV, expiry PDF, calendar reminders, WHOIS and PII scans, scan workspace.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/CF-Domain-Reg-Ops)
 

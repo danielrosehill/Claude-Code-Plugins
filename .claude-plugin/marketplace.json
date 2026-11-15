@@ -4696,9 +4696,9 @@
         "source": "github",
         "repo": "danielrosehill/CF-Domain-Reg-Ops"
       },
-      "description": "Cloudflare domains: search, live price check, buy, audit expiry. Registrar API with a price guard on every purchase.",
+      "description": "Cloudflare domains: search, buy, audit; CSV, expiry PDF, calendar reminders, WHOIS and PII scans, scan workspace.",
       "category": "Network & Smart Home",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
