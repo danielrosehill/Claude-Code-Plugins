@@ -56,18 +56,6 @@ Debug retrospectives, decision logs and lean plans in the repo: internal docs fo
 
 ---
 
-#### Digital Printing
-
-Skills and an orchestrator agent for preparing PDFs for digital printing — resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Digital-Printing-Plugin)
-
-```
-/plugin install digital-printing@danielrosehill
-```
-
----
-
 #### Document Nudge
 
 Nudges Claude to document decisions, todos, sprints, and handovers into a structured planning/ tree by default — without being asked each turn. Ships a home-level CLAUDE.md snippet plus /nudge-install and /nudge-scaffold slash commands.
@@ -124,6 +112,18 @@ Rewrite text in deliberately ridiculous styles — Shakespearean, medieval, arch
 
 ```
 /plugin install novelty-text-editor@danielrosehill
+```
+
+---
+
+#### Print Shop
+
+Print shops from your agent: PDF prep, a printing folder by date/subject/printer, a printer registry, and sending jobs by Drive share or email.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Print-Shop-Plugin)
+
+```
+/plugin install print-shop@danielrosehill
 ```
 
 ---

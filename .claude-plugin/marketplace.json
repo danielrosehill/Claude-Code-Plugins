@@ -1237,15 +1237,15 @@
       ]
     },
     {
-      "name": "digital-printing",
-      "displayName": "Digital Printing",
+      "name": "print-shop",
+      "displayName": "Print Shop",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Digital-Printing-Plugin"
+        "repo": "danielrosehill/Print-Shop-Plugin"
       },
-      "description": "Skills and an orchestrator agent for preparing PDFs for digital printing — resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
+      "description": "Print shops from your agent: PDF prep, a printing folder by date/subject/printer, a printer registry, and sending jobs by Drive share or email.",
       "category": "Documentation & Writing",
-      "version": "1.0.3",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
