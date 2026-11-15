@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-15 (cf-domain-reg-ops 1.1.0)
+- **`cf-domain-reg-ops` 1.1.0**: skills `export-csv`, `expiry-report` (PDF), `expiry-reminders` (.ics), `whois-report`, `pii-scan`, `setup-workspace`, `run-scan`; `domrep` report script; paginated `cfreg list` and `dump`.
+
 ### Added — 2026-11-15 (cf-domain-reg-ops)
 - **`cf-domain-reg-ops` 1.0.0**: Cloudflare Registrar API (beta) via one `cfreg` script (curl + jq). Skills `setup-token`, `search-domains`, `check-registrations`, `register-domain`. `register` re-checks live and refuses on a price change, a taken domain or a premium tier. Repo `danielrosehill/CF-Domain-Reg-Ops`.
 
