@@ -1,9 +1,21 @@
 # QA & Agent Sessions
 
-5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
+```
+
+---
+
+#### Agent Deconfliction
+
+Two agents in one repo? Message the other, agree who owns which files and git ops before anything collides.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Agent-Deconfliction)
+
+```
+/plugin install agent-deconfliction@danielrosehill
 ```
 
 ---

@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-15 (agent-deconfliction)
+- **`agent-deconfliction` 1.0.0**: one skill for when two agents end up in the same repository. Freezes writes, snapshots its own scope, messages the peer (`ListAgents` + `SendMessage`) in a fixed shape, agrees a split (partition, hot-spot owner, path-only commits, sequencing, separate worktrees) and records it in `.git/agent-deconfliction.md`. Initiator and responder roles; shared-file fallback for agents without messaging.
+
 ### Added — 2026-11-15 (claude-agent-browsers)
 - **`claude-agent-browsers` 0.4.0**: agent browsers as a typed registry (local / LAN / VPS, addresses resolved LAN → tailnet → public) in the user's own `browsers.json`. Skills: setup, pick-browser, drive-browser (reuse + cleanup), show-me, browser-login, captcha-handoff, browser-status, install-viewers (Xpra launchers), deconflict-desktop (KWin rule: own desktop, no focus), panel-current-desktop. Supersedes the owner's private `agent-browsers` plugin (de-listed from the private marketplace, repo deleted).
 

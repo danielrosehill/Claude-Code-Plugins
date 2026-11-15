@@ -2017,7 +2017,16 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT",
-      "tags": ["browser", "playwright", "mcp", "agent-browser", "kde", "virtual-desktop", "xpra", "linux"]
+      "tags": [
+        "browser",
+        "playwright",
+        "mcp",
+        "agent-browser",
+        "kde",
+        "virtual-desktop",
+        "xpra",
+        "linux"
+      ]
     },
     {
       "name": "favorite-plugins-installers",
@@ -4657,6 +4666,28 @@
       ],
       "displayName": "TTS Tools",
       "category": "Media Editing"
+    },
+    {
+      "name": "agent-deconfliction",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Agent-Deconfliction"
+      },
+      "description": "Two agents in one repo? Message the other, agree who owns which files and git ops before anything collides.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "multi-agent",
+        "coordination",
+        "git"
+      ],
+      "displayName": "Agent Deconfliction",
+      "category": "QA & Agent Sessions"
     }
   ]
 }
