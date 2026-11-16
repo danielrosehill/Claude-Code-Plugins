@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-17 (ai-model-research 1.3.0)
+- **`ai-model-research` 1.3.0**: new skill `gather-collection-links` pulls Hugging Face and arXiv links out of text, web pages, card READMEs or tabs, deduplicates them, checks existing collections, and files them via `bundle-collection` or stages them in an inbox. `hf-hub.py extract` does the parsing.
+
 ### Changed — 2026-11-16 (chatgpt-importer 1.2.0)
 - **`chatgpt-importer` 1.2.0**: handles ChatGPT's rich UI answers (product cards, entity chips, citation pills). Uses `model_dil_v2.fallbackMarkdown`, resolves its inline markers to Markdown links, and converts leftover markup. Before this, transcripts showed raw `<box>`/`<Cite/>` tags.
 
