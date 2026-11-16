@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-16 (chatgpt-importer 1.2.0)
+- **`chatgpt-importer` 1.2.0**: handles ChatGPT's rich UI answers (product cards, entity chips, citation pills). Uses `model_dil_v2.fallbackMarkdown`, resolves its inline markers to Markdown links, and converts leftover markup. Before this, transcripts showed raw `<box>`/`<Cite/>` tags.
+
 ### Changed — 2026-11-16 (chatgpt-importer 1.1.0)
 - **`chatgpt-importer` 1.1.0**: new skill `start-repo-from-thread` — asks public or private, captures one or more ChatGPT threads, creates the repo, imports them to `context/` and writes README + CLAUDE.md pointing at them.
 
