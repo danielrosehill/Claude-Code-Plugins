@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-17 (ai-model-research 1.4.0)
+- **`ai-model-research` 1.4.0**: collection curation. `expand-collection` takes what the user found and adds what they missed (originals behind conversions, newer variants, alternatives, items other curators group with them) via the new `hf-hub.py related`. `tidy-collections` audits singletons, overlaps, duplicate titles and missing descriptions, then proposes and applies fixes. `setup-collections-workspace` creates a private repo from a shipped template (inbox, plans, snapshots, tidy log), registered as `HF_RESEARCH_COLLECTIONS_WORKSPACE`.
+
 ### Added — 2026-11-17 (ai-model-research 1.3.0)
 - **`ai-model-research` 1.3.0**: new skill `gather-collection-links` pulls Hugging Face and arXiv links out of text, web pages, card READMEs or tabs, deduplicates them, checks existing collections, and files them via `bundle-collection` or stages them in an inbox. `hf-hub.py extract` does the parsing.
 
