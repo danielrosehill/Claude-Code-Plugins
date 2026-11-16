@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-16 (chatgpt-importer 1.1.0)
+- **`chatgpt-importer` 1.1.0**: new skill `start-repo-from-thread` — asks public or private, captures one or more ChatGPT threads, creates the repo, imports them to `context/` and writes README + CLAUDE.md pointing at them.
+
 ### Changed — 2026-11-15 (digital-printing → print-shop 2.0.0)
 - **`digital-printing` renamed `print-shop` 2.0.0**, repo `danielrosehill/Print-Shop-Plugin` (ex Claude-Digital-Printing-Plugin). `upload-to-printing-folder` became `file-for-print` (by date, by subject or printer queue). New `add-printer` (registry of print shops: email/Gmail, submission method, procedure, queue folder) and `send-to-printer` (Drive share, email attachment/link, web upload, manual; verified and logged). Reinstall as `print-shop@danielrosehill`.
 
