@@ -1,6 +1,6 @@
 # Hardware & Maker
 
-4 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Design and print labels from Claude Code. Turns "four labels for the wine bottle
 
 ```
 /plugin install label-printer@danielrosehill
+```
+
+---
+
+#### Macro Deck
+
+Turn a phone into a macropad for host operations with Macro Deck 3: install the host, connect its MCP server, build decks from a spec, and keep decks in a private git repo.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Macro-Deck-Plugin)
+
+```
+/plugin install macro-deck@danielrosehill
 ```
 
 ---

@@ -1,6 +1,6 @@
 # Plugin Categories
 
-196 plugins across 19 categories.
+197 plugins across 19 categories.
 
 | Category | Plugins |
 | --- | ---: |
@@ -17,7 +17,7 @@
 | [Marketing & Shopping](marketing-shopping.md) | 7 |
 | [Regional](regional.md) | 7 |
 | [QA & Agent Sessions](qa-agent-sessions.md) | 6 |
-| [Hardware & Maker](hardware-maker.md) | 4 |
+| [Hardware & Maker](hardware-maker.md) | 5 |
 | [Data Discovery](data-discovery.md) | 3 |
 | [Git & GitHub](git-github.md) | 3 |
 | [Publishing & CMS](publishing-cms.md) | 3 |
