@@ -4808,6 +4808,32 @@
         "chat"
       ],
       "category": "Personal Productivity"
+    },
+    {
+      "name": "bios-tuning",
+      "displayName": "BIOS Tuning",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/BIOS-Tuning"
+      },
+      "description": "BIOS/UEFI tuning and flashing over an IP-KVM: profile the board, role-based setting plans, verified changes, safe updates. Your machines live in a private overlay.",
+      "category": "Hardware & Maker",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "bios",
+        "uefi",
+        "firmware",
+        "ip-kvm",
+        "pikvm",
+        "picokvm",
+        "homelab"
+      ]
     }
   ]
 }

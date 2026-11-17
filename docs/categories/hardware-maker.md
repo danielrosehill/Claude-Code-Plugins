@@ -1,9 +1,21 @@
 # Hardware & Maker
 
-5 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
+```
+
+---
+
+#### BIOS Tuning
+
+BIOS/UEFI tuning and flashing over an IP-KVM: profile the board, role-based setting plans, verified changes, safe updates. Your machines live in a private overlay.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/BIOS-Tuning)
+
+```
+/plugin install bios-tuning@danielrosehill
 ```
 
 ---

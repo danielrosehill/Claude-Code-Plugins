@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-17 (bios-tuning 1.0.0)
+- **`bios-tuning` 1.0.0** (new, Hardware & Maker): BIOS/UEFI over an IP-KVM. `bios-profile`, `bios-recommend`, `kvm-console`, `bios-apply`, `bios-update`; role profiles; PicoKVM SSH HID + PiKVM API keystrokes; private overlay for machines.
+
 ### Added — 2026-11-17 (matrix-client 1.1.0)
 - **`matrix-client` 1.1.0**: `list-rooms`, `send-message`, `read-messages`; login pitfalls documented (pre-created store E225, stale password E234 → SSO, `--tail` needs `--listen-self`).
 
