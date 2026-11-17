@@ -166,7 +166,7 @@ Builds and maintains a persistent, portable background context layer about the u
 
 #### Skill Genie
 
-Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
+Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, a go-out-then-in skill (take private skills public as a generic plugin, then graft your details back as an overlay), plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Skill-Genie)
 

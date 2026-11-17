@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-17 (skill-genie 0.4.0)
+- **`skill-genie` 0.4.0**: new skill `go-out-then-in`: split private skills into a public generic plugin plus a private profile overlay, publish, then slim the private original.
+
 ### Added — 2026-11-17 (whatsapp-waha 1.0.0)
 - **`whatsapp-waha` 1.0.0**: personal WhatsApp through a self-hosted WAHA link. `send-message`, `message-new-number` (first contact + save, placeholder names), `create-group`, `leave-or-archive`, `whatsapp-health`. Account details in per-user profiles.
 
