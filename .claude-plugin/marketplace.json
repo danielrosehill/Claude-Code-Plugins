@@ -4818,7 +4818,7 @@
       },
       "description": "BIOS/UEFI tuning and flashing over an IP-KVM: profile the board, role-based setting plans, verified changes, safe updates. Your machines live in a private overlay.",
       "category": "Hardware & Maker",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
