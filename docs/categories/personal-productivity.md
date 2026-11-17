@@ -1,6 +1,6 @@
 # Personal Productivity
 
-21 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+22 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -256,6 +256,18 @@ Voicenotes.com: search, read, create; unofficial text and date-range export, tag
 
 ```
 /plugin install voicenotes@danielrosehill
+```
+
+---
+
+#### WhatsApp via WAHA
+
+Personal WhatsApp via self-hosted WAHA: send, groups, health. Text and photos to contacts and groups, first message to a new number with the contact saved (placeholder name if unknown), create and manage groups, archive or leave chats, check the link for capping and reach-out locks. Per-user profiles, so one install serves several accounts.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-WhatsApp-WAHA-Plugin)
+
+```
+/plugin install whatsapp-waha@danielrosehill
 ```
 
 ---

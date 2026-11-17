@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-17 (whatsapp-waha 1.0.0)
+- **`whatsapp-waha` 1.0.0**: personal WhatsApp through a self-hosted WAHA link. `send-message`, `message-new-number` (first contact + save, placeholder names), `create-group`, `leave-or-archive`, `whatsapp-health`. Account details in per-user profiles.
+
 ### Added — 2026-11-17 (ai-model-research 1.4.0)
 - **`ai-model-research` 1.4.0**: collection curation. `expand-collection` takes what the user found and adds what they missed (originals behind conversions, newer variants, alternatives, items other curators group with them) via the new `hf-hub.py related`. `tidy-collections` audits singletons, overlaps, duplicate titles and missing descriptions, then proposes and applies fixes. `setup-collections-workspace` creates a private repo from a shipped template (inbox, plans, snapshots, tidy log), registered as `HF_RESEARCH_COLLECTIONS_WORKSPACE`.
 

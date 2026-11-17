@@ -4760,6 +4760,30 @@
       ],
       "displayName": "Macro Deck",
       "category": "Hardware & Maker"
+    },
+    {
+      "name": "whatsapp-waha",
+      "displayName": "WhatsApp via WAHA",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-WhatsApp-WAHA-Plugin"
+      },
+      "description": "Personal WhatsApp via self-hosted WAHA: send, groups, health. Text and photos to contacts and groups, first message to a new number with the contact saved (placeholder name if unknown), create and manage groups, archive or leave chats, check the link for capping and reach-out locks. Per-user profiles, so one install serves several accounts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "whatsapp",
+        "waha",
+        "messaging",
+        "groups",
+        "mcp"
+      ],
+      "category": "Personal Productivity"
     }
   ]
 }
