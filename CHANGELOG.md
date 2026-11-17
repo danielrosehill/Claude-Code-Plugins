@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-17 (matrix-client 1.0.0)
+- **`matrix-client` 1.0.0**: Matrix setup. `install-client` (Element Desktop + matrix-commander), `check-login` (Element and CLI session status), `cli-login` (password/SSO login + emoji verification).
+
 ### Added — 2026-11-17 (skill-genie 0.4.0)
 - **`skill-genie` 0.4.0**: new skill `go-out-then-in`: split private skills into a public generic plugin plus a private profile overlay, publish, then slim the private original.
 

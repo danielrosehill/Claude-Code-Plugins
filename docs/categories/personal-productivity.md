@@ -1,6 +1,6 @@
 # Personal Productivity
 
-22 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+23 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -184,6 +184,18 @@ Kaizen for any project, not just code: small steps, a shared journal, reviews, t
 
 ```
 /plugin install kaizen-please@danielrosehill
+```
+
+---
+
+#### Matrix Client
+
+Matrix chat setup: install Element and the matrix-commander CLI, log the CLI in (password or SSO) and verify it, check which accounts and devices are signed in. Groundwork for sending and reading Matrix messages from an agent.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Matrix-Client-Plugin)
+
+```
+/plugin install matrix-client@danielrosehill
 ```
 
 ---

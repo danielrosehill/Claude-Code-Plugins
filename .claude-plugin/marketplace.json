@@ -4784,6 +4784,30 @@
         "mcp"
       ],
       "category": "Personal Productivity"
+    },
+    {
+      "name": "matrix-client",
+      "displayName": "Matrix Client",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Matrix-Client-Plugin"
+      },
+      "description": "Matrix chat setup: install Element and the matrix-commander CLI, log the CLI in (password or SSO) and verify it, check which accounts and devices are signed in. Groundwork for sending and reading Matrix messages from an agent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "matrix",
+        "element",
+        "matrix-commander",
+        "messaging",
+        "chat"
+      ],
+      "category": "Personal Productivity"
     }
   ]
 }

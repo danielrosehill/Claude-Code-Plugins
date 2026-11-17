@@ -1,11 +1,11 @@
 # Plugin Categories
 
-198 plugins across 19 categories.
+199 plugins across 19 categories.
 
 | Category | Plugins |
 | --- | ---: |
 | [Linux Sysadmin](linux-sysadmin.md) | 28 |
-| [Personal Productivity](personal-productivity.md) | 22 |
+| [Personal Productivity](personal-productivity.md) | 23 |
 | [Media Editing](media-editing.md) | 21 |
 | [Documentation & Writing](documentation-writing.md) | 18 |
 | [AI & Context](ai-context.md) | 17 |
