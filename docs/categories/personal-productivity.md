@@ -190,7 +190,7 @@ Kaizen for any project, not just code: small steps, a shared journal, reviews, t
 
 #### Matrix Client
 
-Matrix chat setup: install Element and the matrix-commander CLI, log the CLI in (password or SSO) and verify it, check which accounts and devices are signed in. Groundwork for sending and reading Matrix messages from an agent.
+Matrix chat from an agent: install Element and the matrix-commander CLI, log in (password or SSO), list rooms, send and read messages, check which accounts and devices are signed in.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Matrix-Client-Plugin)
 

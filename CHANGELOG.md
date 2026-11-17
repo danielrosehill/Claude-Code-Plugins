@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-17 (matrix-client 1.1.0)
+- **`matrix-client` 1.1.0**: `list-rooms`, `send-message`, `read-messages`; login pitfalls documented (pre-created store E225, stale password E234 → SSO, `--tail` needs `--listen-self`).
+
 ### Added — 2026-11-17 (matrix-client 1.0.0)
 - **`matrix-client` 1.0.0**: Matrix setup. `install-client` (Element Desktop + matrix-commander), `check-login` (Element and CLI session status), `cli-login` (password/SSO login + emoji verification).
 
