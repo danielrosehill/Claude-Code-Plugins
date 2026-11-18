@@ -22,7 +22,7 @@ Career planning — log roles, compare offers, track applications, salary benchm
 
 #### Resource List Builder
 
-Build, maintain, and audit curated GitHub resource lists (Awesome-style indexes) with AI-driven categorisation, alphabetised tables, and dynamic shields.io badges.
+Build and maintain curated resource lists of GitHub repos, Hugging Face models/datasets and links: AI categorisation, table or card layouts, scope files, hubs, private overlay for your house style.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Resource-List-Builder-Plugin)
 
