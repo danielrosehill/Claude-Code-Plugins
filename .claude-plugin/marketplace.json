@@ -4183,9 +4183,9 @@
         "source": "github",
         "repo": "danielrosehill/Flow-Control"
       },
-      "description": "Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, and answers what's next.",
+      "description": "Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, answers what's next and resumes the latest sprint in a fresh session.",
       "category": "Repo Scaffolding & Retrofitting",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

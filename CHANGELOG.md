@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-18: `flow-control` 0.3.0: new `resume-sprint` skill ("resume from sprint"): finds the latest open sprint file under `planning/sprints/` (highest date or number prefix, nested folders included), rebuilds state from git and carries on, marking progress in the file.
 - 2026-11-18: `resource-list-builder` 0.2.0: generic with a private overlay profile, Hugging Face entries, table or cards layouts (stars optional), SCOPE.md, parent hubs and index-of-indexes registration; new `setup` skill; `new-private-resource-list` folded into `new-resource-list`.
 
 ### Changed — 2026-11-18 (amazon 2.2.0)
