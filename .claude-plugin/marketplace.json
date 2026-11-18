@@ -872,7 +872,7 @@
       },
       "description": "ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
       "category": "Network & Smart Home",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -884,6 +884,27 @@
         "android",
         "automation",
         "device-management"
+      ]
+    },
+    {
+      "name": "tasker-adb",
+      "displayName": "Tasker over ADB",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Tasker-ADB-Plugin"
+      },
+      "description": "Tasker on Android over ADB: build profiles via its editor",
+      "category": "Network & Smart Home",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "android",
+        "automation"
       ]
     },
     {

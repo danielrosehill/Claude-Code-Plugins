@@ -1,6 +1,6 @@
 # Network & Smart Home
 
-8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+9 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -88,6 +88,18 @@ Document a home network so it can be rebuilt after a move: scan and probe it, th
 
 ```
 /plugin install network-playbook@danielrosehill
+```
+
+---
+
+#### Tasker over ADB
+
+Tasker on Android over ADB: build profiles via its editor
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Tasker-ADB-Plugin)
+
+```
+/plugin install tasker-adb@danielrosehill
 ```
 
 ---

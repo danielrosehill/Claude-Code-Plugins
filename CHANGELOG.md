@@ -6,6 +6,13 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Added — 2026-11-18 (tasker-adb 1.0.0)
+- **`tasker-adb` 1.0.0** (new): operate Tasker over ADB by driving its editor (`phone-ui` helper: dump, tap, type, select, check switches). `drive-tasker` (screen map + gotchas), `adb-wifi-watchdog` (Tasker re-enables wireless debugging at home without Location).
+
+### Changed — 2026-11-18 (adb-ops 1.4.0, skill-genie 0.5.0)
+- **`adb-ops` 1.4.0**: `wireless-adb` autoconnect can re-pin phones to the fixed port after a random-port connect (`ADB_AUTOPIN_HOSTS`, opt-in).
+- **`skill-genie` 0.5.0**: `go-out-then-in` checks a private repo's whole history before making it public; with PII in history, publish a fresh repo instead.
+
 ### Added — 2026-11-17 (bios-tuning 1.0.0)
 - **`bios-tuning` 1.0.0** (new, Hardware & Maker): BIOS/UEFI over an IP-KVM. `bios-profile`, `bios-recommend`, `kvm-console`, `bios-apply`, `bios-update`; role profiles; PicoKVM SSH HID + PiKVM API keystrokes; private overlay for machines.
 
