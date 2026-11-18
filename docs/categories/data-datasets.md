@@ -1,6 +1,6 @@
 # Data & Datasets
 
-8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+9 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -64,6 +64,18 @@ Unofficial Hugging Face publisher skills for AI agents: create datasets, models 
 
 ```
 /plugin install hf-publisher-tools@danielrosehill
+```
+
+---
+
+#### HF3D
+
+Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset with previews and metadata; optional Sketchfab mirror.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/HF3D-Plugin)
+
+```
+/plugin install hf3d@danielrosehill
 ```
 
 ---

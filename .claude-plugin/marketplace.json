@@ -4855,6 +4855,30 @@
         "picokvm",
         "homelab"
       ]
+    },
+    {
+      "name": "hf3d",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/HF3D-Plugin"
+      },
+      "description": "Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset with previews and metadata; optional Sketchfab mirror.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "3d",
+        "glb",
+        "hugging-face",
+        "dataset",
+        "sketchfab"
+      ],
+      "displayName": "HF3D",
+      "category": "Data & Datasets"
     }
   ]
 }
