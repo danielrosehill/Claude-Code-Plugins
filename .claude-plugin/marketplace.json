@@ -4862,8 +4862,8 @@
         "source": "github",
         "repo": "danielrosehill/HF3D-Plugin"
       },
-      "description": "Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset with previews and metadata; optional Sketchfab mirror.",
-      "version": "1.0.0",
+      "description": "Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset, build a 3D viewer Space, optional Sketchfab mirror.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

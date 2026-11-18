@@ -70,7 +70,7 @@ Unofficial Hugging Face publisher skills for AI agents: create datasets, models 
 
 #### HF3D
 
-Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset with previews and metadata; optional Sketchfab mirror.
+Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset, build a 3D viewer Space, optional Sketchfab mirror.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/HF3D-Plugin)
 
