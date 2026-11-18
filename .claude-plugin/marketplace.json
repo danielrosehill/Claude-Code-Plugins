@@ -1187,9 +1187,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Resource-List-Builder-Plugin"
       },
-      "description": "Build, maintain, and audit curated GitHub resource lists (Awesome-style indexes) with AI-driven categorisation, alphabetised tables, and dynamic shields.io badges.",
+      "description": "Build and maintain curated resource lists of GitHub repos, Hugging Face models/datasets and links: AI categorisation, table or card layouts, scope files, hubs, private overlay for your house style.",
       "category": "Staging",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

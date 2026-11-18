@@ -6,6 +6,8 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-18: `resource-list-builder` 0.2.0: generic with a private overlay profile, Hugging Face entries, table or cards layouts (stars optional), SCOPE.md, parent hubs and index-of-indexes registration; new `setup` skill; `new-private-resource-list` folded into `new-resource-list`.
+
 ### Changed — 2026-11-18 (amazon 2.2.0)
 - **`amazon` 2.2.0**: signed-in skills drive a dedicated agent browser (Playwright MCP) before the user's own Chrome. New `amazon-deliver-to` (set and verify the Deliver-to ZIP before searching), `amazon-spec-shopping` (spec → search → report → order, resumable), `amazon-research-report` (results.json + Typst PDF), `amazon-cart`, `amazon-checkout` (explicit approval of the review summary).
 
