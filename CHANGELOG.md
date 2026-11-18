@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-18: `ai-eval` 0.11.0: new `my-evals` (private index of the user's own evals in the overlay, `evals.json`: a nickname resolves to repos, datasets, Spaces and the eval's own skills) and `eval-skill` (write a skill for one eval in its repo and register it); `references/compute.md` (memory-heavy, GPU and large-batch work to Modal when authenticated); objective TTS voice profile in `speech-eval` (`scripts/voice_profile.py`: pooled WPM, pitch, intonation, brightness, clarity); README grouped by domain.
 - 2026-11-18: `ai-eval` 0.10.0: new `spoken-annotations` skill: annotate outputs by voice (define the structure, record per item in the browser, transcribe, a model applies it with provenance); for TTS, voice clones, EQ/mix and noise-removal judgements.
 - 2026-11-18: `ai-eval` 0.9.0: new `screen-then-rank` skill, the default two-pass human judgement method: a pass/fail screen in which every Fail carries a structured reason, then blind pairwise head-to-heads among the survivors, ranked with Bradley-Terry. Reference implementation for audio: `TTS-Pronunciation-Annotation-Starter`.
 - 2026-11-18: `flow-control` 0.3.0: new `resume-sprint` skill ("resume from sprint"): finds the latest open sprint file under `planning/sprints/` (highest date or number prefix, nested folders included), rebuilds state from git and carries on, marking progress in the file.
