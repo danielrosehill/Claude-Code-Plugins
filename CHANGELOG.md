@@ -6,6 +6,9 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+### Changed — 2026-11-18 (amazon 2.2.0)
+- **`amazon` 2.2.0**: signed-in skills drive a dedicated agent browser (Playwright MCP) before the user's own Chrome. New `amazon-deliver-to` (set and verify the Deliver-to ZIP before searching), `amazon-spec-shopping` (spec → search → report → order, resumable), `amazon-research-report` (results.json + Typst PDF), `amazon-cart`, `amazon-checkout` (explicit approval of the review summary).
+
 ### Added — 2026-11-18 (tasker-adb 1.0.0)
 - **`tasker-adb` 1.0.0** (new): operate Tasker over ADB by driving its editor (`phone-ui` helper: dump, tap, type, select, check switches). `drive-tasker` (screen map + gotchas), `adb-wifi-watchdog` (Tasker re-enables wireless debugging at home without Location).
 
