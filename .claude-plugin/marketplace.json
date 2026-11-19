@@ -4889,7 +4889,7 @@
       },
       "description": "Voice-first feedback on a PDF, list or diagram: talk, get anchored, structured feedback. Click a spot on a document and speak (or type); comments are pinned to page, line and paragraph, transcribed through any OpenAI-compatible ASR endpoint (self-hosted Whisper/Parakeet or hosted) and returned to the agent in reading order, with per-comment outcomes and rounds. Also list forms (one answer per item, notes, autosave) and clickable Graphviz diagram review. Formerly feedback-panel.",
       "category": "AI & Context",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
