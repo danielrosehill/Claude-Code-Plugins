@@ -1340,7 +1340,7 @@
       },
       "description": "General-purpose data labelling and annotation: design annotation schemas, set up annotation UIs (Label Studio, private Hugging Face Spaces), set up individual jobs, run human, model or voice annotation, and pull results back. Private settings live in a user overlay.",
       "category": "Data & Datasets",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

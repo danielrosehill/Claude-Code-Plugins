@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-19: `data-annotation` 2.1.0: new `voice-annotation-workspace` meta skill: set up a voice-first annotation workspace for any data format (point, talk freely, transcribe; a workspace-local skill converts speech into the schema; pilot rounds).
 - 2026-11-19: `synthetic-data` 1.0.0: overhauled into the general-purpose synthetic data plugin; repo renamed `Synthetic-Data-Plugin` (was `Claude-Synthetic-Data-Plugin`). New `generate-text-data` (seed-then-write on any model route, absorbed from `batch-inference`), `instruction-and-eval-data`, `speech-recording-scripts`, `check-diversity`, `setup` (user overlay); `text-records-llm` folded in. `batch-inference` 1.5.0 drops `synthetic-data-generation`.
 - 2026-11-19: `data-annotation` 2.0.0: the general-purpose labelling/annotation plugin; repo renamed `Data-Annotation-Plugin`. Label Studio backend (`label-studio-*` skills, `labelstudio.py`, works against any instance), `new-annotation-job`, `design-schema`, `pull-annotations`, `setup` (user overlay); `spoken-annotations` and blind-grading Spaces moved in from `ai-eval` (0.12.0); `annotate-with-claude` renamed `annotate-in-session`.
 - 2026-11-19: `marketplace-guide` 0.2.0: discovery-only; the maintainer skill `maintain-groups` was removed.
