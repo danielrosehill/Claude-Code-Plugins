@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-19: `ha-alarmo` 1.0.0 (new): manage Alarmo (local HA alarm) via its websocket/REST API: `status`, `setup`, `sensors`, `actions` (siren hooks created disabled), `users` (codes typed by the user only), `arm` (explicit-request only, supervised silent test). Script `scripts/alarmo.py`.
 - 2026-11-19: `ha-device-metadata` 1.0.0 (new): skills `install` (Device Metadata HA integration via HACS, config entry, light-group clash check), `scan` (infer protocol, hub, device type, power, battery, cloud dependency from the registries; dry run first) and `fill-in` (batch interview for location, function, description). Integration: `danielrosehill/HA-Device-Metadata`.
 - 2026-11-19: `data-annotation` 2.1.0: new `voice-annotation-workspace` meta skill: set up a voice-first annotation workspace for any data format (point, talk freely, transcribe; a workspace-local skill converts speech into the schema; pilot rounds).
 - 2026-11-19: `synthetic-data` 1.0.0: overhauled into the general-purpose synthetic data plugin; repo renamed `Synthetic-Data-Plugin` (was `Claude-Synthetic-Data-Plugin`). New `generate-text-data` (seed-then-write on any model route, absorbed from `batch-inference`), `instruction-and-eval-data`, `speech-recording-scripts`, `check-diversity`, `setup` (user overlay); `text-records-llm` folded in. `batch-inference` 1.5.0 drops `synthetic-data-generation`.

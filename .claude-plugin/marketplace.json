@@ -4930,6 +4930,30 @@
         "lights",
         "zigbee"
       ]
+    },
+    {
+      "name": "ha-alarmo",
+      "displayName": "HA Alarmo",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/HA-Alarmo-Plugin"
+      },
+      "description": "Alarmo alarm for HA: sensors, sirens, users, arm",
+      "category": "Network & Smart Home",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "home-assistant",
+        "alarmo",
+        "alarm",
+        "security",
+        "sirens"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Network & Smart Home
 
-10 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+11 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Cloudflare domains: search, buy, audit; CSV, expiry PDF, calendar reminders, WHO
 
 ```
 /plugin install cf-domain-reg-ops@danielrosehill
+```
+
+---
+
+#### HA Alarmo
+
+Alarmo alarm for HA: sensors, sirens, users, arm
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/HA-Alarmo-Plugin)
+
+```
+/plugin install ha-alarmo@danielrosehill
 ```
 
 ---

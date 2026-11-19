@@ -1,6 +1,6 @@
 # Plugin Categories
 
-204 plugins across 19 categories.
+205 plugins across 19 categories.
 
 | Category | Plugins |
 | --- | ---: |
@@ -11,7 +11,7 @@
 | [Documentation & Writing](documentation-writing.md) | 18 |
 | [Research & Learning](research-learning.md) | 15 |
 | [Repo Scaffolding & Retrofitting](repo-scaffolding-retrofitting.md) | 14 |
-| [Network & Smart Home](network-smart-home.md) | 10 |
+| [Network & Smart Home](network-smart-home.md) | 11 |
 | [Data & Datasets](data-datasets.md) | 9 |
 | [Privacy & Security](privacy-security.md) | 8 |
 | [Marketing & Shopping](marketing-shopping.md) | 7 |
