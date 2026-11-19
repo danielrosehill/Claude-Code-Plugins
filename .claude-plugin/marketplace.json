@@ -4905,6 +4905,31 @@
         "forms",
         "diagram"
       ]
+    },
+    {
+      "name": "ha-device-metadata",
+      "displayName": "HA Device Metadata",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/HA-Device-Metadata-Plugin"
+      },
+      "description": "HA device inventory: install, auto-scan, fill metadata",
+      "category": "Network & Smart Home",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "home-assistant",
+        "hacs",
+        "device-inventory",
+        "metadata",
+        "lights",
+        "zigbee"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Network & Smart Home
 
-9 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+10 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Cloudflare domains: search, buy, audit; CSV, expiry PDF, calendar reminders, WHO
 
 ```
 /plugin install cf-domain-reg-ops@danielrosehill
+```
+
+---
+
+#### HA Device Metadata
+
+HA device inventory: install, auto-scan, fill metadata
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/HA-Device-Metadata-Plugin)
+
+```
+/plugin install ha-device-metadata@danielrosehill
 ```
 
 ---

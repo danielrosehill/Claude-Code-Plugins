@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**203 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**204 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -39,8 +39,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, … (11 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 15 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 14 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (7 more) |
+| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 10 | `adb-ops`, `cf-domain-reg-ops`, `ha-device-metadata`, `home-assistant-mgmt`, `home-audio`, `lan-print-scan`, `mqtt-observability`, … (3 more) |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 9 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `hf-publisher-tools`, `hf3d`, `synthetic-data`, … (2 more) |
-| **[Network & Smart Home](docs/categories/network-smart-home.md)** | 9 | `adb-ops`, `cf-domain-reg-ops`, `home-assistant-mgmt`, `home-audio`, `lan-print-scan`, `mqtt-observability`, `network-playbook`, `tasker-adb`, … (1 more) |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
