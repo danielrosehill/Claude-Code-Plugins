@@ -20,18 +20,6 @@ First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothe
 
 ---
 
-#### Claude Data Annotation
-
-End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Data-Annotation-Plugin)
-
-```
-/plugin install data-annotation@danielrosehill
-```
-
----
-
 #### Claude Data Wrangler
 
 Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 31 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, header & numeric-precision standardisation, multilingual header localisation, incremental upstream sync, and Typst-rendered PDF documents of the data.
@@ -40,6 +28,18 @@ Data cleaning, enrichment, restructuring, packaging, and documentation skills fo
 
 ```
 /plugin install data-wrangler@danielrosehill
+```
+
+---
+
+#### Data Annotation
+
+General-purpose data labelling and annotation: design annotation schemas, set up annotation UIs (Label Studio, private Hugging Face Spaces), set up individual jobs, run human, model or voice annotation, and pull results back. Private settings live in a user overlay.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Data-Annotation-Plugin)
+
+```
+/plugin install data-annotation@danielrosehill
 ```
 
 ---
@@ -82,9 +82,9 @@ Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset, bui
 
 #### Synthetic Data
 
-Generate synthetic datasets from schemas, real data, or LLM-driven personas. Tabular fit-and-sample (SDV: GaussianCopula, CTGAN, TVAE), Faker/Mimesis schema generation, deterministic PII swap, LLM-driven real-to-synth conversion for unstructured records, and SDMetrics-based quality/privacy evaluation (plus embedding-based leakage checks for text).
+General-purpose synthetic data generation: varied LLM-written text (training pairs, eval inputs, personas, records, read-aloud sentences) on any model route, plus tabular fit-and-sample, schema generation, PII swap, real-to-synthetic conversion, diversity and quality checks. Private preferences live in a user-data overlay.
 
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Synthetic-Data-Plugin)
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Synthetic-Data-Plugin)
 
 ```
 /plugin install synthetic-data@danielrosehill

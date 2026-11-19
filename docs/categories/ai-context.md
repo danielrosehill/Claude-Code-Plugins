@@ -1,6 +1,6 @@
 # AI & Context
 
-17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -34,7 +34,7 @@ Research AI models: discover, filter, compare and evaluate, across OpenRouter an
 
 #### Batch Inference
 
-Batch inference, cloud or local: Ollama and vLLM backends, batch vs sync cost, OpenRouter model lists, model evals, and runners with spend caps.
+Batch inference for bulk LLM jobs across cloud and local backends: read OpenRouter's model lists, compare batch vs sync cost, evaluate models, and run Anthropic and OpenRouter batches, parallel sync calls or local models (Ollama, vLLM, llama.cpp) by your own routing guide.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Batch-Inference)
 
@@ -88,6 +88,18 @@ Plan small custom models and fine-tunes, then save training recipes privately an
 
 ```
 /plugin install custom-model-planning@danielrosehill
+```
+
+---
+
+#### Feedback
+
+Voice-first feedback on a PDF, list or diagram: talk, get anchored, structured feedback. Click a spot on a document and speak (or type); comments are pinned to page, line and paragraph, transcribed through any OpenAI-compatible ASR endpoint (self-hosted Whisper/Parakeet or hosted) and returned to the agent in reading order, with per-comment outcomes and rounds. Also list forms (one answer per item, notes, autosave) and clickable Graphviz diagram review. Formerly feedback-panel.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Feedback)
+
+```
+/plugin install feedback@danielrosehill
 ```
 
 ---

@@ -20,7 +20,7 @@
       },
       "description": "Start here: browse these plugins by theme, find one for a task, see what's new. Reads the live manifest.",
       "category": "AI & Context",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1333,14 +1333,14 @@
     },
     {
       "name": "data-annotation",
-      "displayName": "Claude Data Annotation",
+      "displayName": "Data Annotation",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Data-Annotation-Plugin"
+        "repo": "danielrosehill/Data-Annotation-Plugin"
       },
-      "description": "End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.",
+      "description": "General-purpose data labelling and annotation: design annotation schemas, set up annotation UIs (Label Studio, private Hugging Face Spaces), set up individual jobs, run human, model or voice annotation, and pull results back. Private settings live in a user overlay.",
       "category": "Data & Datasets",
-      "version": "1.1.1",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2471,11 +2471,11 @@
       "displayName": "Synthetic Data",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Synthetic-Data-Plugin"
+        "repo": "danielrosehill/Synthetic-Data-Plugin"
       },
-      "description": "Generate synthetic datasets from schemas, real data, or LLM-driven personas. Tabular fit-and-sample (SDV: GaussianCopula, CTGAN, TVAE), Faker/Mimesis schema generation, deterministic PII swap, LLM-driven real-to-synth conversion for unstructured records, and SDMetrics-based quality/privacy evaluation (plus embedding-based leakage checks for text).",
+      "description": "General-purpose synthetic data generation: varied LLM-written text (training pairs, eval inputs, personas, records, read-aloud sentences) on any model route, plus tabular fit-and-sample, schema generation, PII swap, real-to-synthetic conversion, diversity and quality checks. Private preferences live in a user-data overlay.",
       "category": "Data & Datasets",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3480,9 +3480,9 @@
         "source": "github",
         "repo": "danielrosehill/AI-Eval"
       },
-      "description": "Evaluate AI models for a real job, starting from start-eval: define the objective and workload, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Covers in-repo and agent-run eval spaces, framework CLIs, image, RAG, agent, speech and regression evals, private annotation and human feedback Spaces, and findings through to articles. Keeps a private index of your own evals with their eval-specific skills.",
+      "description": "Evaluate AI models for a real job, starting from start-eval: define the objective and workload, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Covers in-repo and agent-run eval spaces, framework CLIs, image, RAG, agent, speech and regression evals, private annotation and human feedback Spaces, and findings through to articles. Keeps a private index of the user's own evals with their eval-specific skills (my-evals, eval-skill).",
       "category": "QA & Agent Sessions",
-      "version": "0.11.0",
+      "version": "0.12.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4412,9 +4412,9 @@
         "source": "github",
         "repo": "danielrosehill/Batch-Inference"
       },
-      "description": "Batch inference, cloud or local: Ollama and vLLM backends, batch vs sync cost, OpenRouter model lists, model evals, and runners with spend caps.",
+      "description": "Batch inference for bulk LLM jobs across cloud and local backends: read OpenRouter's model lists, compare batch vs sync cost, evaluate models, and run Anthropic and OpenRouter batches, parallel sync calls or local models (Ollama, vLLM, llama.cpp) by your own routing guide.",
       "category": "AI & Context",
-      "version": "1.3.0",
+      "version": "1.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
