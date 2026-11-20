@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**207 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**210 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -35,15 +35,15 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 28 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `device-sync`, `docker-manager`, … (21 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 23 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `daniel-rosehill`, … (17 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 21 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (14 more) |
-| **[AI & Context](docs/categories/ai-context.md)** | 18 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `custom-model-planning`, `feedback`, … (11 more) |
+| **[AI & Context](docs/categories/ai-context.md)** | 19 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `custom-model-planning`, `feedback`, … (12 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, … (11 more) |
-| **[Research & Learning](docs/categories/research-learning.md)** | 15 | `air-quality-toolkit`, `geopol-sim`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
+| **[Research & Learning](docs/categories/research-learning.md)** | 16 | `air-quality-toolkit`, `geopol-sim`, `israel-osint`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (9 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 14 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (7 more) |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 11 | `adb-ops`, `cf-domain-reg-ops`, `ha-alarmo`, `ha-device-metadata`, `home-assistant-mgmt`, `home-audio`, `lan-print-scan`, `mqtt-observability`, … (3 more) |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 9 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `hf-publisher-tools`, `hf3d`, `synthetic-data`, … (2 more) |
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 9 | `aliexpress-shopper`, `amazon`, `bh-photo`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping`, `sweetwater` |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
-| **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
+| **[Regional](docs/categories/regional.md)** | 8 | `ikea-israel`, `israel-agent-skills`, `israel-open-data`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 6 | `bios-tuning`, `hardware-spec-assembly`, `label-printer`, `macro-deck`, `nfc-ops`, `obd-diagnostics` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 6 | `agent-deconfliction`, `ai-eval`, `claude-agent-browsers`, `multisession`, `passive-aggressive-pa`, `rudder` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `local-web-capture`, `site-skill-builder` |

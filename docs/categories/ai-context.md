@@ -1,6 +1,6 @@
 # AI & Context
 
-18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+19 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,6 +124,18 @@ Habits (rules, always-on or triggered) and SOPs (procedures) as one markdown fil
 
 ```
 /plugin install habits@danielrosehill
+```
+
+---
+
+#### Hebrew AI Tools
+
+Hebrew AI builders' kit: Hebrew LLM evaluation, Hebrew dataset discovery, and a router to the Hebrew AI models, datasets, benchmarks and community indexes.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Hebrew-AI-Tools)
+
+```
+/plugin install hebrew-ai-tools@danielrosehill
 ```
 
 ---

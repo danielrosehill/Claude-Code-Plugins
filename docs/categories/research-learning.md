@@ -1,6 +1,6 @@
 # Research & Learning
 
-15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 
 ```
 /plugin install geopol-sim@danielrosehill
+```
+
+---
+
+#### Israel OSINT
+
+Israeli company and amuta lookups from public records: registry status, breach flags, strike-off notices and registered charges. Open-source intelligence on Israeli organisations.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-OSINT)
+
+```
+/plugin install israel-osint@danielrosehill
 ```
 
 ---

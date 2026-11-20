@@ -1,6 +1,6 @@
 # Regional
 
-7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Claude Code agent skills for Israel-specific workflows: emergency readiness util
 
 ```
 /plugin install israel-agent-skills@danielrosehill
+```
+
+---
+
+#### Israel Open Data
+
+data.gov.il and CBS statistics: search Israel's open data portal in English, query datasets, list new ones, pull CPI and other Central Bureau of Statistics series. Known API quirks built in.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-Open-Data-Plugin)
+
+```
+/plugin install israel-open-data@danielrosehill
 ```
 
 ---
