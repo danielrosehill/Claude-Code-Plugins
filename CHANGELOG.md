@@ -6,6 +6,8 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-20: `israel-shopping` 1.7.0: new `find-product` orchestrator (Zap vendor tables via `scripts/zap.py`, trusted vendors per category in `data/trusted-vendors.json`, .co.il search, Amazon-to-Israel and AliExpress landed cost, KSP/Ivory branch stock; ILS/USD and inc/ex-VAT price basis; ships-from, delivery time and options per row). Backends refreshed (Tavily/headless Playwright → scripts, curl, real browser, Exa). AliExpress skills moved to `aliexpress-israel-skills`.
+- 2026-11-20: `aliexpress-israel-skills` 1.14.0: absorbed from `israel-shopping` the Puppeteer scraper (`scripts/ali-fetch/`, fetch-listing Route B), `fetch-listing-api` (Affiliate API) and 2026-04 research notes.
 - 2026-11-19: `ha-alarmo` 1.0.0 (new): manage Alarmo (local HA alarm) via its websocket/REST API: `status`, `setup`, `sensors`, `actions` (siren hooks created disabled), `users` (codes typed by the user only), `arm` (explicit-request only, supervised silent test). Script `scripts/alarmo.py`.
 - 2026-11-19: `ha-device-metadata` 1.0.0 (new): skills `install` (Device Metadata HA integration via HACS, config entry, light-group clash check), `scan` (infer protocol, hub, device type, power, battery, cloud dependency from the registries; dry run first) and `fill-in` (batch interview for location, function, description). Integration: `danielrosehill/HA-Device-Metadata`.
 - 2026-11-19: `data-annotation` 2.1.0: new `voice-annotation-workspace` meta skill: set up a voice-first annotation workspace for any data format (point, talk freely, transcribe; a workspace-local skill converts speech into the schema; pilot rounds).

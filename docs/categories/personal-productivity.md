@@ -166,7 +166,7 @@ Ideation and planning — capture, generate, evaluate, rank, simulate, and plan 
 
 #### Israel Shopping
 
-Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).
+Israeli shopping workflows — find-product orchestrator that runs every channel at once (Zap vendor tables, trusted vendors per category, .co.il search, Amazon-to-Israel and AliExpress landed cost, KSP/Ivory branch stock); tech retailers (Ivory, KSP, Bug, TMS, Plonter), pro-audio specialists (KZPro, Speed of Sound, Halilit, Kley Zemer), Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and compare-to-local for AliExpress items (AliExpress itself: companion plugin aliexpress-israel-skills).
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin)
 
