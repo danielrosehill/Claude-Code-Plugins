@@ -1,6 +1,6 @@
 # Marketing & Shopping
 
-7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+9 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Amazon.com marketplace research — verified price, stock, rating, seller and sp
 
 ```
 /plugin install amazon@danielrosehill
+```
+
+---
+
+#### B&H Photo
+
+B&H Photo (bhphotovideo.com) marketplace research — verified price, stock, B&H #, cable/kit contents and used offers through the routes that get past its Cloudflare wall (Exa, then real Chrome with rate-limit spacing), stale discontinued-page rules, and international shipping and duties.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/BH-Photo-Plugin)
+
+```
+/plugin install bh-photo@danielrosehill
 ```
 
 ---
@@ -88,6 +100,18 @@ Region-specific consumer shopping primitives — find products, compare local ve
 
 ```
 /plugin install shopping@danielrosehill
+```
+
+---
+
+#### Sweetwater
+
+Sweetwater (sweetwater.com) marketplace research — price, stock, item ID, Certified Open Box and Gear Exchange offers read from Exa's cache because live pages sit behind a HUMAN/PerimeterX wall, with parsers for its spaced price markup, financing traps and discontinued pages, and cache-age warnings on every figure.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Sweetwater-Plugin)
+
+```
+/plugin install sweetwater@danielrosehill
 ```
 
 ---

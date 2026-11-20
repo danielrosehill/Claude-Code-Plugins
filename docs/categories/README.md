@@ -1,6 +1,6 @@
 # Plugin Categories
 
-205 plugins across 19 categories.
+207 plugins across 19 categories.
 
 | Category | Plugins |
 | --- | ---: |
@@ -13,8 +13,8 @@
 | [Repo Scaffolding & Retrofitting](repo-scaffolding-retrofitting.md) | 14 |
 | [Network & Smart Home](network-smart-home.md) | 11 |
 | [Data & Datasets](data-datasets.md) | 9 |
+| [Marketing & Shopping](marketing-shopping.md) | 9 |
 | [Privacy & Security](privacy-security.md) | 8 |
-| [Marketing & Shopping](marketing-shopping.md) | 7 |
 | [Regional](regional.md) | 7 |
 | [Hardware & Maker](hardware-maker.md) | 6 |
 | [QA & Agent Sessions](qa-agent-sessions.md) | 6 |

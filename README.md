@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**205 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**207 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -41,8 +41,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 14 | `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, `license-populator`, … (7 more) |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 11 | `adb-ops`, `cf-domain-reg-ops`, `ha-alarmo`, `ha-device-metadata`, `home-assistant-mgmt`, `home-audio`, `lan-print-scan`, `mqtt-observability`, … (3 more) |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 9 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `hf-publisher-tools`, `hf3d`, `synthetic-data`, … (2 more) |
+| **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 9 | `aliexpress-shopper`, `amazon`, `bh-photo`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping`, `sweetwater` |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
-| **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 7 | `aliexpress-shopper`, `amazon`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping` |
 | **[Regional](docs/categories/regional.md)** | 7 | `ikea-israel`, `israel-agent-skills`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 6 | `bios-tuning`, `hardware-spec-assembly`, `label-printer`, `macro-deck`, `nfc-ops`, `obd-diagnostics` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 6 | `agent-deconfliction`, `ai-eval`, `claude-agent-browsers`, `multisession`, `passive-aggressive-pa`, `rudder` |

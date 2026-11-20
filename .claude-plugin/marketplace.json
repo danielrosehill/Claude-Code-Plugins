@@ -4954,6 +4954,54 @@
         "security",
         "sirens"
       ]
+    },
+    {
+      "name": "bh-photo",
+      "displayName": "B&H Photo",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/BH-Photo-Plugin"
+      },
+      "description": "B&H Photo (bhphotovideo.com) marketplace research — verified price, stock, B&H #, cable/kit contents and used offers through the routes that get past its Cloudflare wall (Exa, then real Chrome with rate-limit spacing), stale discontinued-page rules, and international shipping and duties.",
+      "category": "Marketing & Shopping",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "shopping",
+        "marketplace",
+        "bh-photo",
+        "price-check",
+        "pro-audio"
+      ]
+    },
+    {
+      "name": "sweetwater",
+      "displayName": "Sweetwater",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Sweetwater-Plugin"
+      },
+      "description": "Sweetwater (sweetwater.com) marketplace research — price, stock, item ID, Certified Open Box and Gear Exchange offers read from Exa's cache because live pages sit behind a HUMAN/PerimeterX wall, with parsers for its spaced price markup, financing traps and discontinued pages, and cache-age warnings on every figure.",
+      "category": "Marketing & Shopping",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "shopping",
+        "marketplace",
+        "sweetwater",
+        "price-check",
+        "pro-audio"
+      ]
     }
   ]
 }
