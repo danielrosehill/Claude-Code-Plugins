@@ -94,7 +94,7 @@ Product research and procurement skills with a particular focus on technical spe
 
 #### Shopping
 
-Region-specific consumer shopping primitives — find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.
+Region-specific consumer shopping primitives — find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon, AliExpress, B&H Photo, Sweetwater, Grainger) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Shopping-Plugin)
 
