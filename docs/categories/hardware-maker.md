@@ -1,6 +1,6 @@
 # Hardware & Maker
 
-6 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+7 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Define hardware project BOMs with ESP32-first focus — onboarding captures loca
 
 ```
 /plugin install hardware-spec-assembly@danielrosehill
+```
+
+---
+
+#### ImageMeter
+
+ImageMeter photos on Drive: find dimensions, export JSON/CSV, tidy sync folders.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/ImageMeter-Plugin)
+
+```
+/plugin install imagemeter@danielrosehill
 ```
 
 ---

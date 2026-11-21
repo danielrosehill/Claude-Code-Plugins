@@ -5121,6 +5121,31 @@
         "agent-context",
         "walkthrough"
       ]
+    },
+    {
+      "name": "imagemeter",
+      "displayName": "ImageMeter",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/ImageMeter-Plugin"
+      },
+      "description": "ImageMeter photos on Drive: find dimensions, export JSON/CSV, tidy sync folders.",
+      "category": "Hardware & Maker",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "imagemeter",
+        "measurements",
+        "dimensions",
+        "floor-plan",
+        "google-drive",
+        "rclone"
+      ]
     }
   ]
 }

@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**212 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**213 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -44,7 +44,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Marketing & Shopping](docs/categories/marketing-shopping.md)** | 9 | `aliexpress-shopper`, `amazon`, `bh-photo`, `freight-vol-calculator`, `grainger`, `pr-media-work`, `procurement-tools`, `shopping`, `sweetwater` |
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
 | **[Regional](docs/categories/regional.md)** | 8 | `ikea-israel`, `israel-agent-skills`, `israel-open-data`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
-| **[Hardware & Maker](docs/categories/hardware-maker.md)** | 6 | `bios-tuning`, `hardware-spec-assembly`, `label-printer`, `macro-deck`, `nfc-ops`, `obd-diagnostics` |
+| **[Hardware & Maker](docs/categories/hardware-maker.md)** | 7 | `bios-tuning`, `hardware-spec-assembly`, `imagemeter`, `label-printer`, `macro-deck`, `nfc-ops`, `obd-diagnostics` |
 | **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 6 | `agent-deconfliction`, `ai-eval`, `claude-agent-browsers`, `multisession`, `passive-aggressive-pa`, `rudder` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `local-web-capture`, `site-skill-builder` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 3 | `gist-writer`, `github-explorer`, `start-here` |
