@@ -45,7 +45,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Privacy & Security](docs/categories/privacy-security.md)** | 8 | `digital-evidence`, `gpg-ops`, `network-forensics`, `obfuscation-tools`, `plugin-vault`, `pseudospam-filter`, `security-auditor`, `ubuntu-security` |
 | **[Regional](docs/categories/regional.md)** | 8 | `ikea-israel`, `israel-agent-skills`, `israel-open-data`, `israel-opening-hours`, `israel-post`, `maccabi-online-skills`, `netek-disconnect`, `rtl-skills` |
 | **[Hardware & Maker](docs/categories/hardware-maker.md)** | 7 | `bios-tuning`, `hardware-spec-assembly`, `imagemeter`, `label-printer`, `macro-deck`, `nfc-ops`, `obd-diagnostics` |
-| **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 6 | `agent-deconfliction`, `ai-eval`, `claude-agent-browsers`, `multisession`, `passive-aggressive-pa`, `rudder` |
+| **[QA & Agent Sessions](docs/categories/qa-agent-sessions.md)** | 6 | `agent-browsers`, `agent-deconfliction`, `ai-eval`, `multisession`, `passive-aggressive-pa`, `rudder` |
 | **[Data Discovery](docs/categories/data-discovery.md)** | 3 | `browser-data-capture`, `local-web-capture`, `site-skill-builder` |
 | **[Git & GitHub](docs/categories/git-github.md)** | 3 | `gist-writer`, `github-explorer`, `start-here` |
 | **[Publishing & CMS](docs/categories/publishing-cms.md)** | 3 | `buttondown-mgmt`, `kdp-publishing`, `long-form-content` |
