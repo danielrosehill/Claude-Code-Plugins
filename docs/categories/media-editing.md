@@ -1,6 +1,6 @@
 # Media Editing
 
-21 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+22 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,6 +124,18 @@ Media library — catalog, tag, search, sort, dedupe assets.
 
 ```
 /plugin install media-library@danielrosehill
+```
+
+---
+
+#### Narrated Video Context
+
+Narrated phone video to agent context: transcript with stills inline at marked or spoken moments (e.g. home fix list).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Narrated-Video-To-Agent-Context)
+
+```
+/plugin install narrated-video-context@danielrosehill
 ```
 
 ---
