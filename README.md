@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**214 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**215 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -33,8 +33,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | Category | Plugins | Contents |
 | --- | ---: | --- |
 | **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 28 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `device-sync`, `docker-manager`, … (21 more) |
+| **[Media Editing](docs/categories/media-editing.md)** | 23 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `google-photos`, … (16 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 23 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `daniel-rosehill`, … (17 more) |
-| **[Media Editing](docs/categories/media-editing.md)** | 22 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `hardware-id-annotation`, … (15 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 19 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `custom-model-planning`, `feedback`, … (12 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, … (11 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 17 | `air-quality-toolkit`, `geopol-sim`, `israel-osint`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |

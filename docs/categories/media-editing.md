@@ -1,6 +1,6 @@
 # Media Editing
 
-22 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+23 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -76,6 +76,18 @@ Bare-bones GIMP CLI wrapper for Linux: detect install (native/Flatpak/Snap/AppIm
 
 ```
 /plugin install gimp@danielrosehill
+```
+
+---
+
+#### Google Photos
+
+Google Photos: albums, picker downloads, album backup. Create albums and upload into them (Library API), download photos the user picks (Picker API), drive a signed-in Chrome for what the APIs dropped in 2025 (download or share any album, add to app-made albums), and incremental deduplicated album backup to disk, NAS or rclone with add-only offsite and M-Disc volumes. Per-account profiles.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Google-Photos-Plugin)
+
+```
+/plugin install google-photos@danielrosehill
 ```
 
 ---
