@@ -5070,6 +5070,32 @@
         "datasets",
         "evals"
       ]
+    },
+    {
+      "name": "news-brief",
+      "displayName": "News Brief",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/News-Brief"
+      },
+      "description": "Daily, breaking and SITREP news briefs from RSS whitelists. Ships the Israel Breaking package; build packages for any geography.",
+      "category": "Research & Learning",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "news",
+        "rss",
+        "daily-brief",
+        "breaking-news",
+        "sitrep",
+        "israel",
+        "voice-assistant"
+      ]
     }
   ]
 }

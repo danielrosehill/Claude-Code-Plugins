@@ -1,6 +1,6 @@
 # Research & Learning
 
-16 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -112,6 +112,18 @@ Modular research task: brief in, PDF + podcast out. Takes a (dictated) brief thr
 
 ```
 /plugin install modular-research@danielrosehill
+```
+
+---
+
+#### News Brief
+
+Daily, breaking and SITREP news briefs from RSS whitelists. Ships the Israel Breaking package; build packages for any geography.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/News-Brief)
+
+```
+/plugin install news-brief@danielrosehill
 ```
 
 ---
