@@ -5146,6 +5146,32 @@
         "google-drive",
         "rclone"
       ]
+    },
+    {
+      "name": "agent-ready-website",
+      "displayName": "Agent-Ready Website",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Agent-Ready-Website"
+      },
+      "description": "Website AI-agent readiness: WebMCP, llms.txt, AI crawlers",
+      "category": "Repo Scaffolding & Retrofitting",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "webmcp",
+        "llms-txt",
+        "agent-readiness",
+        "ai-crawlers",
+        "robots-txt",
+        "structured-data",
+        "geo"
+      ]
     }
   ]
 }

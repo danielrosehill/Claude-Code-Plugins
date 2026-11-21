@@ -1,9 +1,21 @@
 # Repo Scaffolding & Retrofitting
 
-14 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+15 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
+```
+
+---
+
+#### Agent-Ready Website
+
+Website AI-agent readiness: WebMCP, llms.txt, AI crawlers
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Agent-Ready-Website)
+
+```
+/plugin install agent-ready-website@danielrosehill
 ```
 
 ---
