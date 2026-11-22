@@ -5204,9 +5204,9 @@
         "source": "github",
         "repo": "danielrosehill/SaaS-Data-Export-Plugin"
       },
-      "description": "Request your data exports from SaaS providers like ChatGPT, by browser or guided steps, and track them until the download link arrives.",
+      "description": "Request your data exports from SaaS providers (ChatGPT, Reddit, X, Facebook, LinkedIn) by browser or guided steps, and track them until the download arrives.",
       "category": "Privacy & Security",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

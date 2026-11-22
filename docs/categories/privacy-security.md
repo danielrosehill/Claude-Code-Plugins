@@ -82,7 +82,7 @@ A second spam filter for pseudospam (outreach produced at scale, dressed up as p
 
 #### SaaS Data Export
 
-Request your data exports from SaaS providers like ChatGPT, by browser or guided steps, and track them until the download link arrives.
+Request your data exports from SaaS providers (ChatGPT, Reddit, X, Facebook, LinkedIn) by browser or guided steps, and track them until the download arrives.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/SaaS-Data-Export-Plugin)
 
