@@ -1,6 +1,6 @@
 # Privacy & Security
 
-8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+9 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -76,6 +76,18 @@ A second spam filter for pseudospam (outreach produced at scale, dressed up as p
 
 ```
 /plugin install pseudospam-filter@danielrosehill
+```
+
+---
+
+#### SaaS Data Export
+
+Request your data exports from SaaS providers like ChatGPT, by browser or guided steps, and track them until the download link arrives.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/SaaS-Data-Export-Plugin)
+
+```
+/plugin install saas-data-export@danielrosehill
 ```
 
 ---
