@@ -3080,7 +3080,7 @@
       },
       "description": "Everything right-to-left in one plugin: Hebrew, Arabic, Farsi and Urdu email, Typst PDFs and formal Hebrew letters, HTML marketing newsletters, Google Docs and Sheets, calendar events, Word and Excel files, and render checks. Your signatures, brands and house styles stay in a private user-data folder.",
       "category": "Regional",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4109,7 +4109,7 @@
       },
       "description": "Israel Post (דואר ישראל) operations: send registered letters online (מכתב דיגיטלי), book, check and cancel branch appointments, add them to your calendar, track parcels.",
       "category": "Regional",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
