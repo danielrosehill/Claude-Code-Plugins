@@ -34,7 +34,7 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 
 #### Israel OSINT
 
-Israeli company and amuta lookups from public records: registry status, breach flags, strike-off notices and registered charges. Open-source intelligence on Israeli organisations.
+Israeli public-records OSINT: company/amuta/partnership registry lookups, and Jerusalem building permits and violations by parcel.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-OSINT)
 

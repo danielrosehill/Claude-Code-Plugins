@@ -5034,9 +5034,9 @@
         "source": "github",
         "repo": "danielrosehill/Israel-OSINT"
       },
-      "description": "Israeli company and amuta lookups from public records: registry status, breach flags, strike-off notices and registered charges. Open-source intelligence on Israeli organisations.",
+      "description": "Israeli public-records OSINT: company/amuta/partnership registry lookups, and Jerusalem building permits and violations by parcel.",
       "category": "Research & Learning",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -5231,7 +5231,7 @@
       },
       "description": "Israeli FOI requests (חופש המידע): right authority, Hebrew draft, filing, deadline. Starts with the Jerusalem Municipality online form.",
       "category": "Regional",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
