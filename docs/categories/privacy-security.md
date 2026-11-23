@@ -22,7 +22,7 @@ Meta-plugin for per-project activation of dormant plugins and MCP servers from a
 
 #### Digital Evidence
 
-General-purpose digital-evidence processing: capture, hash, OpenTimestamps, ExifTool/MediaInfo metadata, BagIt packaging, immutable sync. Layers with legal-investigative for full chain-of-custody workflows.
+General-purpose digital-evidence processing: capture (web pages, Android devices over ADB), hash, OpenTimestamps, ExifTool/MediaInfo metadata, BagIt packaging, immutable sync. Layers with legal-investigative for full chain-of-custody workflows.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin)
 
