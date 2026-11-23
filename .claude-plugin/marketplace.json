@@ -5034,9 +5034,9 @@
         "source": "github",
         "repo": "danielrosehill/Israel-OSINT"
       },
-      "description": "Israeli public-records OSINT: company/amuta/partnership registry lookups, and Jerusalem building permits and violations by parcel.",
+      "description": "Israeli public-records OSINT: registry lookups, address↔gush/helka parcel CLI, Jerusalem permits and violations by parcel.",
       "category": "Research & Learning",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

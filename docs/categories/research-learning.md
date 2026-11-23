@@ -34,7 +34,7 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 
 #### Israel OSINT
 
-Israeli public-records OSINT: company/amuta/partnership registry lookups, and Jerusalem building permits and violations by parcel.
+Israeli public-records OSINT: registry lookups, address↔gush/helka parcel CLI, Jerusalem permits and violations by parcel.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-OSINT)
 
