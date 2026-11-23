@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-23: new plugin `context-mgmt` 0.1.0: `check-launch-context` (run `/context` in a fresh terminal session, analyse and trim), plus the context skills, commands, agents and hooks split out of `rudder` (2.10.0).
 - 2026-11-23: new plugin `israel-gis` 0.1.0: Jerusalem layers CLI and a directory of Israeli GIS systems.
 - 2026-11-23: `israel-osint` 0.4.0: `court-case-lookup`, `media-scan` (CLI), `public-filings` and `entity-dossier`, which runs them together.
 - 2026-11-23: `israel-osint` 0.3.0: new skill `parcel-lookup`, a CLI (`uv run`, no key) for address or lat/lon → gush/helka with neighbouring parcels, and the reverse (centroid, outline, status, legal area). National cadastre layer (~1.1M parcels) with a Jerusalem municipal fallback for central blocks the national layer lacks. Documents geocoding error (check `nearby`) and the govmap dead ends.

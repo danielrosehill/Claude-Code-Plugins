@@ -58,7 +58,7 @@ Passive-aggressive PA system. Claude barks status updates over a speaker; if ign
 
 #### Claude Rudder
 
-Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)
+Collection of utilities to smoothen Claude Code UX: log/blocker capture, plugin/MCP primitives, repo and docs spawning, and the canonical user-data storage convention. (Context skills moved to Context-Mgmt, session-hopping skills to Claude-Hopper.)
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Claude-Rudder)
 

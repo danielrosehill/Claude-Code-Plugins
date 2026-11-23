@@ -1,6 +1,6 @@
 # AI & Context
 
-19 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+20 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -76,6 +76,18 @@ Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/com
 
 ```
 /plugin install user-memory@danielrosehill
+```
+
+---
+
+#### Context Mgmt
+
+Measure and trim what a fresh agent session loads, checkpoint cluttered sessions, chunk CLAUDE.md, and sync CONTEXT.md with CLAUDE.md.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Context-Mgmt)
+
+```
+/plugin install context-mgmt@danielrosehill
 ```
 
 ---
