@@ -4107,9 +4107,9 @@
         "source": "github",
         "repo": "danielrosehill/Israel-Post-Plugin"
       },
-      "description": "Israel Post (דואר ישראל) appointments, branch search and parcel tracking: book, check or cancel a counter slot.",
+      "description": "Israel Post (דואר ישראל) operations: send registered letters online (מכתב דיגיטלי), book, check and cancel branch appointments, add them to your calendar, track parcels.",
       "category": "Regional",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

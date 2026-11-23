@@ -58,7 +58,7 @@ Check opening hours for Israeli businesses, including hours stated relative to S
 
 #### Israel Post
 
-Israel Post (דואר ישראל) appointments, branch search and parcel tracking: book, check or cancel a counter slot.
+Israel Post (דואר ישראל) operations: send registered letters online (מכתב דיגיטלי), book, check and cancel branch appointments, add them to your calendar, track parcels.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-Post-Plugin)
 
