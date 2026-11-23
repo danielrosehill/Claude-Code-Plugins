@@ -353,7 +353,7 @@
       },
       "description": "Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. A seller quote loop: identify vendors and workshops, shortlist reputable sellers, message them by WhatsApp or email, check replies, compare quotes. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
       "category": "Marketing & Shopping",
-      "version": "2.5.0",
+      "version": "2.5.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -701,7 +701,7 @@
       },
       "description": "Israeli shopping workflows — find-product orchestrator that runs every channel at once (Zap vendor tables, trusted vendors per category, .co.il search, Amazon-to-Israel and AliExpress landed cost, KSP/Ivory branch stock); tech retailers (Ivory, KSP, Bug, TMS, Plonter), pro-audio specialists (KZPro, Speed of Sound, Halilit, Kley Zemer), Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and compare-to-local for AliExpress items (AliExpress itself: companion plugin aliexpress-israel-skills).",
       "category": "Personal Productivity",
-      "version": "1.9.0",
+      "version": "1.14.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
