@@ -5277,7 +5277,7 @@
       },
       "description": "Measure and trim what a fresh agent session loads, checkpoint cluttered sessions, chunk CLAUDE.md, and sync CONTEXT.md with CLAUDE.md.",
       "category": "AI & Context",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

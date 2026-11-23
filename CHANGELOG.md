@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-23: `context-mgmt` 0.2.0: `check-launch-context` suggests remediation with measured savings and re-measures billed tokens; on Canopy clients it defers to `canopy-manager`.
 - 2026-11-23: new plugin `context-mgmt` 0.1.0: `check-launch-context` (run `/context` in a fresh terminal session, analyse and trim), plus the context skills, commands, agents and hooks split out of `rudder` (2.10.0).
 - 2026-11-23: new plugin `israel-gis` 0.1.0: Jerusalem layers CLI and a directory of Israeli GIS systems.
 - 2026-11-23: `israel-osint` 0.4.0: `court-case-lookup`, `media-scan` (CLI), `public-filings` and `entity-dossier`, which runs them together.
