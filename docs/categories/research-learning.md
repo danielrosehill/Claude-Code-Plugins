@@ -34,7 +34,7 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 
 #### Israel OSINT
 
-Israeli public-records OSINT: registry lookups, address↔gush/helka parcel CLI, Jerusalem permits and violations by parcel.
+Israeli company research from public records: registry, court cases, media, filings, parcels and permits in one dossier.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-OSINT)
 
