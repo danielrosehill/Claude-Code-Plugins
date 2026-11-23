@@ -1,6 +1,6 @@
 # Research & Learning
 
-17 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 
 ```
 /plugin install geopol-sim@danielrosehill
+```
+
+---
+
+#### Israel GIS
+
+Israeli GIS: query Jerusalem's open map layers, and find the GIS for any Israeli city or national body.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-GIS-Plugin)
+
+```
+/plugin install israel-gis@danielrosehill
 ```
 
 ---

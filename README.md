@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**217 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**218 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -37,7 +37,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 23 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `daniel-rosehill`, … (17 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 19 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `custom-model-planning`, `feedback`, … (12 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, … (11 more) |
-| **[Research & Learning](docs/categories/research-learning.md)** | 17 | `air-quality-toolkit`, `geopol-sim`, `israel-osint`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, `learning`, … (10 more) |
+| **[Research & Learning](docs/categories/research-learning.md)** | 18 | `air-quality-toolkit`, `geopol-sim`, `israel-gis`, `israel-osint`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, … (11 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 15 | `agent-ready-website`, `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, … (8 more) |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 11 | `adb-ops`, `cf-domain-reg-ops`, `ha-alarmo`, `ha-device-metadata`, `home-assistant-mgmt`, `home-audio`, `lan-print-scan`, `mqtt-observability`, … (3 more) |
 | **[Data & Datasets](docs/categories/data-datasets.md)** | 9 | `data-analyst`, `data-annotation`, `data-visualisation-and-publishing`, `data-wrangler`, `hf-publisher-tools`, `hf3d`, `synthetic-data`, … (2 more) |

@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-23: new plugin `israel-gis` 0.1.0: Jerusalem layers CLI and a directory of Israeli GIS systems.
 - 2026-11-23: `israel-osint` 0.4.0: `court-case-lookup`, `media-scan` (CLI), `public-filings` and `entity-dossier`, which runs them together.
 - 2026-11-23: `israel-osint` 0.3.0: new skill `parcel-lookup`, a CLI (`uv run`, no key) for address or lat/lon → gush/helka with neighbouring parcels, and the reverse (centroid, outline, status, legal area). National cadastre layer (~1.1M parcels) with a Jerusalem municipal fallback for central blocks the national layer lacks. Documents geocoding error (check `nearby`) and the govmap dead ends.
 - 2026-11-23: `israel-foi` 0.2.0: new skill `jerusalem-foi-status`, for checking requests in the Jerusalem municipality's סטטוס דיגיטל portal (request number plus mobile or email, two-step code by the user; status and sub-status meanings; read-only form view with department notes; avoid the print dialog).

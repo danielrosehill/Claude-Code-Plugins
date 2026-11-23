@@ -5028,6 +5028,28 @@
       ]
     },
     {
+      "name": "israel-gis",
+      "displayName": "Israel GIS",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Israel-GIS-Plugin"
+      },
+      "description": "Israeli GIS: query Jerusalem's open map layers, and find the GIS for any Israeli city or national body.",
+      "category": "Research & Learning",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "gis",
+        "jerusalem"
+      ]
+    },
+    {
       "name": "israel-osint",
       "displayName": "Israel OSINT",
       "source": {
