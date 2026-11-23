@@ -2031,7 +2031,7 @@
       },
       "description": "Give the agent its own browsers: a typed registry (local, LAN, VPS), on its own virtual desktop on KDE.",
       "category": "QA & Agent Sessions",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
