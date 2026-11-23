@@ -5221,6 +5221,31 @@
         "takeout",
         "backup"
       ]
+    },
+    {
+      "name": "israel-foi",
+      "displayName": "Israel FOI",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Israel-FOI-Plugin"
+      },
+      "description": "Israeli FOI requests (חופש המידע): right authority, Hebrew draft, filing, deadline. Starts with the Jerusalem Municipality online form.",
+      "category": "Regional",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "foi",
+        "freedom-of-information",
+        "jerusalem",
+        "municipality",
+        "hebrew"
+      ]
     }
   ]
 }

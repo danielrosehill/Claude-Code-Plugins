@@ -1,6 +1,6 @@
 # Regional
 
-8 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+9 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Claude Code agent skills for Israel-specific workflows: emergency readiness util
 
 ```
 /plugin install israel-agent-skills@danielrosehill
+```
+
+---
+
+#### Israel FOI
+
+Israeli FOI requests (חופש המידע): right authority, Hebrew draft, filing, deadline. Starts with the Jerusalem Municipality online form.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Israel-FOI-Plugin)
+
+```
+/plugin install israel-foi@danielrosehill
 ```
 
 ---
