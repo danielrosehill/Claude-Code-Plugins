@@ -3593,9 +3593,9 @@
         "source": "github",
         "repo": "danielrosehill/Ubuntu-Security"
       },
-      "description": "Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.",
+      "description": "Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.",
       "category": "Privacy & Security",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3612,6 +3612,31 @@
         "ssh",
         "fail2ban",
         "audit"
+      ]
+    },
+    {
+      "name": "yubikey",
+      "displayName": "YubiKey",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/YubiKey-Toolkit"
+      },
+      "description": "YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV and OpenPGP.",
+      "category": "Privacy & Security",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "yubikey",
+        "fido2",
+        "webauthn",
+        "pam",
+        "ssh",
+        "totp"
       ]
     },
     {

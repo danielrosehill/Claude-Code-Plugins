@@ -1,6 +1,6 @@
 # Privacy & Security
 
-9 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+10 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -106,12 +106,24 @@ Register machines and run repeatable Claude-Code-driven security audits over SSH
 
 #### Ubuntu Security
 
-Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.
+Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Ubuntu-Security)
 
 ```
 /plugin install ubuntu-security@danielrosehill
+```
+
+---
+
+#### YubiKey
+
+YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV and OpenPGP.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/YubiKey-Toolkit)
+
+```
+/plugin install yubikey@danielrosehill
 ```
 
 ---
