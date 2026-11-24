@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-24: `yubikey` 0.2.0: four 1Password transfer skills (TOTP, SSH keys, GPG keys, credentials).
 - 2026-11-24: new plugin `yubikey` 0.1.0 (danielrosehill/YubiKey-Toolkit): 8 skills. `ubuntu-security` 1.1.0: `yubikey-setup` moved there as `yubikey:pam-login`, `detect` and `ssh-keys`.
 - 2026-11-24: new plugin `docx-redline` 1.0.0: read, redline (tracked changes, comments), accept/reject and render `.docx` without Word.
 - 2026-11-23: `home-assistant-mgmt` 1.1.0: new skills `group-automations` (group by label, batch on/off) and `pause-automations` (pause between dates with AutoSnooze).

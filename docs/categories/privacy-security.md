@@ -118,7 +118,7 @@ Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scop
 
 #### YubiKey
 
-YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV and OpenPGP.
+YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV, OpenPGP and copying credentials from 1Password.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/YubiKey-Toolkit)
 
