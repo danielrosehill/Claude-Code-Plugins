@@ -44,6 +44,18 @@ GPG operations: generate keypairs, export public keys, encrypt, decrypt, sign, a
 
 ---
 
+#### Hardware Auth Keys
+
+Hardware authentication keys on Linux, YubiKey and Thetis: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets; plus YubiKey TOTP, PIV, OpenPGP and 1Password transfers.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Hardware-Auth-Keys)
+
+```
+/plugin install hardware-auth-keys@danielrosehill
+```
+
+---
+
 #### Network Forensics
 
 Trace an IoT device's cloud egress, document it, lock it down: IP cameras, OPNsense, packet capture, whois, block rules, verify.
@@ -112,18 +124,6 @@ Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scop
 
 ```
 /plugin install ubuntu-security@danielrosehill
-```
-
----
-
-#### YubiKey
-
-YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV, OpenPGP and copying credentials from 1Password.
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/YubiKey-Toolkit)
-
-```
-/plugin install yubikey@danielrosehill
 ```
 
 ---

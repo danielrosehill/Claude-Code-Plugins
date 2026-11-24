@@ -3615,15 +3615,15 @@
       ]
     },
     {
-      "name": "yubikey",
-      "displayName": "YubiKey",
+      "name": "hardware-auth-keys",
+      "displayName": "Hardware Auth Keys",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/YubiKey-Toolkit"
+        "repo": "danielrosehill/Hardware-Auth-Keys"
       },
-      "description": "YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV, OpenPGP and copying credentials from 1Password.",
+      "description": "Hardware authentication keys on Linux, YubiKey and Thetis: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets; plus YubiKey TOTP, PIV, OpenPGP and 1Password transfers.",
       "category": "Privacy & Security",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
