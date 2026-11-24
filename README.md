@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**219 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**220 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -36,7 +36,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | **[Media Editing](docs/categories/media-editing.md)** | 23 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `google-photos`, … (16 more) |
 | **[Personal Productivity](docs/categories/personal-productivity.md)** | 23 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `daniel-rosehill`, … (17 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 20 | `ai-engineering`, `ai-model-research`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `context-mgmt`, `custom-model-planning`, … (13 more) |
-| **[Documentation & Writing](docs/categories/documentation-writing.md)** | 18 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `document-nudge`, `document-to-markdown`, `eml-toolkit`, … (11 more) |
+| **[Documentation & Writing](docs/categories/documentation-writing.md)** | 19 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `document-nudge`, `document-to-markdown`, `docx-redline`, … (12 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 18 | `air-quality-toolkit`, `geopol-sim`, `israel-gis`, `israel-osint`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, … (11 more) |
 | **[Repo Scaffolding & Retrofitting](docs/categories/repo-scaffolding-retrofitting.md)** | 15 | `agent-ready-website`, `agentic-dev-workflows`, `dev-debugger`, `dev-tools`, `favorite-plugins-installers`, `flow-control`, `kaizen`, … (8 more) |
 | **[Network & Smart Home](docs/categories/network-smart-home.md)** | 11 | `adb-ops`, `cf-domain-reg-ops`, `ha-alarmo`, `ha-device-metadata`, `home-assistant-mgmt`, `home-audio`, `lan-print-scan`, `mqtt-observability`, … (3 more) |

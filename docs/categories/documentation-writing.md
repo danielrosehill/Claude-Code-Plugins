@@ -1,6 +1,6 @@
 # Documentation & Writing
 
-18 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+19 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -76,6 +76,18 @@ Convert PDFs to clean Markdown, chunk into logical sections (chapters, indexes, 
 
 ```
 /plugin install document-to-markdown@danielrosehill
+```
+
+---
+
+#### Docx Redline
+
+Word .docx tracked changes and comments without Word: read, redline, accept/reject, render to PDF. Keeps Hebrew and Arabic right-to-left.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Docx-Redline-Plugin)
+
+```
+/plugin install docx-redline@danielrosehill
 ```
 
 ---

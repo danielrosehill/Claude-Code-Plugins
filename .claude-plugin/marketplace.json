@@ -5289,6 +5289,31 @@
         "tokens",
         "claude-md"
       ]
+    },
+    {
+      "name": "docx-redline",
+      "displayName": "Docx Redline",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Docx-Redline-Plugin"
+      },
+      "description": "Word .docx tracked changes and comments without Word: read, redline, accept/reject, render to PDF. Keeps Hebrew and Arabic right-to-left.",
+      "category": "Documentation & Writing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "docx",
+        "word",
+        "track-changes",
+        "redline",
+        "rtl",
+        "hebrew"
+      ]
     }
   ]
 }
