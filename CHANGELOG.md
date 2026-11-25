@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-25: new plugin `report-writing` 1.0.0 (danielrosehill/Report-Writing): situation, pre-meeting, company and person briefs; report review, language, layout, research audit, delivery.
 - 2026-11-24: `yubikey` renamed `hardware-auth-keys` 0.3.0 (danielrosehill/Hardware-Auth-Keys): adds `thetis-setup` and `thetis-pins-and-reset`; YubiKey-only skills gain a `yubikey-` prefix.
 - 2026-11-24: `yubikey` 0.2.0: four 1Password transfer skills (TOTP, SSH keys, GPG keys, credentials).
 - 2026-11-24: new plugin `yubikey` 0.1.0 (danielrosehill/YubiKey-Toolkit): 8 skills. `ubuntu-security` 1.1.0: `yubikey-setup` moved there as `yubikey:pam-login`, `detect` and `ssh-keys`.

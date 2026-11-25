@@ -1,6 +1,6 @@
 # Documentation & Writing
 
-19 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+20 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -160,6 +160,18 @@ Convert GitHub repos into polished content (PDF, white paper, internal doc, publ
 
 ```
 /plugin install repo-to-content@danielrosehill
+```
+
+---
+
+#### Report Writing
+
+Write and refine informational briefs: situation reports, pre-meeting, company and person briefs. Profiles, review, research audit, Typst PDF, Drive and email.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Report-Writing)
+
+```
+/plugin install report-writing@danielrosehill
 ```
 
 ---

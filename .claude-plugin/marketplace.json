@@ -5339,6 +5339,32 @@
         "rtl",
         "hebrew"
       ]
+    },
+    {
+      "name": "report-writing",
+      "displayName": "Report Writing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Report-Writing"
+      },
+      "description": "Write and refine informational briefs: situation reports, pre-meeting, company and person briefs. Profiles, review, research audit, Typst PDF, Drive and email.",
+      "category": "Documentation & Writing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "reports",
+        "briefs",
+        "sitrep",
+        "pdb",
+        "meeting-prep",
+        "company-research",
+        "typst"
+      ]
     }
   ]
 }
