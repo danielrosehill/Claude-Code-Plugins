@@ -2902,7 +2902,7 @@
       },
       "description": "AliExpress shopping skills for Israel-based buyers — honest deep search that resolves true SKU prices behind anchored and bundle cards, fast-delivery-to-Israel filter, locale preference with drift guard (default EN/USD), Choice-first search, Israeli-reviews filter, landed cost, findings export (JSON/Markdown/PDF) and the $75 de-minimis across listings and cart.",
       "category": "Personal Productivity",
-      "version": "1.17.0",
+      "version": "1.18.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
