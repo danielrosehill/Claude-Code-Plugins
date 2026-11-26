@@ -871,7 +871,7 @@
       },
       "description": "ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
       "category": "Network & Smart Home",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -894,7 +894,7 @@
       },
       "description": "Tasker on Android over ADB: build profiles via its editor",
       "category": "Network & Smart Home",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4185,7 +4185,7 @@
       },
       "description": "Agent dev workflows: voice notes, screenshots, UI review. Any platform: steer work from voice notes, screenshots and screen recordings; review the running UI; resolve UI friction by options-then-build.",
       "category": "Repo Scaffolding & Retrofitting",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4790,7 +4790,7 @@
         "repo": "danielrosehill/Macro-Deck-Plugin"
       },
       "description": "Turn a phone into a macropad for host operations with Macro Deck 3: install the host, connect its MCP server, build decks from a spec, and keep decks in a private git repo.",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
