@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-26: phone UI through a mobile-mcp server first: `tasker-adb` 1.1.0 (`drive-tasker`), `adb-ops` 1.5.0 (`take-screenshot`), `macro-deck` 1.2.0 (`adb-actions` reference), `agentic-dev-workflows` 0.6.2 (`ui-review` capture routes).
 - 2026-11-25: new plugin `report-writing` 1.0.0 (danielrosehill/Report-Writing): situation, pre-meeting, company and person briefs; report review, language, layout, research audit, delivery.
 - 2026-11-24: `yubikey` renamed `hardware-auth-keys` 0.3.0 (danielrosehill/Hardware-Auth-Keys): adds `thetis-setup` and `thetis-pins-and-reset`; YubiKey-only skills gain a `yubikey-` prefix.
 - 2026-11-24: `yubikey` 0.2.0: four 1Password transfer skills (TOTP, SSH keys, GPG keys, credentials).
