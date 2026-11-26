@@ -3227,9 +3227,9 @@
         "source": "github",
         "repo": "danielrosehill/Long-Form-Content-Plugin"
       },
-      "description": "Produce books, long-form research reports, screenplays and audiobooks with teams of subagents. One pipeline (definition, planning, parallel unit drafting, review), then a production stage per type: print handoff, PDF, Fountain, or spoken script + per-chapter TTS + chaptered m4b. Consistency is carried by a style guide, per-unit briefs and a continuity ledger, and a seam reviewer checks every join between units. Successor to book-writing.",
+      "description": "Produce books, long-form research reports, screenplays and audiobooks with teams of subagents. One pipeline (definition, planning, parallel unit drafting, review), then a production stage per type: print handoff, PDF, Fountain, or spoken script + per-chapter TTS + chaptered m4b. Consistency is carried by a style guide, per-unit briefs and a continuity ledger, and a seam reviewer checks every join between units. Researched non-fiction route (per-chapter fact files, cut-only fact verifiers) and a supervised OpenRouter route with a dated model ledger. Successor to book-writing.",
       "category": "Publishing & CMS",
-      "version": "2.1",
+      "version": "2.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
