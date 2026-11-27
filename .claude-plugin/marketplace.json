@@ -5365,6 +5365,30 @@
         "company-research",
         "typst"
       ]
+    },
+    {
+      "name": "ai-studio-builder",
+      "displayName": "AI Studio Builder",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Google-AI-Studio-Builder-Claude-Plugin"
+      },
+      "description": "Google AI Studio Build apps: write the spec prompt, create and iterate the app in a signed-in browser, verify the preview, export the code (ZIP or GitHub sync) and publish to Cloud Run. Includes a Gemini Live camera + voice prompt block. Browser automation (no Build API); the mechanics doc is dated so drift is easy to fix.",
+      "category": "AI & Context",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "google-ai-studio",
+        "gemini",
+        "vibe-coding",
+        "browser-automation",
+        "cloud-run"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 # AI & Context
 
-20 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+21 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ Research AI models: discover, filter, compare and evaluate, across OpenRouter an
 
 ```
 /plugin install ai-model-research@danielrosehill
+```
+
+---
+
+#### AI Studio Builder
+
+Google AI Studio Build apps: write the spec prompt, create and iterate the app in a signed-in browser, verify the preview, export the code (ZIP or GitHub sync) and publish to Cloud Run. Includes a Gemini Live camera + voice prompt block. Browser automation (no Build API); the mechanics doc is dated so drift is easy to fix.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Google-AI-Studio-Builder-Claude-Plugin)
+
+```
+/plugin install ai-studio-builder@danielrosehill
 ```
 
 ---
