@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-27: new plugin `gemini-skill-builder` 1.0.0 (danielrosehill/Gemini-App-Skills-Claude-Plugin): create, update, list, inspect and delete Gemini app skills and migrate Gems to skills by driving gemini.google.com in a browser; `convert_skill.py` turns a Claude Code skill into a Gemini upload folder. UI mechanics dated 2026-11-27.
 - 2026-11-27: new plugin `ai-studio-builder` 1.0.0 (danielrosehill/Google-AI-Studio-Builder-Claude-Plugin): build Google AI Studio Build apps from Claude Code by driving the browser. Skills `spec-prompt` (incl. Gemini Live camera + voice), `create-app`, `export-app`, `deploy-app`; dated builder mechanics.
 - 2026-11-27: `useful-user-manuals` 0.2.0 (release v1.0): new skill `simple-manual` (photos or scans of a foreign-language paper booklet to a dead-simple English step-by-step PDF; optional safety skip), template helpers `templates/simple.typ`.
 - 2026-11-26: `long-form-content` 2.2: skills `researched-nonfiction` (staged fact-file route, agents `fact-extractor` and `fact-verifier`, `read_checks.py`) and `openrouter-offload` (engine `or_book.py`, spend cap, dated model ledger); commands `/lf-nonfiction`, `/lf-offload`.

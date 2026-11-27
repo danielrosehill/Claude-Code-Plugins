@@ -1,6 +1,6 @@
 # AI & Context
 
-21 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+22 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -124,6 +124,18 @@ Voice-first feedback on a PDF, list or diagram: talk, get anchored, structured f
 
 ```
 /plugin install feedback@danielrosehill
+```
+
+---
+
+#### Gemini Skill Builder
+
+Gemini app skills: create, update, list, inspect and delete them by driving gemini.google.com/customize/skills in a browser (Google has no API for them). Uploads a SKILL.md folder or converts a Claude Code skill (flat files; PDF, CSV, PY, TXT, MD, images), and migrates a Gem to a skill. Browser automation: expect breakage when the UI changes; the mechanics doc is dated so drift is easy to fix.
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Gemini-App-Skills-Claude-Plugin)
+
+```
+/plugin install gemini-skill-builder@danielrosehill
 ```
 
 ---

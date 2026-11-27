@@ -4431,6 +4431,30 @@
       ]
     },
     {
+      "name": "gemini-skill-builder",
+      "displayName": "Gemini Skill Builder",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Gemini-App-Skills-Claude-Plugin"
+      },
+      "description": "Gemini app skills: create, update, list, inspect and delete them by driving gemini.google.com/customize/skills in a browser (Google has no API for them). Uploads a SKILL.md folder or converts a Claude Code skill (flat files; PDF, CSV, PY, TXT, MD, images), and migrates a Gem to a skill. Browser automation: expect breakage when the UI changes; the mechanics doc is dated so drift is easy to fix.",
+      "category": "AI & Context",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "gemini",
+        "agent-skills",
+        "gems",
+        "browser-automation",
+        "google"
+      ]
+    },
+    {
       "name": "batch-inference",
       "displayName": "Batch Inference",
       "source": {
