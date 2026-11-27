@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-27: `useful-user-manuals` 0.2.0 (release v1.0): new skill `simple-manual` (photos or scans of a foreign-language paper booklet to a dead-simple English step-by-step PDF; optional safety skip), template helpers `templates/simple.typ`.
 - 2026-11-26: `long-form-content` 2.2: skills `researched-nonfiction` (staged fact-file route, agents `fact-extractor` and `fact-verifier`, `read_checks.py`) and `openrouter-offload` (engine `or_book.py`, spend cap, dated model ledger); commands `/lf-nonfiction`, `/lf-offload`.
 - 2026-11-26: phone UI through a mobile-mcp server first: `tasker-adb` 1.1.0 (`drive-tasker`), `adb-ops` 1.5.0 (`take-screenshot`), `macro-deck` 1.2.0 (`adb-actions` reference), `agentic-dev-workflows` 0.6.2 (`ui-review` capture routes).
 - 2026-11-25: new plugin `report-writing` 1.0.0 (danielrosehill/Report-Writing): situation, pre-meeting, company and person briefs; report review, language, layout, research audit, delivery.

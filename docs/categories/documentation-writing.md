@@ -226,7 +226,7 @@ Typst PDFs: docs, briefings, screenplays + your own private formats. Built-in te
 
 #### Useful User Manuals
 
-Product manuals cut to what you need: your language, no warranty boilerplate, or a one-task how-to PDF. Fetches the official PDF, trims pages, rewrites via OCR, and cites the original in every output.
+Product manuals cut to what you need: your language, no warranty boilerplate, or a one-task how-to PDF. Fetches the official PDF, trims pages, rewrites via OCR, and cites the original in every output; also turns photos of a foreign-language booklet into a simple English step-by-step manual.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Useful-User-Manuals)
 

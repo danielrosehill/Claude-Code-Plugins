@@ -4288,9 +4288,9 @@
         "source": "github",
         "repo": "danielrosehill/Useful-User-Manuals"
       },
-      "description": "Product manuals cut to what you need: your language, no warranty boilerplate, or a one-task how-to PDF. Fetches the official PDF, trims pages, rewrites via OCR, and cites the original in every output.",
+      "description": "Product manuals cut to what you need: your language, no warranty boilerplate, or a one-task how-to PDF. Fetches the official PDF, trims pages, rewrites via OCR, and cites the original in every output; also turns photos of a foreign-language booklet into a simple English step-by-step manual.",
       "category": "Documentation & Writing",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
