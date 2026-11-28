@@ -1,6 +1,6 @@
 # Personal Productivity
 
-24 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+23 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -34,24 +34,12 @@ AliExpress shopping skills for Israel-based buyers — honest deep search that r
 
 #### Brainstorm
 
-Brainstorm N ideas grounded in your context, then tick which to pursue: general, tools/plugins and career (companies, roles, transitions).
+Brainstorm N ideas grounded in your context, then tick which to pursue: general, tools/plugins, career (companies, roles, transitions) and blockers (brainstorm-solutions: get past a wall, seed a research workspace).
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Brainstorm)
 
 ```
 /plugin install brainstorm@danielrosehill
-```
-
----
-
-#### Brainstorm Solutions
-
-When you hit a wall, spin up a research workspace to brainstorm solutions — captures the blocker, what you tried, and kicks off deep research
-
-[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/brainstorm-solutions-plugin)
-
-```
-/plugin install brainstorm-solutions@danielrosehill
 ```
 
 ---

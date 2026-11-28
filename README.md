@@ -24,7 +24,7 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 
 ## Available Plugins
 
-**225 plugins across 19 categories.** Browse a category below, then install any plugin with:
+**224 plugins across 19 categories.** Browse a category below, then install any plugin with:
 
 ```bash
 /plugin install <plugin-name>@danielrosehill
@@ -33,8 +33,8 @@ A comprehensive marketplace of Claude Code plugins for developers, system admini
 | Category | Plugins | Contents |
 | --- | ---: | --- |
 | **[Linux Sysadmin](docs/categories/linux-sysadmin.md)** | 28 | `backup-planner`, `batch-optical-archivist`, `conda-manager`, `copyq-scripting`, `debugging`, `device-sync`, `docker-manager`, … (21 more) |
-| **[Personal Productivity](docs/categories/personal-productivity.md)** | 24 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm`, `brainstorm-solutions`, `budgeting`, `business-idea-eval`, `daniel-rosehill`, … (17 more) |
 | **[Media Editing](docs/categories/media-editing.md)** | 23 | `ai-video-producer`, `audio-production`, `audio-voice-id`, `avp-music-video`, `background-removal`, `gimp`, `google-photos`, … (16 more) |
+| **[Personal Productivity](docs/categories/personal-productivity.md)** | 23 | `agent-exchange`, `aliexpress-israel-skills`, `brainstorm`, `budgeting`, `business-idea-eval`, `daniel-rosehill`, … (17 more) |
 | **[AI & Context](docs/categories/ai-context.md)** | 22 | `ai-engineering`, `ai-model-research`, `ai-studio-builder`, `batch-inference`, `chatgpt-agent-builder`, `chatgpt-importer`, `context-mgmt`, … (15 more) |
 | **[Documentation & Writing](docs/categories/documentation-writing.md)** | 20 | `ai-attribution`, `comparison-artifacts`, `content-writing`, `dev-project-docs`, `document-nudge`, `document-to-markdown`, `docx-redline`, … (13 more) |
 | **[Research & Learning](docs/categories/research-learning.md)** | 18 | `air-quality-toolkit`, `geopol-sim`, `israel-gis`, `israel-osint`, `jewish-texts-reference`, `jewish-utilities`, `knowledge-documentation`, … (11 more) |
