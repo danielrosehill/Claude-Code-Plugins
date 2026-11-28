@@ -3302,7 +3302,7 @@
       },
       "description": "Site skills built by watching a site in your own signed-in Chrome — network-first discovery, a surface survey or your own URL list, a skill roster for approval, then skills that survive UI changes, keep the session alive, clean up after themselves and probe for drift. Semantic handles only. Every observation is classified publishable, private, or never-recorded.",
       "category": "Data Discovery",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
