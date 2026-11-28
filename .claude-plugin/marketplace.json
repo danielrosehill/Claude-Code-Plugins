@@ -5149,9 +5149,9 @@
         "source": "github",
         "repo": "danielrosehill/News-Brief"
       },
-      "description": "Daily, breaking and SITREP news briefs from RSS whitelists. Ships the Israel Breaking package; build packages for any geography.",
+      "description": "On-demand news monitoring: daily, breaking and SITREP briefs from RSS whitelists, topic scans, translated press reviews of foreign-language media, OSINT briefs with Telegram and X. PDF to Drive or email.",
       "category": "Research & Learning",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -5373,7 +5373,7 @@
       },
       "description": "Write and refine informational briefs: situation reports, pre-meeting, company and person briefs. Profiles, review, research audit, Typst PDF, Drive and email.",
       "category": "Documentation & Writing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
