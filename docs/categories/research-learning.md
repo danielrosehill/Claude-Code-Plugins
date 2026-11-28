@@ -130,7 +130,7 @@ Modular research task: brief in, PDF + podcast out. Takes a (dictated) brief thr
 
 #### News Brief
 
-Daily, breaking and SITREP news briefs from RSS whitelists. Ships the Israel Breaking package; build packages for any geography.
+On-demand news monitoring: daily, breaking and SITREP briefs from RSS whitelists, topic scans, translated press reviews of foreign-language media, OSINT briefs with Telegram and X. PDF to Drive or email.
 
 [![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/News-Brief)
 

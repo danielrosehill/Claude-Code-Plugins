@@ -6,6 +6,7 @@ A record of how the `danielrosehill` Claude Code plugin marketplace has evolved 
 
 ## Unreleased
 
+- 2026-11-28: `news-brief` 1.1.0: on-demand news monitoring. New skills `topic-scan`, `press-review` (translated per-article review of one language's media, PDF to Drive), `osint-brief` (news, Telegram, X, official statements, cross-checked claims); scripts `news_search.py` (Google News RSS, any language, publisher-URL resolution) and `telegram_preview.py`; package `jns-toi`; dated route status for X, Telegram, Reddit. `report-writing` 1.1.0: brief entries take an original-language line (auto RTL) and a link.
 - 2026-11-27: new plugin `gemini-skill-builder` 1.0.0 (danielrosehill/Gemini-App-Skills-Claude-Plugin): create, update, list, inspect and delete Gemini app skills and migrate Gems to skills by driving gemini.google.com in a browser; `convert_skill.py` turns a Claude Code skill into a Gemini upload folder. UI mechanics dated 2026-11-27.
 - 2026-11-27: new plugin `ai-studio-builder` 1.0.0 (danielrosehill/Google-AI-Studio-Builder-Claude-Plugin): build Google AI Studio Build apps from Claude Code by driving the browser. Skills `spec-prompt` (incl. Gemini Live camera + voice), `create-app`, `export-app`, `deploy-app`; dated builder mechanics.
 - 2026-11-27: `useful-user-manuals` 0.2.0 (release v1.0): new skill `simple-manual` (photos or scans of a foreign-language paper booklet to a dead-simple English step-by-step PDF; optional safety skip), template helpers `templates/simple.typ`.
