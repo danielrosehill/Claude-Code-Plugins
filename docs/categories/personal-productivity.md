@@ -1,6 +1,6 @@
 # Personal Productivity
 
-23 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
+24 plugins in this category. [All categories](README.md) · [Marketplace root](../../README.md)
 
 ```bash
 /plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins
@@ -28,6 +28,18 @@ AliExpress shopping skills for Israel-based buyers — honest deep search that r
 
 ```
 /plugin install aliexpress-israel-skills@danielrosehill
+```
+
+---
+
+#### Brainstorm
+
+Brainstorm N ideas grounded in your context, then tick which to pursue: general, tools/plugins and career (companies, roles, transitions).
+
+[![Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/danielrosehill/Brainstorm)
+
+```
+/plugin install brainstorm@danielrosehill
 ```
 
 ---

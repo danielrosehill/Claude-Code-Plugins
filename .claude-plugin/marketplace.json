@@ -5413,6 +5413,30 @@
         "browser-automation",
         "cloud-run"
       ]
+    },
+    {
+      "name": "brainstorm",
+      "displayName": "Brainstorm",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Brainstorm"
+      },
+      "description": "Brainstorm N ideas grounded in your context, then tick which to pursue: general, tools/plugins and career (companies, roles, transitions).",
+      "category": "Personal Productivity",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "brainstorming",
+        "ideas",
+        "career",
+        "plugins",
+        "feedback-form"
+      ]
     }
   ]
 }
